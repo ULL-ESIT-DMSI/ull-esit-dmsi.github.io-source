@@ -26,7 +26,7 @@
 
 ## Horarios
 
-- <a href="https://docs.google.com/document/d/1XHFUAiuECAEAPTZvdsn8aJTCAV3jRovC8Px24HgcfyQ/edit?usp=sharing" target="_blank">Horarios de 3º del grado de Ingeniería Informática para el curso 18/19</a>
+- <a href="https://docs.google.com/document/d/18cKV2wVL15G9hyGN0pB8vu2aoazNr-cJVn_Tyubtg38/edit" target="_blank">Horarios de 4º de Sistemas de la Información del grado de Ingeniería Informática para el curso 19/20</a>
 - <a href="https://docs.google.com/spreadsheets/d/1ZTGvLA70qCYEsBwcA8dCiUZby3ZOM9oHt8kmiNNKId0/edit#gid=0" target="_blank">Horarios de tutorías del Departamento de Ingeniería Informática</a>
 
 
