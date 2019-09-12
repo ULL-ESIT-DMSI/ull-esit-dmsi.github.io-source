@@ -20,7 +20,7 @@
 ### [Práctica HTTP (p3-t1-c3-http)](tema1-introduccion/practicas/p3-t1-c3-http/README.md)
 
 
-## [Tema 2: Introducción al Desarrollo y Mantenimiento de Sistemas de Información: Computación Asíncrona y Distribuida](tema2-async/)
+<!--
 
 ### [Práctica Networking (p4-t2-networking)](tema2-async/practicas/p4-t2-networking)
 
@@ -50,3 +50,5 @@
 ## [TFA: Creating a Beautiful User Experience](tema3-web/practicas/p12-tfa-user-experience)
 
 ### [Descripción del TFA (p12-tfa-user-experience)](tema3-web/practicas/p12-tfa-user-experience)
+
+-->
