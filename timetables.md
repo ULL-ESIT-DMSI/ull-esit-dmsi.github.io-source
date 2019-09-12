@@ -30,22 +30,6 @@
 - <a href="https://docs.google.com/spreadsheets/d/1ZTGvLA70qCYEsBwcA8dCiUZby3ZOM9oHt8kmiNNKId0/edit#gid=0" target="_blank">Horarios de tutorías del Departamento de Ingeniería Informática</a>
 
 
-<br/>
-<hr>
-<br/>
-<p>
-<p>
-<iframe src="https://calendar.google.com/calendar/embed?src=ull.edu.es_bl5f4j41mdcl6g3cvc6aucn34g%40group.calendar.google.com&ctz=Atlantic%2FCanary" 
-style="border: 0" 
-width="800" 
-height="600" 
-frameborder="0" 
-scrolling="yes"></iframe>
-</p>
-<br/>
-<hr>
-<br/>
-
 ## Normativa de Evaluación
 
 * [Normativa](https://riull.ull.es/xmlui/bitstream/handle/915/4096/reglamento_evaluacion_calificacion.pdf)
