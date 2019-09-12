@@ -42,11 +42,10 @@
 
 ## Revisión de Calificaciones
 
-- Convocatoria de Junio y Evaluación Contínua: Lunes 24/06/2019 de 13 a 14 horas Sala de reuniones 4ª planta de Física y Matemáticas
 
 ## Cierre de actas 
 
-* [En 2019 18 de Junio, 15 de Julio, 19 de Septiembre](https://drive.google.com/file/d/1YtPNm4vS73N21QHzstcYqEzPKJQHCKeD/view)
+
 
 ## Sobre las Calificaciones de Prácticas 
 
@@ -60,17 +59,6 @@ este estado puede cambiar si entregan posteriormente al examen de convocatoria a
 Los exámenes de convocatoria incluyen una serie de apartados especiales para los alumnos que no tienen las prácticas aptas en el momento de la convocatoria.
 
 ## Q&A
-
-* Pregunta después de publicadas las notas de prácticas y antes de la convocatoria: He visto que las prácticas las tengo aptas y entonces me preguntaba si finalmente el TFA debo entregarlo o si las notas de prácticas ya están cerradas.
- - Respuesta:
-   1. La nota del TFA es independiente de la de prácticas y hay que superar el TFA para aprobar la asignatura.
-	 2. Las notas de practicas no están aún cerradas. Se pueden entregar y mejorar las prácticas para obtener una mejor calificación. La calificación de APTO significa que no es necesario hacer la parte práctica de los exámenes de convocatoria.
-
-* Pregunta: Puesto que tengo el primer y tercer examen aprobados y en el segundo suspendí. Y no sabía si finalmente se hacía media de los 3 o
-	- Respuesta:
-		1. No se hace media.
-		2. Es necesario aprobar todas las partes.
-		3. Se debe ir al examen a recuperar las partes que no se tienen aprobadas.
 
 ## Instrucciones para los exámenes de Convocatoria
 
