@@ -8,3 +8,5 @@ Año:2017](http://sfx.greendata.es.accedys2.bbtk.ull.es/ull?ctx_ver=Z39.88-2004&
 * [Node.js 8 the Right Way](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/9781680505344). Jim Wilson. 2018 (Debes estar autenticado via PuntoQ BULL)
 * [Node.js 8 the Right Way](https://books.google.es/books?id=oA9QDwAAQBAJ&lpg=PT96&ots=-mLQPlvsSj&dq=should%20ldjclient%20emit%20a%20close%20event&hl=es&pg=PP1#v=onepage&q=should%20ldjclient%20emit%20a%20close%20event&f=false) Google Book
 * [Node.js 8 the Right Way](https://github.com/iMarcoGovea/books/blob/master/nodejs/Node.js%20the%20Right%20Way.pdf) GitHub. Versión de 2013.
+* [Beginning GraphQL. Xavier Decuyper y Brian Kimokoti. Paqt](https://learning.oreilly.com/videos/beginning-graphql/9781789533934) PuntoQ
+* [React Cookbook by Carlos Santana Roldan](https://learning.oreilly.com/library/view/react-cookbook/9781783980727/) PuntoQ
