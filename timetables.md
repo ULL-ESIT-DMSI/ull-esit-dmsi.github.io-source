@@ -48,11 +48,6 @@
 
 En una primera publicación de calificaciones aparecerá una lista con los alumnos que tienen las prácticas **APTAS** o **NO APTAS**.
 
-<!--
-Para los alumnos que tienen las prácticas **NO APTAS** y que han estado asistiendo y entregando prácticas y cuentan con la valoración favorable del profesor para ampliaciones de plazo en la entrega: 
-este estado puede cambiar si entregan posteriormente al examen de convocatoria al que se presenten - en el plazo citado de cinco días antes del cierre de actas - prácticas que son evaluadas favorablemente.
--->
-
 Los exámenes de convocatoria incluyen una serie de apartados especiales para los alumnos que no tienen las prácticas aptas en el momento de la convocatoria.
 
 ## Q&A
