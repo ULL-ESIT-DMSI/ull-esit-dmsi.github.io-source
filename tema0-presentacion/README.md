@@ -2,13 +2,13 @@
 
 ## [Guía Docente](https://www.ull.es/apps/guias/guias/view_subject_guide/139264413/)
 
-## [El Grado](degree.md)
+## [El Grado](../degree.md)
 
-## [Recursos](resources.md)
+## [Recursos](../resources.md)
 
-## [Calendarios, Horarios y Fechas de Exámenes](timetables.md)
+## [Calendarios, Horarios y Fechas de Exámenes](../timetables.md)
 
-## [Referencias](references.md)
+## [Referencias](../references.md)
 
 ### Prácticas
 
