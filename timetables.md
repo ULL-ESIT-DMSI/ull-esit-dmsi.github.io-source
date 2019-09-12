@@ -37,7 +37,7 @@
 
 ## Exámenes de convocatoria
 
-* <a href="https://docs.google.com/document/d/1dv9Q6gEbs0a2YqlKlNUKG59SpQ3Bp1pH_UWqaTKUPyk/edit" target="_blank">Enlace al Calendario Oficial de exámenes de Tercer curso</a>
+* <a href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/"" target="_blank">Enlace al Calendario Oficial de exámenes</a>
 
 
 ## Revisión de Calificaciones
