@@ -1,4 +1,4 @@
-# Recursos
+# Recursos de la Asignatura
 
 ## Campus Virtual
 
@@ -8,16 +8,29 @@
 * [Tareas](https://campusvirtual.ull.es/1819/mod/assign/index.php?id=1110)
 * [Foros](https://campusvirtual.ull.es/1819/mod/forum/index.php?id=1110)
 
-## BULL
-
-* [BULL PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/puntoq/)
-* [Video tutoriales de ayuda sobre PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/videotutoriales-de-puntoq/)
-
 ## GitHub
 
 * [Página Web de PL (github gitbook)](https://ull-esit-pl-1819.github.io/ull-esit-pl-1819.github.io/_book/)
 * [Organización ULL-ESIT-PL-1819](https://github.com/ULL-ESIT-PL-1819)
   - [Repo ull-esit-pl-1819.github.io](https://github.com/ULL-ESIT-PL-1819/ull-esit-pl-1819.github.io)
+
+## Prácticas
+
+* Herramientas para la Asignación de Tareas
+  * [GitHub Classroom ULL-ESIT-PL-1819](https://classroom.github.com/classrooms/)
+  * [CodeLab TFG de Samuel](https://codelab-tfg1718.herokuapp.com/)
+* [Instrucciones para las entregas de Prácticas y Trabajos](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/instrucciones/)
+
+## Google+
+
+* [Comunidad Google+ PL1819](https://plus.google.com/u/2/communities/101901734024125937720)
+
+# Recursos Generales
+
+## BULL
+
+* [BULL PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/puntoq/)
+* [Video tutoriales de ayuda sobre PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/videotutoriales-de-puntoq/)
 
 ## iaas.ull.es
 
@@ -52,13 +65,6 @@
 * [Cambio de contraseña](https://usuarios.ull.es/autogestion/cambio_password_google/)
 
 
-## Prácticas
-
-* Herramientas para la Asignación de Tareas
-  * [GitHub Classroom ULL-ESIT-PL-1819](https://classroom.github.com/classrooms/33938084-procesadores-de-lenguaje)
-  * [CodeLab TFG de Samuel](https://codelab-tfg1718.herokuapp.com/)
-* [Instrucciones para las entregas de Prácticas y Trabajos](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/instrucciones/)
-
 ## Sede ULL
 
 * [Sede ULL](https://sede.ull.es/)
@@ -66,6 +72,3 @@
     - [Mis trámites](https://sede.ull.es/ecivilis-site/records/myRecords)
     - [Portafirmas de la ULL](https://sede.ull.es/ecivilis-signature-inbox-application/inbox.html)
 
-## Google+
-
-* [Comunidad Google+ PL1819](https://plus.google.com/u/2/communities/101901734024125937720)
