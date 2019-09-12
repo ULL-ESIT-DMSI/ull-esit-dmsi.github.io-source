@@ -72,6 +72,6 @@ Los exámenes de convocatoria incluyen una serie de apartados especiales para lo
 7. El empleo por parte del alumnado de medios ilícitos o fraudulentos en la realización de la prueba conducirá a la calificación numérica de 0, debiendo abandonar el lugar de la prueba y quedando sujeto a las consecuencias disciplinarias que se pudieran derivar de su conducta.
 8. Iniciada la prueba no se permitirá al alumnado la entrada al lugar de realización, salvo por razones excepcionales que habrán de ser valoradas por el profesor. El alumnado solo podrá abandonarlo durante la realización de la misma, si está autorizado o acompañado por el profesorado responsable de la vigilancia. En otro caso, el abandono del recinto implicará la finalización del examen, que ha de ser entregado por el estudiante al profesorado.
 9. En el caso de que el alumnado que se presente a la realización de la prueba no conste en el acta en la asignatura, se le permitirá que la lleve a cabo, quedando pendiente su evaluación de la posible subsanación de su situación administrativa.
-* <a href="https://docs.google.com/document/d/1dv9Q6gEbs0a2YqlKlNUKG59SpQ3Bp1pH_UWqaTKUPyk/edit" target="_blank">Enlace al Calendario Oficial de exámenes de Tercer curso</a>
+
 
 
