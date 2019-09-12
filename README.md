@@ -6,9 +6,7 @@
 
 ## [Recursos](resources.md)
 
-## [Exámenes de convocatoria](exams.md)
-
-## [Calendarios y Horarios](timetables.md)
+## [Calendarios, Horarios y Fechas de Exámenes](timetables.md)
 
 ## [Referencias](references.md)
 
