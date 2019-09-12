@@ -2,21 +2,21 @@
 
 ## Campus Virtual
 
-* [PL 18/19](https://campusvirtual.ull.es/1819/course/view.php?id=201911084)
-* [Participantes](https://campusvirtual.ull.es/1819/user/index.php?page=0&perpage=20&contextid=0&id=201911084&newcourse)
-* [Calificaciones](https://campusvirtual.ull.es/1819/grade/report/grader/index.php?id=201911084)
-* [Tareas](https://campusvirtual.ull.es/1819/mod/assign/index.php?id=201911084)
-* [Foros](https://campusvirtual.ull.es/1819/mod/forum/index.php?id=201911084)
+* [PL 18/19](https://campusvirtual.ull.es/1920/course/view.php?id=201911084)
+* [Participantes](https://campusvirtual.ull.es/1920/user/index.php?page=0&perpage=20&contextid=0&id=201911084&newcourse)
+* [Calificaciones](https://campusvirtual.ull.es/1920/grade/report/grader/index.php?id=201911084)
+* [Tareas](https://campusvirtual.ull.es/1920/mod/assign/index.php?id=201911084)
+* [Foros](https://campusvirtual.ull.es/1920/mod/forum/index.php?id=201911084)
 
 ## GitHub
 
-* [Página Web de PL (github gitbook)](https://ull-esit-pl-1819.github.io/ull-esit-pl-1819.github.io/_book/)
-* [Organización ULL-ESIT-PL-1819](https://github.com/ULL-ESIT-PL-1819)
-  - [Repo ull-esit-pl-1819.github.io](https://github.com/ULL-ESIT-PL-1819/ull-esit-pl-1819.github.io)
+* [Página Web de PL (github gitbook)](https://ull-esit-dsi-1920.github.io/ull-esit-dsi-1920.github.io/_book/)
+* [Organización ULL-ESIT-PL-1920](https://github.com/ULL-ESIT-PL-1920)
+  - [Repo ull-esit-dsi-1920.github.io](https://github.com/ULL-ESIT-PL-1920/ull-esit-dsi-1920.github.io)
 
 ## Google+
 
-* [Comunidad Google+ PL1819](https://plus.google.com/u/2/communities/101901734024125937720)
+* [Comunidad Google+ PL1920](https://plus.google.com/u/2/communities/101901734024125937720)
 
 # Recursos Generales
 
