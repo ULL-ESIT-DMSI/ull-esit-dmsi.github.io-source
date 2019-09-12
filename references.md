@@ -50,6 +50,7 @@ By: Parth Ghiya</a>. Acceda por medio del <a href="https://www.ull.es/servicios/
 
 * [Beginning GraphQL. Xavier Decuyper y Brian Kimokoti. Paqt](https://learning.oreilly.com/videos/beginning-graphql/9781789533934) PuntoQ
 * [React Cookbook by Carlos Santana Roldan](https://learning.oreilly.com/library/view/react-cookbook/9781783980727/) PuntoQ
+* [Visual Design of GraphQL Data. A Practical Introduction with Legacy Data and Neo4.j Thomas Frisendal](https://link-springer-com.accedys2.bbtk.ull.es/book/10.1007%2F978-1-4842-3904-9) PuntoQ
 
 ## Git, Github
 
