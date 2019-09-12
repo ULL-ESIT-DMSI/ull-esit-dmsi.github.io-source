@@ -34,16 +34,13 @@
 <hr>
 <br/>
 <p>
-<iframe src="https://calendar.google.com/calendar/embed?src=ull.edu.es_emf7av271ugs47bt92772midec%40group.calendar.google.com&ctz=Atlantic%2FCanary" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 <p>
-<iframe 
-src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=500&amp;wkst=2&amp;hl=es&amp;bgcolor=%23cc33cc&amp;src=ull.edu.es_emf7av271ugs47bt92772midec%40group.calendar.google.com&ctz=Atlantic%2FCanary" 
+<iframe src="https://calendar.google.com/calendar/embed?src=ull.edu.es_bl5f4j41mdcl6g3cvc6aucn34g%40group.calendar.google.com&ctz=Atlantic%2FCanary" 
 style="border: 0" 
 width="800" 
-height="500" 
+height="600" 
 frameborder="0" 
-scrolling="yes">
-</iframe>
+scrolling="yes"></iframe>
 </p>
 <br/>
 <hr>
