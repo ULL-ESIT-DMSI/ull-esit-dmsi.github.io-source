@@ -1,14 +1,5 @@
 
-
-## [Guía Docente](https://www.ull.es/apps/guias/guias/view_subject_guide/139264413/)
-
-## [El Grado](degree.md)
-
-## [Recursos](resources.md)
-
-## [Calendarios, Horarios y Fechas de Exámenes](timetables.md)
-
-## [Referencias](references.md)
+## [Tema 0: Presentación](tema0-presentacion)
 
 
 ## [Tema 1: Introducción al Desarrollo y Mantenimiento de Sistemas de Información](tema1-introduccion/README.md)
