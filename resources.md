@@ -16,7 +16,7 @@
 
 ## Google+
 
-* [Comunidad Google+ DMSI1920](https://plus.google.com/u/2/communities/101901734024125937720)
+* [Comunidad Google+ DMSI](https://plus.google.com/u/2/communities/114199442894867980706)
 
 # Recursos Generales
 
