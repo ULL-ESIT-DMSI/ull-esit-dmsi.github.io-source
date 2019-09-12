@@ -10,7 +10,7 @@
 
 ## GitHub
 
-* [Página Web de DMSI (github gitbook)](https://ull-esit-dmsi-1920.github.io)
+* [Página Web de DMSI](https://ull-esit-dmsi-1920.github.io)
 * [Organización ULL-ESIT-DMSI-1920](https://github.com/ULL-ESIT-DMSI-1920)
   - [Repo ull-esit-dmsi-1920.github.io](https://github.com/ULL-ESIT-DMSI-1920/ull-esit-dmsi-1920.github.io)
 
