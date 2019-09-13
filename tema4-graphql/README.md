@@ -9,5 +9,6 @@ Tutorial written by Maira Bello: <https://www.howtographql.com/graphql-js/1-gett
 * [A Simple Query](https://www.howtographql.com/graphql-js/2-a-simple-query/)
 * [A simple Mutation](https://www.howtographql.com/graphql-js/3-a-simple-mutation/)
 * [Adding a DataBase](https://www.howtographql.com/graphql-js/4-adding-a-database/)
+* [Connecting Server and Database with the Prisma Client](https://www.howtographql.com/graphql-js/5-connecting-server-and-database/)
 
 
