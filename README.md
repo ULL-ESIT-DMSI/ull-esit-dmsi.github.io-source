@@ -10,7 +10,6 @@
 
 ### [Práctica HTTP (p3-t1-c3-http)](tema1-introduccion/practicas/p3-t1-c3-http/README.md)
 
-
 <!--
 
 ### [Práctica Networking (p4-t2-networking)](tema2-async/practicas/p4-t2-networking)
@@ -37,8 +36,7 @@
 
 ## [Tema 4: Modelos Emergentes de Bases de Datos: GraphQL](tema4-graphql)
 
-
-<!-->
+<!--
 
 ## [TFA: Creating a Beautiful User Experience](tema3-web/practicas/p12-tfa-user-experience)
 
