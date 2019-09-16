@@ -3,6 +3,7 @@
 ## Development and Management of Information Systems
 
 * [Developing Information Systems : Practical guidance for IT professionals](https://puntoq-ull-es.accedys2.bbtk.ull.es/primo-explore/fulldisplay?docid=ullsfx2550000001351302&context=L&vid=ull&lang=es_ES&search_scope=ull_sfxebooks&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,Developing%20Information%20Systems&offset=0) by James Cadle, Tahir Ahmed, Julian Cox, Lynda Girvan, Alan Paul, Debra Paul, and Pete Thompson
+* [A review of quality frameworks in information systems](https://arxiv.org/pdf/1706.03030.pdf) Thanh Thoa Pham Thi, Markus Helfert
 
 ## JS
 
