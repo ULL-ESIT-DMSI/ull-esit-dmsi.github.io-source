@@ -6,8 +6,7 @@
   
 ### Prácticas
 
-- <a href="practicas/p1-t1-iaas/" target="_blank">Descripción de la Práctica p1-t1-iaas</a>
-    - [Express Web Framework (Node.js/JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs) (Mozilla)
+- <a href="practicas/p0-t1-intro2sd/" target="_blank">Descripción de la Práctica p0-t1-intro2sd</a>
 
 
 ## Capítulo. Uso del iaas.ull.es. Entornos de Trabajo

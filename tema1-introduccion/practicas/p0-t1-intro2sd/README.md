@@ -1,4 +1,4 @@
-# Descripción de la Práctica p1-t0-intro2sd
+# Descripción de la Práctica p0-t1-intro2sd
 
 Lea el capítulo 1 del libro *Developing Information Systems* y haga un resumen:
 
