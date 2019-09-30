@@ -4,6 +4,7 @@
 2. Siga los tutoriales de VSCode
 2. Instale el plugin SHH FS y aprenda a usarlo con el sistema de archivo de una máquina remota via SSH
 3. Use Live Share para colaborar con un compañero
+4. Elabore un informe con la experiencia adquirida
 
 - Collaboration
     - [Introducing Visual Studio Live Share](https://code.visualstudio.com/blogs/2017/11/15/live-share)
