@@ -53,8 +53,7 @@
 
 ### Prácticas
 
-- <a href="practicas/p1-t1-iaas/" target="_blank">Descripción de la Práctica p1-t1-iaas</a>
-    - [Express Web Framework (Node.js/JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs) (Mozilla
+- <a href="practicas/p2-t1-vscode/" target="_blank">Descripción de la Práctica p2-t1-vscode</a>
 
 
 ## Capítulo. Node.JS
