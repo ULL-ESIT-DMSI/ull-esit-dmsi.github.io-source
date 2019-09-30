@@ -101,6 +101,16 @@
 * [Descripción de la práctica p2-t1-filesystem](practicas/p2-t1-c3-file-system/)
 * [Descripción de la práctica p3-t1-http](practicas/p3-t1-c3-http/)
 
+## Capítulo. LifeCicle Types and Their Rationales 
+
+* [Capítulo 2: Lifecycle types and their rationales](https://ebookcentral-proquest-com.accedys2.bbtk.ull.es/lib/bull-ebooks/detail.action?docID=1713962#)  por Lynda Girvan, del libro *Developing Information Systems" edited by James Cadle
+
+  
+### Prácticas
+
+- <a href="practicas/p0-t1-lifecycle/" target="_blank">Descripción de la Práctica p0-t1-lifecycle</a>
+
+
 
 ## Capítulo. Pruebas, Integración y Calidad
 
