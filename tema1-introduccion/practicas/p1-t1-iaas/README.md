@@ -37,6 +37,3 @@
     - [Acepte la invitacion del profesor a pertenecer a la organización Github de la asignatura visitando la página de la organización](https://github.com/ULL-ESIT-DSI-1819)
     - También recibirá un email con la invitación. Puede aceptar haciendo click en el correspondiente enlace
 
-### Formulario
-
-Rellene el [formulario solicitado](https://campusvirtual.ull.es/1819/mod/assign/view.php?id=150012) en la tarea en el Campus Virtual
