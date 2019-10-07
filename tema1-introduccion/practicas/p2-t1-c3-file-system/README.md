@@ -5,6 +5,7 @@
 Resuelva los problemas en la secciones *Fortifying the code* y *Expanding Functionality*
 * Haga su desarrollo usando Visual studio Code. [Use git y github desde visual studio code](https://code.visualstudio.com/docs/editor/versioncontrol) tanto como pueda
 * En el repo que entrega deberán figurar los ejemplos del libro y los ejercicios resueltos.
+* Para leer el libro asegúrese de estar identificado en el PuntoQ de la BULL: [BULL PuntoQ](https://www.ull.es/servicios/biblioteca/servicios/puntoq/)
 
 <!--
 * Lea el [capítulo 20: Node.js](http://eloquentjavascript.net/2nd_edition/20_node.html) de la Segunda Edición (¡no la tercera!) del libro Eloquent JavaScript
