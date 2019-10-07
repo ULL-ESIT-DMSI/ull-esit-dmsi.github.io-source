@@ -9,6 +9,7 @@
 
 * [Eloquent JS 3rd Edition](https://eloquentjavascript.net/)
 * [Eloquent JS 2nd Edition](http://eloquentjavascript.net/2nd_edition/)
+* [Advanced JavaScript. Zachary Shute. 2019](https://puntoq-ull-es.accedys2.bbtk.ull.es/primo-explore/fulldisplay?docid=ullsfx4100000007593934&context=L&vid=ull&lang=es_ES&search_scope=ull_sfxebooks&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,javascript&sortby=date&offset=0) PuntoQ ULL
 
 ## Node.js
 
@@ -61,6 +62,11 @@ By: Parth Ghiya</a>. Acceda por medio del <a href="https://www.ull.es/servicios/
 
 * <a href="https://git-scm.com/book/en/v2/" target="_blank">Chacon's book on Git</a>
 * <a href="https://campusvirtual.ull.es/ocw/course/view.php?id=136" target="_blank">OCW ULL: Integración de las Herramientas "GitHub Education" en el Aula</a> Casiano et Al.
+
+## React
+
+* [Learning React. O'Reilly. Eve Porcello, Alex Banks](https://learning.oreilly.com/library/view/learning-react/9781491954614/)
+* [Advanced JavaScript. Zachary Shute. 2019](https://puntoq-ull-es.accedys2.bbtk.ull.es/primo-explore/fulldisplay?docid=ullsfx4100000007593934&context=L&vid=ull&lang=es_ES&search_scope=ull_sfxebooks&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,javascript&sortby=date&offset=0) PuntoQ ULL
 
 ## Bibliografía Auxiliar
 
