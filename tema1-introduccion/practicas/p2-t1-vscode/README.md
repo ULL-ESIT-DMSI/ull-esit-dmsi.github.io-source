@@ -1,7 +1,16 @@
 # Descripción de la Práctica p2-t1-vscode
 
+## Objetivos
+
 1. Instale VSCode en su máquina
 2. Siga los tutoriales de VSCode
+2. Instale el plugin SSH FS y aprenda a usarlo con el sistema de archivo de una máquina remota via SSH
+3. Use Live Share para colaborar con un compañero
+4. Elabore un informe con la experiencia adquirida
+
+## Tutoriales
+
+### Guía de Usuario
     <ul id="editor-articles" class="collapse ">
                             <li >
                               <a href="https://code.visualstudio.com/docs/editor/codebasics" >Basic Editing</a>
@@ -60,20 +69,30 @@
                             </li>
                           
                           </ul>
-2. Instale el plugin SSH FS y aprenda a usarlo con el sistema de archivo de una máquina remota via SSH
-3. Use Live Share para colaborar con un compañero
-4. Elabore un informe con la experiencia adquirida
 
-- Collaboration con Visual Studio Share
-    - [Introducing Visual Studio Live Share](https://code.visualstudio.com/blogs/2017/11/15/live-share)
-    - <a href="https://youtu.be/fWXe1HQ1wVA" target="_blank">Vídeo Visual Studio Live Share Demo on VS Code</a>
+###  Collaboration con Visual Studio Share
+
+- [Introducing Visual Studio Live Share](https://code.visualstudio.com/blogs/2017/11/15/live-share)
+- <a href="https://youtu.be/fWXe1HQ1wVA" target="_blank">Vídeo Visual Studio Live Share Demo on VS Code</a>
+
+### SSH FS
+
 - Editando con VSCode en la máquina iaas.ull.es con SSH FS extension
     - Use un plugin para Visual Studio Code que permita montar un sistema de archivos sobre SSH
       - [SSH FS: File system provider using SSH](https://marketplace.visualstudio.com/items?itemName=Kelvin.vscode-sshfs)
       - [SSHExtension](https://marketplace.visualstudio.com/items?itemName=kondratiev.sshextension) This extension allows you to open an SSH connection in the integrated terminal. The extension was created in order to have access to the SSH in conjunction with the already available access to the FTP.
       - [Remote FS](https://marketplace.visualstudio.com/items?itemName=liximomo.remotefs)
+
+### Multi-Root Worksapces
+
 - [Multi-Root Workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces)
+
+### Using React in VSCode
+
 - [Using React in VSCode](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
+
+### Integrate with External Tools via Tasks
+
 - [Integrate with External Tools via Tasks](https://code.visualstudio.com/docs/editor/tasks)
 - Settings file locations
   - Depending on your platform, the user settings file is located here:
