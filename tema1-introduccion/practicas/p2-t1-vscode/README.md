@@ -9,11 +9,12 @@
 - Collaboration
     - [Introducing Visual Studio Live Share](https://code.visualstudio.com/blogs/2017/11/15/live-share)
     - <a href="https://youtu.be/fWXe1HQ1wVA" target="_blank">Vídeo Visual Studio Live Share Demo on VS Code</a>
-- Editando con VSCode en la máquina iaas.ull.es
+- Editando con VSCode en la máquina iaas.ull.es con SSH FS extension
     - Use un plugin para Visual Studio Code que permita montar un sistema de archivos sobre SSH
       - [SSH FS: File system provider using SSH](https://marketplace.visualstudio.com/items?itemName=Kelvin.vscode-sshfs)
       - [SSHExtension](https://marketplace.visualstudio.com/items?itemName=kondratiev.sshextension) This extension allows you to open an SSH connection in the integrated terminal. The extension was created in order to have access to the SSH in conjunction with the already available access to the FTP.
       - [Remote FS](https://marketplace.visualstudio.com/items?itemName=liximomo.remotefs)
+- [Using React in VSCode](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
 - Settings file locations
   - Depending on your platform, the user settings file is located here:
     - Windows %APPDATA%\Code\User\settings.json
