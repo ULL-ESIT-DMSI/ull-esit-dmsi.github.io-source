@@ -100,3 +100,8 @@
     - macOS $HOME/Library/ApplicationSupport/Code/User/settings.json
     - Linux $HOME/.config/Code/User/settings.json
     - The workspace setting file is located under the .vscode folder in your root folder.
+
+### Web Bookmarks
+
+- <a href="https://marketplace.visualstudio.com/items?itemName=alu0100997910.webbookmarks" target="_blank">MarketPlace: Web Bookmarks a VSCode Extension by Alejandro Gonzalez Alonso</a> 
+- <a href="https://marketplace.visualstudio.com/items?itemName=alu0100997910.webbookmarks" target="_blank">GitHub Repo: Web Bookmarks a VSCode Extension by Alejandro Gonzalez Alonso</a> 
