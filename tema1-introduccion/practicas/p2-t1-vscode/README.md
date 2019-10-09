@@ -14,7 +14,9 @@
       - [SSH FS: File system provider using SSH](https://marketplace.visualstudio.com/items?itemName=Kelvin.vscode-sshfs)
       - [SSHExtension](https://marketplace.visualstudio.com/items?itemName=kondratiev.sshextension) This extension allows you to open an SSH connection in the integrated terminal. The extension was created in order to have access to the SSH in conjunction with the already available access to the FTP.
       - [Remote FS](https://marketplace.visualstudio.com/items?itemName=liximomo.remotefs)
+      - [Multi-Root Workspaces](https://code.visualstudio.com/docs/editor/multi-root-workspaces)
 - [Using React in VSCode](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
+- [Integrate with External Tools via Tasks](https://code.visualstudio.com/docs/editor/tasks)
 - Settings file locations
   - Depending on your platform, the user settings file is located here:
     - Windows %APPDATA%\Code\User\settings.json
