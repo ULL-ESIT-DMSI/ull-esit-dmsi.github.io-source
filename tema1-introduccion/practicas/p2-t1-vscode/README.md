@@ -103,9 +103,9 @@
 
 ## Localización del Fichero de Configuración `settings.json`
 
-- Settings file locations
-  - Depending on your platform, the user settings file is located here:
-    - Windows %APPDATA%\Code\User\settings.json
-    - macOS $HOME/Library/ApplicationSupport/Code/User/settings.json
-    - Linux $HOME/.config/Code/User/settings.json
-    - The workspace setting file is located under the .vscode folder in your root folder.
+Depending on your platform, the user settings file is located here:
+
+- Windows %APPDATA%\Code\User\settings.json
+- macOS $HOME/Library/ApplicationSupport/Code/User/settings.json
+- Linux $HOME/.config/Code/User/settings.json
+- The workspace setting file is located under the .vscode folder in your root folder.
