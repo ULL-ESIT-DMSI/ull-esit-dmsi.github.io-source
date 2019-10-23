@@ -5,6 +5,9 @@ apuntes-ull-esit-1617
 ull-esit-1617
 jewels
 
+node_modules
+eval
+
 *.code-workspace
 
 dsi-1819
@@ -14,4 +17,8 @@ tema1-introduccion/practicas/p3-t1-c3-http/a-public-space-on-the-web-KevMCh
 tema1-introduccion/practicas/p3-t1-c3-http/chapter20-node-js-crguezl
 tema1-introduccion/practicas/p3-t1-c3-http/eval/
 tema1-introduccion/practicas/p3-t1-c3-http/nodejs-KevMCh
+
 tema4-graphql/learning-graphql
+
+tfa
+.vscode
