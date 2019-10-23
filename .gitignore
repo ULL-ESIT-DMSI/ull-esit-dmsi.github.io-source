@@ -8,6 +8,9 @@ jewels
 node_modules
 eval
 
+.jekyll-metadata
+sytws-1920-p2-t1-vscode
+
 *.code-workspace
 
 dsi-1819
