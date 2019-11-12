@@ -198,16 +198,6 @@ un macro-repo que consiste en el repo del módulo y en el programa de uso.
 - Véase un ejemplo en la implementación del proyecto "Electronic Life" en la rama `modules` del repo [`ULL-ESIT-MII-CA-1718/electronic-life`](https://github.com/ULL-ESIT-MII-CA-1718/electronic-life/tree/modules)
 
 
-## Capítulo. Diseño: Smells, Strategy Pattern y el Switch Smell
-
-* [Apuntes del curso 15/16: Code Smells/Código Hediondo](https://casianorodriguezleon.gitbooks.io/pl1516/content/apuntes/codesmell.html)
-* [Apuntes del curso 16/17: Patrones de Diseño](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/)
-* [Apuntes del curso 15/16: Eliminando Switch Smell](https://casianorodriguezleon.gitbooks.io/pl1516/content/practicas/noswitchsmell.html)
-* [Apuntes del curso 16/17: Strategy Pattern](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/strategypattern.html)
-* [Apuntes del curso 16/17: Práctica: Evaluar Strategy Pattern](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicaevaluastrategypattern.html)
-* [Apuntes del curso 16/17: Práctica: Creación de Paquetes NPM y Strategy Pattern](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicamodulestrategypattern.html)
-* [JSHint](http://jshint.com/)
-
 ## Capítulo. JavaScript and The Browser
 
 - [Eloquent JS](http://eloquentjavascript.net/index.html): [JavaScript and the Browser](http://eloquentjavascript.net/12_browser.html)
