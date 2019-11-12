@@ -6,3 +6,7 @@ end
 task :local do
   sh "jekyll s --no-watch --incremental -V -P 4413"
 end
+
+task :symlinks do 
+  sh "ls -lR /Users/casiano/campus-virtual/1920/dmsi1920/apuntes/ | grep -E  '^l'"
+end
