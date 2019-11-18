@@ -23,6 +23,10 @@
 
 * [Ejercicios del DOM](https://github.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/tree/master/tema1-introduccion/exercises/dom-exercises)
 
+### Práctica del DOM p4-t3-dom
+
+* [Descripción de la práctica p4-t3-dom](practicas/p4-t3-dom/)
+
 ## Capítulo. Events
 
 - [https://javascript.info/events: Events](https://javascript.info/events)

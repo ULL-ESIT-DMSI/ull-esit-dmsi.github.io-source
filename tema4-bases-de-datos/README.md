@@ -1,6 +1,6 @@
-# Tema 4: Introducción a GraphQL
+# Tema 4: Bases de Datos y Servicios Web
 
-Tutorial written by Maira Bello: <https://www.howtographql.com/graphql-js/1-getting-started/>
+Bases de Datos y Servicios Web
 
 ## Index
 

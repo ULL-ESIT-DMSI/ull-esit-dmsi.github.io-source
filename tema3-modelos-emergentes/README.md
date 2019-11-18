@@ -1,6 +1,11 @@
-# Tema 3. Servicios y Aplicaciones Web 
+# Tema 3. Modelos Emergentes
 
 ## [The Browser, The DOM, Events, Form Fields](dom)
+
+### Práctica del DOM p4-t3-dom
+
+* [Descripción de la práctica p4-t3-dom](practicas/p4-t3-dom/)
+
 
 ### Ejercicios del DOM
 
