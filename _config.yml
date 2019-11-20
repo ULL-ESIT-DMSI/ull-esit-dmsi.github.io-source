@@ -7,11 +7,18 @@ exclude:
   - tema1-introduccion/practicas/a-public-space-on-the-web-KevMCh
 show_downloads: false
 temas: 
-  - tema0-presentacion       
-  - tema1-introduccion       
-  - tema2-design
-  - tema3-modelos-emergentes
-  - tema4-bases-de-datos
-  - tema5-mantenimiento
-  - tema6-calidad
+  - path: tema0-presentacion
+    title: "Tema 0: Presentación"       
+  - path: tema1-introduccion
+    title: "Tema 1: Introducción"      
+  - path: tema2-design
+    title: "Tema 2: Análisis y diseño lógico"
+  - path: tema3-modelos-emergentes
+    title: "Tema 3: Modelos Emergentes"
+  - path: tema4-bases-de-datos
+    title: "Tema 4: Bases de Datos"
+  - path: tema5-mantenimiento
+    title: "Tema 5: Mantenimiento"
+  - path: tema6-calidad
+    title: "Tema 6: Calidad"
 

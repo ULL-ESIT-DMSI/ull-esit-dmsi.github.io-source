@@ -1,6 +1,6 @@
 {% for tema in site.temas %}
 
-## <a href="{{site.baseurl}}{{tema}}">Tema: {{tema}}</a>
+## <a href="{{site.baseurl}}{{tema.path}}">Tema: {{tema.title}}</a>
 
 {% endfor %}
 
