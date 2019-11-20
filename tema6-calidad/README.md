@@ -1,5 +1,8 @@
 # Calidad de los sistemas de información
-º
+
+### Práctica Introducción a la Calidad de los Sistemas de Información
+
+Lea el capítulo [Quality and Testing](https://puntoq.ull.es/permalink/f/15vbjs7/ullsfx2550000001351302) del libro *Developing Information Systems : Practical guidance for IT professionals* por James Cadle, Tahir Ahmed, Julian Cox, Lynda Girvan, Alan Paul, Debra Paul, and Pete Thompsony. Elabore un informe en el repo asociado a esta práctica
 
 ## Pruebas, Integración y Calidad
 
