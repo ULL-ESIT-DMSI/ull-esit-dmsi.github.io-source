@@ -6,3 +6,12 @@ exclude:
   - tema1-introduccion/practicas/p3-t1-c3-http/eval
   - tema1-introduccion/practicas/a-public-space-on-the-web-KevMCh
 show_downloads: false
+temas: 
+  - tema0-presentacion       
+  - tema1-introduccion       
+  - tema2-design
+  - tema3-modelos-emergentes
+  - tema4-bases-de-datos
+  - tema5-mantenimiento
+  - tema6-calidad
+
