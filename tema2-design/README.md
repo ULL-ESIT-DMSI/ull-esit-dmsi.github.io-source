@@ -6,6 +6,8 @@
 
 Lea el capítulo [Analysing the Business Need](https://puntoq.ull.es/permalink/f/15vbjs7/ullsfx2550000001351302) del libro *Developing Information Systems : Practical guidance for IT professionals* por James Cadle, Tahir Ahmed, Julian Cox, Lynda Girvan, Alan Paul, Debra Paul, and Pete Thompsony. Elabore un informe en el repo asociado a esta práctica
 
+## System Design
+
 ### Práctica Diseño 1
 
 Lea el capítulo [Systems Design - 1](https://puntoq.ull.es/permalink/f/15vbjs7/ullsfx2550000001351302) del libro *Developing Information Systems : Practical guidance for IT professionals* por James Cadle, Tahir Ahmed, Julian Cox, Lynda Girvan, Alan Paul, Debra Paul, and Pete Thompsony. Elabore un informe en el repo asociado a esta práctica
