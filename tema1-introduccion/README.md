@@ -101,6 +101,19 @@
 * [Descripción de la práctica p2-t1-filesystem](practicas/p2-t1-c3-file-system/)
 * [Descripción de la práctica p3-t1-http](practicas/p3-t1-c3-http/)
 
+## Capítulo: Sockets
+### Sockets TCP y UDP
+
+* [Safari. Chapter 3 Networking with Sockets](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-idot-getting-up-to-speed-on-nodedotjs-8/chp_networking_html)
+* [GitHub repo ULL-MII-CA-1819/nodejs-the-right-way](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
+  * [Networking with Sockets](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way/tree/master/networking-with-sockets-chapter-3)
+* Video en YouTube. UPM. Node.JS: Programación con Sockets TCP/IP:
+  * [Video en YouTube. UPM. Node.JS: Programación con Sockets TCP/IP](https://youtu.be/UjH7hw9fWWQ)
+
+### Prácticas
+
+* [Descripción de la práctica p4-t2-networking](practicas/p4-t2-networking)
+
 ## Capítulo. LifeCicle Types and Their Rationales 
 
 * [Capítulo 2: Lifecycle types and their rationales](https://ebookcentral-proquest-com.accedys2.bbtk.ull.es/lib/bull-ebooks/detail.action?docID=1713962#)  por Lynda Girvan, del libro *Developing Information Systems" edited by James Cadle
