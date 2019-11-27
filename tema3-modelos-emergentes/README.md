@@ -16,7 +16,7 @@
 
 ## [WebSockets](websockets.md)
 
-## Prácticas
+### Prácticas
 
 * [Descripción de la práctica p5-t3-websockets](practicas/p5-t3-websockets)
 
@@ -25,6 +25,12 @@
 ## [REST](rest.md)
 
 ## [Authentication](authentication.md)
+
+## JAM Stack
+
+### Prácticas
+
+* [Descripción de la práctica p8-t3-jekyll-netlify](practicas/p8-t3-jekyll-netlify)
 
 <!--
 **Stylus**
