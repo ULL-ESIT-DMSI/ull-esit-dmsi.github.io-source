@@ -1,4 +1,6 @@
-## Capítulo: Bases de Datos No Relacionales: MongoDB
+## Capítulo: Bases de Datos No Relacionales
+
+## MongoDB
 
 **Apuntes del profesor para Mongo**
 
