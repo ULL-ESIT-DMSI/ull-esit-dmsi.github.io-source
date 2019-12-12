@@ -74,3 +74,7 @@ This page describes a few popular React toolchains (like create-react-app, [gats
 
 * [How to pass props to components in React](https://www.robinwieruch.de/react-pass-props-to-component#react-props) blog by ROBIN WIERUCH
  
+
+## Práctica p11-t3-react-tic: Tutorial "Intro to React". Tic-Tac-Toe 
+
+* [Descripción de la práctica](practicas/p11-t3-react-tic)
