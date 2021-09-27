@@ -27,7 +27,9 @@
 ## Horarios
 
 - <a href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">Horarios de Ingeniería Informática para el curso</a>
-- <a href="https://docs.google.com/spreadsheets/d/1ZTGvLA70qCYEsBwcA8dCiUZby3ZOM9oHt8kmiNNKId0/edit#gid=0" target="_blank">Horarios de tutorías del Departamento de Ingeniería Informática</a>
+<!-- 
+<a href="https://docs.google.com/spreadsheets/d/1ZTGvLA70qCYEsBwcA8dCiUZby3ZOM9oHt8kmiNNKId0/edit#gid=0" target="_blank">Horarios de tutorías del Departamento de Ingeniería Informática</a>
+-->
 
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Atlantic%2FCanary&src=Y181N2xhY2JtMmZqM2FpaDB2ZWVsYTcwNnMxb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19ibDVmNGo0MW1kY2w2ZzNjdmM2YXVjbjM0Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc184aGNxdGZyNXUyaDNvMXYyc21ubWNxcXU1MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19oM2FiN3AzcmxmYW1qY25zbmhsdDZ1aGI0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19tdjloM3Fqc2VhbnFpZGEyZ2Z0c2JqNTRiNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19uN3BjN3B0OG9tYnEyMmUyYmozaG4xMmVib0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19xMjUzdjZqOGF2ZmFwMjZobjVuZHY1amo4c0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19kczd1OW5xdmZvc3I1djA0M2s4OGIwNnFvb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19maXNrYnI4NXM2aW1sdjVwbGY0NDVhbTM3OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZXRoaWx0Y2ZuNWQ2am1zOHZvaGpraW1hMHNxODNrZTdAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=cTVyOHAwZTIzbmdxb2I3b2NndHYxa2g0OXZubzFuOXVAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4uc3BhaW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233F51B5&color=%233F51B5&color=%233F51B5&color=%23D81B60&color=%23B39DDB&color=%23B39DDB&color=%238E24AA&color=%23C0CA33&color=%23B39DDB&color=%23D50000&color=%23009688&color=%23E67C73" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
