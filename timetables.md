@@ -48,6 +48,8 @@
 
 ## Cierre de actas 
 
+
+<!--
 ## Sobre las Calificaciones de Prácticas 
 
 En una primera publicación de calificaciones aparecerá una lista con los alumnos que tienen las prácticas **APTAS** o **NO APTAS**.
@@ -71,3 +73,4 @@ Los exámenes de convocatoria incluyen una serie de apartados especiales para lo
 
 
 
+-->

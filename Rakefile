@@ -10,3 +10,12 @@ end
 task :symlinks do 
   sh "ls -lR /Users/casiano/campus-virtual/1920/dmsi1920/apuntes/ | grep -E  '^l'"
 end
+
+task :pushhtml => [ :b ] do
+  sh "./scripts/build-and-push.sh"
+end
+
+desc "build"
+task :b do
+  sh "bundle exec jekyll build --future  -d ../website"
+end
