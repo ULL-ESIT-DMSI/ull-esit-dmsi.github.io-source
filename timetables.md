@@ -21,12 +21,12 @@
 
 ## Calendario Académico
 
-- <a href="https://www.ull.es/estudios-docencia/calendario-academico/" target="_blank">Calendario Académico 2019/2020</a>
+- <a href="https://www.ull.es/estudios-docencia/calendario-academico/" target="_blank">Calendario Académico</a>
 - <a href="https://drive.google.com/file/d/1YtPNm4vS73N21QHzstcYqEzPKJQHCKeD/view" target="_blank">Calendario Académico 2018/2019</a>
 
 ## Horarios
 
-- <a href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">Horarios de Ingeniería Informática para el curso 19/20</a>
+- <a href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">Horarios de Ingeniería Informática para el curso</a>
 - <a href="https://docs.google.com/spreadsheets/d/1ZTGvLA70qCYEsBwcA8dCiUZby3ZOM9oHt8kmiNNKId0/edit#gid=0" target="_blank">Horarios de tutorías del Departamento de Ingeniería Informática</a>
 
 
