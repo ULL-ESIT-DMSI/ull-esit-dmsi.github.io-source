@@ -1,5 +1,5 @@
 desc "Publicar en GitHub los apuntes de DMSI"
-task :default do
+task :default => [ :pushhtml ] do
   sh "git ci -am 2020 && git push -u source master"
 end
 
