@@ -27,6 +27,16 @@ Gitpod is an open source platform for automated and ready-to-code development en
 * See [Introduction to Gitpod](https://www.gitpod.io/docs)
 * [Getting Started](https://www.gitpod.io/docs/getting-started)
 
+## Botón GitPod
+
+Para tener el botón GitPod instala la correspondiente extensión en Chrome o Firefox
+
+* [GitPod Browser Extension](https://www.gitpod.io/docs/browser-extension/)
+* [Chrome extension](https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki?hl=es) in the webstore
+* [fireFox addon](https://addons.mozilla.org/es/firefox/addon/gitpod/)
+
+
+
 ##  Oferta Plan Personal (2021)
 
 En esta URL [https://gitpod.io/plans](https://gitpod.io/plans)
