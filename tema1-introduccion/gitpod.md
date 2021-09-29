@@ -36,8 +36,12 @@ Para tener el botón GitPod instala la correspondiente extensión en Chrome o Fi
 * [fireFox addon](https://addons.mozilla.org/es/firefox/addon/gitpod/)
 
 
+## Oferta para Estudiantes
 
-##  Oferta Plan Personal (2021)
+* [GitHub Student Developer Pack](https://www.gitpod.io/github-student-developer-pack)
+
+
+##  Oferta Plan Personal (2021) Profesores
 
 En esta URL [https://gitpod.io/plans](https://gitpod.io/plans)
 se puede solicitar un upgrade al plan "personal"  que permite acceder a repositorios privados si eres un miembro de una comunidad educativa. No he tenido que introducir tarjetas.
