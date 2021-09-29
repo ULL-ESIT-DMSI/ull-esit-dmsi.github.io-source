@@ -8,6 +8,12 @@ From any repo or pull request, developers can simply press the period (`.`) key 
 
 That dot press to bring up the web-based editor takes you to <https://github.dev/>, so the same one-press `.` functionality can be duplicated just by changing a URL from "<github.com>" to "<github.dev>."
 
+### Documentation
+
+Esta documentación es sólo para usuarios GitHub Enterprise
+
+* [Web-based editor](https://docs.github.com/es/codespaces/developing-in-codespaces/web-based-editor)
+
 ## Referencias
 
 * [One-Click VS Code in Browser from GitHub Repo ](https://visualstudiomagazine.com/articles/2021/08/31/github-vs-code.aspx)
@@ -16,7 +22,10 @@ That dot press to bring up the web-based editor takes you to <https://github.dev
 
 Gitpod is an open source platform for automated and ready-to-code development environments that blends into your existing workflow. It enables developers to describe their dev environment as code and start instant and fresh development environments for each new task directly from your browser.
 
-See [Introduction to Gitpod](https://www.gitpod.io/docs)
+## Aprendiendo GitPod
+
+* See [Introduction to Gitpod](https://www.gitpod.io/docs)
+* [Getting Started](https://www.gitpod.io/docs/getting-started)
 
 ##  Oferta Plan Personal (2021)
 
