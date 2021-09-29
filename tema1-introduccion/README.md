@@ -25,6 +25,10 @@
 
 ## Capítulo. Editores. Entornos de Trabajo
 
+### GitPod
+
+* [Notas sobre GitPod](gitpod)
+
 ### Atom
 
 - [Vídeo del profesor explicando el GitHub Package](https://youtu.be/kFtGxyyLRTc)
