@@ -1,6 +1,6 @@
 desc "Publicar en GitHub los apuntes de DMSI"
 task :default => [ :pushhtml ] do
-  sh "git ci -am 2020 && git push -u source master"
+  sh "git ci -am 2021 && git push -u source master"
 end
 
 task :local do
@@ -19,3 +19,9 @@ desc "build"
 task :b do
   sh "bundle exec jekyll build --future  -d ../website"
 end
+
+desc "dmsi: serve raw html from ../website"
+task :rawserve => [:b] do
+  sh "http-server ../website -p 9000"
+end
+
