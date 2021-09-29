@@ -6,7 +6,7 @@ From any repo or pull request, developers can simply press the period (`.`) key 
 
 ## Substitute github by github.dev in a GitHub URL
 
-That dot press to bring up the web-based editor takes you to <https://github.dev/>, so the same one-press `.` functionality can be duplicated just by changing a URL from "<github.com>" to "<github.dev>."
+That dot press to bring up the web-based editor takes you to <https://github.dev/>, so the same one-press `.` functionality can be duplicated just by changing a URL from "github.com" to "github.dev".
 
 ### Documentation
 
