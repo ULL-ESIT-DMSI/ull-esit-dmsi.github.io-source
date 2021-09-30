@@ -3,8 +3,8 @@ task :default => [ :pushhtml ] do
   sh "git ci -am 2021 && git push -u source master"
 end
 
-task :local do
-  sh "jekyll s --no-watch --incremental -V -P 4413"
+task :serve do
+  sh "bundle exec jekyll s --watch --incremental -V -P 4444"
 end
 
 task :symlinks do 
