@@ -8,7 +8,7 @@
        {% assign currentMonth = post.date | date: "%B" %}
         {% if currentMonth != previousMonth %}
 <br/>
-<h3> Classes Duraduring the month of {{ currentMonth }}</h3>
+<h3> Classes during the month of {{ currentMonth }}</h3>
 </ol>
 <ol reversed>
         {% endif %}
