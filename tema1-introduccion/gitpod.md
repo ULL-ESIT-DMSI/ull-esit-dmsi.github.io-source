@@ -34,6 +34,7 @@ Para tener el botón GitPod instala la correspondiente extensión en Chrome o Fi
 * [GitPod Browser Extension](https://www.gitpod.io/docs/browser-extension/)
 * [Chrome extension](https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki?hl=es) in the webstore
 * [fireFox addon](https://addons.mozilla.org/es/firefox/addon/gitpod/)
+* [GitPod Screencasts](https://www.youtube.com/playlist?list=PL3TSF5whlprXVp-7Br2oKwQgU4bji1S7H) 7 videos
 
 
 ## Oferta para Estudiantes
