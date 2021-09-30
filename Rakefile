@@ -4,7 +4,7 @@ task :default => [ :pushhtml ] do
 end
 
 task :serve do
-  sh "bundle exec jekyll s --watch --incremental -V -P 4444"
+  sh "bundle exec jekyll s --watch -V -P 4444"
 end
 
 task :symlinks do 
