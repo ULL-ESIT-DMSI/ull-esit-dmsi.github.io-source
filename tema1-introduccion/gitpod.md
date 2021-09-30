@@ -27,6 +27,7 @@ Gitpod is an open source platform for automated and ready-to-code development en
 * See [Introduction to Gitpod](https://www.gitpod.io/docs)
 * [Getting Started](https://www.gitpod.io/docs/getting-started)
 * [Custom Docker Image](https://www.gitpod.io/docs/config-docker)
+  * [gitpod-io/workspace full/Dockerfile](https://github.com/gitpod-io/workspace-images/blob/master/full/Dockerfile)
 
 ## Botón GitPod
 
