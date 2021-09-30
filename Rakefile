@@ -20,6 +20,11 @@ task :b do
   sh "bundle exec jekyll build --future  -d ../website"
 end
 
+desc "build and watch"
+task :bw do
+  sh "bundle exec jekyll build --watch --future  -d ../website"
+end
+
 desc "dmsi: serve raw html from ../website"
 task :rawserve => [:b] do
   sh "http-server ../website -p 9000"
