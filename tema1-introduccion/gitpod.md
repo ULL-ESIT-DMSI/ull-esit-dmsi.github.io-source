@@ -2,7 +2,7 @@
 
 ## Period in a repo
 
-From any repo or pull request, developers can simply press the period (`.`) key to bring up the browser-based VS Code environment with the source code file ready for editing. 
+From any repo or pull request, developers can simply press the period (`.`) key to bring up the browser-based VS Code environment with the source code file ready for editing.
 
 ## Substitute github by github.dev in a GitHub URL
 
@@ -26,6 +26,8 @@ Gitpod is an open source platform for automated and ready-to-code development en
 
 * See [Introduction to Gitpod](https://www.gitpod.io/docs)
 * [Getting Started](https://www.gitpod.io/docs/getting-started)
+* [Custom Docker Image](https://www.gitpod.io/docs/config-docker) a tutorial  on how to make your docker image for gitpod.io
+  * [gitpod-io/workspace-images/full/Dockerfile](https://github.com/gitpod-io/workspace-images/blob/master/full/Dockerfile)
 
 ## Botón GitPod
 
