@@ -1,8 +1,3 @@
----
-category: practicas
-tag: practicas
-date: 0/1/1
----
 # Descripción de la Práctica gh-cli
 
 ## gh alias 
