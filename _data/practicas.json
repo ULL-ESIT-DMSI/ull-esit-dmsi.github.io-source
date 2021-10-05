@@ -1,0 +1,22 @@
+[
+    {
+        "title": "GitHub Campus Expert",
+        "path": "tema0-presentacion/practicas/pb-gh-campus-expert"
+    },
+    {
+        "title": "iaas",
+        "path": "tema1-introduccion/practicas/p1-t1-iaas"
+    },
+    {
+        "title": "vscode",
+        "path": "tema1-introduccion/practicas/p2-t1-vscode"
+    },
+    {
+        "title": "markdown",
+        "path": "tema1-introduccion/practicas/markdown"
+    },    
+    {
+        "path": "tema1-introduccion/practicas/gh-cli",
+        "title": "GitHub cli"
+    }
+]
