@@ -4,15 +4,15 @@
         "path": "tema0-presentacion/practicas/pb-gh-campus-expert"
     },
     {
-        "title": "iaas",
+        "title": "Setting up Our Environment: iaas",
         "path": "tema1-introduccion/practicas/p1-t1-iaas"
     },
     {
-        "title": "vscode",
+        "title": "Editores: VS Code y GitPod",
         "path": "tema1-introduccion/practicas/p2-t1-vscode"
     },
     {
-        "title": "markdown",
+        "title": "Learning Markdown",
         "path": "tema1-introduccion/practicas/markdown"
     },    
     {

@@ -1,11 +1,11 @@
-## Clases
+## Classes
 
 {% include clases-impartidas.md %}
 
-## Prácticas
+## Labs
 
 {% include practicas.md %}
 
-## Temas
+## Topics
 
 {% include temas.md %}
