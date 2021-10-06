@@ -6,6 +6,7 @@ exclude:
   - tema1-introduccion/practicas/p3-t1-c3-http/eval
   - tema1-introduccion/practicas/a-public-space-on-the-web-KevMCh
 show_downloads: false
+future: true
 temas: 
   - path: tema0-presentacion
     title: "Tema 0: Presentación"       
