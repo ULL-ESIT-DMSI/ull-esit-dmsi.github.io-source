@@ -516,9 +516,11 @@ See also:
 * [Creating GitHub CLI extensions](https://docs.github.com/es/github-cli/github-cli/creating-github-cli-extensions)
 * [gh-extension](https://github.com/topics/gh-extension) list
 
-### Example of use: gh-clone-org
 
-* [matt-bartel/gh-clone-org](https://github.com/matt-bartel/gh-clone-org)
+### Example of an extension: gh-clone-org
+
+* [crguezl/gh-clone-org](https://github.com/crguezl/gh-clone-org)
+* Original [matt-bartel/gh-clone-org](https://github.com/matt-bartel/gh-clone-org)
 
 ```
 [/tmp/chuchu]$ gh clone-org -s set-up -y -n
