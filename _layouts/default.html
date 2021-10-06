@@ -23,7 +23,7 @@
         <nav>
         <ul>
             <li class="fork"><a href="{{ site.github.repository_url }}">Rep</a></li>
-            <li><a href="{{site.baseurl}}/search.html">Search</a></li>
+            <li><a href="{{site.baseurl}}/search">Search</a></li>
             <li><a href="{{site.baseurl}}/resources.html">Rec</a></li>
             <li><a href="{{site.baseurl}}/timetables.html">Hor</a></li>
             <li><a href="{{site.baseurl}}/references.html">Refs</a></li>
@@ -57,6 +57,30 @@
 
             {{ content }}
 
+<!--
+            <br/>
+<hr/>
+<h2>
+    Prácticas Propuestas
+</h2>
+{% include practicas.md %}
+
+
+<br/>
+<hr/>
+<h2>
+    Clases
+</h2>
+{% include clases-impartidas-simple.md %}
+
+<br/>
+<hr/>
+-->
+
+<h2>
+    Buscar en los apuntes
+</h2>
+{% include search.md %}
         </section>
     </div>
 
