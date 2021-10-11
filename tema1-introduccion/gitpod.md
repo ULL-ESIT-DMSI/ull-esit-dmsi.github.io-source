@@ -1,8 +1,10 @@
-# VS Code in Browsers
+---
+title: VS Code in Browsers
+--- 
 
 ## Period in a repo
 
-From any repo or pull request, developers can simply press the period (`.`) key to bring up the browser-based VS Code environment with the source code file ready for editing.
+From any repo or pull request, developers can simply press the period (`.`) key to bring up the browser-based VS Code environment with the source code file ready for editing. 
 
 ## Substitute github by github.dev in a GitHub URL
 
@@ -24,10 +26,11 @@ Gitpod is an open source platform for automated and ready-to-code development en
 
 ## Aprendiendo GitPod
 
-* See [Introduction to Gitpod](https://www.gitpod.io/docs)
 * [Getting Started](https://www.gitpod.io/docs/getting-started)
-* [Custom Docker Image](https://www.gitpod.io/docs/config-docker) a tutorial  on how to make your docker image for gitpod.io
-  * [gitpod-io/workspace-images/full/Dockerfile](https://github.com/gitpod-io/workspace-images/blob/master/full/Dockerfile)
+
+## Configure Gitpod
+
+{% include gitpod-configure.md %}
 
 ## Botón GitPod
 
@@ -37,6 +40,45 @@ Para tener el botón GitPod instala la correspondiente extensión en Chrome o Fi
 * [Chrome extension](https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki?hl=es) in the webstore
 * [fireFox addon](https://addons.mozilla.org/es/firefox/addon/gitpod/)
 * [GitPod Screencasts](https://www.youtube.com/playlist?list=PL3TSF5whlprXVp-7Br2oKwQgU4bji1S7H) 7 videos
+
+
+## Open in VSCode
+
+En el menú de arriba a la izquierda elige la opción "Open in VS Code":
+
+![]({{site.baseurl}}/assets/images/gitpod/gitpod-open-in-vscode.png)
+
+Tienes que instalar la extensión [GitPod]() the VSCode y darle los permisos.
+A partir de ese momento puedes editar con tu VSCode local en el contenedor de GitPod.
+
+See it running in my local machine, after the VSCode has been opened:
+
+![]({{site.baseurl}}/assets/images/gitpod/gitpod-opened-in-vscode.png)
+
+Observe the output in the terminal. We are running on the GitPod docker container
+
+
+¡Ojo! tu VSCode local está compartiendo el GitPod Workspace. Cualquier modificación que hagas en el VSCode local se refleja en el GitPod Workspace en la nube y viceversa.
+
+
+## Snapshots
+
+Whenever you want to share a reproducible example on StackOverflow or an issue report, providing real code that can be quickly tried, executed and explored is the best you can do. Online code playgrounds, such as CodePen or JSFiddle, are an excellent way to do that, as they are very accessible for both the creator and the readers. Unfortunately, they are not available for every programming platform, language and often don’t work for larger projects or examples.
+
+Gitpod lets you create reproducible examples for any programming environment and any size of project.
+
+No matter what state your Gitpod workspace is in, taking a Snapshot captures everything and provides you a link to share anywhere: on issues, forums (StackOverflow), emails and blogs. Anybody who clicks on a snapshot link instantly gets an exact copy of that workspace, including any uncommitted file changes and the UI layout.
+
+See
+
+* [Creating reproducibles for any programming language
+](https://www.gitpod.io/blog/workspace-snapshots)
+
+## Sustainable Node.js development with only a browser
+
+See the article 
+
+[Sustainable Node.js development with only a browser](https://www.gitpod.io/blog/node-js-development)
 
 
 ## Oferta para Estudiantes
