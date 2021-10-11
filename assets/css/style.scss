@@ -125,7 +125,7 @@ ul{
   height: 60px;
   width: 100%;
   position: fixed;
-  background: #5c068c; // url(../images/nav-bg.gif) #f3fff0; //#353535;
+  background: white; // #5c068c; // url(../images/nav-bg.gif) #f3fff0; //#353535;
   border-bottom: 4px solid 5c068c; // #434343;
   box-shadow: 0px 1px 3px rgba(0,0,0,.25);
 
@@ -133,7 +133,7 @@ ul{
     max-width: 650px;
     margin: 0 auto;
     padding: 0 10px;
-    background: #5c068c; //url(../images/nav-bg.gif); // #434343; // white; // blue;
+    background: white; //#5c068c; //url(../images/nav-bg.gif); // #434343; // white; // blue;
     margin: 6px auto;
 
     ul {
