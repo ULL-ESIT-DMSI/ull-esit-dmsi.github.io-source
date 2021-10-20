@@ -33,4 +33,8 @@ Then, after issuing the command and refreshing the former page we get:
 
 ## Extension
 
-Write and publish a gh extension `gh-repo-delete [org/repo]` that deletes the specified remote repo.
+Write and publish a gh extension. Choose the functionality you want to implement.
+It may be:
+
+* `gh-repo-delete [org/repo]` that deletes the specified remote repo.
+* Another idea: `gh-repo-rename org/reponame newname` changes the name of the repo to `org/newname` . See <https://docs.github.com/en/rest/reference/repos#update-a-repository>
