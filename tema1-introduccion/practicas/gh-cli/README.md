@@ -33,12 +33,15 @@ Then, after issuing the command and refreshing the former page we get:
 
 ## Extension
 
-Write and publish a gh extension. Choose the functionality you want to implement.
+Write and publish a gh extension using preferably Node.JS. Choose your own idea.
+Choose the functionality you want to implement.
+
 It may be:
 
 * `gh-repo-delete [org/repo]` that deletes the specified remote repo.
 * Another idea: `gh-repo-rename org/reponame newname` changes the name of the repo to `org/newname` . See <https://docs.github.com/en/rest/reference/repos#update-a-repository>
-* Rewriting an existing extension in Node.js. For example [crguezl/gh-clone-org](https://github.com/crguezl/gh-clone-org)
+* Rewriting an existing extension in Node.JS. For example [crguezl/gh-clone-org](https://github.com/crguezl/gh-clone-org)
+See an example of how to write a gh extension in Node.JS in [crguezl/gh-submodule-add](https://github.com/crguezl/gh-submodule-add)
 
 ## References
 
