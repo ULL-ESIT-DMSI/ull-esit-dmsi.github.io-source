@@ -31,6 +31,28 @@ Then, after issuing the command and refreshing the former page we get:
 
 * GitHub API doc for [Delete repository](https://docs.github.com/es/rest/reference/repos#delete-a-repository)
 
+### gh org-list-names
+
+Escriba un alias que liste todas los nombres y las urls de las organizaciones a las que el usuario pertenece:
+
+```
+➜  async-await-crguezl git:(main) gh orgs-list | grep -i 'dmsi'
+ULL-ESIT-DMSI-1920
+https://api.github.com/orgs/ULL-ESIT-DMSI-1920
+ULL-ESIT-DMSI-2021
+https://api.github.com/orgs/ULL-ESIT-DMSI-2021
+ULL-ESIT-DMSI-2121
+https://api.github.com/orgs/ULL-ESIT-DMSI-2121
+```
+
+* Busque en la sección de la GH API [Endpoints available for GitHub Apps](https://docs.github.com/en/rest/overview/endpoints-available-for-github-apps) cual puede serle útil
+* Recuerde hacer uso de `--paginate``
+* Aprenda a usar [jq]({{site.baseurl}}/http://tema1-introduccion/jq.html) para seleccionar los campos del JSON resultante
+
+
+
+
+
 ## Extension
 
 Write and publish a gh extension using preferably Node.JS. Choose your own idea.
