@@ -31,7 +31,7 @@ Then, after issuing the command and refreshing the former page we get:
 
 * GitHub API doc for [Delete repository](https://docs.github.com/es/rest/reference/repos#delete-a-repository)
 
-### gh org-list-names
+### gh org-list
 
 Escriba un alias que liste todas los nombres y las urls de las organizaciones a las que el usuario pertenece:
 
