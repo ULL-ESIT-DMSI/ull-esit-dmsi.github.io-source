@@ -1,6 +1,7 @@
 ---
 title: "npm Module"
 published: true
+categories: [ "practicas" ]
 rubrica: 
   - El paquete está publicado en npmjs con ámbito `aluXXX`
   - Contiene un ejecutable que se ejecuta correctamente (`--help`, etc.)

@@ -18,5 +18,9 @@
     {
         "path": "tema1-introduccion/practicas/gh-cli",
         "title": "GitHub cli"
+    },
+    {
+        "path": "tema1-introduccion/practicas/npm-module",
+        "title": "Publishing an npm-module"
     }
 ]
