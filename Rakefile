@@ -27,6 +27,6 @@ end
 
 desc "dmsi: serve raw html from ../website"
 task :rawserve => [:b] do
-  sh "http-server ../website -p 9000"
+  sh "http-server ../website -p 9000 -c-1"
 end
 
