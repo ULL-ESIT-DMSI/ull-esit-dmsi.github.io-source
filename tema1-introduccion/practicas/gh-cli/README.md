@@ -67,7 +67,7 @@ See an example of how to write a gh extension in Node.JS in [crguezl/gh-submodul
 
 **Instructions about the  delivery**: 
 
-Create a repo for your extension in a repo `ULL-MII-SYTWS-2122/gh-my-extension-name`  inside the classroom organization `ULL-MII-SYTWS-2122`. Add that repo as a `git submodule` to the repo associated to this lab assignment. Just leave the link to the assignment and extensions repos in the campus virtual 
+Create a repo for your extension in a repo `org/gh-my-extension-name`  inside the classroom organization. Add that repo as a `git submodule` to the repo associated to this lab assignment. Just leave the link to the assignment and extensions repos in the campus virtual 
 
 
 ## References
