@@ -65,6 +65,11 @@ It may be:
 * Rewriting an existing extension in Node.JS. For example [crguezl/gh-clone-org](https://github.com/crguezl/gh-clone-org)
 See an example of how to write a gh extension in Node.JS in [crguezl/gh-submodule-add](https://github.com/crguezl/gh-submodule-add)
 
+**Instructions about the  delivery**: 
+
+Create a repo for your extension in a repo `ULL-MII-SYTWS-2122/gh-my-extension-name`  inside the classroom organization `ULL-MII-SYTWS-2122`. Add that repo as a `git submodule` to the repo associated to this lab assignment. Just leave the link to the assignment and extensions repos in the campus virtual 
+
+
 ## References
 
 * [Apuntes de gh]({{site.baseurl}}/tema1-introduccion/gh.html)
