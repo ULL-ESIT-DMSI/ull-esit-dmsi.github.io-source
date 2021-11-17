@@ -3,6 +3,12 @@
 
 ## Extension
 
+This lab is a **group assignment**. When choosing the name of the group, please follow the format `name-surname-aluXXX`. 
+For instance:
+
+
+![]({{site.baseurl}}/assets/images/group-assignment.png)
+
 Using the GitHub GraphQL API write and publish a gh extension using preferably Node.JS. Choose your own idea.
 Choose the functionality you want to implement.
 
