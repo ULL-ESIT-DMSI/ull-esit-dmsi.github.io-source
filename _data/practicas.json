@@ -17,7 +17,11 @@
     },    
     {
         "path": "tema1-introduccion/practicas/gh-cli",
-        "title": "GitHub cli"
+        "title": "GitHub cli (REST)"
+    },
+    {
+        "path": "tema1-introduccion/practicas/gh-cli-graphql",
+        "title": "GitHub cli (GraphQL)"
     },
     {
         "path": "tema1-introduccion/practicas/npm-module",
