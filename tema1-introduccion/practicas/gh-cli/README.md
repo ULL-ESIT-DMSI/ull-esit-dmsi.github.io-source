@@ -1,4 +1,4 @@
-# Descripción de la Práctica gh-cli
+# Descripción de la Práctica gh-cli (REST)
 
 ## gh alias 
 
