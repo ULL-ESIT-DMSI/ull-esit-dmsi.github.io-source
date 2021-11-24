@@ -1,5 +1,5 @@
 ---
-title: GitPod: VS Code in Browsers
+title: "GitPod: VS Code in Browsers"
 --- 
 
 ## GitHub Editor
