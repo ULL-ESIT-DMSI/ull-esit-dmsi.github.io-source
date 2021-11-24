@@ -1,0 +1,13 @@
+{% if page.clases %}
+
+<h2 id="related-clases">Clases Relacionadas</h2>
+
+<ol>
+  {% for class in page.clases %}
+  <li>
+    See class <a href="{{site.baseurl}}/clases/{{class}}/leccion.html">{{class}}</a>
+  </li>
+  {% endfor %}
+</ol>
+
+{% endif %}
