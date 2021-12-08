@@ -26,5 +26,9 @@
     {
         "path": "tema1-introduccion/practicas/npm-module",
         "title": "Publishing an npm-module"
+    },
+    {
+        "path": "tema3-modelos-emergentes/practicas/vue-intro/",
+        "title": "Introduction to Vue"
     }
 ]
