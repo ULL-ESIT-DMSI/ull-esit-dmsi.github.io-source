@@ -30,7 +30,7 @@ end
 #  sh "http-server ../website -p 9000 -c-1"
 # end
 
-desc "dmsi: serve raw html from ../website. Use: rake 'rawserve[<portnumber>]' otherwise a random port will be chosen"
+desc "dmsi: serve raw html from ../website. Use: \"rake 'rawserve[<portnumber>]'\" otherwise a random port will be chosen"
 task :rawserve, [:port] => [:b] do |t, args|
   sh "http-server ../website -c-1 --port #{ args[:port] or Integer(1000+9000*rand())}"
 end 
