@@ -32,6 +32,10 @@
         "title": "Vue Fundamentals"
     },
     {
+        "path": "tema3-modelos-emergentes/practicas/vue-components-basics/",
+        "title": "Vue Components Basics"
+    },
+    {
         "path": "tema3-modelos-emergentes/practicas/vue-intro/",
         "title": "Introduction to Vue"
     }
