@@ -36,6 +36,10 @@
         "title": "Vue Components Basics"
     },
     {
+        "path": "tema3-modelos-emergentes/practicas/github-profile-card",
+        "title": "GitHub Profile Card"
+    },
+    {
         "path": "tema3-modelos-emergentes/practicas/vue-intro/",
         "title": "Introduction to Vue"
     }
