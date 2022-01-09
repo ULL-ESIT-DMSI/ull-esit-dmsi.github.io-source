@@ -1,1 +1,1 @@
-# [GitHub Profile Card](https://github.com/crguezl/vuejs-components-github-profile-card)
+## Go to the GitHub Profile Card repo [crguezl/vuejs-components-github-profile-card](https://github.com/crguezl/vuejs-components-github-profile-card) for a full description of this lab
