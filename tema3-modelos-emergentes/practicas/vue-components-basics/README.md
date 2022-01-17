@@ -1,3 +1,7 @@
 # Práctica: Vue Components Basics
 
-See <a href="https://github.com/crguezl/vuejs-components-fundamentals" target="_blank">repo crguezl/vuejs-components-fundamentals for the full description of this lab.
+See 
+
+* [Vue.js Components Basics](https://github.com/crguezl/vuejs-components-basics-plan-picker-component) 
+  * [Click-Counter Component](https://github.com/crguezl/vuejs-components-basics-plan-picker-component#folder-click-counter-click-counter-task)
+  * [Folder plan-picker: Plan Picker Task](https://github.com/crguezl/vuejs-components-basics-plan-picker-component#folder-plan-picker-plan-picker-task)
