@@ -42,5 +42,9 @@
     {
         "path": "tema3-modelos-emergentes/practicas/vue-intro/",
         "title": "Introduction to Vue"
+    },
+    {
+        "path": "tfa/",
+        "title": "Fullstack GraphQL server with Vue.js Client"
     }
 ]
