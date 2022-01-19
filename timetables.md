@@ -2,16 +2,13 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **ÍNDICE** 
 
-- [Calendarios, Horarios y Exámenes](#calendarios-horarios-y-ex%C3%A1menes)
-  - [Calendario Académico](#calendario-acad%C3%A9mico)
+- [Calendarios, Horarios y Exámenes](#calendarios-horarios-y-exámenes)
+  - [Calendario Académico](#calendario-académico)
   - [Horarios](#horarios)
-  - [Normativa de Evaluación](#normativa-de-evaluaci%C3%B3n)
-  - [Exámenes de convocatoria](#ex%C3%A1menes-de-convocatoria)
-  - [Revisión de Calificaciones](#revisi%C3%B3n-de-calificaciones)
+  - [Normativa de Evaluación](#normativa-de-evaluación)
+  - [Exámenes de convocatoria](#exámenes-de-convocatoria)
+  - [Revisión de Calificaciones](#revisión-de-calificaciones)
   - [Cierre de actas](#cierre-de-actas)
-  - [Sobre las Calificaciones de Prácticas](#sobre-las-calificaciones-de-pr%C3%A1cticas)
-  - [Q&A](#qa)
-  - [Instrucciones para los exámenes de Convocatoria](#instrucciones-para-los-ex%C3%A1menes-de-convocatoria)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -48,7 +45,8 @@
 
 ## Cierre de actas 
 
-
+* 14 de Febrero de 2022
+  
 <!--
 ## Sobre las Calificaciones de Prácticas 
 
