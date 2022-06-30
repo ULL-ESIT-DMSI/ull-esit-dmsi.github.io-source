@@ -1,6 +1,11 @@
+desc "Publicar en GitHub en 1920 los apuntes de DMSI"
+task :pub1920 => [ :pushhtml ] do
+  sh "git ci -am 2021 && git push -u source master"
+end
+
 desc "Publicar en GitHub los apuntes de DMSI"
 task :default => [ :pushhtml ] do
-  sh "git ci -am 2021 && git push -u source master"
+  sh "git ci -am 2021 && git push -u origin master"
 end
 
 task :serve do
