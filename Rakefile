@@ -1,13 +1,3 @@
-desc "Publicar en GitHub en 1920 los apuntes de DMSI"
-task :pub1920 => [ :pushhtml ] do
-  sh "git ci -am 2021 && git push -u dmsi1920 master"
-end
-
-desc "Publicar fuentes y build solo en GitHub 2223"
-task :pub2223 => [ :pushhtml ] do
-  sh "git ci -am 2223 && git push -u dmsi2223 master"
-end
-
 desc "Publicar fuentes y build"
 task :default => [ :pushhtml ] do
   sh "git ci -am 2223 && git push -u source master && git push -u dmsi2223 master"
@@ -44,3 +34,14 @@ desc "dmsi: serve raw html from ../website. Use: \"rake 'rawserve[<portnumber>]'
 task :rawserve, [:port] => [:b] do |t, args|
   sh "http-server ../website -c-1 --port #{ args[:port] or Integer(1000+9000*rand())}"
 end 
+
+desc "Publicar en GitHub en 1920 los apuntes de DMSI"
+task :pub1920 => [ :pushhtml ] do
+  sh "git ci -am 2021 && git push -u dmsi1920 master"
+end
+
+desc "Publicar fuentes y build solo en GitHub 2223"
+task :pub2223 => [ :pushhtml ] do
+  sh "git ci -am 2223 && git push -u dmsi2223 master"
+end
+
