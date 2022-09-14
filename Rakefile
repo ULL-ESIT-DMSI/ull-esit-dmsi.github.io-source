@@ -27,8 +27,12 @@ task :rawserve, [:port] => [:b] do |t, args|
   sh "http-server ../website -c-1 --port #{ args[:port] or Integer(1000+9000*rand())}"
 end 
 
-desc "Publicar solo fuentes en GitHub 2223"
+desc "Publicar solo fuentes en  dmsi2223"
 task :pub2223 do
   sh "git ci -am 2223 && git push -u dmsi2223 master"
 end
 
+desc "Publicar solo fuentes en dmsi"
+task :pubdmsi do
+  sh "git ci -am 2223 && git push -u source master"
+end
