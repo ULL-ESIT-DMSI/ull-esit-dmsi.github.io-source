@@ -14,37 +14,5 @@
     {
         "title": "Learning Markdown",
         "path": "tema1-introduccion/practicas/markdown"
-    },    
-    {
-        "path": "tema1-introduccion/practicas/gh-cli",
-        "title": "GitHub cli (REST)"
-    },
-    {
-        "path": "tema1-introduccion/practicas/gh-cli-graphql",
-        "title": "GitHub cli (GraphQL)"
-    },
-    {
-        "path": "tema1-introduccion/practicas/npm-module",
-        "title": "Publishing an npm-module"
-    },
-    {
-        "path": "tema3-modelos-emergentes/practicas/vue-fundamentals/",
-        "title": "Vue Fundamentals"
-    },
-    {
-        "path": "tema3-modelos-emergentes/practicas/vue-components-basics/",
-        "title": "Vue Components Basics"
-    },
-    {
-        "path": "tema3-modelos-emergentes/practicas/github-profile-card",
-        "title": "GitHub Profile Card"
-    },
-    {
-        "path": "tema3-modelos-emergentes/practicas/vue-intro/",
-        "title": "Introduction to Vue"
-    },
-    {
-        "path": "tfa/",
-        "title": "Fullstack GraphQL server with Vue.js Client"
     }
 ]
