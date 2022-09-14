@@ -3,14 +3,15 @@ task :pub1920 => [ :pushhtml ] do
   sh "git ci -am 2021 && git push -u dmsi1920 master"
 end
 
-desc "Publicar en GitHub en 1920 los apuntes de DMSI"
+desc "Publicar fuentes y build solo en GitHub 2223"
 task :pub2223 => [ :pushhtml ] do
   sh "git ci -am 2223 && git push -u dmsi2223 master"
 end
 
-desc "Publicar en GitHub los apuntes de DMSI"
+desc "Publicar fuentes y build"
 task :default => [ :pushhtml ] do
-  sh "git ci -am 2021 && git push -u origin master"
+  sh "git ci -am 2223 && git push -u source master"
+  sh "git ci -am 2223 && git push -u dmsi2223 master"
 end
 
 task :serve do
