@@ -1,4 +1,4 @@
-# Curso 22/23 - Desarrollo y Mantenimiento de Sistema Informáticos
+# Curso 22/23 - Desarrollo y Mantenimiento 
 
 ## Classes
 
