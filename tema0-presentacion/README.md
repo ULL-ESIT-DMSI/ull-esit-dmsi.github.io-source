@@ -12,6 +12,6 @@
 
 ### Prácticas
 
-1. [Práctica pb-gh-campus-expert](practicas/pb-gh-campus-expert) Práctica Bono Opcional
+1. [Práctica pb-gh-campus-expert](practicas/pb-gh-campus-expert) 
 
 
