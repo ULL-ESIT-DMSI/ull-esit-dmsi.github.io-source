@@ -1,12 +1,14 @@
 ---
-title: VS Code in Browsers
+title: "GitPod: VS Code in Browsers"
 --- 
 
-## Period in a repo
+## GitHub Editor
 
-From any repo or pull request, developers can simply press the period (`.`) key to bring up the browser-based VS Code environment with the source code file ready for editing. 
+### Period in a repo
 
-## Substitute github by github.dev in a GitHub URL
+From any GitHub repo or pull request, developers can simply press the period (`.`) key to bring up the browser-based VS Code environment with the source code file ready for editing. 
+
+### Substitute github by github.dev in a GitHub URL
 
 That dot press to bring up the web-based editor takes you to <https://github.dev/>, so the same one-press `.` functionality can be duplicated just by changing a URL from "github.com" to "github.dev".
 
@@ -16,23 +18,21 @@ Esta documentación es sólo para usuarios GitHub Enterprise
 
 * [Web-based editor](https://docs.github.com/es/codespaces/developing-in-codespaces/web-based-editor)
 
-## Referencias
+### Referencias
 
 * [One-Click VS Code in Browser from GitHub Repo ](https://visualstudiomagazine.com/articles/2021/08/31/github-vs-code.aspx)
 
-# GitPod 
+## GitPod 
 
 Gitpod is an open source platform for automated and ready-to-code development environments that blends into your existing workflow. It enables developers to describe their dev environment as code and start instant and fresh development environments for each new task directly from your browser.
 
-## Aprendiendo GitPod
+### Aprendiendo GitPod
 
 * [Getting Started](https://www.gitpod.io/docs/getting-started)
 
-## Configure Gitpod
+### Configure Gitpod
 
-{% include gitpod-configure.md %}
-
-## Botón GitPod
+### Botón GitPod
 
 Para tener el botón GitPod instala la correspondiente extensión en Chrome o Firefox
 
@@ -42,18 +42,18 @@ Para tener el botón GitPod instala la correspondiente extensión en Chrome o Fi
 * [GitPod Screencasts](https://www.youtube.com/playlist?list=PL3TSF5whlprXVp-7Br2oKwQgU4bji1S7H) 7 videos
 
 
-## Open in VSCode
+### Open in VSCode
 
 En el menú de arriba a la izquierda elige la opción "Open in VS Code":
 
-![]({{site.baseurl}}/assets/images/gitpod/gitpod-open-in-vscode.png)
+![](/images/gitpod/gitpod-open-in-vscode.png)
 
 Tienes que instalar la extensión [GitPod]() the VSCode y darle los permisos.
 A partir de ese momento puedes editar con tu VSCode local en el contenedor de GitPod.
 
 See it running in my local machine, after the VSCode has been opened:
 
-![]({{site.baseurl}}/assets/images/gitpod/gitpod-opened-in-vscode.png)
+![](/images/gitpod/gitpod-opened-in-vscode.png)
 
 Observe the output in the terminal. We are running on the GitPod docker container
 
@@ -61,7 +61,7 @@ Observe the output in the terminal. We are running on the GitPod docker containe
 ¡Ojo! tu VSCode local está compartiendo el GitPod Workspace. Cualquier modificación que hagas en el VSCode local se refleja en el GitPod Workspace en la nube y viceversa.
 
 
-## Snapshots
+### Snapshots
 
 Whenever you want to share a reproducible example on StackOverflow or an issue report, providing real code that can be quickly tried, executed and explored is the best you can do. Online code playgrounds, such as CodePen or JSFiddle, are an excellent way to do that, as they are very accessible for both the creator and the readers. Unfortunately, they are not available for every programming platform, language and often don’t work for larger projects or examples.
 
@@ -74,19 +74,19 @@ See
 * [Creating reproducibles for any programming language
 ](https://www.gitpod.io/blog/workspace-snapshots)
 
-## Sustainable Node.js development with only a browser
+### Sustainable Node.js development with only a browser
 
 See the article 
 
 [Sustainable Node.js development with only a browser](https://www.gitpod.io/blog/node-js-development)
 
 
-## Oferta para Estudiantes
+### Oferta para Estudiantes
 
 * [GitHub Student Developer Pack](https://www.gitpod.io/github-student-developer-pack)
 
 
-##  Oferta Plan Personal (2021) Profesores
+###  Oferta Plan Personal (2021) Profesores
 
 En esta URL [https://gitpod.io/plans](https://gitpod.io/plans)
 se puede solicitar un upgrade al plan "personal"  que permite acceder a repositorios privados si eres un miembro de una comunidad educativa. No he tenido que introducir tarjetas.
@@ -99,10 +99,10 @@ Lo que pasa (Abril 2021) es que GitPod está siendo ofertado como parte del [Gi
 
 
 
-![]({{site.baseurl}}/assets/images/gitpod/8-horas-100-euros.png)
+![](/images/gitpod/8-horas-100-euros.png)
 
 
-![teacher-coupon]({{site.baseurl}}/assets/images/gitpod/teacher-coupon.png)
+![teacher-coupon](/images/gitpod/teacher-coupon.png)
 
 **Está limitada a 100 horas de uso por mes**:
 
@@ -113,29 +113,29 @@ Lo que pasa (Abril 2021) es que GitPod está siendo ofertado como parte del [Gi
 
 En el ejemplo se ve los apuntes de PL (un repo público usando Jekyll) siendo editado con VSCode:
 
-![apuntes-pl-gitpod]({{site.baseurl}}/assets/images/gitpod/apuntes-pl-gitpod.png)
+![apuntes-pl-gitpod](/images/gitpod/apuntes-pl-gitpod.png)
 
 todo funciona bien.
 
 Con este plan es posible acceder a repos privados. 
 En el repo en GitHub aparece un nuevo botón verde con etiqueta "GitPod". Obsérvese que el repo es privado:
 
-![boton-gitpod-en-repo-privado]({{site.baseurl}}/assets/images/gitpod/boton-gitpod-en-repo-privado.png)    
+![boton-gitpod-en-repo-privado](/images/gitpod/boton-gitpod-en-repo-privado.png)    
 
 Cuando le damos  al botón "GitPod" por primera vez es posible que nos salga un mensaje de error:
 
-![autorizar-gitpod-a-organizacion.png 8-horas-100-euros]({{site.baseurl}}/assets/images/gitpod/autorizar-gitpod-a-organizacion.png)
+![autorizar-gitpod-a-organizacion.png 8-horas-100-euros](/images/gitpod/autorizar-gitpod-a-organizacion.png)
 
 Le damos los permisos adecuados:
 
-![gitpos-request-permissions]({{site.baseurl}}/assets/images/gitpod/gitpos-request-permissions.png)   
+![gitpos-request-permissions](/images/gitpod/gitpos-request-permissions.png)   
 
-![grant-access]({{site.baseurl}}/assets/images/gitpod/grant-access.png)                    
+![grant-access](/images/gitpod/grant-access.png)                    
 
 y ya podemos editar nuestros repos privados.
 
 
-## Drawbacks according to Pattacini
+### Drawbacks according to Pattacini
 
 > Gitpod is fantastic but comes with some constraints that may affect yours and your students’ work:
 
@@ -156,14 +156,14 @@ When you share a running workspace, you’ll share also your access to GitHub, w
 
 > Finally, don’t expect to have quantum computers available from free Cloud IDE’s services. After all, there’s a trade-off and resources are limited (e.g. no GPU), even though Gitpod seems quite generous in this sense.
 
-## Docker Images
+### Docker Images
 
 Si la [imagen](https://github.com/gitpod-io/workspace-images) por defecto no se adapta a lo que quieres
 puedes [configurarla](https://www.gitpod.io/docs/config-docker)
 
 Véase [Docker in Gitpod](https://www.gitpod.io/blog/docker-in-gitpod)
 
-## Self Hosted
+### Self Hosted
 
 Gitpod, just as you know it from [gitpod.io](https://gitpod.io), can be deployed and operated on your own infrastructure. 
 It supports different 
@@ -183,7 +183,7 @@ If you already have a Kubernetes cluster, or don’t want/cannot use AWS or GCP,
 
 *   [Install Gitpod on Kubernetes](https://www.gitpod.io/docs/self-hosted/0.4.0/install/install-on-kubernetes/)
 
-## Referencias
+### Referencias
 
 * [The benefits of integrating Docker and Cloud IDE’s in the GitHub Classroom workflow](https://education.github.community/t/the-benefits-of-integrating-docker-and-cloud-ides-in-the-github-classroom-workflow/40724) by Ugo Pattacini
 * [Introduction to Gitpod](https://www.gitpod.io/docs)

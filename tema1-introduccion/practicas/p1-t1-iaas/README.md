@@ -1,4 +1,35 @@
-# Descripción de la Práctica p1-t1-iaas
+# Configurando Entornos de Desarrollo
+
+
+## Configurando VSCode
+
+1. Instale VSCode en su máquina
+3. Siga los tutoriales de VSCode
+4. Instale el plugin Remote SSH  y aprenda a usarlo
+5. Use Live Share para colaborar con un compañero
+6. Elabore un informe con la experiencia adquirida en el repositorio asignado
+
+
+###  Collaboration con Visual Studio Share
+
+Instale Visual Studio Live Share y pruébelo con un compañero
+
+### Remote - SSH: Editando con VSCode en una máquina remota via SSH 
+
+Instale las extensiones Remote SSH y compruebe que funcionan con su máquina del iaas
+
+* [Visual Studio Code Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+* [Remote - SSH: Editing Configuration](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
+
+## Configurando CodeSpaces
+
+See section [CodeSpaces](../../codespaces)
+
+## Configurando GitPod
+
+* [Apuntes de GitPod](../../gitpod)
+
+## Configurando el Entorno ULL IAAS
 
 * Siguiendo las instrucciones en el  [repositorio SYTW/iaas-ull-es](https://github.com/SYTW/iaas-ull-es) despliegue un ejemplo como el que aparece en [crguezl/express-start](https://github.com/crguezl/express-start) en su máquina virtual del servicio [iaas.ull.es](iaas.ull.es).
 * Puede encontrar un vídeo del profesor introduciendo el [iaas.ull.es aquí](https://youtu.be/qKHgbV0lYbA).
@@ -16,24 +47,8 @@
      - Puede añadir algo como esto a su PS1: `PS1="\$(git branch 2>/dev/null | sed -n 's/* \(.*\)/\1 /p')$ "`
      - Recuerde que si su prompt es muy largo siempre puede acortarlo con `PROMPT_DIRTRIM=1`
   - [git aliases](https://git-scm.com/book/tr/v2/Git-Basics-Git-Aliases)
-  - Instale [hub](https://github.com/github/hub)
-  - [ghi](https://github.com/stephencelis/ghi)
   - Instale [nvm](https://github.com/creationix/nvm)
   - install nodeJS usando nvm
-  - [jshint](http://jshint.com/install/) y [jshint on vim](https://coderwall.com/p/zfhquw/jshint-in-vim)
-  - Instale [rvm](https://github.com/rvm/ubuntu_rvm)
-  - Instale [NERDTree](https://github.com/scrooloose/nerdtree) para vim
-  - Instale Express.js
-      - [Express Web Framework (Node.js/JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs) (Mozilla)
-  - Instale [ctags](https://courses.cs.washington.edu/courses/cse451/10au/tutorials/tutorial_ctags.html)
-  - [ag](http://conqueringthecommandline.com/book/ack_ag) o [ack](http://conqueringthecommandline.com/book/ack_ag)
   - etc. 
-* [Hágase miembro de la comunidad Google+ DMSI1819](https://plus.google.com/u/2/communities/) (Asegúrate de estar identificado con tu cuenta de Gmail de la ULL)
-
-### GitHub Classroom: Outside Colaborators and members
-
-* Una vez acepte la tarea en GitHub Classroom, pasará a ser *outside collaborator* de la organización de la asignatura,
-* En algun momento, el profesor le hará una invitación a ser miembro de pleno derecho de la organización
-    - [Acepte la invitacion del profesor a pertenecer a la organización Github de la asignatura visitando la página de la organización](https://github.com/ULL-ESIT-DSI-1819)
-    - También recibirá un email con la invitación. Puede aceptar haciendo click en el correspondiente enlace
+* [Hágase miembro de la comunidad Currents DMSI](https://currents.google.com/u/1/communities/114199442894867980706) (Asegúrate de estar identificado con tu cuenta de Gmail de la ULL)
 
