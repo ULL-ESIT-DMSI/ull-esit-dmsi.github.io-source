@@ -21,7 +21,7 @@
 
 ## Google+
 
-* [Comunidad Google+ DMSI](https://plus.google.com/u/2/communities/114199442894867980706)
+* [Comunidad Currents DMSI](https://currents.google.com/u/1/communities/114199442894867980706) (Asegúrate de estar identificado con tu cuenta de Gmail de la ULL)
 
 # Recursos Generales
 

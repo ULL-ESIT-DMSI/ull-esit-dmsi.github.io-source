@@ -59,6 +59,10 @@ Las siguientes tareas son opcionales pero pueden ser de utilidad para su desarro
 
 Use el repo asignado para documentar (usando las GitHub Pages) que ha realizado el curso, solicitado el *student developer pack* y la *GitHub Internship*. En la tarea, suba el enlace al repo.
 
+## Comunidad Currents DMSI
+
+* [Hágase miembro de la comunidad Currents DMSI](https://currents.google.com/u/1/communities/114199442894867980706) (Asegúrate de estar identificado con tu cuenta de Gmail de la ULL)
+
 ## Rúbrica
 
 {% include rubrica.md -%}

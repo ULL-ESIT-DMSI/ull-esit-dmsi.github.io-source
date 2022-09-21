@@ -50,5 +50,4 @@ See section [CodeSpaces](../../codespaces)
   - Instale [nvm](https://github.com/creationix/nvm)
   - install nodeJS usando nvm
   - etc. 
-* [Hágase miembro de la comunidad Currents DMSI](https://currents.google.com/u/1/communities/114199442894867980706) (Asegúrate de estar identificado con tu cuenta de Gmail de la ULL)
 
