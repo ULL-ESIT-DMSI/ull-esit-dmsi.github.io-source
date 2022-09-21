@@ -1,5 +1,5 @@
 ---
-video: "https://youtu.be/_W9B7qc9lVc"
+video: "_W9B7qc9lVc"
 ---
 # GitHub CodeSpaces
 
@@ -29,26 +29,29 @@ If it’s got a browser, it’s now a development environment for your students.
 
 Here is the documentation: [GitHub Codespaces](https://docs.github.com/en/codespaces):
 
-<youtube></youtube>
+{% include video-youtube.html id=page.video %}
+
+{% include video id=page.video provider=youtube %}
+
 
 ## Teachers: Using it in Classroom Assignments
 
 Go to the classroom config and enable codespaces:
 
-![](/images/codespaces-github-classroom-settings.png)
+![](/assets/images/codespaces-github-classroom-settings.png)
 
-Now inside an assignment you can choose codespaces as eeditor for the students:
+Now inside an assignment you can choose codespaces as editor for the students:
 
-![](/images/codespaces-github-classroom-assignment.png)
+![](/assets/images/codespaces-github-classroom-assignment.png)
 
 ## Using it as a User
 
-![](/images/codespaces-yours.png)
+![](/assets/images/codespaces-yours.png)
 
 Here is an example working:
 
-![](/images/codespaces-working.png)
+![](/assets/images/codespaces-working.png)
 
 And here an example of your codespaces page:
 
-![](/images/codespaces-screen.png)
+![](/assets/images/codespaces-screen.png)

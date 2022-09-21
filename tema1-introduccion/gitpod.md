@@ -46,14 +46,14 @@ Para tener el botón GitPod instala la correspondiente extensión en Chrome o Fi
 
 En el menú de arriba a la izquierda elige la opción "Open in VS Code":
 
-![](/images/gitpod/gitpod-open-in-vscode.png)
+![](/assets/images/gitpod/gitpod-open-in-vscode.png)
 
 Tienes que instalar la extensión [GitPod]() the VSCode y darle los permisos.
 A partir de ese momento puedes editar con tu VSCode local en el contenedor de GitPod.
 
 See it running in my local machine, after the VSCode has been opened:
 
-![](/images/gitpod/gitpod-opened-in-vscode.png)
+![](/assets/images/gitpod/gitpod-opened-in-vscode.png)
 
 Observe the output in the terminal. We are running on the GitPod docker container
 
@@ -99,10 +99,10 @@ Lo que pasa (Abril 2021) es que GitPod está siendo ofertado como parte del [Gi
 
 
 
-![](/images/gitpod/8-horas-100-euros.png)
+![](/assets/images/gitpod/8-horas-100-euros.png)
 
 
-![teacher-coupon](/images/gitpod/teacher-coupon.png)
+![teacher-coupon](/assets/images/gitpod/teacher-coupon.png)
 
 **Está limitada a 100 horas de uso por mes**:
 
@@ -113,24 +113,24 @@ Lo que pasa (Abril 2021) es que GitPod está siendo ofertado como parte del [Gi
 
 En el ejemplo se ve los apuntes de PL (un repo público usando Jekyll) siendo editado con VSCode:
 
-![apuntes-pl-gitpod](/images/gitpod/apuntes-pl-gitpod.png)
+![apuntes-pl-gitpod](/assets/images/gitpod/apuntes-pl-gitpod.png)
 
 todo funciona bien.
 
 Con este plan es posible acceder a repos privados. 
 En el repo en GitHub aparece un nuevo botón verde con etiqueta "GitPod". Obsérvese que el repo es privado:
 
-![boton-gitpod-en-repo-privado](/images/gitpod/boton-gitpod-en-repo-privado.png)    
+![boton-gitpod-en-repo-privado](/assets/images/gitpod/boton-gitpod-en-repo-privado.png)    
 
 Cuando le damos  al botón "GitPod" por primera vez es posible que nos salga un mensaje de error:
 
-![autorizar-gitpod-a-organizacion.png 8-horas-100-euros](/images/gitpod/autorizar-gitpod-a-organizacion.png)
+![autorizar-gitpod-a-organizacion.png 8-horas-100-euros](/assets/images/gitpod/autorizar-gitpod-a-organizacion.png)
 
 Le damos los permisos adecuados:
 
-![gitpos-request-permissions](/images/gitpod/gitpos-request-permissions.png)   
+![gitpos-request-permissions](/assets/images/gitpod/gitpos-request-permissions.png)   
 
-![grant-access](/images/gitpod/grant-access.png)                    
+![grant-access](/assets/images/gitpod/grant-access.png)                    
 
 y ya podemos editar nuestros repos privados.
 
