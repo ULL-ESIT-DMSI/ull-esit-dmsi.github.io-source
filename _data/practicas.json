@@ -4,11 +4,11 @@
         "path": "tema0-presentacion/practicas/pb-gh-campus-expert"
     },
     {
-        "title": "Setting up Our Environment",
-        "path": "tema1-introduccion/practicas/p1-t1-iaas"
-    },
-    {
         "title": "Learning Markdown",
         "path": "tema1-introduccion/practicas/markdown"
+    },
+    {
+        "title": "Setting up Our Environment",
+        "path": "tema1-introduccion/practicas/p1-t1-iaas"
     }
 ]
