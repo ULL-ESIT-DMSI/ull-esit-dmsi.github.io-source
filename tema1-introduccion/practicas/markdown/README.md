@@ -1,7 +1,5 @@
+
 # Aprender Markdown
-
-Lea el tutorial de [GitHub Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) y escriba un informe
-
 
 La siguiente sección establece los objetivos y competencias que debes lograr.
 Las subsiguientes secciones presentan los recursos para lograr estos objetivos.
@@ -56,6 +54,9 @@ Un objetivo de esta tarea es aprender Markdown. Para ello, en el repositorio que
 a otra página
 
 En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de la asignatura *Aprendizaje y Enseñanza de la Tecnología* del master de Formación de Profesorado en el curso 21/22](https://github.com/orgs/ULL-MFP-AET-2122/repositories?q=aprender-markdown&type=all&language=&sort=)
+
+Te puede ayudar el tutorial de [GitHub Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
+
 
 ## Objetivo 2: Aprender a Usar un Editor en la Nube 
 
