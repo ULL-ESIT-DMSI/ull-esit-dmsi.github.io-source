@@ -1,4 +1,7 @@
-
+---
+prev: /tema0-presentacion/practicas/pb-gh-campus-expert/
+permalink: /tema1-introduccion/practicas/markdown/
+---
 # Aprender Markdown
 
 La siguiente sección establece los objetivos y competencias que debes lograr.
