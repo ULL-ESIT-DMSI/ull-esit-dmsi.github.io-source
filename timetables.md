@@ -1,25 +1,10 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**ÍNDICE** 
-
-- [Calendarios, Horarios y Exámenes](#calendarios-horarios-y-exámenes)
-  - [Calendario Académico](#calendario-académico)
-  - [Horarios](#horarios)
-  - [Normativa de Evaluación](#normativa-de-evaluación)
-  - [Exámenes de convocatoria](#exámenes-de-convocatoria)
-  - [Revisión de Calificaciones](#revisión-de-calificaciones)
-  - [Cierre de actas](#cierre-de-actas)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-
-
 # Calendarios, Horarios y Exámenes
 
 ## Calendario Académico
 
-- <a href="https://www.ull.es/estudios-docencia/calendario-academico/" target="_blank">Calendario Académico</a>
-- <a href="https://drive.google.com/file/d/1YtPNm4vS73N21QHzstcYqEzPKJQHCKeD/view" target="_blank">Calendario Académico 2018/2019</a>
+<a href="https://www.ull.es/estudios-docencia/calendario-academico/" target="_blank">
+<img src="{{site.baseurl}}/assets/images/calendario-academico-22-23.png" alt="Calendario Académico" />
+</a>
 
 ## Horarios
 
@@ -28,25 +13,24 @@
 <a href="https://docs.google.com/spreadsheets/d/1ZTGvLA70qCYEsBwcA8dCiUZby3ZOM9oHt8kmiNNKId0/edit#gid=0" target="_blank">Horarios de tutorías del Departamento de Ingeniería Informática</a>
 -->
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Atlantic%2FCanary&src=Y181N2xhY2JtMmZqM2FpaDB2ZWVsYTcwNnMxb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19ibDVmNGo0MW1kY2w2ZzNjdmM2YXVjbjM0Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc184aGNxdGZyNXUyaDNvMXYyc21ubWNxcXU1MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19oM2FiN3AzcmxmYW1qY25zbmhsdDZ1aGI0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19tdjloM3Fqc2VhbnFpZGEyZ2Z0c2JqNTRiNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19uN3BjN3B0OG9tYnEyMmUyYmozaG4xMmVib0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19xMjUzdjZqOGF2ZmFwMjZobjVuZHY1amo4c0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19kczd1OW5xdmZvc3I1djA0M2s4OGIwNnFvb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19maXNrYnI4NXM2aW1sdjVwbGY0NDVhbTM3OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZXRoaWx0Y2ZuNWQ2am1zOHZvaGpraW1hMHNxODNrZTdAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=cTVyOHAwZTIzbmdxb2I3b2NndHYxa2g0OXZubzFuOXVAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4uc3BhaW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233F51B5&color=%233F51B5&color=%233F51B5&color=%23D81B60&color=%23B39DDB&color=%23B39DDB&color=%238E24AA&color=%23C0CA33&color=%23B39DDB&color=%23D50000&color=%23009688&color=%23E67C73" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Atlantic%2FCanary&title=Curso%2022%2F23&src=dWxsLmVkdS5lc19ibDVmNGo0MW1kY2w2ZzNjdmM2YXVjbjM0Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc184aGNxdGZyNXUyaDNvMXYyc21ubWNxcXU1MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19oM2FiN3AzcmxmYW1qY25zbmhsdDZ1aGI0MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19tdjloM3Fqc2VhbnFpZGEyZ2Z0c2JqNTRiNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19uN3BjN3B0OG9tYnEyMmUyYmozaG4xMmVib0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19xMjUzdjZqOGF2ZmFwMjZobjVuZHY1amo4c0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=dWxsLmVkdS5lc19kczd1OW5xdmZvc3I1djA0M2s4OGIwNnFvb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19maXNrYnI4NXM2aW1sdjVwbGY0NDVhbTM3OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4uc3BhaW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233F51B5&color=%233F51B5&color=%23D81B60&color=%23B39DDB&color=%23B39DDB&color=%238E24AA&color=%23C0CA33&color=%23B39DDB&color=%23E67C73" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-
-## Normativa de Evaluación
-
-* [Normativa](https://riull.ull.es/xmlui/bitstream/handle/915/4096/reglamento_evaluacion_calificacion.pdf)
-* [Normativa de Compensación](https://riull.ull.es/xmlui/bitstream/handle/915/8580/acuerdo12.pdf?sequence=1&isAllowed=y)
 
 ## Exámenes de convocatoria
 
-* <a href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">Enlace al Calendario Oficial de exámenes</a>
+<a href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">
+<img src="{{ site.baseurl }}/assets/images/calendario-de-examenes-dmsi.png" alt="Enlace al Calendario Oficial de exámenes" width="200%"/></a>
 
-
-## Revisión de Calificaciones
 
 ## Cierre de actas 
 
-* 14 de Febrero de 2022
+* 30 de Enero de 2022
   
+## Normativa
+
+* [Reglamento de evaluacion y calificacion](https://www.ull.es/portal/normativa/normativa/nuevo-reglamento-de-evaluacion-y-calificacion-de-la-universidad-de-la-laguna/ )
+* [Normativas de la ULL para el estudiantado](https://www.ull.es/portal/normativa/estudiantes/)
+
 <!--
 ## Sobre las Calificaciones de Prácticas 
 
