@@ -1,6 +1,12 @@
 ---
 prev: /tema0-presentacion/practicas/pb-gh-campus-expert/
 permalink: /tema1-introduccion/practicas/markdown/
+rubrica:
+  - "Se incluyen todos los aspectos solicitados en el markdown y se visualizan correctamente"
+  - "He usado un tablero Kanban"
+  - "Convierto las notas en issues"
+  - "He generado el issue de práctica terminada"
+  - "Informe elaborado correcto"
 ---
 # Aprender Markdown
 
@@ -96,6 +102,9 @@ Lee
 
 Para manejar todo el proceso de edición pueden ayudarte estas [notas sobre Edición en la Nube](editores-en-la-nube).
 
+## Rúbrica
+
+{% include rubrica.md -%}
 
 ## Referencias
 
@@ -103,3 +112,7 @@ Para manejar todo el proceso de edición pueden ayudarte estas [notas sobre Edic
 * [Documentación GitHub sobre la Interfaz Web](editores-en-la-nube#documentacion-github-interfaz-web)
 * [How to use VS Code to submit an assignment to Github Classroom (initially empty repository)](https://youtu.be/iqW_yzZkU_8) Vídeo que muestra como deben hacer los estudiantes para aceptar, trabajar y entregar una tarea asignada con GHC usando el editor VS Code
 * [GitHub Glossary](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/github-glossary)
+
+## Prácticas 
+
+{% include practicas.md %}

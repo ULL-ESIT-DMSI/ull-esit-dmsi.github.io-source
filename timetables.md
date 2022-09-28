@@ -9,6 +9,11 @@
 ## Horarios
 
 - <a href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">Horarios de Ingeniería Informática para el curso</a>
+
+- <a href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">
+<img src="assets/images/horario-si-2223.png" alt="Horario de Sistemas Informáticos" />
+</a>
+
 <!-- 
 <a href="https://docs.google.com/spreadsheets/d/1ZTGvLA70qCYEsBwcA8dCiUZby3ZOM9oHt8kmiNNKId0/edit#gid=0" target="_blank">Horarios de tutorías del Departamento de Ingeniería Informática</a>
 -->

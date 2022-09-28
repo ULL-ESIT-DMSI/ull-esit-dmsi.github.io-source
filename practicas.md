@@ -1,3 +1,3 @@
-## Prácticas a Realizar
+## Prácticas
 
 {% include practicas.md %}
