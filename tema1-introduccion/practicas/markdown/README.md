@@ -14,7 +14,7 @@ La siguiente sección establece los objetivos y competencias que debes lograr.
 Las subsiguientes secciones presentan los recursos para lograr estos objetivos.
 
 
-## Objetivo 1: Aprender Markdown
+## Aprender Markdown
 
 Un objetivo de esta tarea es aprender Markdown. Para ello, en el repositorio que se crea cuando aceptas la asignación  deberás rellenar los contenidos del fichero `README.md` con un pequeño curriculum vitae/carta de presentación usando markdown. 
 
@@ -67,7 +67,7 @@ En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de l
 Te puede ayudar el tutorial de [GitHub Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
 
 
-## Objetivo 2: Aprender a Usar un Editor en la Nube 
+## Aprender a Usar un Editor en la Nube 
 
 Hay múltiples formas de editar en la nube un repositorio GitHub. 
 En estas [notas](editores-en-la-nube) recogemos estas alternativas:
@@ -80,7 +80,7 @@ En estas [notas](editores-en-la-nube) recogemos estas alternativas:
 [githubdev]: https://docs.github.com/en/codespaces/the-githubdev-web-based-editor
 [codespaces]: editores-en-la-nube#codespaces
 
-## Objetivo 3: Aprender a Usar Incidencias
+## Aprender a Usar Incidencias
 
 Cuando termines esta tarea puedes generar una incidencia comunicándoselo al profesor. Así practicas un poco mas de markdown.
 
