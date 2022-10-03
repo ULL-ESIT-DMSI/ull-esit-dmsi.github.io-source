@@ -48,6 +48,10 @@ Para cada práctica/asignación se creará un tablero kanban (GitHub Project Aut
 
 Solicite su [Student Developer Pack](https://education.github.com/pack)
 
+### Copilot
+
+[Introducción a Copilot]({{ site.baseurl}}/tema1-introduccion/copilot)
+
 ## Opcionales
 
 Las siguientes tareas son opcionales pero pueden ser de utilidad para su desarrollo profesional.
