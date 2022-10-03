@@ -50,7 +50,7 @@ Solicite su [Student Developer Pack](https://education.github.com/pack)
 
 ### Copilot
 
-[Introducción a Copilot]({{ site.baseurl}}/tema1-introduccion/copilot)
+[Introducción a Copilot](https://ull-ocw-github-education.github.io/pages/copilot.html)
 
 ## Opcionales
 
