@@ -52,6 +52,10 @@ Solicite su [Student Developer Pack](https://education.github.com/pack)
 
 [Introducción a Copilot en el Aula](https://ull-ocw-github-education.github.io/pages/copilot.html)
 
+## Comunidad Currents DMSI
+
+* [Hágase miembro de la comunidad Currents DMSI](https://currents.google.com/u/1/communities/114199442894867980706) (Asegúrate de estar identificado con tu cuenta de Gmail de la ULL)
+
 ## Opcionales
 
 Las siguientes tareas son opcionales pero pueden ser de utilidad para su desarrollo profesional.
@@ -59,16 +63,13 @@ Las siguientes tareas son opcionales pero pueden ser de utilidad para su desarro
 ### Become a Campus Expert
 
 [Realice el curso *Become a Campus Expert*](https://githubcampus.expert/training) de GitHub. Si está cerrado subscríbase a la lista y siga el curso cuando se abra.
-
+s
 ###  GitHub Internship
 
 [Solicite una GitHub Internship](https://internships.github.com/). Si está cerrada subscríbase para recibir las actualizaciones. No es necesario que acepte si es elegido
 
 Use el repo asignado para documentar (usando las GitHub Pages) que ha realizado el curso, solicitado el *student developer pack* y la *GitHub Internship*. En la tarea, suba el enlace al repo.
 
-## Comunidad Currents DMSI
-
-* [Hágase miembro de la comunidad Currents DMSI](https://currents.google.com/u/1/communities/114199442894867980706) (Asegúrate de estar identificado con tu cuenta de Gmail de la ULL)
 
 ## Rúbrica
 
