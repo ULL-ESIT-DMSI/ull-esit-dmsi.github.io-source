@@ -66,6 +66,15 @@ En este [enlace puedes visitar ejemplos de lo que han hecho algunos alumnos de l
 
 Te puede ayudar el tutorial de [GitHub Markdown](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
 
+### Introduccion al Lenguaje de Marcas MarkDown
+
+Lee 
+
+1. [Escribir en GitHub](https://docs.github.com/es/get-started/writing-on-github)
+1. El tutorial <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown</a> para saber mas sobre esta forma de elaborar documentos
+2. Para mas detalles consulta la guía de usuario
+<a href="https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/getting-started-with-writing-and-formatting-on-github" target="_blank">Getting started with writing and formatting on GitHub</a>
+
 
 ## Aprender a Usar un Editor en la Nube 
 
@@ -79,6 +88,11 @@ En estas [notas](editores-en-la-nube) recogemos estas alternativas:
 
 [githubdev]: https://docs.github.com/en/codespaces/the-githubdev-web-based-editor
 [codespaces]: editores-en-la-nube#codespaces
+
+### Introducción a la Edición en la Nube de Repositorios GitHub
+
+Para manejar todo el proceso de edición pueden ayudarte estas [notas sobre Edición en la Nube](editores-en-la-nube).
+
 
 ## Aprender a Usar Incidencias
 
@@ -98,23 +112,6 @@ Puedes encontrar ejemplos curiosos de *repos profile* en esta referencia:
 * La misma información pero en [la web](https://zzetao.github.io/awesome-github-profile/) asociada
 * [articles about how to write a profile readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme#articles). 
 
-
-## Introducción a GitHub Classroom (como estudiante)
-
-Los profesores de este curso han configurado la tarea asociada usando [GitHub Classroom  (que abreviaremos a veces como GHC)](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). GitHub Classroom es una aplicación web para los docentes que proporciona herramientas para la administración de cursos integradas con GitHub. 
-
-## Introduccion al Lenguaje de Marcas MarkDown
-
-Lee 
-
-1. [Escribir en GitHub](https://docs.github.com/es/get-started/writing-on-github)
-1. El tutorial <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Mastering Markdown</a> para saber mas sobre esta forma de elaborar documentos
-2. Para mas detalles consulta la guía de usuario
-<a href="https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/getting-started-with-writing-and-formatting-on-github" target="_blank">Getting started with writing and formatting on GitHub</a>
-
-## Introducción a la Edición en la Nube de Repositorios GitHub
-
-Para manejar todo el proceso de edición pueden ayudarte estas [notas sobre Edición en la Nube](editores-en-la-nube).
 
 ## Rúbrica
 

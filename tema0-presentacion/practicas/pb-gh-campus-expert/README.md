@@ -23,6 +23,8 @@ Rellene el [cuestionario inicial](https://campusingenieriaytecnologia2223.ull.es
 
 ## Aceptación de la Asignación
 
+Los profesores de este curso han configurado la tarea asociada usando [GitHub Classroom  (que abreviaremos a veces como GHC)](https://docs.github.com/es/education/manage-coursework-with-github-classroom/teach-with-github-classroom). GitHub Classroom es una aplicación web para los docentes que proporciona herramientas para la administración de cursos integradas con GitHub. 
+
 Al aceptar la asignación, si no se ha creado ya su equipo, se le pedirá que cree uno.  
 Es un equipo individual.
 
@@ -31,6 +33,7 @@ Es un equipo individual.
   Sustituya `aluXXX` por su usuario en la ULL. 
   * Use SnakeCase si su nombre es compuesto p.ej. "Ana María González de Pérez" es `ana_maria-gonzalez-de_perez-alu010034789`. 
   * Los equipos son de un sólo miembro.
+
 
 ## Tableros kanban
 
