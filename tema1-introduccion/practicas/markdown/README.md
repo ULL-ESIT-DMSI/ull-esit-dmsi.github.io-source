@@ -84,6 +84,20 @@ En estas [notas](editores-en-la-nube) recogemos estas alternativas:
 
 Cuando termines esta tarea puedes generar una incidencia comunicándoselo al profesor. Así practicas un poco mas de markdown.
 
+## Crea tu repo profile
+
+Siguiendo las instrucciones en la documentación de GitHub [Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) añade un README a tu perfil de GitHub para que otras personas sepan sobre ti.
+
+GitHub muestra el README de tu perfil al inicio de tu página de perfil.
+
+Tú decides qué información incluir en el README de tu perfil. Reutiliza el material creado en la práctica anterior.
+
+Puedes encontrar ejemplos curiosos de *repos profile* en esta referencia:
+
+* [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
+* La misma información pero en [la web](https://zzetao.github.io/awesome-github-profile/) asociada
+* [articles about how to write a profile readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme#articles). 
+
 
 ## Introducción a GitHub Classroom (como estudiante)
 
