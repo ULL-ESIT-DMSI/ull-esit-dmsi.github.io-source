@@ -6,7 +6,7 @@
 
 *Capacidad para participar activamente en la especificación, diseño, implementación y mantenimiento de los sistemas de información y comunicación*
 
-## Contenidos
+### Contenidos
 
 Cada semana iremos trabajando en una práctica hasta terminarla. Los contenidos cubren
 los tópicos en la guía Especificación de requisitos, Análisis y diseño lógico, Modelos emergentes de bases de datos,
@@ -20,16 +20,19 @@ Los estructuraremos en esta secuencia:
 4. Calidad
 5. Trabajo Fin de Asignatura
 
-## [El Grado](../degree.md)
+En las prácticas se desarrollan librerías y aplicaciones usando diferentes metodologías, técnicas y herramientas como control de versiones, gestión de incidencias, pruebas unitarias, desarrollo dirigido por pruebas, integración contínua, bases de datos, herramientas y servicios de despliegue, etc.
 
-## [Recursos](../resources.md)
-
-## [Calendarios, Horarios y Fechas de Exámenes](../timetables.md)
 
 ## Normativa
 
 * [Reglamento de evaluacion y calificacion](https://www.ull.es/portal/normativa/normativa/nuevo-reglamento-de-evaluacion-y-calificacion-de-la-universidad-de-la-laguna/ )
 * [Normativas de la ULL para el estudiantado](https://www.ull.es/portal/normativa/estudiantes/)
+
+## [El Grado](../degree.md)
+
+## [Recursos](../resources.md)
+
+## [Calendarios, Horarios y Fechas de Exámenes](../timetables.md)
 
 ## [Referencias](../references.md)
 
