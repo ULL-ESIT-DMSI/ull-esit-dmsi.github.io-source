@@ -1,3 +1,8 @@
+---
+toc: true
+permalink: /timetables
+--- 
+
 # Calendarios, Horarios y Exámenes
 
 ## Calendario Académico
