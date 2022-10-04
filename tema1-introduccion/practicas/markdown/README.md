@@ -7,6 +7,7 @@ rubrica:
   - "Convierto las notas en issues"
   - "He generado el issue de práctica terminada"
   - "Informe elaborado correcto"
+  - "Ha entregado el .zip en el campus con el repo"
 ---
 # Aprender Markdown
 

@@ -6,6 +6,7 @@ rubrica:
   - "Tutorial README.md bien presentado"
   - "El prompt de la shell en su máquina muestra la rama actual"
   - "Ha instalado <code>nvm</code> en su máquina"
+  - "Ha entregado el .zip en el campus con el repo"
 ---
 # Configurando Entornos de Desarrollo
 
