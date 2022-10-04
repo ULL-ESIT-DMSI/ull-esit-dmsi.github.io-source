@@ -3,7 +3,7 @@ prev: /tema0-presentacion/practicas/pb-gh-campus-expert/
 permalink: /tema1-introduccion/practicas/markdown/
 rubrica:
   - "Se incluyen todos los aspectos solicitados en el markdown y se visualizan correctamente"
-  - "He usado un tablero Kanban"
+  - "Kanban Board project conteniendo las incidencias en su estado"
   - "Convierto las notas en issues"
   - "He generado el issue de práctica terminada"
   - "Informe elaborado correcto"

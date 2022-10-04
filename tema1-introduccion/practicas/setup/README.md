@@ -5,6 +5,7 @@ rubrica:
   - "<code>git</code> configurado en VSCode para trabajar con GitHub"
   - "Tutorial README.md bien presentado"
   - "El prompt de la shell en su máquina muestra la rama actual"
+  - "Kanban Board project conteniendo las incidencias en su estado"
   - "Ha instalado <code>nvm</code> en su máquina"
   - "Ha entregado el .zip en el campus con el repo"
 ---
