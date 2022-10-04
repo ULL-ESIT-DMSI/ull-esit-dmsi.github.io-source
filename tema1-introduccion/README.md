@@ -6,7 +6,7 @@
   
 ### Prácticas
 
-- <a href="practicas/p0-t1-intro2sd/" target="_blank">Descripción de la Práctica p0-t1-intro2sd</a>
+- <a href="practicas/intro2sd/" target="_blank">Descripción de la Práctica intro2sd</a>
 
 
 ## Capítulo. Uso del iaas.ull.es. Entornos de Trabajo
@@ -108,7 +108,7 @@
 
 ## Capítulo: Jekyll
 
-* [Jekyll]({{site.baseurl}}/assets/temas/introduccion-a-javascript/jekyll.md)
+* [Jekyll]({{site.baseurl}}/assets/temas/introduccion-a-javascript/jekyll)
 
 ## Capítulo: Sockets
 ### Sockets TCP y UDP

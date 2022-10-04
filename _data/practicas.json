@@ -10,5 +10,9 @@
     {
         "title": "Setting up Our Environment",
         "path": "tema1-introduccion/practicas/setup"
+    },
+    {
+        "title": "Introduction to Systems Development",
+        "path": "tema1-introduccion/practicas/intro2sd"
     }
 ]
