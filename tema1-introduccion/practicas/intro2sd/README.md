@@ -13,7 +13,7 @@ Lea el capítulo 1 del libro
 
 > Ahmed, Tahir, Cadle, James, Cox, Julian, Girvan, Lynda, Paul, Alan, Paul, Debra, Thompson, Pete, and BCS, The Chartered Institute for IT. **Developing Information Systems: Practical Guidance for IT Professionals**. Swindon U.K: BCS Learning & Development Limited, 2014. Web.
 
-haga un resumen de los conceptos más importantes del capítulo y publíquelo como un post usando [Jekyll]({{site.baseurl}}/assets/temas/introduccion-a-javascript/jekyll) y [GitHub Pages](https://pages.github.com/) para desplegar el sitio web con el informe.
+Haga un resumen de los conceptos más importantes del capítulo y publíquelo como un post usando [Jekyll]({{site.baseurl}}/assets/temas/introduccion-a-javascript/jekyll) y [GitHub Pages](https://pages.github.com/) para desplegar el sitio web con el informe.
 
 El template usa el tema [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
 
