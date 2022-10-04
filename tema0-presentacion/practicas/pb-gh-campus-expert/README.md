@@ -5,12 +5,12 @@ rubrica:
   - "Rellenado cuestionario GitHub-Alu"
   - "El nombre del equipo es correcto"
   - "Solicitado Backpack"
-  - "Kanban Board project creado"
+  - "Kanban Board project conteniendo las incidencias en su estado"
   - "Convierto las notas del project en issues"
   - "Informe realizado  mostrando que domina markdown de forma eficiente: Usa imágenes, enlaces, listas, etc."
   - "Ha entregado el .zip en el campus con el repo"
 ---
-# Práctica : GitHub Campus Expert 
+# {{ page.title }}
 
 Esta práctica tiene por objetivo mejorar las competencias transversales. 
 La realización de lo que se pide respecto a los cursos es opcional pero **la aceptación y el informe son obligatorios**. 

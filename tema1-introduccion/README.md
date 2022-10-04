@@ -2,7 +2,7 @@
 
 ## Capítulo. Introducción a los Sistemas de Desarrollo
 
-* [Capítulo 1: Introduction to Systems Development](https://ebookcentral-proquest-com.accedys2.bbtk.ull.es/lib/bull-ebooks/detail.action?docID=1713962#) del libro *Developing Information Systems" edited by James Cadle
+* [Capítulo 1: Introduction to Systems Development](https://ebookcentral-proquest-com.accedys2.bbtk.ull.es/lib/bull-ebooks/detail.action?docID=1713962#) del libro *Developing Information Systems* edited by James Cadle
   
 ### Prácticas
 
@@ -20,7 +20,7 @@
 
 ### Prácticas
 
-- <a href="practicas/p1-t1-iaas/" target="_blank">Descripción de la Práctica p1-t1-iaas</a>
+- <a href="practicas/setup/" target="_blank">Descripción de la Práctica iaas</a>
     - [Express Web Framework (Node.js/JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs) (Mozilla)
 
 ## Capítulo. Editores. Entornos de Trabajo
@@ -29,9 +29,6 @@
 
 * [Notas sobre GitPod](gitpod)
 
-### Atom
-
-- [Vídeo del profesor explicando el GitHub Package](https://youtu.be/kFtGxyyLRTc)
 
 ### Visual Studio Code
 
@@ -58,6 +55,10 @@
 ### Prácticas
 
 - <a href="practicas/p2-t1-vscode/" target="_blank">Descripción de la Práctica p2-t1-vscode</a>
+
+### Atom
+
+- [Vídeo del profesor explicando el GitHub Package](https://youtu.be/kFtGxyyLRTc)
 
 
 ## Capítulo. Node.JS
