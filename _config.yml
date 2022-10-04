@@ -22,8 +22,8 @@ future: true
 temas: 
   - path: tema0-presentacion
     title: "Tema 0: Presentación"       
-  #- path: tema1-introduccion
-  #  title: "Tema 1: Introducción"      
+  - path: tema1-introduccion
+    title: "Tema 1: Introducción"      
   #- path: tema2-design
   #  title: "Tema 2: Análisis y diseño lógico"
   #- path: tema3-modelos-emergentes

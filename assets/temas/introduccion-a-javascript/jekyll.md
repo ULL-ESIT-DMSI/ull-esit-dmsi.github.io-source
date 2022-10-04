@@ -12,7 +12,7 @@ Recuerda que GitHub provee un servicio de Hosting de páginas estáticas ([GitHu
 
 * [Jekyll docs](https://jekyllrb.com/docs/)
 * [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/)
-
+* [Accessing Content from Other Pages in Jekyll](https://edcupaioli.com/blog/accessing-content-from-other-pages-in-jekyll/)
 
 ## Jekyll Documentation and Tutorials 
 

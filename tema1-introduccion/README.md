@@ -105,6 +105,10 @@
 * [Descripción de la práctica p2-t1-filesystem](practicas/p2-t1-c3-file-system/)
 * [Descripción de la práctica p3-t1-http](practicas/p3-t1-c3-http/)
 
+## Capítulo: Jekyll
+
+* [Jekyll]({{site.baseurl}}/assets/temas/introduccion-a-javascript/jekyll.md)
+
 ## Capítulo: Sockets
 ### Sockets TCP y UDP
 
