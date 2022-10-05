@@ -17,9 +17,9 @@ For example, in the page head for the `canonical` header and the `RSS link`. It'
 
 ## `site.baseurl`
 
-`site.baseurl` indicates the root folder of your Jekyll site. By default it is set to `""` (empty string). That means that your Jekyll site is at the root of `http://example.com`.
+`site.baseurl` indicates the root folder of your Jekyll site. By default it is set to `""` (empty string). That means that your Jekyll site is at the root of `https://example.com`.
 
-If your Jekyll site lives in `http://example.com/blog`, you have to set `site.baseurl` to `/blog` (*note the slash!*). This will allow assets (css, js) to load correctly.
+If your Jekyll site lives in `https://example.com/blog`, you have to set `site.baseurl` to `/blog` (*note the slash!*). This will allow assets (css, js) to load correctly.
 
 See how assets must be loaded in your `head` section:
 
@@ -44,13 +44,13 @@ origin	git@github.com:ULL-ESIT-PL-1819/introduccion.git
 
 and is served at GitHub at the url: `https://ull-esit-pl-1819.github.io/introduccion/`.
 
-You can setup the `baseurl` to `/introduccion` and test your site locally with `jekyll serve`, your site will be served at `http://127.0.0.1:4000/introduccion/`
+You can setup the `baseurl` to `/introduccion` and test your site locally with `jekyll serve`, your site will be served at `https://127.0.0.1:4000/introduccion/`
 
 ## Use multiple configuration files
 
 If, for one reason or another, you cannot use `jekyll serve`, you can set a configuration file for both environment and `jekyll build` depending on where you are deploying.
 
-Let's say we have the local site served at `http://localhost` and the production site served at `https://username.github.io/myProject`.
+Let's say we have the local site served at `https://localhost` and the production site served at `https://username.github.io/myProject`.
 
 We leave the `_config.yml` with 
 

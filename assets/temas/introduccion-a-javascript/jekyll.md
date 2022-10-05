@@ -195,7 +195,7 @@ Bundle updated!
 
 ## Blog: A Collection of Music Albums
 
-* [How to maintain a collection of music albums online, using Jekyll and Github Pages](https://dev.to/adrienjoly/how-to-maintain-a-collection-of-music-albums-online-using-jekyll-and-github-pages-3hd6). See it at [http://adrienjoly.com/album-shelf/](http://adrienjoly.com/album-shelf/)
+* [How to maintain a collection of music albums online, using Jekyll and Github Pages](https://dev.to/adrienjoly/how-to-maintain-a-collection-of-music-albums-online-using-jekyll-and-github-pages-3hd6). See it at [https:///adrienjoly.com/album-shelf/](https://adrienjoly.com/album-shelf/)
 
 ## React and Jekyll
 
@@ -234,9 +234,9 @@ This variable is only necessary for external systems.
 
 #### `site.baseurl`
 
-This variable indicates the root folder of your Jekyll site. By default it is set to `""` (empty string). That means that your Jekyll site is at the root of `http://example.com`.
+This variable indicates the root folder of your Jekyll site. By default it is set to `""` (empty string). That means that your Jekyll site is at the root of `https://example.com`.
 
-If your Jekyll site lives in `http://example.com/blog`, you have to set `site.baseurl` to `/blog` (**note the slash**). This will allow assets (css, js) to load correctly.
+If your Jekyll site lives in `https://example.com/blog`, you have to set `site.baseurl` to `/blog` (**note the slash**). This will allow assets (css, js) to load correctly.
 
 See how assets are loaded in you head :
 
@@ -258,13 +258,13 @@ Here we have two solutions :
 
 Let's imagine that your site lives in a github repository and is served at `https://username.github.io/myProject`.
 
-You can setup the `baseurl` to `/myProject`. and test your site locally with `jekyll serve`, your site will be served at `http://127.0.0.1:4000/myProject/`
+You can setup the `baseurl` to `/myProject`. and test your site locally with `jekyll serve`, your site will be served at `https://127.0.0.1:4000/myProject/`
 
 #### Use multiple configuration files
 
 If, for one reason or another, you cannot use `jekyll serve`, you can set a configuration file for both environment and `jekyll build` depending on where you are deploying.
 
-Let's say we have the local site served at `http://localhost` and the production site served at `https://username.github.io/myProject`.
+Let's say we have the local site served at `https://localhost` and the production site served at `https://username.github.io/myProject`.
 
 We leave the `_config.yml` with `url: https://username.github.io` and `baseurl: /myProject`
 
@@ -317,7 +317,7 @@ is really consistent:
 usuario@ubuntu:~/src/ull-mii-sytws-1920.github.io/_site$ static-server -p 8080
 options.index is now deprecated please use options.templates.index instead.
 * Static server successfully started.
-* Serving files at: http://localhost:8080
+* Serving files at: https://localhost:8080
 * Press Ctrl+C to shutdown.
 <-- [GET] /2019/09/30/leccion.html
 --> 200 OK /2019/09/30/leccion.html 5.63 KiB (15.964ms)
@@ -399,7 +399,7 @@ jobs:
           tokens: |
             {"https://github.com": "${{ secrets.GITHUB_TOKEN }}"}
           url_ignore: |
-            http://www.example.com/
+            https://www.example.com/
             https://en.wikipedia.org/wiki/Main_Page
           url_ignore_re: |
             ^https://twitter.com/
@@ -419,7 +419,7 @@ jobs:
 
 See the tutorial:
 
-* [Adding MathJax to a GitHub Pages Jekyll Blog](http://sgeos.github.io/github/jekyll/2016/08/21/adding_mathjax_to_a_jekyll_github_pages_blog.html)
+* [Adding MathJax to a GitHub Pages Jekyll Blog](https://sgeos.github.io/github/jekyll/2016/08/21/adding_mathjax_to_a_jekyll_github_pages_blog.html)
 
 Summarizing, the simplest way is to add a line like:
 
@@ -445,7 +445,7 @@ $$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}}
 We used to work on more than one post at a time and publish them in future. 
 So you just want to test them while writing the blog, but you don't want publish them to your live blog immediately. There are  different ways to achieve this in jekyll. This article discuss several workflows:
 
-* [Working with upcoming posts in Jekyll](http://www.fizerkhan.com/blog/posts/Working-with-upcoming-posts-in-Jekyll.html)
+* [Working with upcoming posts in Jekyll](https://www.fizerkhan.com/blog/posts/Working-with-upcoming-posts-in-Jekyll.html)
 
 ## Cursos en YouTube de Jekyll and NetlifyCMS por Thomas Bradley
 

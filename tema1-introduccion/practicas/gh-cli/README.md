@@ -47,7 +47,7 @@ https://api.github.com/orgs/ULL-ESIT-DMSI-2121
 
 * Busque en la sección de la GH API [Endpoints available for GitHub Apps](https://docs.github.com/en/rest/overview/endpoints-available-for-github-apps) cual puede serle útil
 * Recuerde hacer uso de `--paginate``
-* Aprenda a usar [jq]({{site.baseurl}}/http://tema1-introduccion/jq.html) para seleccionar los campos del JSON resultante
+* Aprenda a usar [jq]({{site.baseurl}}/https://tema1-introduccion/jq.html) para seleccionar los campos del JSON resultante
 
 
 

@@ -5,7 +5,7 @@ title: CommonJS Modules. Importación y Exportación
 
 * [Introducción a los Módulos en JS](https://lenguajejs.com/automatizadores/introduccion/commonjs-vs-es-modules/) por Manz
 * Talk [NODE.JS module patterns using simple examples](https://darrenderidder.github.io/talks/ModulePatterns). Trasparencias. Muestra ejemplos/patrones de exportación-importación (Reveal Slides)
-* [Authoring CommonJS modules](http://know.cujojs.com/tutorials/modules/authoring-cjs-modules)  (CommonJS modules were conceived during the early days of server-side JavaScript environments such as node.js and Narwhal. As a result, CommonJS modules are optimized for these environments, not browser environments)
+* [Authoring CommonJS modules](https://know.cujojs.com/tutorials/modules/authoring-cjs-modules)  (CommonJS modules were conceived during the early days of server-side JavaScript environments such as node.js and Narwhal. As a result, CommonJS modules are optimized for these environments, not browser environments)
 
 # El comando npm
 
@@ -270,9 +270,9 @@ release-it --dry-run
 # Creación de Paquetes en el Navegador/Cliente
 
 
-* [webpack](http://webpack.github.io/docs/motivation.html)
+* [webpack](https://webpack.github.io/docs/motivation.html)
   - [Webpack Tutorial - Replace Gulp/Grunt plugins with a single tool. LearnCode.academy](https://youtu.be/9kJVYpOqcVU) YouTube
 * [bower](https://bower.io/)
-* [browserify](http://browserify.org/)
+* [browserify](https://browserify.org/)
 
 # [Documentation](documentation)

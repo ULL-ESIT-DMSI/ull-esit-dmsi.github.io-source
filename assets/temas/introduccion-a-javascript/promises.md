@@ -78,11 +78,11 @@
 ## Referencias
 
 * [Book Understanding ECMAScript 6: Promises and Asynchronous Programming](https://leanpub.com/understandinges6/read#leanpub-auto-promises-and-asynchronous-programming)
-* [Book Exploring ES6: 25. Promises for asynchronous programming](http://exploringjs.com/es6/ch_promises.html)
+* [Book Exploring ES6: 25. Promises for asynchronous programming](https://exploringjs.com/es6/ch_promises.html)
 * [Curso JavaScript Promises en Udacity](https://classroom.udacity.com/courses/ud898)
 * [Book *The Modern Javascript Tutorial*. Chapter Promises, async/await](https://javascript.info/async)
 * [Promises Workshop for JavaScript! Learn to wield promises like a master to write clean asynchronous code](https://github.com/stevekane/promise-it-wont-hurt) GitHub Repo. A Workshopper module that teaches you to use promises in javascript
-* [Node.js 8: util.promisify()](http://2ality.com/2017/05/util-promisify.html) by Dr. Axel Rauschmayer 
+* [Node.js 8: util.promisify()](https://2ality.com/2017/05/util-promisify.html) by Dr. Axel Rauschmayer 
 * [Asynchronous Iterators in JavaScript](https://www.codementor.io/tiagolopesferreira/asynchronous-iterators-in-javascript-jl1yg8la1) by Tiago Lopes
 * [EdX: Asynchronous Programming with Javascript](https://courses.edx.org/courses/course-v1:Microsoft+DEV234x+1T2018a/course/) EdX Course
     * [GitHub repoULL-MII-CA-1819/async-js](https://github.com/ULL-MII-CA-1819/async-js)

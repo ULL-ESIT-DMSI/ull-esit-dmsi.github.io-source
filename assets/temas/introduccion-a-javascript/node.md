@@ -38,7 +38,7 @@ layout: single
 
 ### Eloquent JS Book Chapter 20
 
-- [Eloquent JS Book Chapter 20](http://eloquentjavascript.net/20_node.html): [Node.js](http://eloquentjavascript.net/20_node.html)
+- [Eloquent JS Book Chapter 20](https://eloquentjavascript.net/20_node.html): [Node.js](https://eloquentjavascript.net/20_node.html)
 
 ### Anatomy of an HTTP Transaction
 

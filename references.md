@@ -13,7 +13,7 @@
 ## JS
 
 * [Eloquent JS 3rd Edition](https://eloquentjavascript.net/)
-* [Eloquent JS 2nd Edition](http://eloquentjavascript.net/2nd_edition/)
+* [Eloquent JS 2nd Edition](https://eloquentjavascript.net/2nd_edition/)
 * [Advanced JavaScript. Zachary Shute. 2019](https://puntoq-ull-es.accedys2.bbtk.ull.es/primo-explore/fulldisplay?docid=ullsfx4100000007593934&context=L&vid=ull&lang=es_ES&search_scope=ull_sfxebooks&adaptor=Local%20Search%20Engine&tab=default_tab&query=any,contains,javascript&sortby=date&offset=0) PuntoQ ULL
 
 ## Node.js
@@ -55,7 +55,7 @@ By: Parth Ghiya</a>. Acceda por medio del <a href="https://www.ull.es/servicios/
 
 ## Web Workers
 
-* <a href="http://proquest.safaribooksonline.com/book/programming/javascript/9781449322120/firstchapter" target="_blank">Book Web Workers: Safari O'Reilly. Usa Acceso ULL</a>
+* <a href="https://proquest.safaribooksonline.com/book/programming/javascript/9781449322120/firstchapter" target="_blank">Book Web Workers: Safari O'Reilly. Usa Acceso ULL</a>
 
 # GraphQL
 
@@ -85,20 +85,20 @@ By: Parth Ghiya</a>. Acceda por medio del <a href="https://www.ull.es/servicios/
 
 * <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance" target="_blank">Book You Don't Know JS: Async & Performance</a>
 
-* <a href="http://thirstyhead.com/mean-architecture-2.0/" target="_blank">Slides "MEAN Architecture 2.0" by Scott Davis</a>
+* <a href="https://thirstyhead.com/mean-architecture-2.0/" target="_blank">Slides "MEAN Architecture 2.0" by Scott Davis</a>
 
 * <a href="https://github.com/mbeaudru/modern-js-cheatsheet" target="_blank">Modern JavaScript Cheatsheet</a>
 
 * <a href="https://leanpub.com/understandinges6" target="_blank">Book: Understanding ECMAScript 6</a>
-* <a href="http://exploringjs.com/es6/" target="_blank">Book Exploring ES6 </a>
+* <a href="https://exploringjs.com/es6/" target="_blank">Book Exploring ES6 </a>
 
 ## Cursos  y Apuntes Relacionados
 
 * <a href="https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/" target="_blank">Apuntes del curso 16/17 en Gitbooks</a>
 * <a href="https://crguezl.github.io/ull-esit-1617/" target="_blank">Apuntes del curso 16/17 en GitHub (gh-pages)</a>
 * <a href="https://casianorodriguezleon.gitbooks.io/pl1516/content/" target="_blank">Apuntes del curso 15/16 en Gitbooks</a>
-* <a href="http://crguezl.github.io/pl-html/" target="_blank"> Apuntes de PL del Grado en github pages URL</a>
-* <a href="http://crguezl.github.io/apuntes-ruby/" target="_blank"> Apuntes de Ruby en GitHub</a>
+* <a href="https://crguezl.github.io/pl-html/" target="_blank"> Apuntes de PL del Grado en github pages URL</a>
+* <a href="https://crguezl.github.io/apuntes-ruby/" target="_blank"> Apuntes de Ruby en GitHub</a>
 * <a href="https://campusvirtual.ull.es/1516/course/view.php?id=144" target="_blank">DSI 15/16</a>
 * <a href="https://campusvirtual.ull.es/1617/course/view.php?id=1175" target="_blank">SYTW 16/17</a>
 * <a href="https://campusvirtual.ull.es/1617/mod/url/view.php?id=156598" target="_blank">PL curso 14/15</a>

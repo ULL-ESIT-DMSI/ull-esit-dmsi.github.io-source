@@ -256,7 +256,7 @@ Each property will be run as a function, and the results will be passed to the f
 
 This can be a more readable way of handling results from `async.series`.
 
-**Note** that while many implementations preserve the order of object properties, the [ECMAScript Language Specification](http://www.ecma-international.org/ecma-262/5.1/#sec-8.6) explicitly states that
+**Note** that while many implementations preserve the order of object properties, the [ECMAScript Language Specification](https://www.ecma-international.org/ecma-262/5.1/#sec-8.6) explicitly states that
 
 > The mechanics and order of enumerating the properties is not specified.
 
@@ -290,7 +290,7 @@ Completed in 618ms
 
 ## queue
 
-See [Async.js: queue](http://caolan.github.io/async/v3/docs.html#queue)
+See [Async.js: queue](https://caolan.github.io/async/v3/docs.html#queue)
 
 Creates a `queue` object with the specified `concurrency`. Tasks added to the `queue` are processed in parallel (up to the `concurrency` limit). If all `worker`s are in progress, the task is queued until one becomes available. Once a `worker` completes a `task`, that `task`'s callback is called.
 

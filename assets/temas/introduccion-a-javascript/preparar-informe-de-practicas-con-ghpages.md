@@ -240,9 +240,9 @@ Observe que el server arrancado es un servidor de ficheros estático que nada ti
 [~/.../_site(master)]$ http-server
 Starting up http-server, serving ./
 Available on:
-  http://127.0.0.1:8083
-  http://10.150.22.51:8083
-  http://10.213.3.51:8083
+  https://127.0.0.1:8083
+  https://10.150.22.51:8083
+  https://10.213.3.51:8083
 Hit CTRL-C to stop the server
 ```
 

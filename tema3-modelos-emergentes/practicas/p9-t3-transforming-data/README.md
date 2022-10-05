@@ -18,7 +18,7 @@ LCC portion of an RDF file looks like this:
 ```xml
 <dcterms:subject>
   <rdf:Description rdf:nodeID="Nfb797557d91f44c9b0cb80a0d207eaa5">
-    <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+    <dcam:memberOf rdf:resource="https://purl.org/dc/terms/LCC"/>
     <rdf:value>U</rdf:value>
   </rdf:Description>
 </dcterms:subject>
@@ -45,18 +45,18 @@ Art of War:
 
 ```xml
 <dcterms:hasFormat>
-  <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/132.txt.utf-8">
+  <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/132.txt.utf-8">
     <dcterms:isFormatOf rdf:resource="ebooks/132"/>
-    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">
+    <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#dateTime">
     2016-09-01T01:20:00.437616</dcterms:modified>
     <dcterms:format>
       <rdf:Description rdf:nodeID="N2293d0caa918475e922a48041b06a3bd">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+        <dcam:memberOf rdf:resource="https://purl.org/dc/terms/IMT"/>
         <rdf:value
-        rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+        rdf:datatype="https://purl.org/dc/terms/IMT">text/plain</rdf:value>
       </rdf:Description>
     </dcterms:format>
-    <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">
+    <dcterms:extent rdf:datatype="https://www.w3.org/2001/XMLSchema#integer">
     343691</dcterms:extent>
   </pgterms:file>
 </dcterms:hasFormat>
@@ -64,14 +64,14 @@ Art of War:
         ...
 
 <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/132.kindle.noimages">
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/132.kindle.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/132"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-01T01:24:38.440052</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">598678</dcterms:extent>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#dateTime">2015-08-01T01:24:38.440052</dcterms:modified>
+        <dcterms:extent rdf:datatype="https://www.w3.org/2001/XMLSchema#integer">598678</dcterms:extent>
         <dcterms:format>
           <rdf:Description rdf:nodeID="N90d807c6b2a042078ac4e05e8e265dd7">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="https://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="https://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
@@ -83,7 +83,7 @@ JSON object we create from an RDF file.
 
 To get an idea of what data
 you might want, take a look at the [Project Gutenberg page for The
-Art of War](http://www.gutenberg.org/ebooks/132).
+Art of War](https://www.gutenberg.org/ebooks/132).
 
 Consider these questions:
 

@@ -16,9 +16,9 @@ y
 
 #### References
 
-* [http://nodejs.org/api/http.html](http://nodejs.org/api/http.html)
-* [http://expressjs.com/](http://expressjs.com/)
-* [http://www.sinatrarb.com/](http://www.sinatrarb.com/)
+* [https://nodejs.org/api/http.html](https://nodejs.org/api/http.html)
+* [https://expressjs.com/](https://expressjs.com/)
+* [https://www.sinatrarb.com/](https://www.sinatrarb.com/)
 * [https://www.npmjs.com/package/nconf](https://www.npmjs.com/package/nconf)
 * [https://www.elastic.co/guide/en/elasticsearch/reference/5.2/search-request-body.html ](https://www.elastic.co/guide/en/elasticsearch/reference/5.2/search-request-body.html )
 * [https://www.elastic.co/guide/en/elasticsearch/reference/5.2/search-suggesters.html](https://www.elastic.co/guide/en/elasticsearch/reference/5.2/search-suggesters.html)

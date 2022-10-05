@@ -23,7 +23,7 @@ utility comes bundled with node.js and is installed automatically. For
 API documentation, visit <https://docs.npmjs.com/> or just type `npm` in
 your terminal.
 
-For you ruby devs, npm is akin to [rubygems](http://rubygems.org/).
+For you ruby devs, npm is akin to [rubygems](https://rubygems.org/).
 
 ## Don't have node.js installed?
 
@@ -31,7 +31,7 @@ You'll of course need to install node.js and npm in order to follow
 along. Try one of the following install options or just read along.
 
 -   Homebrew users can simply run `brew install node`
--   Download a binary from <http://nodejs.org/>
+-   Download a binary from <https://nodejs.org/>
 -   Use [Node Version Manager (NVM)](https://github.com/creationix/nvm)
     -- *recommended*
 
@@ -190,13 +190,13 @@ This will append lines like these in your `~/.npmrc` configuration file:
 
 A Node/npm module is just an ordinary JavaScript file with the addition
 that it must follow the 
-[CommonJS module spec](http://www.commonjs.org/specs/modules/1.0/). 
+[CommonJS module spec](https://www.commonjs.org/specs/modules/1.0/). 
 
 Node modules run in their own scope
 so that they do not conflict with other modules. 
 
 Node relatedly provides
-access to some [globals](http://nodejs.org/api/globals.html) to help
+access to some [globals](https://nodejs.org/api/globals.html) to help
 facilitate module interoperability. 
 
 The primary two items that we are
@@ -218,7 +218,7 @@ For example:
 For our demo, we'll create an npm module consisting of a couple utility
 methods for escaping and unescaping HTML entities -- commonly needed
 utils to prevent cross site scripting
-([XSS](http://en.wikipedia.org/wiki/Cross-site_scripting)) 
+([XSS](https://en.wikipedia.org/wiki/Cross-site_scripting)) 
 attacks when
 rendering user generated content. 
 
@@ -270,7 +270,7 @@ along.
         "unescape",
         "html"
       ],
-      "author": "Brent Ertz <brent.ertz@gmail.com> (http://brentertz.com/)",
+      "author": "Brent Ertz <brent.ertz@gmail.com> (https://brentertz.com/)",
       "license": "BSD-2-Clause",
       "bugs": {
         "url": "https://github.com/brentertz/scapegoat/issues"
@@ -334,7 +334,7 @@ module.exports = {
 Next, we'll surely want to write some tests. *Perhaps it would have been
 preferable to write them first.* Here we are going to use the
 [Mocha](https://mochajs.org/) and
-[Chai](http://chaijs.com/) frameworks. There are others you can use, like [Jest]({{site.baseurl}}/assets/temas/introduccion-a-javascript/jest).
+[Chai](https://chaijs.com/) frameworks. There are others you can use, like [Jest]({{site.baseurl}}/assets/temas/introduccion-a-javascript/jest).
 Mocha and Chai can be installed and persisted to the `package.json` file
 with the following commands. *Note that they are added to the
 'devDependencies' section, as they are only required during development
@@ -356,7 +356,7 @@ root, with the following contents:
 
     node_modules
 
-To build a `.gitignore` see also [http://gitignore.io/](http://gitignore.io/).
+To build a `.gitignore` see also [https://gitignore.io/](https://gitignore.io/).
 
 The `npm install` command also created `package-lock.json` containing a detailed description of all the dependences. We add this file to the control version:
 
@@ -651,7 +651,7 @@ Github and npm.
 As you may have noticed in the readme above, I referenced the version
 0.1.0 in the release history. We'll need to update that in our
 `package.json`. If you are not familiar with [semantic versioning aka
-SemVer](http://semver.org/), please add it to your reading list.
+SemVer](https://semver.org/), please add it to your reading list.
 
     "version": "0.1.0",
 
@@ -661,7 +661,7 @@ Further, it is generally a good idea to specify a license with your
 project. I'll choose an MIT license, add a LICENSE-MIT file to the
 project root, and update the `package.json` respectively. Note that you
 can obtain the actual content for your chosen license type at
-<http://opensource.org/licenses/alphabetical>. The updated section of
+<https://opensource.org/licenses/alphabetical>. The updated section of
 the package.json now looks like the following.
 
     "licenses": [
@@ -1047,7 +1047,7 @@ Here is a fragment of  a `package.json` using `publishConfig`:
   ```js
     "private": true,
     "publishConfig": {
-      "registry":"http://my-internal-registry.local"
+      "registry":"https://my-internal-registry.local"
     } 
   ```
 
@@ -1056,7 +1056,7 @@ Here is a fragment of  a `package.json` using `publishConfig`:
 
 #### At npm
 
-If you publish it on the npm website, go find your module on the <http://npmjs.org> website and share it with your friends.
+If you publish it on the npm website, go find your module on the <https://npmjs.org> website and share it with your friends.
 
 #### At GitHub
 

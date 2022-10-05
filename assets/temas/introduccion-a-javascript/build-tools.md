@@ -64,7 +64,7 @@ function server() {
 
 async function cget() {
   try {
-    const {stdout, stderr} = await pexec("curl -v http://localhost:8000/package.json");
+    const {stdout, stderr} = await pexec("curl -v https://localhost:8000/package.json");
     console.log('stdout:', stdout);
     console.error('stderr:', stderr);
   } catch(e) {
@@ -159,6 +159,6 @@ Aquí tiene un ejemplo (incompleto) en gulp 3.9:
 
   gulp.task("lint", shell.task("jshint *.js **/*.js"));
 
-  gulp.task("get", shell.task("curl -v http://localhost:8000/file.txt"));
-  gulp.task("put", shell.task("curl -v -X PUT -d 'Bye world!' http://localhost:8000/file.txt"));
+  gulp.task("get", shell.task("curl -v https://localhost:8000/file.txt"));
+  gulp.task("put", shell.task("curl -v -X PUT -d 'Bye world!' https://localhost:8000/file.txt"));
   ```

@@ -83,7 +83,7 @@ Su aplicación deberá tener estas rutas:
   - Cuando el request sea con `POST ` es que el formulario ha sido rellenado y enviado. Crearemos la tarea  y actualizaremos la vista 
 * Añadir tareas: `/todo/add`
 * Suprimir la tarea nº `id`:  `/todo/delete/:id:` 
-* Cualquier otra ruta será redirigida a `/todo` ([vea el método `redirect` del objeto `response`](http://expressjs.com/es/api.html#res.redirect))
+* Cualquier otra ruta será redirigida a `/todo` ([vea el método `redirect` del objeto `response`](https://expressjs.com/es/api.html#res.redirect))
 
 ### Requisito adicional:  Implementar Middleware Contador de Nº de Visitas
 
@@ -105,7 +105,7 @@ Puede ayudarle este módulo:
 
 ### Recursos para el Reto 
 
-* [Documentación de Express](http://expressjs.com/en/api.html)
+* [Documentación de Express](https://expressjs.com/en/api.html)
 * [EJS](https://ejs.co/#docs) 
 * [express-session](https://www.npmjs.com/package/express-session) y  
 * [cookie-session](https://www.npmjs.com/package/cookie-session)

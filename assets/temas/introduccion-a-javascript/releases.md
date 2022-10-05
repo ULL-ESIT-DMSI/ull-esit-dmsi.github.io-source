@@ -38,7 +38,7 @@ You can create releases on GitHub Web:
     
     ![Releases draft button](https://help.github.com/assets/images/help/releases/draft_release_button.png)
     
-*   Type a version number for your release. Versions are based on [Git tags](https://git-scm.com/book/en/Git-Basics-Tagging). We recommend naming tags that fit within [semantic versioning](http://semver.org/).
+*   Type a version number for your release. Versions are based on [Git tags](https://git-scm.com/book/en/Git-Basics-Tagging). We recommend naming tags that fit within [semantic versioning](https://semver.org/).
     
     ![Releases tagged version](https://help.github.com/assets/images/help/releases/releases-tag-version.png)
     

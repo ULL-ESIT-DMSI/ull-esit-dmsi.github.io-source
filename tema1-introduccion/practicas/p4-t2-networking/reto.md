@@ -7,7 +7,7 @@ Cuando se arranca el sevidor debe decir algo como esto:
 
 ```
 server$ node chat-server.js 
-Server listening at http://localhost:8000
+Server listening at https://localhost:8000
 ```
 
 Después si se conecta un cliente, debe recibir un mensaje de bienvenida:
@@ -21,7 +21,7 @@ En la consola del server debe reflejarse que un cliente se ha conectado:
 
 ```
 server$ node chat-server.js 
-Server listening at http://localhost:8000
+Server listening at https://localhost:8000
 Guest1 joined this chat.
 ```
 
@@ -53,7 +53,7 @@ así como en la consola del server:
 
 ```
 server$ node chat-server.js 
-Server listening at http://localhost:8000
+Server listening at https://localhost:8000
 Guest1 joined this chat.
 Guest2 joined this chat.
 Guest1> hello all!

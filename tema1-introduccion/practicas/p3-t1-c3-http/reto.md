@@ -8,7 +8,7 @@ The `Accept` header for a request can be used to tell the server what type of do
 Some servers ignore this header, but when a server knows of various ways to encode a resource, 
 it can look at this header and send the one that the client prefers.
 
-The URL [http://eloquentjavascript.net/author](http://eloquentjavascript.net/author) is configured to respond with either 
+The URL [https://////eloquentjavascript.net/authhttps://////////eloquentjavascript.net/author) is configured to respond with either 
 
 - plaintext,
 - HTML, or
@@ -112,9 +112,9 @@ be relative—they may contain `../` to go up a directory. What happens
 when a client sends requests to URLs like the ones shown here?
 
 ```html
-http://myhostname:8000/../.config/config/google-chrome/Default/Web%20Data
-http://myhostname:8000/../.ssh/id_dsa
-http://myhostname:8000/../../../etc/passwd
+https://////myhostname:8000/../.config/config/google-chrome/Default/Web%20Data
+https://////myhostname:8000/../.ssh/id_dsa
+https://////myhostname:8000/../../../etc/passwd
 ```
 
 1. Change `urlToPath` to fix this problem. Take into account the fact

@@ -14,7 +14,7 @@ if(window.Promise){
       console.log('Promise found');
       var promise=new Promise(function(resolve,reject){
             var request = new XMLHttpRequest();
-            request.open('GET', 'http://api.icndb.com/jokes/random');
+            request.open('GET', 'https://api.icndb.com/jokes/random');
             request.onload = function() {
               if (request.status == 200) {
                 resolve(request.response); //we get the data here.So, resolve the Promise

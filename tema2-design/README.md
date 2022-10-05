@@ -24,6 +24,6 @@ Lea el capítulo [Systems Design - 2](https://puntoq.ull.es/permalink/f/15vbjs7/
 * [Apuntes del curso 16/17: Strategy Pattern](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/strategypattern.html)
 * [Apuntes del curso 16/17: Práctica: Evaluar Strategy Pattern](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicaevaluastrategypattern.html)
 * [Apuntes del curso 16/17: Práctica: Creación de Paquetes NPM y Strategy Pattern](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicamodulestrategypattern.html)
-* [JSHint](http://jshint.com/)
+* [JSHint](https://jshint.com/)
 
 

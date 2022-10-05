@@ -4,7 +4,7 @@ layout: single
 
 ## Capítulo. Programación Funcional
 
-- [Eloquent JS](http://eloquentjavascript.net/index.html): [High Order Functions](http://eloquentjavascript.net/05_higher_order.html)
+- [Eloquent JS](https://eloquentjavascript.net/index.html): [High Order Functions](https://eloquentjavascript.net/05_higher_order.html)
 - [Repo ULL-ESIT-MII-CA-1718/ejs-chapter05-higher-order-functions](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter05-higher-order-functions)
 
 ### Ramda

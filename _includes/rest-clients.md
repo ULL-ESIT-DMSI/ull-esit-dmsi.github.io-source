@@ -22,7 +22,7 @@ Rest API can be tested with tools like:
 **Example Using curl**
 
 ```
-~/.../chapter20-node-js-crguezl/the-http-module(master)]$ curl -d "param1=value1&param2=value2" -H "Content-Type: application/x-www-form-urlencoded" -X POST http://10.150.22.51:8000/data
+~/.../chapter20-node-js-crguezl/the-http-module(master)]$ curl -d "param1=value1&param2=value2" -H "Content-Type: application/x-www-form-urlencoded" -X POST https://10.150.22.51:8000/data
 
 <h1>Hello!</h1>
 <p>You asked for 

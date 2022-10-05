@@ -3,7 +3,7 @@
 Ejemplo de uso de Web Workers. 
 
 * Tutorial: [Using Web Workers en Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
-* [Demo en funcionamiento](http://sytw.github.io/simple-web-worker/) en http://sytw.github.io/simple-web-worker/
+* [Demo en funcionamiento](https://sytw.github.io/simple-web-worker/) en https://sytw.github.io/simple-web-worker/
 * En local:
 
   ```
@@ -11,7 +11,7 @@ Ejemplo de uso de Web Workers.
   node static-server.js
   ``` 
 
-  y visite [http://localhost:3000](http://localhost:3000)
+  y visite [https://localhost:3000](https://localhost:3000)
 
 
 

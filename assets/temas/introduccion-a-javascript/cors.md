@@ -17,8 +17,8 @@ CORS is a relaxation of the [same-origin policy](https://en.wikipedia.org/wiki/S
 are actually different origins and thus impacted by same-origin policy.
 
 In a similar way, 
-- <em>http://localhost:</em><strong><em>9000</em></strong> and 
-- <em>http://localhost:</em><strong><em>8080</em></strong> 
+- <em>https://localhost:</em><strong><em>9000</em></strong> and 
+- <em>https://localhost:</em><strong><em>8080</em></strong> 
 
 are also different origins. The **path** or **query** parameters  are ignored when considering the origin.
 
@@ -136,7 +136,7 @@ var cors = require('cors')
 var app = express()
 
 var corsOptions = {
-  origin: 'http://example.com',
+  origin: 'https://example.com',
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
@@ -152,10 +152,10 @@ app.listen(80, function () {
 The `origin`  option used in this example configures the **Access-Control-Allow-Origin** CORS header. 
 Possible values:
 
-*   `Boolean` - set `origin` to `true` to reflect the [request origin](http://tools.ietf.org/html/draft-abarth-origin-09), as defined by `req.header('Origin')`, or set it to `false` to disable CORS.
-*   `String` - set `origin` to a specific origin. For example if you set it to `"http://example.com"` only requests from “http://example.com” will be allowed.
+*   `Boolean` - set `origin` to `true` to reflect the [request origin](https://tools.ietf.org/html/draft-abarth-origin-09), as defined by `req.header('Origin')`, or set it to `false` to disable CORS.
+*   `String` - set `origin` to a specific origin. For example if you set it to `"https://example.com"` only requests from “https://example.com” will be allowed.
 *   `RegExp` - set `origin` to a regular expression pattern which will be used to test the request origin. If it’s a match, the request origin will be reflected. For example the pattern `/example\.com$/` will reflect any request that is coming from an origin ending with “example.com”.
-*   `Array` - set `origin` to an array of valid origins. Each origin can be a `String` or a `RegExp`. For example `["http://example1.com", /\.example2\.com$/]` will accept any request from “http://example1.com” or from a subdomain of “example2.com”.
+*   `Array` - set `origin` to an array of valid origins. Each origin can be a `String` or a `RegExp`. For example `["https://example1.com", /\.example2\.com$/]` will accept any request from “https://example1.com” or from a subdomain of “example2.com”.
 *   `Function` - set `origin` to a function implementing some custom logic. The function takes the request origin as the first parameter and a callback (which expects the signature `err [object], allow [bool]`) as the second.
 
 ## Ejemplo: server en ULL-MII-SYTWS-1920/food-lookup-demo
@@ -169,7 +169,7 @@ Si en `Client-js` cambiamos el `fetch` para solicitar al server en 3001 que es d
 
 ```js
 function search(query, cb) {
-  return fetch(`http://localhost:3001/api/food?q=${query}`, {
+  return fetch(`https://localhost:3001/api/food?q=${query}`, {
     accept: "application/json"
   })
     .then(checkStatus)
@@ -180,7 +180,7 @@ function search(query, cb) {
 
 Obtenemos una respuesta similar a esta:
 
-> Access to fetch at `http://localhost:3001/api/food?q=r` from origin `http://localhost:3000` has been blocked **by CORS policy**:
+> Access to fetch at `https://localhost:3001/api/food?q=r` from origin `https://localhost:3000` has been blocked **by CORS policy**:
 
 > No `Access-Control-Allow-Origin` header is present on the requested resource. 
 
@@ -219,7 +219,7 @@ const COLUMNS = [
 ];
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://localhost:3000',
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
@@ -266,7 +266,7 @@ app.get("/api/food", cors(corsOptions), (req, res) => {
 });
 
 app.listen(app.get("port"), () => {
-  console.log(`Find the server at: http://localhost:${app.get("port")}/`); // eslint-disable-line no-console
+  console.log(`Find the server at: https://localhost:${app.get("port")}/`); // eslint-disable-line no-console
 });
 ```
 

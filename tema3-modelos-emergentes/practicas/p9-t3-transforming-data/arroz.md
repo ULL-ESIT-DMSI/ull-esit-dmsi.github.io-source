@@ -7652,7 +7652,7 @@
 <li class="list__item"><a class="item__text" href="https://www.hiperdino.es/c9495/empleo/">Empleo</a></li>
 <li class="list__item"><a class="item__text" href="https://www.hiperdino.es/c9495/tarjeta-hiperdino/">Tarjeta HiperDino</a></li>
 <li class="list__item"><a class="item__text" href="https://fundaciondinosol.org/" target="_blank">Fundacion DinoSol</a></li>
-<li class="list__item"><a class="item__text" href="http://www.hiperdinoexpress.es/" target="_blank">HiperDino Express</a></li>
+<li class="list__item"><a class="item__text" href="https://www.hiperdinoexpress.es/" target="_blank">HiperDino Express</a></li>
 <li class="list__item"><a class="item__text" href="https://www.dinosol.es/" target="_blank">Grupo DinoSol</a></li>
 <li class="list__item"><a class="item__text" href="https://www.hiperdino.es/c9495/instagram-alisiosygaldar/">Concurso Instagram Alisios y Gáldar</a></li>
 </ul>                            </ul>
@@ -7712,7 +7712,7 @@
 <li class="list__item"><a class="item__text" href="https://www.hiperdino.es/c9495/empleo/">Empleo</a></li>
 <li class="list__item"><a class="item__text" href="https://www.hiperdino.es/c9495/tarjeta-hiperdino/">Tarjeta HiperDino</a></li>
 <li class="list__item"><a class="item__text" href="https://fundaciondinosol.org/" target="_blank">Fundacion DinoSol</a></li>
-<li class="list__item"><a class="item__text" href="http://www.hiperdinoexpress.es/" target="_blank">HiperDino Express</a></li>
+<li class="list__item"><a class="item__text" href="https://www.hiperdinoexpress.es/" target="_blank">HiperDino Express</a></li>
 <li class="list__item"><a class="item__text" href="https://www.dinosol.es/" target="_blank">Grupo DinoSol</a></li>
 <li class="list__item"><a class="item__text" href="https://www.hiperdino.es/c9495/instagram-alisiosygaldar/">Concurso Instagram Alisios y Gáldar</a></li>
 </ul>                    </ul>

@@ -4,13 +4,13 @@
 
   ![]({{ site.baseurl }}/assets/images/iaas-ull-es.png)
 * Puede encontrar un vídeo del profesor introduciendo el [iaas.ull.es aquí](https://youtu.be/qKHgbV0lYbA).
-    - [![iaas.ull.es](http://i3.ytimg.com/vi/qKHgbV0lYbA/hqdefault.jpg)](https://youtu.be/qKHgbV0lYbA)
+    - [![iaas.ull.es](https://i3.ytimg.com/vi/qKHgbV0lYbA/hqdefault.jpg)](https://youtu.be/qKHgbV0lYbA)
     - [Como instalar X11 en las máquinas de iaas.ull.es](https://youtu.be/m2y0gq35Ujc) Vídeo en Youtube
 * Añada en el `README.md` un pequeño tutorial de como usar y desplegar una aplicación web en [iaas.ull.es](iaas.ull.es).
   - Haga capturas de pantalla que muestren que su máquina esta bien configurada y funcionando
 * La IP dinámica de su máquina virtual no debería cambiar si no la apaga. Publique la URL de despliegue en su máquina
 * Prepare la máquina para poder trabajar:
-  - Instale [linuxbrew](http://linuxbrew.sh/)
+  - Instale [linuxbrew](https://linuxbrew.sh/)
   - Instale git si es necesario
   - [Configura git](https://git-scm.com/book/es/v1/Empezando-Configurando-Git-por-primera-vez)
   - Procure que la rama actual aparezca en el prompt de la terminal. 

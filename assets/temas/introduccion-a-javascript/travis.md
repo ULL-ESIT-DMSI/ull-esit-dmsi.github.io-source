@@ -25,7 +25,7 @@
 
 * [Travis CI for Complete Beginners](https://docs.travis-ci.com/user/for-beginners)
 * [Travis CI: Building a Node.js project](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/)
-* [Apuntes de Ruby del profesor: Travis](http://crguezl.github.io/apuntes-ruby/node326.html)
+* [Apuntes de Ruby del profesor: Travis](https://crguezl.github.io/apuntes-ruby/node326.html)
 * [El cliente Travis de línea de comandos](https://github.com/travis-ci/travis.rb)
 
 #### Como hacer un Badge Travis

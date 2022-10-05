@@ -76,7 +76,7 @@
 
 ### Eloquent JS Book Chapter 20
 
-- [Eloquent JS Book Chapter 20](http://eloquentjavascript.net/20_node.html): [Node.js](http://eloquentjavascript.net/20_node.html)
+- [Eloquent JS Book Chapter 20](https://eloquentjavascript.net/20_node.html): [Node.js](https://eloquentjavascript.net/20_node.html)
 
 ### Anatomy of an HTTP Transaction
 
@@ -89,8 +89,8 @@
     - [Book "Node.js 8 the Right Way"](https://books.google.es/books?id=oA9QDwAAQBAJ&lpg=PT96&ots=-mLQPlvsSj&dq=should%20ldjclient%20emit%20a%20close%20event&hl=es&pg=PP1#v=onepage&q=should%20ldjclient%20emit%20a%20close%20event&f=false) 2018 Edition Google Books
     - [Book "Node.js 8 the Right Way"](https://github.com/iMarcoGovea/books/blob/master/nodejs/Node.js%20the%20Right%20Way.pdf) Old Edition in GitHub
 - Node.JS 8 The Right Way. Practical Server-Side That Scales: [Repo with the solutions (all chapters)](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
-- [Read section *The HTTP module* from Eloquent Javascript 2nd edition](http://eloquentjavascript.net/2nd_edition/20_node.html#h_3O5dGIJE9F)
-- [Read section *A File Server* from Eloquent Javascript 2nd edition](http://eloquentjavascript.net/2nd_edition/20_node.html#h_LvXChBt2KP)
+- [Read section *The HTTP module* from Eloquent Javascript 2nd edition](https://eloquentjavascript.net/2nd_edition/20_node.html#h_3O5dGIJE9F)
+- [Read section *A File Server* from Eloquent Javascript 2nd edition](https://eloquentjavascript.net/2nd_edition/20_node.html#h_LvXChBt2KP)
 
 #### JavaScript Event Loop
 
@@ -136,7 +136,7 @@
 
 ## Capítulo. Programación Funcional
 
-- [Eloquent JS](http://eloquentjavascript.net/index.html): [High Order Functions](http://eloquentjavascript.net/05_higher_order.html)
+- [Eloquent JS](https://eloquentjavascript.net/index.html): [High Order Functions](https://eloquentjavascript.net/05_higher_order.html)
 - [Repo ULL-ESIT-MII-CA-1718/ejs-chapter05-higher-order-functions](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter05-higher-order-functions)
 
 ## Capítulo. Progamación Orientada a Objetos. OOP
@@ -147,11 +147,11 @@
 
 * [Repo ULL-ESIT-DSI-1617/oop-eloquentjs-example](https://github.com/ULL-ESIT-DSI-1617/oop-eloquentjs-example) conteniendo el ejemplo "Laying out a table" del *Chapter 6: The Secret Life of Objects*
 * [The Secret Life of Objects example explained](https://github.com/fhdhsni/The-Secret-Life-of-Objects)
-* [jsfiddle ilustrativo](http://jsfiddle.net/casiano/Mw9dW/)
+* [jsfiddle ilustrativo](https://jsfiddle.net/casiano/Mw9dW/)
 
 #### Project Electronic Life
 
-* OOP in JavaScript in ECMA5. [Eloquent JS 2nd Edition](http://eloquentjavascript.net/index.html): [Project: Electronic Life](http://eloquentjavascript.net/2nd_edition/07_elife.html)
+* OOP in JavaScript in ECMA5. [Eloquent JS 2nd Edition](https://eloquentjavascript.net/index.html): [Project: Electronic Life](https://eloquentjavascript.net/2nd_edition/07_elife.html)
     - [Repos Electronic Life in ULL-ESIT-MII-CA-1718](https://github.com/ULL-ESIT-MII-CA-1718?utf8=%E2%9C%93&q=electronic&type=&language=)
     - Emojis
         * [js-emoji](https://github.com/iamcal/js-emoji)
@@ -161,12 +161,12 @@
 ### Herencia
 
 * [Repo con ejemplos de Herencia](https://github.com/SYTW/js-inheritance-examples)
-* [Tutorial Conversor de Temperaturas (gh-pages en GitHub)](http://crguezl.github.io/pl-html/node9.html)
+* [Tutorial Conversor de Temperaturas (gh-pages en GitHub)](https://crguezl.github.io/pl-html/node9.html)
 * [Repo ULL-ESIT-GRADOII-PL/ull-etsii-grado-pl-1213-temperature-converter](https://github.com/ULL-ESIT-GRADOII-PL/ull-etsii-grado-pl-1213-temperature-converter)
 
 ### ECMA6 OOP
 
-* OOP in JavaScript in Ecma6. [Eloquent JS](http://eloquentjavascript.net/index.html): [The Secret Life of Objects](http://eloquentjavascript.net/06_object.html)
+* OOP in JavaScript in Ecma6. [Eloquent JS](https://eloquentjavascript.net/index.html): [The Secret Life of Objects](https://eloquentjavascript.net/06_object.html)
 * [ECMAScript 6 Power Tutorial: Class and Inheritance](https://code.tutsplus.com/tutorials/ecmascript-6-power-tutorial-class-and-inheritance--cms-24117)
 * [Object-Oriented JavaScript — A Deep Dive into ES6 Classes](https://www.sitepoint.com/object-oriented-javascript-deep-dive-es6-classes/)
 
@@ -200,7 +200,7 @@ un macro-repo que consiste en el repo del módulo y en el programa de uso.
 
 ## Capítulo. Módulos en ECMA6
 
-- [Eloquent JS](http://eloquentjavascript.net/index.html): [Modules](http://eloquentjavascript.net/10_modules.html)
+- [Eloquent JS](https://eloquentjavascript.net/index.html): [Modules](https://eloquentjavascript.net/10_modules.html)
 - [Book: Understanding ECMAScript 6. Chapter 13. Encapsulating Code With Modules](https://leanpub.com/understandinges6/read#leanpub-auto-encapsulating-code-with-modules)
   -  [What are Modules?](https://leanpub.com/understandinges6/read#leanpub-auto-what-are-modules)
   -  [Basic Exporting](https://leanpub.com/understandinges6/read#leanpub-auto-basic-exporting)
@@ -212,31 +212,31 @@ un macro-repo que consiste en el repo del módulo y en el programa de uso.
   -  [Loading Modules](https://leanpub.com/understandinges6/read#leanpub-auto-loading-modules)
   -  [Summary](https://leanpub.com/understandinges6/read#leanpub-auto-summary-12)
 - [ES6 Modules in Depth](https://ponyfoo.com/articles/es6-modules-in-depth) by Nicolás Bevacqua Sep 25th, 2015
-- [Exploring ES6 by Dr. Axel Rauschmayer. Capítulo: 16. Modules](http://exploringjs.com/es6/ch_modules.html)
-- [Exploring ES6 by Dr. Axel Rauschmayer. Sección 4.18 From CommonJS modules to ES6 modules](http://exploringjs.com/es6/ch_core-features.html#sec_from-cjs-to-esm)
+- [Exploring ES6 by Dr. Axel Rauschmayer. Capítulo: 16. Modules](https://exploringjs.com/es6/ch_modules.html)
+- [Exploring ES6 by Dr. Axel Rauschmayer. Sección 4.18 From CommonJS modules to ES6 modules](https://exploringjs.com/es6/ch_core-features.html#sec_from-cjs-to-esm)
 - [ECMAScript modules in browsers](https://jakearchibald.com/2017/es-modules-in-browsers/) by Jake Archibald
-- [Using ES6 modules natively in Node.js](http://2ality.com/2017/09/native-esm-node.html)
+- [Using ES6 modules natively in Node.js](https://2ality.com/2017/09/native-esm-node.html)
 - [Ejemplos en ULL-ESIT-MII-CA-1718/ecma6-modules-examples](https://github.com/ULL-ESIT-MII-CA-1718/ecma6-modules-examples)
 - Véase un ejemplo en la implementación del proyecto "Electronic Life" en la rama `modules` del repo [`ULL-ESIT-MII-CA-1718/electronic-life`](https://github.com/ULL-ESIT-MII-CA-1718/electronic-life/tree/modules)
 
 
 ## Capítulo. JavaScript and The Browser
 
-- [Eloquent JS](http://eloquentjavascript.net/index.html): [JavaScript and the Browser](http://eloquentjavascript.net/12_browser.html)
+- [Eloquent JS](https://eloquentjavascript.net/index.html): [JavaScript and the Browser](https://eloquentjavascript.net/12_browser.html)
 
 ## Capítulo. The DOM
 
-- [Eloquent JS. Chapter13: The Document Object Model](http://eloquentjavascript.net/13_dom.html)
+- [Eloquent JS. Chapter13: The Document Object Model](https://eloquentjavascript.net/13_dom.html)
 - [Repository ULL-ESIT-MII-CA-1718/ejs-chapter13-DOM-examples with examples for Chapter13: The Document Object Model](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter13-DOM-examples)
 - [Repo ULL-ESIT-MII-CA-1718/the-document-object-model-KevMCh)](https://github.com/ULL-ESIT-MII-CA-1718/the-document-object-model-KevMCh)
 
 ## Capítulo. Events
 
-- [Eloquent JS](http://eloquentjavascript.net/index.html): [Handling Events](http://eloquentjavascript.net/14_event.html)
+- [Eloquent JS](https://eloquentjavascript.net/index.html): [Handling Events](https://eloquentjavascript.net/14_event.html)
 
 ## Capítulo. Form and Form Fields
 
-- [Eloquent JS](http://eloquentjavascript.net/index.html): [Forms and Form Fields](https://eloquentjavascript.net/18_forms.html)
+- [Eloquent JS](https://eloquentjavascript.net/index.html): [Forms and Form Fields](https://eloquentjavascript.net/18_forms.html)
 - [Eloquent JS:  Forms and Form Fields](https://eloquentjavascript.net/18_forms.html)
 - [Repo de Ejemplo del Capítulo](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter18-forms)
 - [Repo ULL-ESIT-MII-CA-1718/forms-and-form-fields-KevMCh](https://github.com/ULL-ESIT-MII-CA-1718/forms-and-form-fields-KevMCh)

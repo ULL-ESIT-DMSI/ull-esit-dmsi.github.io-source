@@ -2,7 +2,7 @@
 title: JavaScript and The Browser
 ---
 
-- [Eloquent JS](http://eloquentjavascript.net/index.html): [JavaScript and the Browser](http://eloquentjavascript.net/12_browser.html)
+- [Eloquent JS](https://eloquentjavascript.net/index.html): [JavaScript and the Browser](https://eloquentjavascript.net/12_browser.html)
 
 
 ## The DOM
@@ -23,7 +23,7 @@ title: JavaScript and The Browser
 
 ### Eloquent JS: The Document Object Model
 
-- [Eloquent JS. Chapter13: The Document Object Model](http://eloquentjavascript.net/13_dom.html)
+- [Eloquent JS. Chapter13: The Document Object Model](https://eloquentjavascript.net/13_dom.html)
     - [Repository ULL-ESIT-MII-CA-1718/ejs-chapter13-DOM-examples with examples for Chapter13: The Document Object Model](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter13-DOM-examples)
     - [Repo ULL-ESIT-MII-CA-1718/the-document-object-model-KevMCh)](https://github.com/ULL-ESIT-MII-CA-1718/the-document-object-model-KevMCh)
 
@@ -34,12 +34,12 @@ title: JavaScript and The Browser
 ## Capítulo. Events
 
 - [https://javascript.info/events: Events](https://javascript.info/events)
-- [Eloquent JS](http://eloquentjavascript.net/index.html): [Handling Events](http://eloquentjavascript.net/14_event.html)
+- [Eloquent JS](https://eloquentjavascript.net/index.html): [Handling Events](https://eloquentjavascript.net/14_event.html)
 
 ## Capítulo. Form and Form Fields
 
 - [https://javascript.info/forms-controls: Forms, controls](https://javascript.info/forms-controls)
-- [Eloquent JS](http://eloquentjavascript.net/index.html): [Forms and Form Fields](https://eloquentjavascript.net/18_forms.html)
+- [Eloquent JS](https://eloquentjavascript.net/index.html): [Forms and Form Fields](https://eloquentjavascript.net/18_forms.html)
     - [Eloquent JS:  Forms and Form Fields](https://eloquentjavascript.net/18_forms.html)
     - [Repo de Ejemplo del Capítulo](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter18-forms)
     - [Repo ULL-ESIT-MII-CA-1718/forms-and-form-fields-KevMCh](https://github.com/ULL-ESIT-MII-CA-1718/forms-and-form-fields-KevMCh)

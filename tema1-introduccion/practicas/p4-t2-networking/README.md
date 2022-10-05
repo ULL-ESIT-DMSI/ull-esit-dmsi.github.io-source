@@ -41,9 +41,9 @@
   * [gulp getting started](https://gulpjs.org/getting-started.html)
 * [Travis](https://crguezl.github.io/ull-esit-1617/_book/apuntes/pruebas/travis.html)
 * Documentación:  
-  * [documentation.js](http://documentation.js.org/), 
+  * [documentation.js](https://documentation.js.org/), 
   * [jsdoc](https://www.npmjs.com/package/jsdoc), 
-  * [docco](http://jashkenas.github.io/docco/)
+  * [docco](https://jashkenas.github.io/docco/)
 * Pruebas
     * [Mocha](https://mochajs.org/)
     * [chai](https://www.chaijs.com/)

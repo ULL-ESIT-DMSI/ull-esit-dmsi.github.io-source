@@ -99,7 +99,7 @@ In the Strategy pattern we have an object (the *context*) that is trying to get 
   1. Define a family of objects which all do the same thing
   2. Ensure the family of objects share the same interface so that they are interchangable.
 
-Otro ejemplo, también de Elijah Manor se encuentra en el artículo [Switching to the Strategy Pattern in JavaScript](http://elijahmanor.com/switching-to-the-strategy-pattern-in-javascript/).
+Otro ejemplo, también de Elijah Manor se encuentra en el artículo [Switching to the Strategy Pattern in JavaScript](https://elijahmanor.com/switching-to-the-strategy-pattern-in-javascript/).
 
 ## Eliminate JavaScript Code Smells
 
@@ -109,7 +109,7 @@ Presta especial atención al *code smell* **Switch Statement Smell** desde el mi
 
 {% include video provider="youtube" id="JVlfj7mQZPo" %}
 
-Pueden encontrar las [trasparencias](http://elijahmanor.com/talks/js-smells/#/) de la presentación en [http://elijahmanor.com/talks/js-smells/#/](http://elijahmanor.com/talks/js-smells/#/).
+Pueden encontrar las [trasparencias](https://elijahmanor.com/talks/js-smells/#/) de la presentación en [https://elijahmanor.com/talks/js-smells/#/](https://elijahmanor.com/talks/js-smells/#/).
 
 
 ### Example of the strategy Pattern: HTTP file server fron Eloquent JS
@@ -248,4 +248,4 @@ methods.OPTIONS = async function(request) {
 * [Apuntes del curso 16/17: Strategy Pattern](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/patterns/strategypattern.html)
 * [Apuntes del curso 16/17: Práctica: Evaluar Strategy Pattern](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicaevaluastrategypattern.html)
 * [Apuntes del curso 16/17: Práctica: Creación de Paquetes NPM y Strategy Pattern](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicamodulestrategypattern.html)
-* [JSHint](http://jshint.com/)
+* [JSHint](https://jshint.com/)
