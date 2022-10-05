@@ -4,7 +4,8 @@ rubrica:
   - "Se ha desplegado el sitio Web en GitHub pages usando Jekyll"
   - Se resumen correctamente los conceptos del capítulo
   - "Kanban Board project conteniendo las incidencias de la rúbrica"
-  - "Página personal en GitHub Pages"
+  - "Desplegado en Netlify"
+  - "Página personal en GitHub Pages" 
   - "Ha entregado el .zip en el campus con el repo"
 ---
 
@@ -30,7 +31,9 @@ Recuerde cambiar `baseurl` en `_config.yml` para que contenga el nombre de su re
 baseurl                  : "/intro2sd-template/" # the subpath of your site, e.g. "/blog"
 ```
 
-Utilice lo aprendido para desplegar una página web personal usando GitHub Pages.
+Haga un segundo despliegue en Netlify.
+
+Con lo aprendido desarrolle su página personal en GitHub (si no es que ya tiene una).
 
 # Rúbrica
 
