@@ -1,5 +1,6 @@
 ---
 permalink: /tema1-introduccion/practicas/setup/
+key: setup
 rubrica:
   - "<code>SSH</code> configurada en VSCode para trabajar sin password"
   - "<code>git</code> configurado en VSCode para trabajar con GitHub"

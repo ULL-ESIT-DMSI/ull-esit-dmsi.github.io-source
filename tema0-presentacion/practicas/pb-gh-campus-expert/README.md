@@ -1,6 +1,7 @@
 ---
 title: "Práctica: GitHub Campus Expert"
 permalink: /tema0-presentacion/practicas/pb-gh-campus-expert/index.html
+key: github-campus-expert
 rubrica:
   - "Rellenado cuestionario GitHub-Alu"
   - "El nombre del equipo es correcto"
@@ -71,7 +72,7 @@ s
 Use el repo asignado para documentar (usando las GitHub Pages) que ha realizado el curso, solicitado el *student developer pack* y la *GitHub Internship*. En la tarea, suba el enlace al repo.
 
 
-## Rúbrica
+## Rúbrica 
 
 {% include rubrica.md -%}
 

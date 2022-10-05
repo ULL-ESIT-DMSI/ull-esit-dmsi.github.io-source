@@ -32,3 +32,7 @@ baseurl                  : "/intro2sd-template/" # the subpath of your site, e.g
 # Rúbrica
 
 {% include rubrica.md -%}
+
+## Prácticas
+  
+{% include practicas.md %}

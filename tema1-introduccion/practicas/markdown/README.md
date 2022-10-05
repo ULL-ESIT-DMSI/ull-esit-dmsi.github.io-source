@@ -1,12 +1,14 @@
 ---
 prev: /tema0-presentacion/practicas/pb-gh-campus-expert/
 permalink: /tema1-introduccion/practicas/markdown/
+key: markdown
 rubrica:
   - "Se incluyen todos los aspectos solicitados en el markdown y se visualizan correctamente"
   - "Kanban Board project conteniendo las incidencias en su estado"
   - "Convierto las notas en issues"
   - "He generado el issue de práctica terminada"
   - "Informe elaborado correcto"
+  - "Ha creado un repo profile en GitHub"
   - "Ha entregado el .zip en el campus con el repo"
 ---
 # Aprender Markdown
