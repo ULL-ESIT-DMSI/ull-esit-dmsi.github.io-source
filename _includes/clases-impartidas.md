@@ -12,7 +12,9 @@
 </ol>
 <ol reversed>
         {% endif %}
-<li> <a href="{{ post.url }}">{{ post.title }}</a> (<a href="{{site.apuntes.url}}/tree/master/{{post.path}}">Clase en el repo</a>) </li>
+<li> 
+<a href="{{ post.url }}">{{ post.title }}</a> {%- if post.summary %} <ul><li>{{post.summary}}</li></ul>{% endif -%} <!--(<a href="{{site.apuntes.url}}/tree/master/{{post.path}}" target="_blank">Clase en el repo</a>) -->
+</li>
       {% assign previousMonth = currentMonth %}
      {% endif%}
   {% endfor %}
