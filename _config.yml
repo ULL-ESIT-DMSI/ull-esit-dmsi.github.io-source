@@ -10,6 +10,7 @@ show_downloads: false
 organization: 
   name: "ULL-ESIT-DMSI-2223"
   url: "https://github.com/ULL-ESIT-DMSI-2223"
+  teams: "https://github.com/orgs/ULL-ESIT-DMSI-2223/teams"
 classroom:
   url: "https://classroom.github.com/classrooms/108465062-ull-esit-dmsi-2223"
 campus:
