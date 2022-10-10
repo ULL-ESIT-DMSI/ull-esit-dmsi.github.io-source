@@ -31,7 +31,10 @@ Recuerde cambiar `baseurl` en `_config.yml` para que contenga el nombre de su re
 baseurl                  : "/intro2sd-template/" # the subpath of your site, e.g. "/blog"
 ```
 
-Haga un segundo despliegue en Netlify.
+Haga un segundo despliegue en Netlify. Puede usar las referencias:
+
+* [A Step-by-Step Guide: Jekyll 3.0 on Netlify](https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/)
+* [A Step-by-Step Guide: Jekyll 4.0 on Netlify](https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/)
 
 Con lo aprendido desarrolle su página personal en GitHub (si no es que ya tiene una).
 
