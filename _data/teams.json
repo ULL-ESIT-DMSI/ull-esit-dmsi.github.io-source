@@ -15,7 +15,8 @@
                     "node": {
                       "name": "Alejandro Pérez",
                       "url": "https://github.com/alejandroperez01",
-                      "email": ""
+                      "email": "",
+                      "login": "alejandroperez01"
                     }
                   }
                 ]
@@ -34,7 +35,8 @@
                     "node": {
                       "name": "alu0101015293",
                       "url": "https://github.com/alu0101015293",
-                      "email": ""
+                      "email": "",
+                      "login": "alu0101015293"
                     }
                   }
                 ]
@@ -53,7 +55,8 @@
                     "node": {
                       "name": "Casiano Rodriguez-Leon",
                       "url": "https://github.com/crguezl",
-                      "email": ""
+                      "email": "",
+                      "login": "crguezl"
                     }
                   },
                   {
@@ -61,7 +64,8 @@
                     "node": {
                       "name": "Casiano",
                       "url": "https://github.com/casiano",
-                      "email": "crguezl@ull.edu.es"
+                      "email": "crguezl@ull.edu.es",
+                      "login": "casiano"
                     }
                   }
                 ]
@@ -80,7 +84,8 @@
                     "node": {
                       "name": null,
                       "url": "https://github.com/Gia-ui",
-                      "email": ""
+                      "email": "",
+                      "login": "Gia-ui"
                     }
                   }
                 ]
@@ -99,7 +104,8 @@
                     "node": {
                       "name": null,
                       "url": "https://github.com/alu0101128931",
-                      "email": ""
+                      "email": "",
+                      "login": "alu0101128931"
                     }
                   }
                 ]
@@ -118,7 +124,8 @@
                     "node": {
                       "name": "alu0101330037",
                       "url": "https://github.com/alu0101330037",
-                      "email": ""
+                      "email": "",
+                      "login": "alu0101330037"
                     }
                   }
                 ]
@@ -137,7 +144,8 @@
                     "node": {
                       "name": "Kiana Bayani Nekoudin ",
                       "url": "https://github.com/alu0101318066",
-                      "email": ""
+                      "email": "",
+                      "login": "alu0101318066"
                     }
                   }
                 ]
@@ -154,9 +162,10 @@
                   {
                     "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2223/people/MartaMolina01",
                     "node": {
-                      "name": null,
+                      "name": "Marta Molina Fernández",
                       "url": "https://github.com/MartaMolina01",
-                      "email": ""
+                      "email": "",
+                      "login": "MartaMolina01"
                     }
                   }
                 ]
@@ -175,7 +184,8 @@
                     "node": {
                       "name": "Patricia Angélica Martínez-Polo Johnson",
                       "url": "https://github.com/alu0101116532",
-                      "email": ""
+                      "email": "",
+                      "login": "alu0101116532"
                     }
                   }
                 ]
