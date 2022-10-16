@@ -18,5 +18,10 @@
         "title": "Introduction to Systems Development",
         "path": "tema1-introduccion/practicas/intro2sd",
         "key": "intro2sd"
+    },
+    {
+        "title": "Asyncmap",
+        "path": "tema1-introduccion/practicas/asyncmap",
+        "key": "asyncmap"        
     }
 ]

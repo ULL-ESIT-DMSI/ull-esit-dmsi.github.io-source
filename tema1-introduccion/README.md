@@ -1,116 +1,30 @@
-# Tema 1: Introducción a los Sistemas de Desarrollo
+# Introducción a los Sistemas de Desarrollo
 
-## Capítulo. Introducción a los Sistemas de Desarrollo
+## Introducción
 
+* [Uso del iaas.ull.es](iaas)
+* [Editores. Entornos de Trabajo](ides)
 * [Capítulo 1: Introduction to Systems Development](https://ebookcentral-proquest-com.accedys2.bbtk.ull.es/lib/bull-ebooks/detail.action?docID=1713962#) del libro *Developing Information Systems* edited by James Cadle
-  
-### Prácticas
 
-- <a href="practicas/intro2sd/" target="_blank">Descripción de la Práctica intro2sd</a>
+## Introduction to Asynchronous JavaScript
 
+- [The Event Loop]({{ site.baseurl }}/tema1-introduccion/async/event-loop)
+* [The Async JS module]({{ site.baseurl }}/tema1-introduccion/async/async-js)
+<!--- [Web Workers]({{ site.baseurl }}/tema1-introduccion/async/web-workers)-->
 
-## Capítulo. Uso del iaas.ull.es. Entornos de Trabajo
+## Introduction to JS in  the Server
 
-- <a href="https://casianorodriguezleon.gitbooks.io/ull-esit-1617/recursos/iaas.html" target="_blank">Instrucciones para el uso de iaas.ull.es</a>
-- <a href="https://github.com/SYTW/iaas-ull-es" target="_blank">Repo SYTW/iaas-ull-es: Instrucciones Sobre Como Desplegar una Aplicación Web en iaas.ull.es</a>
-- <a href="https://iaas.ull.es/ovirtadmin/admin/" target="_blank">Gestor online de pools</a>
-- <a href="https://docs.google.com/document/d/13vP4bd5LhnfNJvV6ncz20ZNTXfeg8ehWbw_ECkn4MAY/edit#" target="_blank">IaaS - Uso de la aplicación de gestión de pools</a>
-- <a href="https://youtu.be/qKHgbV0lYbA" target="_blank">Video del profesor: iaas.ull.es</a>
-- <a href="https://iaas.ull.es/mismaquinas" target="_blank">https://iaas.ull.es/mismaquinas</a>
-
-### Prácticas
-
-- <a href="practicas/setup/" target="_blank">Descripción de la Práctica iaas</a>
-    - [Express Web Framework (Node.js/JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs) (Mozilla)
-
-## Capítulo. Editores. Entornos de Trabajo
-
-### GitPod
-
-* [Notas sobre GitPod](gitpod)
+- [Node.js]({{ site.baseurl }}/tema1-introduccion/nodejs) 
 
 
-### Visual Studio Code
-
-- Version Control
-    - [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
-    - [Video Git Version Control in VS Code](https://youtu.be/AKNYgP0yEOY)
-    - [Video Git in Visual Studio Code](https://youtu.be/wMqukSKYcvU)
-- Collaboration
-    - [Introducing Visual Studio Live Share](https://code.visualstudio.com/blogs/2017/11/15/live-share)
-    - <a href="https://youtu.be/fWXe1HQ1wVA" target="_blank">Vídeo Visual Studio Live Share Demo on VS Code</a>
-- Editando con VSCode en la máquina iaas.ull.es
-    - Use un plugin para Visual Studio Code que permita montar un sistema de archivos sobre SSH
-      - [SSH FS: File system provider using SSH](https://marketplace.visualstudio.com/items?itemName=Kelvin.vscode-sshfs)
-      - [SSHExtension](https://marketplace.visualstudio.com/items?itemName=kondratiev.sshextension) This extension allows you to open an SSH connection in the integrated terminal. The extension was created in order to have access to the SSH in conjunction with the already available access to the FTP.
-      - [Remote FS](https://marketplace.visualstudio.com/items?itemName=liximomo.remotefs)
-- Settings file locations
-  - Depending on your platform, the user settings file is located here:
-    - Windows %APPDATA%\Code\User\settings.json
-    - macOS $HOME/Library/Application Support/Code/User/settings.json
-    - Linux $HOME/.config/Code/User/settings.json
-    - The workspace setting file is located under the .vscode folder in your root folder.
-- <a href="https://youtu.be/3owknsJy-iE" target="_blank">Vídeo de Jesús Torres: Breve intro de cómo programar y depurar C++ con Visual Studio Code + Gatos</a>
-
-### Prácticas
-
-- <a href="practicas/p2-t1-vscode/" target="_blank">Descripción de la Práctica p2-t1-vscode</a>
-
-### Atom
-
-- [Vídeo del profesor explicando el GitHub Package](https://youtu.be/kFtGxyyLRTc)
-
-
-## Capítulo. Node.JS
-
-### Debugging NodeJS
-
-* [Debugging NodeJS](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/nodejs/)
-* Debugging in 2017 with Node.js YouTube video https://youtu.be/Xb_0awoShR8
-    * [Debugging in 2017 with Node.js](https://youtu.be/Xb_0awoShR8) YouTube
-
-### nvm
-
-* [Quick Tip: Install Multiple Versions of Node.js using nvm](https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/)
-* [Node Version Manager - Simple bash script to manage multiple active node.js versions](https://github.com/creationix/nvm)
-
-### Eloquent JS Book Chapter 20
-
-- [Eloquent JS Book Chapter 20](https://eloquentjavascript.net/20_node.html): [Node.js](https://eloquentjavascript.net/20_node.html)
-
-### Anatomy of an HTTP Transaction
-
-- [Anatomy of an HTTP Transaction](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
-
-### The book "Node.js 8 the Right Way". Chapter 2: Wrangling the File System
-
-- <a href="https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-idot-getting-up-to-speed-on-nodedotjs-8/chp_filesystem_html" target="_blank">Node.js 8 the Right Way</a> Practical, Server-Side JS that Scales. Jim R. Wilson 2018 Edition. Safari. Chapter 2: Wrangling the File System. Acceda por medio del <a href="https://www.ull.es/servicios/biblioteca/servicios/puntoq/"  target="_blank">PuntoQ</a> de la ULL
-- [Chapter 2: Wrangling the File System. GitHub Repo. Folder with Solutions to Chapter 2](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way/tree/master/filesystem-chapter-2) Privado
-    - [Book "Node.js 8 the Right Way"](https://books.google.es/books?id=oA9QDwAAQBAJ&lpg=PT96&ots=-mLQPlvsSj&dq=should%20ldjclient%20emit%20a%20close%20event&hl=es&pg=PP1#v=onepage&q=should%20ldjclient%20emit%20a%20close%20event&f=false) 2018 Edition Google Books
-    - [Book "Node.js 8 the Right Way"](https://github.com/iMarcoGovea/books/blob/master/nodejs/Node.js%20the%20Right%20Way.pdf) Old Edition in GitHub
-- Node.JS 8 The Right Way. Practical Server-Side That Scales: [Repo with the solutions (all chapters)](https://github.com/ULL-MII-CA-1819/nodejs-the-right-way)
-- [Read section *The HTTP module* from Eloquent Javascript 2nd edition](https://eloquentjavascript.net/2nd_edition/20_node.html#h_3O5dGIJE9F)
-- [Read section *A File Server* from Eloquent Javascript 2nd edition](https://eloquentjavascript.net/2nd_edition/20_node.html#h_LvXChBt2KP)
-
-#### JavaScript Event Loop
-
-- Tutorial [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
-
-#### Streams
-
-- [A Brief History of Node Streams](https://medium.com/the-node-js-collection/a-brief-history-of-node-streams-pt-1-3401db451f21)
-- [A Brief History of Node Streams. Part 2](https://medium.com/the-node-js-collection/a-brief-history-of-node-streams-pt-2-bcb6b1fd7468)
-
-### Prácticas
-
-* [Descripción de la práctica p2-t1-filesystem](practicas/p2-t1-c3-file-system/)
-* [Descripción de la práctica p3-t1-http](practicas/p3-t1-c3-http/)
-
-## Capítulo: Jekyll
+## Introduction to Static Site Generators
 
 * [Jekyll]({{site.baseurl}}/assets/temas/introduccion-a-javascript/jekyll)
 
+<!--
+
 ## Capítulo: Sockets
+
 ### Sockets TCP y UDP
 
 * [Safari. Chapter 3 Networking with Sockets](https://proquest-safaribooksonline-com.accedys2.bbtk.ull.es/book/web-development/9781680505344/part-idot-getting-up-to-speed-on-nodedotjs-8/chp_networking_html)
@@ -121,7 +35,7 @@
 
 ### Prácticas
 
-* [Descripción de la práctica p4-t2-networking](practicas/p4-t2-networking)
+* [Descripción de la práctica networking](practicas/p4-t2-networking)
 
 ## Capítulo. LifeCicle Types and Their Rationales 
 
@@ -130,9 +44,7 @@
   
 ### Prácticas
 
-- <a href="practicas/p0-t1-lifecycle/" target="_blank">Descripción de la Práctica p0-t1-lifecycle</a>
-
-
+- <a href="practicas/p0-t1-lifecycle/" target="_blank">Descripción de la Práctica lifecycle</a>
 
 ## Capítulo. Programación Funcional
 
@@ -243,11 +155,6 @@ un macro-repo que consiste en el repo del módulo y en el programa de uso.
 - [Developer Moxilla. Sending forms through JavaScript](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_forms_through_JavaScript)
   * [Using FormData bound to a form element](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_forms_through_JavaScript#Using_FormData_bound_to_a_form_element)
 
-## Capítulo. Extending Visual Studio Code
-
-- <a href="https://code.visualstudio.com/api" target="_blank">Visual Studio Code Extension API</a>
-- <a href="https://youtu.be/j917FBGfttQ" target="_blank">Visual Studio Code Extension: hello (Youtube, vídeo del profesor)</a>
-- <a href="https://youtu.be/gNTjzcnLJQ4" target="_blank">Depurando una Extensión de Visual Studio Code (Youtube, vídeo del profesor)</a>
 
 ## Referencias y Recursos para el Tema 1
 
@@ -258,3 +165,5 @@ un macro-repo que consiste en el repo del módulo y en el programa de uso.
 * [Org ULL-ESIT-MII-CA-1718](https://github.com/ULL-ESIT-MII-CA-1718)
 * [Org ULL-ESIT-DSI-1617](https://github.com/ULL-ESIT-DSI-1617)
 * [Trasparencias curso de JS de MiriadaX](https://github.com/crguezl/miriada-upm-dsnh5jsnode/blob/master/traspas/transp_modulo2.pdf)
+
+-->
