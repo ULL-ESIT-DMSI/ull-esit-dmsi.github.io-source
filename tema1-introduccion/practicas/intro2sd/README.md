@@ -4,8 +4,13 @@ rubrica:
   - "Se ha desplegado el sitio Web en GitHub pages usando Jekyll"
   - Se resumen correctamente los conceptos del capítulo
   - "Kanban Board project conteniendo las incidencias de la rúbrica"
-  - "Desplegado en Netlify"
-  - "Página personal en GitHub Pages" 
+  - "Despliegue en netlify"
+  - Se ha creado una Jekyll Collection 
+  - Se ha hecho uso de liquid (mostrar ejemplo en el informe)
+  - Se ha hecho uso de un .csv o .json en `_data` (mostrar ejemplo en el informe)
+  - Ha reconfigurado los defaults del _config.yml
+  - "Página personal en GitHub Pages"
+  - "Página personal en GitHub Pages enlazada desde el perfil GitHub del alumno"
   - "Ha entregado el .zip en el campus con el repo"
 ---
 
