@@ -21,6 +21,11 @@
 
 * [Jekyll]({{site.baseurl}}/assets/temas/introduccion-a-javascript/jekyll)
 
+## GitHub Actions
+
+* [GitHub Actions]({{site.baseurl}}/assets/temas/introduccion-a-javascript/github-actions)
+* [ A quick demo showing how to use GitHub Actions to build, package, and publish Node.js modules to the NPM and GitHub package registries]({{site.baseurl}}/assets/temas/introduccion-a-javascript/github-action-npm-publish)
+
 <!--
 
 ## Capítulo: Sockets
