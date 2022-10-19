@@ -2,6 +2,7 @@
 title:  "GitHub Actions: An Introduction"
 ---
 
+# {{ page.title }}
 
 Github Actions enables you to create custom software development lifecycle workflows directly in your Github repository. These workflows are made out of different tasks so-called actions that can be run automatically on certain events.
 
