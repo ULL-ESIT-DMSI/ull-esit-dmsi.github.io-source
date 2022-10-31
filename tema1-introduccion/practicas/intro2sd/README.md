@@ -9,6 +9,7 @@ rubrica:
   - Se ha hecho uso de liquid (mostrar ejemplo en el informe)
   - Se ha hecho uso de un .csv o .json en `_data` (mostrar ejemplo en el informe)
   - Ha reconfigurado los defaults del _config.yml
+  - Página 404 personalizada
   - "Página personal en GitHub Pages"
   - "Página personal en GitHub Pages enlazada desde el perfil GitHub del alumno"
   - "Ha entregado el .zip en el campus con el repo"
@@ -42,6 +43,9 @@ Haga un segundo despliegue en Netlify. Puede usar las referencias:
 * [A Step-by-Step Guide: Jekyll 4.0 on Netlify](https://www.netlify.com/blog/2020/04/02/a-step-by-step-guide-jekyll-4.0-on-netlify/)
 
 Con lo aprendido desarrolle su página personal en GitHub (si no es que ya tiene una).
+
+Para saber más sobre Jekyll y para resolver dudas de esta práctica 
+puede consultar la [sección de Jekyll en estos apuntes]({{ site.baseurl }}/assets/temas/introduccion-a-javascript/jekyll)
 
 # Rúbrica
 
