@@ -44,7 +44,14 @@ Haga un segundo despliegue en Netlify. Puede usar las referencias:
 
 Con lo aprendido desarrolle su página personal en GitHub (si no es que ya tiene una).
 
+Puede servir fácilmente páginas de error 404 personalizadas con Jekyll  reemplazando la página predeterminada `Error 404 – File Not Found` que se muestra cuando uno intenta acceder a un enlace roto en su sitio. 
+
+Cualquier fichero `404.html` en la raíz de su directorio `_site` será atendido automáticamente por GitHub Pages y el servidor de desarrollo WEBrick local.
+
+Véase la documentación de Jekyllrb en [Custom 404 Page](https://jekyllrb.com/tutorials/custom-404-page/)
+
 Para hacer una página 404 personalizada puede inspirarse en la que se describe en estos apuntes [404.md]({{ site.baseurl }}/assets/temas/introduccion-a-javascript/jekyll#custom-404-page)
+ 
 
 Para saber más sobre Jekyll y para resolver dudas de esta práctica 
 puede consultar la [sección de Jekyll en estos apuntes]({{ site.baseurl }}/assets/temas/introduccion-a-javascript/jekyll)
