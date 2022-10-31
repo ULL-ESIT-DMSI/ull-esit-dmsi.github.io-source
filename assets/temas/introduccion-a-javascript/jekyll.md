@@ -103,6 +103,9 @@ Recuerda que GitHub provee un servicio de Hosting de páginas estáticas ([GitHu
 
 #### An Example of a 404 page
 
+You can install the VSCode extension [Thunder Client](https://github.com/rangav/thunder-client-support) for testing the cat API.
+
+
 ```
 ~/.../pl1920/apuntes(master)]$ cat 404.md 
 ```
