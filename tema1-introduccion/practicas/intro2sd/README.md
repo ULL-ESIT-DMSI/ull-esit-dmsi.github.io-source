@@ -44,7 +44,7 @@ Haga un segundo despliegue en Netlify. Puede usar las referencias:
 
 Con lo aprendido desarrolle su página personal en GitHub (si no es que ya tiene una).
 
-Para hacer una página 404 personalizada puede inspirarse en la de estos apuntes [404.md](https://github.com/ULL-ESIT-DMSI/ull-esit-dmsi.github.io/blob/master/404.html)
+Para hacer una página 404 personalizada puede inspirarse en la que se describe en estos apuntes [404.md]({{ site.baseurl }}/assets/temas/introduccion-a-javascript/jekyll#custom-404-page)
 
 Para saber más sobre Jekyll y para resolver dudas de esta práctica 
 puede consultar la [sección de Jekyll en estos apuntes]({{ site.baseurl }}/assets/temas/introduccion-a-javascript/jekyll)
