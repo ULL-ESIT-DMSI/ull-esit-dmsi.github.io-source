@@ -41,6 +41,7 @@ Haga un segundo despliegue en Netlify. Puede usar las referencias:
 
 * [A Step-by-Step Guide: Jekyll 3.0 on Netlify](https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/)
 * [A Step-by-Step Guide: Jekyll 4.0 on Netlify](https://www.netlify.com/blog/2020/04/02/a-step-by-step-guide-jekyll-4.0-on-netlify/)
+* La sección [Cursos en YouTube de Jekyll and NetlifyCMS por Thomas Bradley]({{ site.baseurl}}//assets/temas/introduccion-a-javascript/jekyll#cursos-en-youtube-de-jekyll-and-netlifycms-por-thomas-bradley)
 
 Con lo aprendido desarrolle su página personal en GitHub (si no es que ya tiene una).
 
