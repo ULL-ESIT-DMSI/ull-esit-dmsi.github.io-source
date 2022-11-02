@@ -46,8 +46,7 @@ Use RequestBin to see what your HTTP client is sending or to inspect and debug w
 
 ## Clientes para APIS REST
 
-{% include rest-clients.md %}
-
+[Rest Clients](rest-clients)
 
 ## Google APIs
 
