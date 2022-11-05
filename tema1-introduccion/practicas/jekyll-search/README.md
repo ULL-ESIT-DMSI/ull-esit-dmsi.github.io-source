@@ -13,6 +13,9 @@ Estos son algunos requisitos:
 * Lea el capítulo 2 del libro *Developing Information Systems*, editado by James Cadle y haga un resumen en un post del web site 
   * [Capítulo 2: Lifecycle types and their rationales](https://ebookcentral-proquest-com.accedys2.bbtk.ull.es/lib/bull-ebooks/detail.action?docID=1713962#)  por Lynda Girvan
 
+La entrega de esta práctica se realizará en el mismo repo asociado a [la práctica *Introduction to Systems Development*]({{ site.baseurl }}/tema1-introduccion/practicas/intro2sd/).
+Cree una rama `intro2sd` para señalar el punto de entrega de la anterior y haga la entrega de esta tarea en la rama `main`.
+
 ### ¿Como hacerlo?
 
 1. Since Jekyll has no server side execution, we have to rely on storing all the required content in a single file and search our keyword from that file.
