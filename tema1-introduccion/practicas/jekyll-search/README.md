@@ -2,7 +2,7 @@
 
 ## Adding a Simple Search to our Jekyll Site
 
-El ejercicio consiste en que añada la capacidad de búsqueda al sitio web contruido en la práctica anterior
+El ejercicio consiste en que añada la capacidad de búsqueda al [sitio web contruido en la práctica *Introduction to Systems Development*]({{ site.baseurl }}/tema1-introduccion/practicas/intro2sd/)
 
 Estos son algunos requisitos:
 
