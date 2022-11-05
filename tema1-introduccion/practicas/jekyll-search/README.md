@@ -10,6 +10,8 @@ Estos son algunos requisitos:
 * Que admita expresiones regulares
 * Queremos que los resultados vayan apareciendo conforme tecleamos
 * Se mostrará una lista de enlaces a los ficheros que contienen la expresión buscada y un resumen de las primeros caracteres del fichero
+* Lea el capítulo 2 del libro *Developing Information Systems*, editado by James Cadle y haga un resumen en un post del web site 
+  * [Capítulo 2: Lifecycle types and their rationales](https://ebookcentral-proquest-com.accedys2.bbtk.ull.es/lib/bull-ebooks/detail.action?docID=1713962#)  por Lynda Girvan
 
 ### ¿Como hacerlo?
 
