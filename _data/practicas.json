@@ -23,5 +23,10 @@
         "title": "Asyncmap",
         "path": "tema1-introduccion/practicas/asyncmap",
         "key": "asyncmap"        
+    },
+    {
+        "title": "Search in Jekyll",
+        "path": "tema1-introduccion/practicas/jekyll-search",
+        "key": "jekyll-search"        
     }
 ]
