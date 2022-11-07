@@ -56,25 +56,25 @@ MDN utiliza la terminología *cola de mensajes* para la *cola de callbacks*:
 
 ¿Cual es la salida de las llamadas a `console.trace`?
 
-  ```js
-      1	function multiply(x,y) {
-      2	  // console.trace imprime una traza de la pila
-      3	  console.trace("-----------At multiply-----------");
-      4	  return x * y;
-      5	}
-      6
-      7	function squared(n) {
-      8	  console.trace("-----------At squared-----------");
-      9	  return multiply(n,n)
-      10	}
-      11
-      12	function printSquare(n) {
-      13	   return squared(n)
-      14	}
-      15
-      16	let numberSquared = printSquare(5);
-      17	console.log(numberSquared);
-  ```
+```js
+function multiply(x,y) {
+  // console.trace imprime una traza de la pila
+  console.trace("-----------At multiply-----------");
+  return x * y;
+}
+
+function squared(n) {
+  console.trace("-----------At squared-----------");
+  return multiply(n,n)
+}
+
+function printSquare(n) {
+   return squared(n)
+}
+
+let numberSquared = printSquare(5);
+console.log(numberSquared);
+```
 
 [Output from execution](callstack-js-execution)
 
