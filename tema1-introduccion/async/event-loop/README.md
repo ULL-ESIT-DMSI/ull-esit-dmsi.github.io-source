@@ -1,5 +1,6 @@
 ---
 permalink: /tema1-introduccion/async/event-loop/
+layout: default
 ---
 
 - [The JS Event Loop](#the-js-event-loop)
@@ -292,8 +293,7 @@ while(true) {
 
 See the examples:
 
-* [A Simple Example: Loading an Image with Some Delay ](/event-loop/exercises/race-condition/instructions.html#loading-an-image-with-some-delay)
-* [Manually Interleaving Promises](/event-loop/exercises/race-condition/instructions.html#manually-interleaving-promises)
+* [A Simple Example: Loading an Image with Some Delay ]({{ site.baseurl }}/tema1-introduccion/async/event-loop/race-condition.html)
 
 
 ## The Event Loop en el libro [The Modern JavaScript Tutorial](https://javascript.info)
