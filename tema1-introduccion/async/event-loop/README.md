@@ -52,7 +52,7 @@ MDN utiliza la terminología *cola de mensajes* para la *cola de callbacks*:
 
 ### La pila de LLamadas 
 
-`console.trace` muestra la [stack trace](https://developer.mozilla.org/en-US/docs/Web/API/console#Stack_traces) en la consola. la stack trace es el camino de las llamadas hasta el punto: `{ nombre-de-rutina, fichero-del-programa, nº de línea, nº de columna}`
+`console.trace` muestra la [stack trace](https://developer.mozilla.org/en-US/docs/Web/API/console#Stack_traces) en la consola. la stack trace es el camino de las llamadas hasta el punto: `nombre-de-rutina camino-hasta-el-fichero-del-programa:nº de línea:nº de columna}`
 
 ¿Cual es la salida de las llamadas a `console.trace`?
 
