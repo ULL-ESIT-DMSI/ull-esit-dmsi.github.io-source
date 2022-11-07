@@ -1,6 +1,24 @@
 ---
 permalink: /tema1-introduccion/async/event-loop/
 ---
+
+- [The JS Event Loop](#the-js-event-loop)
+  - [Introducción](#introducción)
+  - [Unas Preguntas](#unas-preguntas)
+    - [La pila de LLamadas](#la-pila-de-llamadas)
+    - [Orden de Ejecución](#orden-de-ejecución)
+    - [Hoist: Cual es la salida?](#hoist-cual-es-la-salida)
+    - [Hoisting y Asíncronía ¿Cual es la salida?](#hoisting-y-asíncronía-cual-es-la-salida)
+    - [JS is single threaded](#js-is-single-threaded)
+  - [Repasando las Preguntas a la luz del Bucle de Eventos](#repasando-las-preguntas-a-la-luz-del-bucle-de-eventos)
+    - [Ejemplo: La Pila de Llamadas](#ejemplo-la-pila-de-llamadas)
+    - [Orden de Ejecución](#orden-de-ejecución-1)
+    - [Ejemplo: JS *is single threaded*](#ejemplo-js-is-single-threaded)
+  - [Race Condition](#race-condition)
+  - [The Event Loop en el libro The Modern JavaScript Tutorial](#the-event-loop-en-el-libro-the-modern-javascript-tutorial)
+  - [The section *Concurrency model and the event loop* at https://developer.mozilla.org/](#the-section-concurrency-model-and-the-event-loop-at-httpsdevelopermozillaorg)
+  - [References](#references)
+
 # The JS Event Loop
 
 
@@ -174,9 +192,6 @@ se le puede proporcionar a `loupe`:
 
 * [loupe](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D) a tool in the cloud to see the event loop working
 
-Está en este directorio en mi laptop:
-
-* `~/campus-virtual/1920/sytws1920/ull-mii-sytws-1920.github.io/tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/callstack.js`
 
 Este es el código:
 
@@ -204,12 +219,6 @@ console.log(numberSquared);
 
 
 ### Orden de Ejecución
-
-Directorio en mi máquina:
-
-```
-tema1-introduccion/practicas/p2-t1-c3-file-system/event-loop/order.js 
-```
 
 Ejemplo sacado del Tutorial [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop) at https://developer.mozilla.org
 
