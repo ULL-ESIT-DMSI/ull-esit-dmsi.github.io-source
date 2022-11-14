@@ -16,6 +16,7 @@ rubrica:
   - "Se da una solucion paralela sin usar la librería async al problema de la lectura de ficheros"
   - "Se crea una función <code>asyncmap</code> genérica que funciona como el <code>map</code> de async"
   - "Se da una función <code>series</code> que resuelve el problema de serializar llamadas a funciones asíncronas"
+  - "El informe incluye el ejemplo de las <i>race conditions</i>"
   - "Informe bien elaborado"
   - "Kanban Board project conteniendo las incidencias de la rúbrica"
   - "Ha entregado el .zip en el campus con el repo"
