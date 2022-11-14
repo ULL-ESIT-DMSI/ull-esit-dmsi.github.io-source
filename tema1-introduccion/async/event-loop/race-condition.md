@@ -131,5 +131,5 @@ In your report, develop an explanation for the observed behaviors.
 * [Meta repo de la Charla UAI2015](https://github.com/ULL-MII-SYTWS-1920/uai2015)
   * [Repo de Ejemplo ULL-MII-SYTWS-1920/js-race](https://github.com/ULL-MII-SYTWS-1920/js-race)
 * Charla en InfoQ: [https://www.infoq.com/presentations/javascript-concurrency-parallelism/](https://www.infoq.com/presentations/javascript-concurrency-parallelism/)
-* [Abstract de la charla UAI2015](uai2015)
+* [Abstract de la charla UAI2015](uai-2015-abstract)
 * [Race Condition in JavaScript](https://youtu.be/wNwBzgDm0BI) YouTube Video
