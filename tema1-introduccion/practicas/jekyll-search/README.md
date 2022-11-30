@@ -38,12 +38,12 @@ Cree una rama `intro2sd` para señalar el punto de entrega de la anterior y haga
     ]
     ```
 
-### Liquid template search.json to generate at build time the _site/assets/src/search.json
+Véase [search.json](https://raw.githubusercontent.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/master/assets/src/search.json?token=AAIW6GWXQOTDJ7VYDKDGBWK55YN74) (protected)
 
-Para lograrlo usaremos este template Liquid: [search.json](https://raw.githubusercontent.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/master/assets/src/search.json?token=AAIW6GWXQOTDJ7VYDKDGBWK55YN74) (protected)
+### Liquid template to generate at build time the _site/assets/src/search.json
 
 
-```
+```html
 {% raw %}
 ---
 layout: null
