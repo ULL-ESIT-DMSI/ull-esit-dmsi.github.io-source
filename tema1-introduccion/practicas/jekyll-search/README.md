@@ -30,11 +30,11 @@ Cree una rama `intro2sd` para señalar el punto de entrega de la anterior y haga
     [
         {
             "title": "Clase del Lunes 30/09/2019",
-            "excerpt": "Clase del Lunes 30/09/2019\n\n",         ⇐ Resumen
-            "content": "Clase del Lunes 30/09/2019\n\n\n  ...",  ⇐ Contenido del fichero
+            "excerpt": "Clase del Lunes 30/09/2019\n\n",         "⇐": " Resumen",
+            "content": "Clase del Lunes 30/09/2019\n\n\n  ...",  "⇐ ": "Contenido del fichero"
             "url": "/clases/2019/09/30/leccion.html"
         },
-        ...
+        "...": "..."
     ]
     ```
 
