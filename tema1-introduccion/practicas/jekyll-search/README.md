@@ -42,9 +42,8 @@ Véase [search.json](https://raw.githubusercontent.com/ULL-MII-SYTWS-1920/ull-mi
 
 ### Liquid template to generate at build time the _site/assets/src/search.json
 
-
 ```html
-{% raw %}
+{%- raw -%}
 ---
 layout: null
 sitemap: false
@@ -79,7 +78,6 @@ sitemap: false
 {{ json | lstrip }}
 {% endraw %}
 ```
-
 
 * `layout: null`: To disable layout in Jekyll.
 * `sitemap: false`: 
