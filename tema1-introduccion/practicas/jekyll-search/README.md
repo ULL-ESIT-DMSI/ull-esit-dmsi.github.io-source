@@ -95,6 +95,9 @@ sitemap: false
 * [iteration in Liquid](https://shopify.github.io/liquid/tags/iteration/)
 * `site.html_pages`: A subset of `site.pages` listing those which end in `.html`.
 
+Use the [Liquid Playground](https://liquidjs.com/playground.html) to test the Liquid expressions above.
+The lower left panel is to enter a JSON holding variables that can be accesed in the upper left panel by its name. 
+
 #### Entendiendo la línea `"content": {%raw%}{{ page.content | markdownify | strip_html | jsonify }},{%endraw%}`
 
 * `page.content` el contenido de la página todavia sin renderizar (se supone que es fundamentalmente markdown, pero puede contener yml en el front-matter, html, scripts, liquid, etc.)
@@ -434,6 +437,7 @@ $ tree -I _site
 ### Referencias 
 
 * [Sección Jekyll en estos apuntes]({{site.baseurl}}/assets/temas/introduccion-a-javascript/jekyll)
+* [Liquid Playground](https://liquidjs.com/playground.html)
 * [Liquid](https://shopify.github.io/liquid/)
 * [Using HTMLProofer From Ruby and Travis](https://github.com/gjtorikian/html-proofer/wiki/Using-HTMLProofer-From-Ruby-and-Travis). Para testear tus páginas: links, imágenes, etc.
 
