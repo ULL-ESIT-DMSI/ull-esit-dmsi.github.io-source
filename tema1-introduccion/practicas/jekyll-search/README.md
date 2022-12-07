@@ -397,6 +397,13 @@ It’s like a fixed array of elements.
   }
 ```
 
+**URL parameters** 
+
+(also known as **query strings**) are a way to structure additional information for a given URL. 
+Parameters are added to the end of a URL after a `?` symbol, and multiple parameters can be included when separated by the `&` symbol.
+
+![]({{site.baseurl}}/assets/images/query-string.png)
+
 **url.searchParams**
 
 If the URL of your page is `https://example.com/?name=Jonathan%20Smith&age=18` you could parse out the `name` and `age` parameters using:
