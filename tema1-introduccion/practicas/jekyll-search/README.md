@@ -1,3 +1,13 @@
+---
+permalink: /tema1-introduccion/practicas/jekyll-search
+rubrica:
+  - "Código de la práctica correcto y funciona"
+  - "El constructor recibe en un objeto los argumentos en vez de posicionalmente"
+  - "Informe bien elaborado"
+  - "Kanban Board project conteniendo las incidencias de la rúbrica"
+  - "Ha entregado el .zip en el campus con el repo"
+---
+
 - [Práctica jekyll-search](#práctica-jekyll-search)
   - [Adding a Simple Search to our Jekyll Site](#adding-a-simple-search-to-our-jekyll-site)
     - [¿Como hacerlo?](#como-hacerlo)
@@ -6,12 +16,13 @@
     - [La página de Búsqueda: search.md](#la-página-de-búsqueda-searchmd)
     - [La clase JekyllSearch: Fichero search.js](#la-clase-jekyllsearch-fichero-searchjs)
       - [url.searchParams](#urlsearchparams)
-      - [Live collections](#live-collections)
+      - [constructor](#constructor)
       - [window.history.pushState](#windowhistorypushstate)
     - [Caching](#caching)
     - [Fetch Polyfill](#fetch-polyfill)
     - [Estructura del sitio](#estructura-del-sitio)
     - [Referencias](#referencias)
+- [Rúbrica](#rúbrica)
 
 # Práctica jekyll-search
 
@@ -260,22 +271,22 @@ Here are the contents:
 ```js
 class JekyllSearch {
   constructor(dataSource, searchField, resultsList, siteURL) {
-    this.dataSource = dataSource                           // ruta al fichero json
-    this.searchField = document.querySelector(searchField) // DOM el. del input
-    this.resultsList = document.querySelector(resultsList) // DOM el. para el output
-    this.siteURL = siteURL                                 // folder
+    this.dataSource = dataSource
+    this.searchField = document.querySelector(searchField)
+    this.resultsList = document.querySelector(resultsList)
+    this.siteURL = siteURL
 
-    this.data = '';
+    this.data = [];
   }
 
   fetchedData() {
-    return fetch(this.dataSource)
+    return fetch(this.dataSource, {mode: 'no-cors'})
       .then(blob => blob.json())
   }
 
   async findResults() {
     this.data = await this.fetchedData()
-    const regex = new RegExp(this.searchField.value, 'gi')
+    const regex = new RegExp(this.searchField.value, 'i')
     return this.data.filter(item => {
       return item.title.match(regex) || item.content.match(regex)
     })
@@ -283,12 +294,15 @@ class JekyllSearch {
 
   async displayResults() {
     const results = await this.findResults()
+    //console.log('this.siteURL = ',this.siteURL)
+
     const html = results.map(item => {
+      //console.log(item)
       return `
         <li class="result">
             <article class="result__article  article">
                 <h4>
-                  <a href="${this.siteURL + item.url}">${item.title}</a>
+                  <a href="${item.url}">${item.title}</a>
                 </h4>
                 <p>${item.excerpt}</p>
             </article>
@@ -303,9 +317,10 @@ class JekyllSearch {
 
   // https://stackoverflow.com/questions/43431550/async-await-class-constructor
   init() {
+    
     const url = new URL(document.location)
     if (url.searchParams.get("search")) {
-      this.searchField.value = url.searchParams.get("search") // Update the attribute
+      this.searchField.value = url.searchParams.get("search")
       this.displayResults()
     }
     this.searchField.addEventListener('keyup', () => {
@@ -335,23 +350,29 @@ let name = params.get('name'); // is the string "Jonathan Smith".
 let age = parseInt(params.get('age')); // is the number 18
 ```
 
-#### Live collections
-
-All methods `getElementsBy*` return a live collection. 
-Such collections always reflect the current state of the document and *auto-update* when it changes. 
-In contrast, `querySelectorAll` returns a static collection. 
-It’s like a fixed array of elements.
+#### constructor
 
 ```js
 constructor(dataSource, searchField, resultsList, siteURL) {
-    this.dataSource = dataSource                           // ruta al fichero json
-    this.searchField = document.querySelector(searchField) // DOM el. del input
-    this.resultsList = document.querySelector(resultsList) // DOM el. para el output
-    this.siteURL = siteURL                                 // folder
+    this.dataSource = dataSource
+    this.searchField = document.querySelector(searchField)
+    this.resultsList = document.querySelector(resultsList)
+    this.siteURL = siteURL
 
-    this.data = '';
-  }
+    this.data = [];
+}
 ```
+
+The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document"><code>Document</code></a> method <strong>[querySelectorAll()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)</strong>
+returns a static (not live) <a href="https://developer.mozilla.org/en-US/docs/Web/API/NodeList"><code>NodeList</code></a> representing a list of the
+document's elements that match the specified group of selectors.
+
+All methods `getElementsBy*` return a [live collection](https://www.designcise.com/web/tutorial/what-is-the-difference-between-live-and-static-collections-in-javascript). 
+Such collections always reflect the current state of the document and *auto-update* when it changes. 
+
+In contrast, `querySelectorAll` returns a static collection. 
+It’s like a fixed array of elements.
+
 
 #### window.history.pushState
 
@@ -474,3 +495,7 @@ $ tree -I _site
 * [CloudCannon](https://app.cloudcannon.com/) is cloud content management system and hosting provider for Jekyll websites
 * [documentation-theme-jekyll](https://github.com/ULL-MII-SYTWS-1920/documentation-theme-jekyll) Un tema muy completo. Tiene de todo
 -->
+
+# Rúbrica
+
+{% include rubrica.md -%}
