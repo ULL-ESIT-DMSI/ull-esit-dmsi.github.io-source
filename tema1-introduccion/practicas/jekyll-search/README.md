@@ -63,8 +63,10 @@ sitemap: false
       },
     {% endfor %}
   {% endfor %}
+  
   {% assign pages = site.html_pages | where_exp:'doc','doc.sitemap != false' | where_exp:'doc','doc.title != null' %}
-  {% for page in pages $}
+
+  {% for page in pages %}
   {
     "title": {{ page.title | jsonify }},
     "excerpt": {{ page.excerpt | markdownify | strip_html | jsonify }},
@@ -76,6 +78,7 @@ sitemap: false
 {% endcapture %}
 
 {{ json | lstrip }}
+
 {% endraw %}
 ```
 
@@ -146,9 +149,7 @@ Por eso convertimos el markdown a HTML y después suprimimos los tags HTML. Tamb
 
 ### La página de Búsqueda: search.md
 
-* [search.md](https://raw.githubusercontent.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/master/search.md?token=AAIW6GSTWVSQTT272LOFILK55YPFU) (protected)
-
-**Fichero `search.md`**:
+**Fuente**: [search.md](https://github.com/ULL-MFP-AET/ull-mfp-aet.github.io/edit/main/search.md) 
 
 La idea es que vamos a escribir una clase `JekyllSearch` que implementa la búsqueda.
 Debe disponer  de un constructor al que se le pasan cuatro argumentos:
@@ -200,10 +201,10 @@ title: Search
 < script type="text/javascript">
 
   const search = new JekyllSearch(
-    '{{site.url}  }/assets/src/search.json',
+    '{{site.url}}/assets/src/search.json',
     '#search',
     '#list',
-    '{{site.url}  }'
+    '{{site.baseurl}}'
   );
   search.init(); 
   
