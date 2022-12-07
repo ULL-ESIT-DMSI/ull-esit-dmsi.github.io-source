@@ -25,6 +25,7 @@ rubrica:
   - [init](#init)
     - [URL parameters](#url-parameters)
     - [url.searchParams](#urlsearchparams)
+  - [The event listeners](#the-event-listeners)
     - [window.history.pushState](#windowhistorypushstate)
   - [findResults](#findresults)
     - [Caching](#caching)
@@ -422,6 +423,17 @@ let name = params.get('name'); // is the string "Jonathan Smith".
 let age = parseInt(params.get('age')); // is the number 18
 ```
 
+## The event listeners
+
+```js
+    this.searchField.addEventListener('keyup', () => {
+      this.displayResults()
+      // So that when going back in the browser we keep the search
+      url.searchParams.set("search", this.searchField.value)
+      window.history.pushState('', '', url.href)
+    })
+```
+
 ### window.history.pushState
 
 The  `window` object provides access to the browser's session history through the `history` object. 
@@ -436,6 +448,8 @@ The `history.pushState(state, title, url)` method adds a state to the browser's 
       window.history.pushState('', '', url.href)
     })
 ```
+
+The `search.json` is not going to change until the next `push`
 
 ## findResults
 
@@ -466,7 +480,6 @@ fetchedData() {
 
 This is usually fine, since it means that **if your browser has a cached copy of the response to the HTTP request, it can use the cached copy instead of wasting time and bandwidth re-downloading from a remote server**. 
 
-The `search.json` is not going to change until the next `push`
 
 
 ## Fetch Polyfill
