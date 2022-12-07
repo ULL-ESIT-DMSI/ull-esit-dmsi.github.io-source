@@ -21,7 +21,7 @@ This restriction exists because requests made at other domains by your browser w
 So, without **same-origin**, any site could host JavaScript that called logout on <campusvirtual.ull.es>
 for example, and it would log you out. 
 
-:+: Now imagine the complications when we talk about banking sites, government sites, etc.
+Now imagine the complications when we talk about banking sites, government sites, etc.
 
 So, **all browsers simply restrict script-based network calls to their own domain** to make it simple and safe.
 
