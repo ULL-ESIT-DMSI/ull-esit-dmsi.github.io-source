@@ -79,6 +79,8 @@ sitemap: false
 {% endraw %}
 ```
 
+You can find the <a href="https://github.com/ULL-MFP-AET/ull-mfp-aet.github.io/blob/main/assets/src/search.json" target="_blank">source code at `/ULL-MFP-AET/ull-mfp-aet.github.io/main/assets/src/search.json`</a> 
+
 * `layout: null`: To disable layout in Jekyll.
 * `sitemap: false`: 
   - A Sitemap is an XML file that lists the URLs for a site. This allows search engines to crawl the site more efficiently and to find URLs that may be isolated from rest of the site's content. The [sitemaps protocol is a URL inclusion protocol](https://www.sitemaps.org/protocol.html) and complements `robots.txt`, a URL exclusion protocol. We can use the  front-matter to set the `sitemap` property to `false`
@@ -439,6 +441,9 @@ $ tree -I _site
 * [Sección Jekyll en estos apuntes]({{site.baseurl}}/assets/temas/introduccion-a-javascript/jekyll)
 * [Liquid Playground](https://liquidjs.com/playground.html)
 * [Liquid](https://shopify.github.io/liquid/)
+* [Jekyll Liquid Extensions](https://jekyllrb.com/docs/liquid/)
+  * <a href="https://jekyllrb.com/docs/liquid/filters/">Filters</a>
+  * <a href="https://jekyllrb.com/docs/liquid/tags/">Tags</a>
 * [Using HTMLProofer From Ruby and Travis](https://github.com/gjtorikian/html-proofer/wiki/Using-HTMLProofer-From-Ruby-and-Travis). Para testear tus páginas: links, imágenes, etc.
 
 <!--
