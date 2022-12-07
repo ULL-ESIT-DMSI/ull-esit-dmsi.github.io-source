@@ -493,16 +493,18 @@ So, **all browsers simply restrict script-based network calls to their own domai
 
 CORS allows these cross-domain requests to happen, but **only when each side opts into CORS support**.
 
-Sometimes, however it's just a helpful website (say, http://goodsite.foo) trying to use a public API from another origin (say, http://api.example.com). The programmers who worked hard on api.example.com want all origins to access their site's contents freely. In that case, the API server at api.example.com can use CORS headers to allow goodsite.foo (or any other requesting origin) to access its API responses.
+If your server is configured for CORS, it will return an extra header with `Access-Control-Allow-Origin` on each response.
+
+![]({{site.baseurl}}/assets/images/cors-header.png)
+
+Sometimes it's just a helpful website (say, https://my.first.site.foo) trying to use a public API from another origin (say, <https://api.github.com>). The programmers who worked hard on api.github.com want all origins to access their site's contents freely. In that case, the API server at api.github.com can use CORS headers to allow my.first.site.foo (or any other requesting origin) to access its API responses.
+
+![]({{site.baseurl}}/assets/images/cors-header-github-rest-api.png)
 
 So, most of the time cross-origin access is a bad thing, but there are cases where it's a good thing. 
 CORS allows the good case to happen when the requested site wants it to happen.
 
 CORS allows the server to explicitly whitelist certain origin and help to bypass the **same-origin** policy.
-
-If your server is configured for CORS, it will return an extra header with `Access-Control-Allow-Origin` on each response.
-
-![]({{site.baseurl}}/assets/images/cors-header.png)
 
 The `mode` option of the `fetch()` method allows you to define the [CORS mode](https://developer.mozilla.org/en-US/docs/Web/API/Request/mode) of the request:
 
