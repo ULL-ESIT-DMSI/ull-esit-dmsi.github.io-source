@@ -1,3 +1,18 @@
+- [Práctica jekyll-search](#práctica-jekyll-search)
+  - [Adding a Simple Search to our Jekyll Site](#adding-a-simple-search-to-our-jekyll-site)
+    - [¿Como hacerlo?](#como-hacerlo)
+    - [Liquid template to generate at build time the \_site/assets/src/search.json](#liquid-template-to-generate-at-build-time-the-_siteassetssrcsearchjson)
+      - [Entendiendo la línea `"content": {%raw%}{{ page.content | markdownify | strip_html | jsonify }},{%endraw%}`](#entendiendo-la-línea-content-raw-pagecontent--markdownify--strip_html--jsonify-endraw)
+    - [La página de Búsqueda: search.md](#la-página-de-búsqueda-searchmd)
+    - [La clase JekyllSearch: Fichero search.js](#la-clase-jekyllsearch-fichero-searchjs)
+      - [url.searchParams](#urlsearchparams)
+      - [Live collections](#live-collections)
+      - [window.history.pushState](#windowhistorypushstate)
+    - [Caching](#caching)
+    - [Fetch Polyfill](#fetch-polyfill)
+    - [Estructura del sitio](#estructura-del-sitio)
+    - [Referencias](#referencias)
+
 # Práctica jekyll-search
 
 ## Adding a Simple Search to our Jekyll Site
