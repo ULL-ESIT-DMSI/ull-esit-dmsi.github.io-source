@@ -371,14 +371,16 @@ constructor(dataSource, searchField, resultsList, siteURL) {
 
 The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document"><code>Document</code></a> method <strong>[querySelectorAll()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)</strong>
 returns a static (not live) <a href="https://developer.mozilla.org/en-US/docs/Web/API/NodeList"><code>NodeList</code></a> representing a list of the
-document's elements that match the specified group of selectors.
+document's elements that match the specified group of **selectors**.
+
+**selectors**: In CSS, pattern matching rules determine which style rules apply to elements in the **document tree**. These patterns, are called **selectors**, may range from simple element names to rich contextual patterns. If all conditions in the pattern are true for a certain element, the selector matches the element. For instance `'#search'` and  `'#list'` are selectors.
+
 
 All methods `getElementsBy*` return a [live collection](https://www.designcise.com/web/tutorial/what-is-the-difference-between-live-and-static-collections-in-javascript). 
 Such collections always reflect the current state of the document and *auto-update* when it changes. 
 
 In contrast, `querySelectorAll` returns a static collection. 
 It’s like a fixed array of elements.
-
 
 ## window.history.pushState
 
