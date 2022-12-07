@@ -253,7 +253,9 @@ title: Search
 
 ### La clase JekyllSearch: Fichero search.js
 
-* [source](https://github.com/ULL-MFP-AET/ull-mfp-aet.github.io/blob/main/assets/src/search.js)
+You can find the source at  [ULL-MFP-AET/ull-mfp-aet.github.io/assets/src/search.js](https://github.com/ULL-MFP-AET/ull-mfp-aet.github.io/blob/main/assets/src/search.js)
+
+Here are the contents:
 
 ```js
 class JekyllSearch {
