@@ -23,7 +23,6 @@ rubrica:
   - [La clase JekyllSearch: Fichero search.js](#la-clase-jekyllsearch-fichero-searchjs)
   - [constructor](#constructor)
   - [init](#init)
-    - [url.searchParams](#urlsearchparams)
   - [window.history.pushState](#windowhistorypushstate)
   - [Caching](#caching)
   - [Fetch Polyfill](#fetch-polyfill)
@@ -398,7 +397,7 @@ It’s like a fixed array of elements.
   }
 ```
 
-### url.searchParams
+**url.searchParams**
 
 If the URL of your page is `https://example.com/?name=Jonathan%20Smith&age=18` you could parse out the `name` and `age` parameters using:
 
