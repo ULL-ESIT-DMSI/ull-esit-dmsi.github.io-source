@@ -1,8 +1,14 @@
 ---
 permalink: /tema1-introduccion/practicas/jekyll-search
 rubrica:
+  - Busca en todos los ficheros, no solo los  de los posts sino también los de las páginas
+  - Admite expresiones regulares
+  - Los resultados vayan apareciendo conforme tecleamos
+  - Se muestra una lista de enlaces a los ficheros que contienen la expresión buscada y un resumen de las primeros caracteres del fichero
+  - "El constructor de JekyllSearch recibe en un objeto los argumentos en vez de posicionalmente"
+  - Se ha hecho un resumen del capítulo 2 Lifecycle types and their rationales del libro *Developing Information Systems*, editado by James Cadle
+  - Se ha creado una rama `intro2sd` para señalar el punto de entrega de la anterior y se hace la entrega de esta tarea en la rama `main`.
   - "Código de la práctica correcto y funciona"
-  - "El constructor recibe en un objeto los argumentos en vez de posicionalmente"
   - "Informe bien elaborado"
   - "Kanban Board project conteniendo las incidencias de la rúbrica"
   - "Ha entregado el .zip en el campus con el repo"
@@ -10,19 +16,19 @@ rubrica:
 
 - [Práctica jekyll-search](#práctica-jekyll-search)
   - [Adding a Simple Search to our Jekyll Site](#adding-a-simple-search-to-our-jekyll-site)
-    - [¿Como hacerlo?](#como-hacerlo)
-    - [Liquid template to generate at build time the \_site/assets/src/search.json](#liquid-template-to-generate-at-build-time-the-_siteassetssrcsearchjson)
-      - [Entendiendo la línea `"content": {%raw%}{{ page.content | markdownify | strip_html | jsonify }},{%endraw%}`](#entendiendo-la-línea-content-raw-pagecontent--markdownify--strip_html--jsonify-endraw)
-    - [La página de Búsqueda: search.md](#la-página-de-búsqueda-searchmd)
-    - [La clase JekyllSearch: Fichero search.js](#la-clase-jekyllsearch-fichero-searchjs)
-      - [url.searchParams](#urlsearchparams)
-      - [constructor](#constructor)
-      - [window.history.pushState](#windowhistorypushstate)
-    - [Caching](#caching)
-    - [Fetch Polyfill](#fetch-polyfill)
-    - [Estructura del sitio](#estructura-del-sitio)
-    - [Referencias](#referencias)
-- [Rúbrica](#rúbrica)
+  - [¿Como hacerlo?](#como-hacerlo)
+  - [Liquid template to generate at build time the \_site/assets/src/search.json](#liquid-template-to-generate-at-build-time-the-_siteassetssrcsearchjson)
+  - [Entendiendo la línea `"content": {%raw%}{{ page.content | markdownify | strip_html | jsonify }},{%endraw%}`](#entendiendo-la-línea-content-raw-pagecontent--markdownify--strip_html--jsonify-endraw)
+  - [La página de Búsqueda: search.md](#la-página-de-búsqueda-searchmd)
+  - [La clase JekyllSearch: Fichero search.js](#la-clase-jekyllsearch-fichero-searchjs)
+  - [url.searchParams](#urlsearchparams)
+  - [constructor](#constructor)
+  - [window.history.pushState](#windowhistorypushstate)
+  - [Caching](#caching)
+  - [Fetch Polyfill](#fetch-polyfill)
+  - [Estructura del sitio](#estructura-del-sitio)
+  - [Rúbrica](#rúbrica)
+  - [Referencias](#referencias)
 
 # Práctica jekyll-search
 
@@ -42,7 +48,7 @@ Estos son algunos requisitos:
 La entrega de esta práctica se realizará en el mismo repo asociado a [la práctica *Introduction to Systems Development*]({{ site.baseurl }}/tema1-introduccion/practicas/intro2sd/).
 Cree una rama `intro2sd` para señalar el punto de entrega de la anterior y haga la entrega de esta tarea en la rama `main`.
 
-### ¿Como hacerlo?
+## ¿Como hacerlo?
 
 1. Since Jekyll has no server side execution, we have to rely on storing all the required content in a single file and search our keyword from that file.
 2. We will be creating a JSON file in which we will store  `title`,  `url`, `content`, `excerpt`, etc., <u>at building time</u>
@@ -66,7 +72,7 @@ Cree una rama `intro2sd` para señalar el punto de entrega de la anterior y haga
 
 Véase [search.json](https://raw.githubusercontent.com/ULL-MII-SYTWS-1920/ull-mii-sytws-1920.github.io/master/assets/src/search.json?token=AAIW6GWXQOTDJ7VYDKDGBWK55YN74) (protected)
 
-### Liquid template to generate at build time the _site/assets/src/search.json
+## Liquid template to generate at build time the _site/assets/src/search.json
 
 ```html
 {%- raw -%}
@@ -129,7 +135,7 @@ You can find the <a href="https://github.com/ULL-MFP-AET/ull-mfp-aet.github.io/b
 Use the [Liquid Playground](https://liquidjs.com/playground.html) to test the Liquid expressions above.
 The lower left panel is to enter a JSON holding variables that can be accesed in the upper left panel by its name. 
 
-#### Entendiendo la línea `"content": {%raw%}{{ page.content | markdownify | strip_html | jsonify }},{%endraw%}`
+## Entendiendo la línea `"content": {%raw%}{{ page.content | markdownify | strip_html | jsonify }},{%endraw%}`
 
 * `page.content` el contenido de la página todavia sin renderizar (se supone que es fundamentalmente markdown, pero puede contener yml en el front-matter, html, scripts, liquid, etc.)
 * `markdownify`: Convert a Markdown-formatted string into HTML.
@@ -173,7 +179,7 @@ La idea general es que necesitamos suprimir los tags, tanto yml, markdown, HTML,
 Por eso convertimos el markdown a HTML y después suprimimos los tags HTML. También convertimos el yml a JSON.
 
 
-### La página de Búsqueda: search.md
+## La página de Búsqueda: search.md
 
 **Fuente**: [search.md](https://github.com/ULL-MFP-AET/ull-mfp-aet.github.io/edit/main/search.md) 
 
@@ -262,7 +268,7 @@ title: Search
 
 ![https://byparker.com/img/what-is-a-baseurl.jpg](/assets/images/what-is-a-baseurl.jpg)
 
-### La clase JekyllSearch: Fichero search.js
+## La clase JekyllSearch: Fichero search.js
 
 You can find the source at  [ULL-MFP-AET/ull-mfp-aet.github.io/assets/src/search.js](https://github.com/ULL-MFP-AET/ull-mfp-aet.github.io/blob/main/assets/src/search.js)
 
@@ -340,7 +346,7 @@ class JekyllSearch {
 }
 ```
 
-#### url.searchParams
+## url.searchParams
 
 If the URL of your page is `https://example.com/?name=Jonathan%20Smith&age=18` you could parse out the `name` and `age` parameters using:
 
@@ -350,7 +356,7 @@ let name = params.get('name'); // is the string "Jonathan Smith".
 let age = parseInt(params.get('age')); // is the number 18
 ```
 
-#### constructor
+## constructor
 
 ```js
 constructor(dataSource, searchField, resultsList, siteURL) {
@@ -374,7 +380,7 @@ In contrast, `querySelectorAll` returns a static collection.
 It’s like a fixed array of elements.
 
 
-#### window.history.pushState
+## window.history.pushState
 
 The  `window` object provides access to the browser's session history through the `history` object. 
 The `history.pushState(state, title, url)` method adds a state to the browser's session history stack.
@@ -389,7 +395,7 @@ The `history.pushState(state, title, url)` method adds a state to the browser's 
     })
 ```
 
-### Caching
+## Caching
 
 The resources downloaded through `fetch()`, similar to other resources that the browser downloads, are subject to the [HTTP cache](https://developer.mozilla.org/en/docs/Web/HTTP/Caching_FAQ).  
 
@@ -404,7 +410,7 @@ This is usually fine, since it means that **if your browser has a cached copy of
 The `search.json` is not going to change until the next `push`
 
 
-### Fetch Polyfill
+## Fetch Polyfill
 
 <dl>
 <dt>Polyfill</dt>
@@ -422,7 +428,7 @@ The `search.json` is not going to change until the next `push`
   - o bien: 
   - `bower install fetch --save`
 
-### Estructura del sitio
+## Estructura del sitio
 
 Esta imagen muestra los ficheros implicados en este ejercicio dentro de 
 la estructura del sitio de estos apuntes:
@@ -480,7 +486,11 @@ $ tree -I _site
 ```
 
 
-### Referencias 
+## Rúbrica
+
+{% include rubrica.md -%}
+
+## Referencias 
 
 * [Sección Jekyll en estos apuntes]({{site.baseurl}}/assets/temas/introduccion-a-javascript/jekyll)
 * [Liquid Playground](https://liquidjs.com/playground.html)
@@ -495,7 +505,3 @@ $ tree -I _site
 * [CloudCannon](https://app.cloudcannon.com/) is cloud content management system and hosting provider for Jekyll websites
 * [documentation-theme-jekyll](https://github.com/ULL-MII-SYTWS-1920/documentation-theme-jekyll) Un tema muy completo. Tiene de todo
 -->
-
-# Rúbrica
-
-{% include rubrica.md -%}
