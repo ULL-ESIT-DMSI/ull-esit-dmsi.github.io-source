@@ -21,8 +21,9 @@ rubrica:
   - [Entendiendo la línea `"content": {%raw%}{{ page.content | markdownify | strip_html | jsonify }},{%endraw%}`](#entendiendo-la-línea-content-raw-pagecontent--markdownify--strip_html--jsonify-endraw)
   - [La página de Búsqueda: search.md](#la-página-de-búsqueda-searchmd)
   - [La clase JekyllSearch: Fichero search.js](#la-clase-jekyllsearch-fichero-searchjs)
-  - [url.searchParams](#urlsearchparams)
   - [constructor](#constructor)
+  - [init](#init)
+    - [url.searchParams](#urlsearchparams)
   - [window.history.pushState](#windowhistorypushstate)
   - [Caching](#caching)
   - [Fetch Polyfill](#fetch-polyfill)
@@ -346,16 +347,6 @@ class JekyllSearch {
 }
 ```
 
-## url.searchParams
-
-If the URL of your page is `https://example.com/?name=Jonathan%20Smith&age=18` you could parse out the `name` and `age` parameters using:
-
-```js
-let params = (new URL(document.location)).searchParams;
-let name = params.get('name'); // is the string "Jonathan Smith".
-let age = parseInt(params.get('age')); // is the number 18
-```
-
 ## constructor
 
 ```js
@@ -381,6 +372,41 @@ Such collections always reflect the current state of the document and *auto-upda
 
 In contrast, `querySelectorAll` returns a static collection. 
 It’s like a fixed array of elements.
+
+## init
+
+```js
+ init() {
+    const url = new URL(document.location)
+    if (url.searchParams.get("search")) {
+      this.searchField.value = url.searchParams.get("search")
+      this.displayResults()
+    }
+    this.searchField.addEventListener('keyup', () => {
+      this.displayResults()
+      // So that when going back in the browser we keep the search
+      url.searchParams.set("search", this.searchField.value)
+      window.history.pushState('', '', url.href)
+    })
+    
+    // to not send the form each time <enter> is pressed
+    this.searchField.addEventListener('keypress', event => {
+      if (event.keyCode == 13) {
+        event.preventDefault()
+      }
+    })
+  }
+```
+
+### url.searchParams
+
+If the URL of your page is `https://example.com/?name=Jonathan%20Smith&age=18` you could parse out the `name` and `age` parameters using:
+
+```js
+let params = (new URL(document.location)).searchParams;
+let name = params.get('name'); // is the string "Jonathan Smith".
+let age = parseInt(params.get('age')); // is the number 18
+```
 
 ## window.history.pushState
 
