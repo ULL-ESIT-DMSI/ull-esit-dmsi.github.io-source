@@ -188,7 +188,10 @@ title: Search
 <form id="search-form" action="">
   <label class="label" for="search">Search term (accepts a regex):</label>
   <br/>
-  <input class="input" id="search" type="text" name="search" autofocus placeholder="e.g. Promise" autocomplete="off">
+  <input class="input" id="search" type="text" name="search" 
+        autofocus 
+        placeholder="e.g. Promise" 
+        autocomplete="off">
   
   <ul class="list  list--results" id="list">
   </ul>
