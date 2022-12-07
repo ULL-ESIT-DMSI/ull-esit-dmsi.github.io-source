@@ -2,6 +2,9 @@
 title: Service Workers
 permalink: /temas/service-workers
 ---
+
+# {{ page.title }}
+
 Basically, a Service Worker is a type of Web Worker, and more specifically it’s like a <a href="https://developer.mozilla.org/en-US/docs/Web/API/SharedWorker" rel="noopener ugc nofollow" target="_blank">Shared Worker</a>.
 
 **Service workers** essentially act as proxy servers that sit between web applications, the browser, and the network (when available). 
