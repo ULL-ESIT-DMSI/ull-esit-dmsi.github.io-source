@@ -404,6 +404,11 @@ Parameters are added to the end of a URL after a `?` symbol, and multiple parame
 
 ![]({{site.baseurl}}/assets/images/query-string.png)
 
+In our case, we have the `search` parameter:
+
+![]({{site.baseurl}}/assets/images/search-query.png)
+
+
 **url.searchParams**
 
 If the URL of your page is `https://example.com/?name=Jonathan%20Smith&age=18` you could parse out the `name` and `age` parameters using:
