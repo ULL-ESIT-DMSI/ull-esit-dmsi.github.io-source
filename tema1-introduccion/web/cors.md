@@ -19,7 +19,7 @@ This means that requests can only be made to the same domain (or sub domain).
 This restriction exists because requests made at other domains by your browser would carry along your cookies which often means you'd be logged in to the other site. 
 
 So, without **same-origin**, any site could host JavaScript that called logout on <campusvirtual.ull.es>
-for example, and it would log you out. 
+for example, and it would log you out!. 
 
 Now imagine the complications when we talk about banking sites, government sites, etc.
 
