@@ -1,6 +1,19 @@
 ---
-title:   Cross-Origin Resource Sharing CORS 
+title:   "Cross-Origin Resource Sharing CORS: Second Part"
+permalink: /temas/cors-advanced
 ---
+
+- [{{ page.title }}](#-pagetitle-)
+  - [Origin](#origin)
+  - [The reason for The Same-Origin Policy](#the-reason-for-the-same-origin-policy)
+  - [The Reasons for Cross-Origin Resource Sharing](#the-reasons-for-cross-origin-resource-sharing)
+  - [How CORS works](#how-cors-works)
+  - [The CORS npm module](#the-cors-npm-module)
+  - [Ejemplo: server en ULL-MII-SYTWS-1920/food-lookup-demo](#ejemplo-server-en-ull-mii-sytws-1920food-lookup-demo)
+  - [Cómo hacer un Ataque CSRF](#cómo-hacer-un-ataque-csrf)
+  - [CORS references](#cors-references)
+
+# {{ page.title }}
 
 **CORS** is a security mechanism that allows a web page from one domain or **Origin** 
 to access a resource with a different domain (a _cross-domain request_). 
@@ -31,7 +44,7 @@ This means when you log into <em>https://examplebank.com</em>, a cookie is store
 1. Let’s say you browse to a malicious website  <em>https://evilunicorns.com</em> while logged into <em>https://examplebank.com</em>. 
 2. Without same-origin policy, that hacker website could make **authenticated** malicious AJAX calls to <em>https://examplebank.com/api</em> to <code>POST /withdraw</code> even though the hacker website doesn’t have direct access to the bank’s cookies.
 
-This is due to the browser behavior of automatically attaching any cookies bounded to <em>https://examplebank.com</em> for any HTTP calls to that domain, including AJAX calls from <em>https://evilunicorns.com</em> to <em>https://examplebank.com</em>. 
+**This is due to the browser behavior of automatically attaching any cookies bounded to <em>https://examplebank.com</em> for any HTTP calls to that domain**, including AJAX calls from <em>https://evilunicorns.com</em> to <em>https://examplebank.com</em>. 
 
 By restricting HTTP calls to only ones to the same origin (i.e. the browser tab’s domain), same-origin policy closes some hacker backdoors such as around <a href="https://en.wikipedia.org/wiki/Cross-site_request_forgery" target="_blank" rel="noopener noreferrer">Cross-Site Request Forgery (CSRF)</a> (Although not all. Mechanisms like CSRF tokens are still necessary).
 
@@ -41,8 +54,7 @@ There are legitimate reasons for a website to make cross-origin HTTP requests:
 
 *  Maybe a single-page app at <em>https://mydomain.com</em> needs to make AJAX calls to <em>https://api.mydomain.com</em>; 
 *  or maybe <em>https://mydomain.com</em> incorporates some 3rd party fonts or analytics providers like Google Analytics or MixPanel.
-*  
-<em>Cross-Origin Resource Sharing</em> (CORS) enables these cross-domain requests.
+* <em>Cross-Origin Resource Sharing</em> (CORS) enables these cross-domain requests.
 
 ## How CORS works
 
