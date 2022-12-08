@@ -29,6 +29,7 @@ rubrica:
   - [State in React](#state-in-react)
   - [build](#build)
   - [Production](#production)
+  - [REST exercises](#rest-exercises)
 
 # Introduction to  NextJS, React and REST 
 
@@ -550,3 +551,12 @@ ready - started server on 0.0.0.0:4000, url: http://localhost:4000
 info  - Loaded env from /Users/casianorodriguezleon/campus-virtual/2223/learning/openai-learning/openai-quickstart-node/.env
 ```
 
+## REST exercises
+
+Make requests to the OpenAI API using a client like the Thunder Client or Postman or Insomnia.
+
+1. To get all models
+2. To get info of a model
+3. To get a cute image
+4. To get a completion
+5. To get a moderation
