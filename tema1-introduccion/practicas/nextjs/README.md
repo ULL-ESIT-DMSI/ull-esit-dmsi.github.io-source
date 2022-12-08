@@ -1,10 +1,12 @@
 ---
 permalink: /practicas/nextjs
 rubrica:
-  - "Código de la práctica correcto y funciona"
-  - "Informe bien elaborado"
-  - "Kanban Board project conteniendo las incidencias de la rúbrica"
-  - "Ha entregado el .zip en el campus con el repo"
+   - "Code of the lab is correct and works"
+   - "Site deployed at netlify"
+   - "Rest exercises are correct"
+   - "Report is correct and complete"
+   - "Kanban Board Project reflects the rubric issues"
+   - "The .zip has been delivered on the campus"
 ---
 
 - [Introduction to  NextJS, React and REST](#introduction-to--nextjs-react-and-rest)
@@ -31,6 +33,7 @@ rubrica:
   - [Production](#production)
   - [Deploy at Netlify](#deploy-at-netlify)
   - [REST exercises](#rest-exercises)
+  - [Rubrica](#rubrica)
   - [References](#references-2)
 
 # Introduction to  NextJS, React and REST 
@@ -578,6 +581,10 @@ Make requests to the OpenAI API using a client like the Thunder Client or Postma
 3. To get a cute image
 4. To get a completion
 5. To get a moderation
+
+## Rubrica
+
+{% include rubrica.md %}
 
 ## References
 
