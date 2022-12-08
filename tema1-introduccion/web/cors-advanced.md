@@ -200,7 +200,7 @@ Obtenemos una respuesta similar a esta:
 
 > `localhost/:1` Uncaught (in promise) TypeError: Failed to fetch
 
-Usando el middleware `cors`arreglamos el problema:
+Usando el middleware `cors` arreglamos el problema:
 
 ```js
 const express = require("express");
