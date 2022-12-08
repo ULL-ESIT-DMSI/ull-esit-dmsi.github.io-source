@@ -471,7 +471,7 @@ The `search.json` is not going to change until the next `push`
 
 ### What is CORS
 
-Read the section [Introduction to CORS]({{ site.baseurl }}/temas/cors) to know waht CORS is.
+Read the section [Introduction to CORS]({{ site.baseurl }}/temas/cors) to know what CORS is.
 
 The `mode` option of the `fetch()` method allows you to define the [CORS mode](https://developer.mozilla.org/en-US/docs/Web/API/Request/mode) of the request:
 
