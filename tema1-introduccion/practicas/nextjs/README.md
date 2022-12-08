@@ -592,6 +592,7 @@ Make requests to the OpenAI API using a client like the Thunder Client or Postma
 * [React](https://reactjs.org/)
 * [Netlify CLI](https://docs.netlify.com/cli/get-started/?_ga=2.210632407.351830897.1670331128-1485033729.1667990322#link-with-an-environment-variable) 
 * [Next.js on Netlify](https://docs.netlify.com/integrations/frameworks/next-js/overview/#app)
-* [Deploying a Next.js app to Vercel: Environment Variables](https://vercel.com/docs/concepts/projects/environment-variables?utm_source=next-site&utm_medium=docs&utm_campaign=next-website)
+* [Deploying a Next.js app to Vercel](https://vercel.com/guides/deploying-nextjs-with-vercel) 
+  * [Environment Variables](https://vercel.com/docs/concepts/projects/environment-variables?utm_source=next-site&utm_medium=docs&utm_campaign=next-website)
 * A solution deployed at netlify <https://nextjs-oai.netlify.app/>
 * [A repo with a solution](https://github.com/ULL-MII-SYTWS/nextjs-solution/settings)
