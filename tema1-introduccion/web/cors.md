@@ -102,7 +102,7 @@ If you want to know more about CORS continue reading the section [Cross-Origin R
 ## CORS and Fetch API
 
 If you want to avoid the blocking, the server that hosts the resource needs to have CORS enabled. 
-What you can do on the client side is set the mode of `fetch` to `cors`  (Although this is the default setting):
+What you can do on the client side is set the mode of `fetch` to `cors`  (Not really needed, this is the default setting):
 
 ```js
 fetch(request, {mode: 'cors'});
