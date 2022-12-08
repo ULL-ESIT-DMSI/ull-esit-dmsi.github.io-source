@@ -7,6 +7,7 @@ permalink: /temas/cors
   - [Same origin policy](#same-origin-policy)
   - [Cross-Origin Resource Sharing CORS](#cross-origin-resource-sharing-cors)
   - [How CORS works](#how-cors-works)
+  - [CORS and Fetch API](#cors-and-fetch-api)
 
 # {{ page.title }}
 
@@ -91,10 +92,26 @@ This is how a **simple CORS request** works:
      [Rest of response...]  
   ```
 4. When the browser receives the response, 
-   1. the browser checks the `Access-Control-Allow-Origin` header to see if it matches the origin of the tab. 
-   2. If not, the response is blocked. 
-   3. The check passes if either the `Access-Control-Allow-Origin` matches the single origin exactly or contains the wildcard `*` operator.
-   4. A server that responds `Access-Control-Allow-Origin: *` allows all origins.
+   * the browser checks the `Access-Control-Allow-Origin` header to see if it matches the origin of the tab.  If not, the response is blocked. 
+   * The check passes if either the `Access-Control-Allow-Origin` matches the single origin exactly or contains the wildcard `*` operator.
+   * A server that responds `Access-Control-Allow-Origin: *` allows all origins.
      Use `*` if your application absolutely requires it, such as creating an open/public API.
    
 If you want to know more about CORS continue reading the section [Cross-Origin Resource Sharing CORS: Second Part](/temas/cors-advanced) of the course.
+
+## CORS and Fetch API
+
+If you want to avoid the blocking, the server that hosts the resource needs to have CORS enabled. 
+What you can do on the client side is set the mode of `fetch` to CORS (although this is the default setting I believe):
+
+```js
+fetch(request, {mode: 'cors'});
+```
+
+The `mode` option specifies the mode you want to use for the request, e.g., `cors`, `no-cors`, or `same-origin`.
+
+- With `same-origin` you can perform requests only to your `origin`, otherwise the request will result in an error.
+- With `no-cors`, you can perform requests to other origins, even if they don't set the required CORS headers, but you'll get an **opaque** response. With an opaque response we won't be able to read the data returned or view the status of the request, meaning we can't check if the request was successful or not.
+  
+However this still requires the server to enable CORS as well, and allow your domain to request the resource.
+
