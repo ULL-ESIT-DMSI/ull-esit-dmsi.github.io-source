@@ -29,7 +29,9 @@ rubrica:
   - [State in React](#state-in-react)
   - [build](#build)
   - [Production](#production)
+  - [Deploy at Netlify](#deploy-at-netlify)
   - [REST exercises](#rest-exercises)
+  - [References](#references-2)
 
 # Introduction to  NextJS, React and REST 
 
@@ -551,6 +553,22 @@ ready - started server on 0.0.0.0:4000, url: http://localhost:4000
 info  - Loaded env from /Users/casianorodriguezleon/campus-virtual/2223/learning/openai-learning/openai-quickstart-node/.env
 ```
 
+## Deploy at Netlify
+
+Make public your repo.
+
+Choose new deploy and import your GitHub repo to Netlify
+
+![]({{ site.baseurl }}/assets/images/nextjs/netlify-deploy-1.png)
+
+Click on **show advanced**. Go to **Environment Variables** and add the secret:
+
+![]({{ site.baseurl }}/assets/images/nextjs/assets/images/nextjs/netlify-add-variable.png)
+
+after a while your site will be deployed and running:
+
+![]({{site.baseurl}}/assets/images/nextjs/netlify-running-cookies.png)
+
 ## REST exercises
 
 Make requests to the OpenAI API using a client like the Thunder Client or Postman or Insomnia.
@@ -560,3 +578,7 @@ Make requests to the OpenAI API using a client like the Thunder Client or Postma
 3. To get a cute image
 4. To get a completion
 5. To get a moderation
+
+## References
+
+* [Next.js on Netlify](https://docs.netlify.com/integrations/frameworks/next-js/overview/#app)
