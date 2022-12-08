@@ -40,7 +40,7 @@ rubrica:
 
 ## Introduction to Open AI REST API
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). 
+This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart).  You can check a solution deployed at netlify:  <https://nextjs-oai.netlify.app/>
 
 This code uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). 
 
@@ -589,3 +589,5 @@ Make requests to the OpenAI API using a client like the Thunder Client or Postma
 ## References
 
 * [Next.js on Netlify](https://docs.netlify.com/integrations/frameworks/next-js/overview/#app)
+* A solution deployed at netlify <https://nextjs-oai.netlify.app/>
+* [A repo with a solution](https://github.com/ULL-MII-SYTWS/nextjs-solution/settings)
