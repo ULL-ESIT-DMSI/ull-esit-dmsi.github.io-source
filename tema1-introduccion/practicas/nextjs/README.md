@@ -35,7 +35,7 @@ rubrica:
   - [Deploy at Netlify with the UI](#deploy-at-netlify-with-the-ui)
     - [Make public your repo](#make-public-your-repo)
     - [Deploy with the Netlify UI](#deploy-with-the-netlify-ui)
-  - [Environment Variables](#environment-variables)
+  - [Netlify Environment Variables](#netlify-environment-variables)
   - [The Netlify CLI](#the-netlify-cli)
     - [Install the Netlify CLI](#install-the-netlify-cli)
     - [Link the repo to Netlify](#link-the-repo-to-netlify)
@@ -609,7 +609,7 @@ Finally, click on **deploy site** and after a while your site will be deployed a
 ![]({{site.baseurl}}/assets/images/nextjs/netlify-running-cookies.png)
 
 
-## Environment Variables
+## Netlify Environment Variables
 
 Environment variables are set and securely stored on Netlify and provided to the Next.JS server. This means we can avoid committing any sensitive values to our repository. 
 
