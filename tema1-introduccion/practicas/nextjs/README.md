@@ -32,7 +32,8 @@ rubrica:
   - [State in React](#state-in-react)
   - [build](#build)
   - [Production](#production)
-  - [Deploy at Netlify](#deploy-at-netlify)
+  - [Deploy at Netlify with the UI](#deploy-at-netlify-with-the-ui)
+    - [Environment Variables](#environment-variables)
   - [Rubrica](#rubrica)
   - [References](#references-2)
 
@@ -567,7 +568,7 @@ ready - started server on 0.0.0.0:4000, url: http://localhost:4000
 info  - Loaded env from /Users/casianorodriguezleon/campus-virtual/2223/learning/openai-learning/openai-quickstart-node/.env
 ```
 
-## Deploy at Netlify
+## Deploy at Netlify with the UI
 
 Netlify’s Next.js Runtime configures your site on Netlify to enable key Next.js functionality. 
 
@@ -592,19 +593,75 @@ Click on **show advanced**. Go to **Environment Variables** and add the secret:
 
 ![netlify-add-variable]({{ site.baseurl }}/assets/images/nextjs/netlify-add-variable.png)
 
-When you create environment variables using 
-* the Netlify UI,
-* the Netlify CLI, or 
-* the Netlify API, 
- 
-they are set and securely stored on Netlify and provided to the Next.JS server. This means we can avoid committing any sensitive values to our repository. 
-
-The Netlify UI reflects any changes made using the CLI (ntl) or the API and vice versa.
-
 Finally, click on **deploy site** and after a while your site will be deployed and running:
 
 ![]({{site.baseurl}}/assets/images/nextjs/netlify-running-cookies.png)
 
+
+### Environment Variables
+
+Environment variables are set and securely stored on Netlify and provided to the Next.JS server. This means we can avoid committing any sensitive values to our repository. 
+
+There are three ways to create site environment variables:
+
+* In the Netlify UI, create site variables under **Site settings > Environment variables**.
+* With the Netlify CLI, use `env:set` to create a site environment variable, and `env:import` to import from a `.env` file. 
+* With the Netlify API, use `createEnvVars` to create a new site environment variable. 
+
+The Netlify UI reflects any changes made using the CLI (ntl) or the API and vice versa.
+
+```
+➜  nextjs-solution git:(main) ✗ ntl link --gitRemoteName sytws
+
+netlify link will connect this folder to a site on Netlify
+
+? How do you want to link this folder to a site? Use current git remote origin (https://github.com/ULL-MII-SYTWS/nextjs-solution)
+
+Looking for sites connected to 'https://github.com/ULL-MII-SYTWS/nextjs-solution'...
+
+
+Directory Linked
+
+Admin url: https://app.netlify.com/sites/nextjs-oai
+Site url:  https://nextjs-oai.netlify.app
+
+You can now run other `netlify` cli commands in this directory
+```
+
+Once we have linked the repo to Netlify, we can check the status:
+
+```
+➜  nextjs-solution git:(main) ✗ ntl status
+──────────────────────┐
+ Current Netlify User │
+──────────────────────┘
+Name:   Casiano Rodriguez-Leon
+Email:  crguezl@ull.edu.es
+GitHub: crguezl
+Teams:
+  Casiano Rodriguez-Leon's team: Collaborator
+────────────────────┐
+ Netlify Site Info  │
+────────────────────┘
+Current site: nextjs-oai
+Admin URL:    https://app.netlify.com/sites/nextjs-oai
+Site URL:     https://nextjs-oai.netlify.app
+Site Id:      de669f71-3b12-4ef0-8c91-c57b81e8eba1
+```
+
+and `list`, `set` or `get` the environment variables:
+
+```
+➜  nextjs-solution git:(main) ✗ ntl env:list
+1 environment variable for site nextjs-oai
+.---------------------------------------------------------------------.
+|                        Environment variables                        |
+|---------------------------------------------------------------------|
+|      Key       |                       Value                        |
+|----------------|----------------------------------------------------|
+| OPENAI_API_KEY | ************************************************** |
+'---------------------------------------------------------------------'
+```
 
 ## Rubrica
 
