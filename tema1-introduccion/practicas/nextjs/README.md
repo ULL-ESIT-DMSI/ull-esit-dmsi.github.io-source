@@ -9,7 +9,7 @@ rubrica:
    - "The .zip has been delivered on the campus"
 ---
 
-- [Introduction to  NextJS, React and REST](#introduction-to--nextjs-react-and-rest)
+- [Introduction to the JAM Stack with NextJS, React and REST](#introduction-to-the-jam-stack-with-nextjs-react-and-rest)
   - [Introduction to Open AI REST API](#introduction-to-open-ai-rest-api)
   - [Generating an API key](#generating-an-api-key)
   - [REST exercises](#rest-exercises)
@@ -46,7 +46,7 @@ rubrica:
   - [Rubrica](#rubrica)
   - [References](#references-2)
 
-# Introduction to  NextJS, React and REST 
+# Introduction to the JAM Stack with NextJS, React and REST 
 
 ## Introduction to Open AI REST API
 
