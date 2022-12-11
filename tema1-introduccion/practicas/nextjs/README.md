@@ -62,7 +62,7 @@ Read  both this tutorial and the original [OpenAI API quickstart tutorial](https
 
 ## Generating an API key
 
-Go to the user on the upper right corner and click on the API Keys tab. 
+[Create an account at openai](https://auth0.openai.com/u/signup). Go to the user on the upper right corner and click on the API Keys tab. 
 ![](/assets/images/nextjs/menu-1.png)
 
 Choose View API Keys.
@@ -81,6 +81,8 @@ Make requests to the OpenAI API using a client like the Thunder Client or Postma
 3. To get a cute image
 4. To get a completion
 5. To get a moderation
+
+See <https://beta.openai.com/docs/api-reference/>
 
 ## Setup
 
