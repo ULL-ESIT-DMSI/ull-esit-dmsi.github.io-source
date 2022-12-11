@@ -50,11 +50,15 @@ rubrica:
 
 ## Introduction to Open AI REST API
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart).  You can check a solution deployed at netlify:  <https://nextjs-oai.netlify.app/>
+In this lab we will build a "pet name generator web app" wich is described in the 
 
-This code uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). 
+* OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart).  
+ 
+You can see a solution deployed at netlify:  <https://nextjs-oai.netlify.app/>
 
-Read  both this tutorial and the [OpenAI API quickstart tutorial](https://beta.openai.com/docs/quickstartand).
+The code uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). 
+
+Read  both this tutorial and the original [OpenAI API quickstart tutorial](https://beta.openai.com/docs/quickstart).
 
 ## Generating an API key
 
