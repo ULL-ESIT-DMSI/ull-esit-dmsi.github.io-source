@@ -33,8 +33,15 @@ rubrica:
   - [build](#build)
   - [Production](#production)
   - [Deploy at Netlify with the UI](#deploy-at-netlify-with-the-ui)
-    - [Environment Variables](#environment-variables)
+    - [Make public your repo](#make-public-your-repo)
+    - [Deploy with the Netlify UI](#deploy-with-the-netlify-ui)
+  - [Environment Variables](#environment-variables)
   - [The Netlify CLI](#the-netlify-cli)
+    - [Install the Netlify CLI](#install-the-netlify-cli)
+    - [Link the repo to Netlify](#link-the-repo-to-netlify)
+    - [Check the status](#check-the-status)
+    - [List/Get/Set the environment variables](#listgetset-the-environment-variables)
+    - [Development mode with the Netlify CLI](#development-mode-with-the-netlify-cli)
   - [Rubrica](#rubrica)
   - [References](#references-2)
 
@@ -212,8 +219,7 @@ Next.js allows you to set environment variables in
 
 The variables are accesible into `process.env`.
 
-By default environment variables are only available in the Node.js environment, 
-meaning they won't be exposed to the browser.
+By default **environment variables are only available in the Node.js environment, meaning they won't be exposed to the browser**.
 
 In order to expose a variable to the browser you have to prefix the variable with `NEXT_PUBLIC_`. 
 
@@ -583,10 +589,13 @@ It automatically generates **[serverless functions](https://sytws.netlify.app/te
 See section [Next.js on Netlify](https://docs.netlify.com/integrations/frameworks/next-js/overview/)
 for more details.
 
-Make public your repo. Regarding prices and restrictions on deployment you can check the FAQ [Organization-owned private repository FAQ](https://www.netlify.com/pricing/private-org-repo-faq/)
+### Make public your repo 
 
+Regarding prices and restrictions on deployment you can check the FAQ [Organization-owned private repository FAQ](https://www.netlify.com/pricing/private-org-repo-faq/)
 
-Choose new deploy and import your GitHub repo to Netlify
+### Deploy with the Netlify UI
+
+In the Netlify UI, choose new deploy and import your GitHub repo to Netlify
 
 ![]({{ site.baseurl }}/assets/images/nextjs/netlify-deploy-1.png)
 
@@ -599,7 +608,7 @@ Finally, click on **deploy site** and after a while your site will be deployed a
 ![]({{site.baseurl}}/assets/images/nextjs/netlify-running-cookies.png)
 
 
-### Environment Variables
+## Environment Variables
 
 Environment variables are set and securely stored on Netlify and provided to the Next.JS server. This means we can avoid committing any sensitive values to our repository. 
 
@@ -613,7 +622,11 @@ The Netlify UI reflects any changes made using the CLI (ntl) or the API and vice
 
 ## The Netlify CLI
 
-The Netlify CLI is a command line interface that allows you to manage your Netlify sites from the terminal. You can install it with npm:
+The Netlify CLI is a command line interface that allows you to manage your Netlify sites from the terminal. 
+
+### Install the Netlify CLI
+
+You can install it with npm:
 
 ```
 ➜  explorers-up-and-running-with-serverless-functions git:(main) npm install netlify-cli -g
@@ -626,6 +639,8 @@ netlify-cli/12.2.8 darwin-x64 node-v16.0.0
 ➜  explorers-up-and-running-with-serverless-functions git:(main) ✗ node --version
 v16.0.0
 ```
+
+### Link the repo to Netlify
 
 The first step is to **link** the repo to Netlify. Here we are using the `--gitRemoteName` option to specify the remote name `sytws` of the repo.
 
@@ -646,6 +661,8 @@ Site url:  https://nextjs-oai.netlify.app
 
 You can now run other `netlify` cli commands in this directory
 ```
+
+### Check the status
 
 Once we have linked the repo to Netlify, we can check the status:
 
@@ -668,7 +685,9 @@ Site URL:     https://nextjs-oai.netlify.app
 Site Id:      blah-blah-blah-blah-blah
 ```
 
-and we can use `ntl env:<subcommand>` syntax to `list`, `set` or `get`  environment variables:
+### List/Get/Set the environment variables
+
+We can use `ntl env:<subcommand>` syntax to `list`, `set` or `get`  environment variables:
 
 ```
 ➜  nextjs-solution git:(main) ✗ ntl env:list
@@ -681,6 +700,50 @@ and we can use `ntl env:<subcommand>` syntax to `list`, `set` or `get`  environm
 | OPENAI_API_KEY | ************************************************** |
 '---------------------------------------------------------------------'
 ```
+
+### Development mode with the Netlify CLI
+
+We can see  the site locally using the `dev` command of `ntl`:
+
+```
+ openai-quickstart-node git:(main) ✗ ntl dev
+```
+
+Since `ntl` knows about Next.js, it will choose a suitable default configuration, it will create a `.netlify`folder:
+
+```
+✗ tree -I node_modules .netlify     
+.netlify
+├── edge-functions
+│   ├── edge-shared
+│   │   ├── next-utils.ts
+│   │   ├── nextConfig.json
+│   │   └── utils.ts
+│   ├── manifest.json
+│   └── next-dev
+│       └── index.js
+├── edge-functions-import-map.json
+├── plugins
+│   ├── package-lock.json
+│   └── package.json
+└── state.json
+```
+
+and it will start the Next.js server injecting the environment variables . 
+
+We can change the settings adding a [netlify.toml](https://docs.netlify.com/configure-builds/file-based-configuration/) configuration file.
+
+```
+[[plugins]]
+package = "@netlify/plugin-nextjs"
+
+[build]
+command = "npm run build"
+publish = ".next"
+```
+
+
+
 
 ## Rubrica
 
