@@ -592,7 +592,16 @@ Click on **show advanced**. Go to **Environment Variables** and add the secret:
 
 ![netlify-add-variable]({{ site.baseurl }}/assets/images/nextjs/netlify-add-variable.png)
 
-click on **deploy site** and after a while your site will be deployed and running:
+When you create environment variables using 
+* the Netlify UI,
+* the Netlify CLI, or 
+* the Netlify API, 
+ 
+they are set and securely stored on Netlify. This means we can avoid committing any sensitive values to our repository. 
+
+The Netlify UI reflects any changes made using the CLI (ntl) or the API and vice versa.
+
+Finally, click on **deploy site** and after a while your site will be deployed and running:
 
 ![]({{site.baseurl}}/assets/images/nextjs/netlify-running-cookies.png)
 
