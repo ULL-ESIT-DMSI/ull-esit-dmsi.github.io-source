@@ -12,6 +12,7 @@ rubrica:
 - [Introduction to  NextJS, React and REST](#introduction-to--nextjs-react-and-rest)
   - [Introduction to Open AI REST API](#introduction-to-open-ai-rest-api)
   - [Generating an API key](#generating-an-api-key)
+  - [REST exercises](#rest-exercises)
   - [Setup](#setup)
   - [What is Rendering](#what-is-rendering)
   - [next.js Pages](#nextjs-pages)
@@ -32,7 +33,6 @@ rubrica:
   - [build](#build)
   - [Production](#production)
   - [Deploy at Netlify](#deploy-at-netlify)
-  - [REST exercises](#rest-exercises)
   - [Rubrica](#rubrica)
   - [References](#references-2)
 
@@ -56,6 +56,17 @@ Choose View API Keys.
 ![](/assets/images/nextjs/generate-api-key.png)
 
  Click on the "Create new secret Key" button and copy the key.
+
+
+## REST exercises
+
+Make requests to the OpenAI API using a client like the Thunder Client or Postman or Insomnia.
+
+1. To get all models
+2. To get info of a model
+3. To get a cute image
+4. To get a completion
+5. To get a moderation
 
 ## Setup
 
@@ -560,12 +571,12 @@ info  - Loaded env from /Users/casianorodriguezleon/campus-virtual/2223/learning
 
 Netlify’s Next.js Runtime configures your site on Netlify to enable key Next.js functionality. 
 
-It automatically generates [serverless functions](https://sytws.netlify.app/temas/web/serverless.html) that handle 
+It automatically generates **[serverless functions](https://sytws.netlify.app/temas/web/serverless.html)** that handle 
 
 * server-side rendered (SSR) pages, 
 * incremental static regeneration (ISR), 
 * image optimization, and 
-* Next.js features.
+* other Next.js features.
 
 See section [Next.js on Netlify](https://docs.netlify.com/integrations/frameworks/next-js/overview/)
 for more details.
@@ -579,22 +590,12 @@ Choose new deploy and import your GitHub repo to Netlify
 
 Click on **show advanced**. Go to **Environment Variables** and add the secret:
 
-![]({{ site.baseurl }}/assets/images/nextjs/assets/images/nextjs/netlify-add-variable.png)
+![netlify-add-variable]({{ site.baseurl }}/assets/images/nextjs/netlify-add-variable.png)
 
-after a while your site will be deployed and running:
+click on **deploy site** and after a while your site will be deployed and running:
 
 ![]({{site.baseurl}}/assets/images/nextjs/netlify-running-cookies.png)
 
-
-## REST exercises
-
-Make requests to the OpenAI API using a client like the Thunder Client or Postman or Insomnia.
-
-1. To get all models
-2. To get info of a model
-3. To get a cute image
-4. To get a completion
-5. To get a moderation
 
 ## Rubrica
 
