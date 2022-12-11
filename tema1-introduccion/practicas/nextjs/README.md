@@ -597,7 +597,7 @@ When you create environment variables using
 * the Netlify CLI, or 
 * the Netlify API, 
  
-they are set and securely stored on Netlify. This means we can avoid committing any sensitive values to our repository. 
+they are set and securely stored on Netlify and provided to the Next.JS server. This means we can avoid committing any sensitive values to our repository. 
 
 The Netlify UI reflects any changes made using the CLI (ntl) or the API and vice versa.
 
