@@ -3,7 +3,7 @@ permalink: /practicas/nextjs
 rubrica:
    - "Code of the lab is correct and works"
    - "Site deployed at netlify"
-   - "Rest exercises are correct"
+   - "REST answers to exercises are correct"
    - "Report is correct and complete"
    - "Kanban Board Project reflects the rubric issues"
    - "The .zip has been delivered on the campus"
