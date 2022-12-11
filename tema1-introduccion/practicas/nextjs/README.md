@@ -787,3 +787,5 @@ The `--prod` option deploys to production, the  `--open` flag  opens the site af
   * [Environment Variables](https://vercel.com/docs/concepts/projects/environment-variables?utm_source=next-site&utm_medium=docs&utm_campaign=next-website)
 * A solution deployed at netlify <https://nextjs-oai.netlify.app/>
 * [A repo with a solution](https://github.com/ULL-MII-SYTWS/nextjs-solution/settings)
+* Here is YouTube video explaining a project similar to the one described in this lab: [Build An AI Image Generator With OpenAI & Node.js](https://youtu.be/fU4o_BKaUZE)
+  
