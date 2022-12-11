@@ -42,6 +42,7 @@ rubrica:
     - [Check the status](#check-the-status)
     - [List/Get/Set the environment variables](#listgetset-the-environment-variables)
     - [Development mode with the Netlify CLI](#development-mode-with-the-netlify-cli)
+    - [Deploying with the Netlify CLI](#deploying-with-the-netlify-cli)
   - [Rubrica](#rubrica)
   - [References](#references-2)
 
@@ -742,8 +743,29 @@ command = "npm run build"
 publish = ".next"
 ```
 
+### Deploying with the Netlify CLI
 
+Netlify deploys are **atomic**, and your site is never in an inconsistent state while you’re uploading a new deploy.
 
+With File Transfer Protocol (FTP) or Amazon Simple Storage Service (S3) uploads, each file is pushed live one after the other, so you can  get into situations where a new HTML page is live before the supporting assets (images, scripts, CSS) have been uploaded. And if your connection cuts out in the middle of an upload, your site could get stuck in a broken state for a long time.
+
+Here is an example of a deploy:
+
+```
+➜  openai-quickstart-node git:(main) ✗ ntl deploy --prod
+Deploy path: /Users/casianorodriguezleon/campus-virtual/2223/learning/openai-learning/openai-quickstart-node/.next
+Deploying to main site URL...
+✔ Finished hashing 
+✔ CDN requesting 27 files
+✔ Finished uploading 27 assets
+✔ Deploy is live!
+
+Logs:              https://app.netlify.com/sites/nextjs-oai/deploys/6395e63207648c16d41001b7
+Unique Deploy URL: https://6395e63207648c16d41001b7--nextjs-oai.netlify.app
+Website URL:       https://nextjs-oai.netlify.app
+```
+
+The `--prod` option deploys to production, the  `--open` flag  opens the site after deploy
 
 ## Rubrica
 
