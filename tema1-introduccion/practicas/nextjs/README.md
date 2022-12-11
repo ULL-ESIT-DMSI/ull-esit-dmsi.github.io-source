@@ -34,6 +34,7 @@ rubrica:
   - [Production](#production)
   - [Deploy at Netlify with the UI](#deploy-at-netlify-with-the-ui)
     - [Environment Variables](#environment-variables)
+  - [The Netlify CLI](#the-netlify-cli)
   - [Rubrica](#rubrica)
   - [References](#references-2)
 
@@ -610,6 +611,24 @@ There are three ways to create site environment variables:
 
 The Netlify UI reflects any changes made using the CLI (ntl) or the API and vice versa.
 
+## The Netlify CLI
+
+The Netlify CLI is a command line interface that allows you to manage your Netlify sites from the terminal. You can install it with npm:
+
+```
+➜  explorers-up-and-running-with-serverless-functions git:(main) npm install netlify-cli -g
+added 1438 packages, and audited 1439 packages in 26s
+➜  explorers-up-and-running-with-serverless-functions git:(main) npm ls -g netlify-cli
+/Users/casianorodriguezleon/.nvm/versions/node/v16.0.0/lib
+└── netlify-cli@12.2.8
+➜  explorers-up-and-running-with-serverless-functions git:(main) ✗ ntl --version
+netlify-cli/12.2.8 darwin-x64 node-v16.0.0
+➜  explorers-up-and-running-with-serverless-functions git:(main) ✗ node --version
+v16.0.0
+```
+
+The first step is to **link** the repo to Netlify. Here we are using the `--gitRemoteName` option to specify the remote name `sytws` of the repo.
+
 ```
 ➜  nextjs-solution git:(main) ✗ ntl link --gitRemoteName sytws
 
@@ -646,10 +665,10 @@ Teams:
 Current site: nextjs-oai
 Admin URL:    https://app.netlify.com/sites/nextjs-oai
 Site URL:     https://nextjs-oai.netlify.app
-Site Id:      de669f71-3b12-4ef0-8c91-c57b81e8eba1
+Site Id:      blah-blah-blah-blah-blah
 ```
 
-and `list`, `set` or `get` the environment variables:
+and we can use `ntl env:<subcommand>` syntax to `list`, `set` or `get`  environment variables:
 
 ```
 ➜  nextjs-solution git:(main) ✗ ntl env:list
