@@ -558,7 +558,20 @@ info  - Loaded env from /Users/casianorodriguezleon/campus-virtual/2223/learning
 
 ## Deploy at Netlify
 
-Make public your repo.
+Netlify’s Next.js Runtime configures your site on Netlify to enable key Next.js functionality. 
+
+It automatically generates [serverless functions](https://sytws.netlify.app/temas/web/serverless.html) that handle 
+
+* server-side rendered (SSR) pages, 
+* incremental static regeneration (ISR), 
+* image optimization, and 
+* Next.js features.
+
+See section [Next.js on Netlify](https://docs.netlify.com/integrations/frameworks/next-js/overview/)
+for more details.
+
+Make public your repo. Regarding prices and restrictions on deployment you can check the FAQ [Organization-owned private repository FAQ](https://www.netlify.com/pricing/private-org-repo-faq/)
+
 
 Choose new deploy and import your GitHub repo to Netlify
 
@@ -571,6 +584,7 @@ Click on **show advanced**. Go to **Environment Variables** and add the secret:
 after a while your site will be deployed and running:
 
 ![]({{site.baseurl}}/assets/images/nextjs/netlify-running-cookies.png)
+
 
 ## REST exercises
 
