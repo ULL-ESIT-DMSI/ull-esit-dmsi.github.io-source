@@ -11,6 +11,7 @@ rubrica:
 
 - [Introduction to the JAM Stack with NextJS, React, REST and Netlify](#introduction-to-the-jam-stack-with-nextjs-react-rest-and-netlify)
   - [Introduction to Open AI REST API](#introduction-to-open-ai-rest-api)
+  - [Creating an Account](#creating-an-account)
   - [Generating an API key](#generating-an-api-key)
   - [REST exercises](#rest-exercises)
   - [Setup](#setup)
@@ -32,17 +33,18 @@ rubrica:
   - [State in React](#state-in-react)
   - [build](#build)
   - [Production](#production)
-  - [Deploy at Netlify with the UI](#deploy-at-netlify-with-the-ui)
+  - [Exercise: Deploy at Netlify with the UI](#exercise-deploy-at-netlify-with-the-ui)
     - [Make public your repo](#make-public-your-repo)
     - [Deploy with the Netlify UI](#deploy-with-the-netlify-ui)
   - [Netlify Environment Variables](#netlify-environment-variables)
-  - [The Netlify CLI](#the-netlify-cli)
+  - [Exercise: The Netlify CLI](#exercise-the-netlify-cli)
     - [Install the Netlify CLI](#install-the-netlify-cli)
     - [Link the repo to Netlify](#link-the-repo-to-netlify)
     - [Check the status](#check-the-status)
     - [List/Get/Set the environment variables](#listgetset-the-environment-variables)
     - [Development mode with the Netlify CLI](#development-mode-with-the-netlify-cli)
     - [Deploying with the Netlify CLI](#deploying-with-the-netlify-cli)
+  - [Exercise: Get images from OpenAI](#exercise-get-images-from-openai)
   - [Rubrica](#rubrica)
   - [References](#references-2)
 
@@ -60,9 +62,18 @@ The code uses the [Next.js](https://nextjs.org/) framework with [React](https://
 
 Read  both this tutorial and the original [OpenAI API quickstart tutorial](https://beta.openai.com/docs/quickstart).
 
+## Creating an Account
+
+[Create an account at openai api](https://openai.com/api/). Unfortunately, at some point is going to ask you for a phone number:
+
+![openapi registration phone number]({{ site.baseurl }}/assets/images/openai-registration-phone-number.png)
+
+It does not provide any alternatives. Let me know in advance if this is a problem for you.
+
 ## Generating an API key
 
-[Create an account at openai](https://auth0.openai.com/u/signup). Go to the user on the upper right corner and click on the API Keys tab. 
+
+Go to the user on the upper right corner and click on the API Keys tab. 
 ![](/assets/images/nextjs/menu-1.png)
 
 Choose View API Keys.
@@ -582,7 +593,7 @@ ready - started server on 0.0.0.0:4000, url: http://localhost:4000
 info  - Loaded env from /Users/casianorodriguezleon/campus-virtual/2223/learning/openai-learning/openai-quickstart-node/.env
 ```
 
-## Deploy at Netlify with the UI
+## Exercise: Deploy at Netlify with the UI
 
 Netlify’s Next.js Runtime configures your site on Netlify to enable key Next.js functionality. 
 
@@ -627,7 +638,7 @@ There are three ways to create site environment variables:
 
 The Netlify UI reflects any changes made using the CLI (ntl) or the API and vice versa.
 
-## The Netlify CLI
+## Exercise: The Netlify CLI
 
 The Netlify CLI is a command line interface that allows you to manage your Netlify sites from the terminal. 
 
@@ -773,13 +784,19 @@ Website URL:       https://nextjs-oai.netlify.app
 
 The `--prod` option deploys to production, the  `--open` flag  opens the site after deploy
 
+## Exercise: Get images from OpenAI
+
+Change the app to get an image from OpenAI and display it in the page.
+
 ## Rubrica
 
 {% include rubrica.md %}
 
 ## References
 
+* [Netlify](https://www.netlify.com/)
 * [Next.js](https://nextjs.org/)
+  * [](https://nextjs.org/learn/foundations/about-nextjs?utm_source=next-site&utm_medium=homepage-cta&utm_campaign=next-website)
 * [React](https://reactjs.org/)
 * [Netlify CLI](https://docs.netlify.com/cli/get-started/?_ga=2.210632407.351830897.1670331128-1485033729.1667990322#link-with-an-environment-variable) 
 * [Next.js on Netlify](https://docs.netlify.com/integrations/frameworks/next-js/overview/#app)
