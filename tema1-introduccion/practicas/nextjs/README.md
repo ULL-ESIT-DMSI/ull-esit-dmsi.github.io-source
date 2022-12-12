@@ -179,11 +179,13 @@ For the context behind this example app, check out the [Open AI tutorial](https:
 
 Single Page Applications (SPAs) and Multi-Page Applications (MPAs) are architectural patterns for building web applications.
 
-**SPA**s are reactive web applications that give a native look and feel without page loads. SPAs owe this to AJAX/Client-Side Rendering typically provided by a client-side framework such as react/vue/angular.
+**SPA**s are reactive web applications that give a native look and feel without page loads. SPAs owe this to AJAX+Client-Side Rendering typically provided by a client-side framework such as react/vue/angular. 
+
+**AJAX** stands for Asynchronous JavaScript And XML. It is the use of the XMLHttpRequest object to communicate with servers. It can send and receive information in various formats, including JSON, XML, HTML, and text files.
 
 Many in the industry refer to more traditional web applications as Multi-Page Applications (MPAs). Such applications are comprised of multiple webpages that the user navigates between.
 
-![spa-mpa-lifecycle.jpg]({{ site.baseurl }}/assets/images/nextjs/spa-mpa-lifecycle.jpg)
+![spa-mpa-lifecycle.jpg]({{ site.baseurl }}/assets/images/spa-mpa-lifecycle.jpg)
 
 ## What is Rendering
 
