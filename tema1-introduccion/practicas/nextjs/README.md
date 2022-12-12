@@ -14,6 +14,7 @@ rubrica:
   - [Creating an Account](#creating-an-account)
   - [Generating an API key](#generating-an-api-key)
   - [REST exercises](#rest-exercises)
+  - [Tree Structure](#tree-structure)
   - [Setup](#setup)
   - [What is Rendering](#what-is-rendering)
   - [next.js Pages](#nextjs-pages)
@@ -96,6 +97,30 @@ Make requests to the OpenAI API using a client like the Thunder Client or Postma
 5. To get a moderation
 
 See <https://beta.openai.com/docs/api-reference/>
+
+## Tree Structure
+
+```
+✗ tree -I node_modules 
+.
+├── README.md
+├── docs
+│   └── images
+│       ├── generate-api-key.png
+│       ├── local-app-runnning.png
+│       └── menu-1.png
+├── package-lock.json
+├── package.json
+├── pages
+│   ├── api
+│   │   └── generate.js
+│   ├── index.js
+│   └── index.module.css
+└── public
+    └── dog.png
+
+5 directories, 10 files
+```
 
 ## Setup
 
@@ -320,11 +345,22 @@ The response is a JSON object with the following fields:
 
 ## pages/index.js
 
+The `index.js` file inside the `pages` directory is the page that is rendered when the user visits the root of your application.
+It exports a **React component** that renders the home page.
+
 There are three core concepts of React that you'll need to be familiar with to start building React applications. These are:
 
 * [Components](https://nextjs.org/learn/foundations/from-javascript-to-react/building-ui-with-components)
 * [Props](https://nextjs.org/learn/foundations/from-javascript-to-react/displaying-data-with-props)
 * [State](https://nextjs.org/learn/foundations/from-javascript-to-react/adding-interactivity-with-state)
+
+In Next.js, a **page** is a React Component exported from a .js, .jsx, .ts, or .tsx file in the `pages` directory. 
+Each page is associated with a route based on its file name.
+
+thus, `index.js` is a **page** and `index.module.css` is a **module**.
+
+Next.js supports pages with [dynamic routes](https://nextjs.org/docs/routing/dynamic-routes. For example, if you create a file called `pages/posts/[id].js`, then it will be accessible at `posts/1`, `posts/2`, etc.
+
 
 
 ```js
