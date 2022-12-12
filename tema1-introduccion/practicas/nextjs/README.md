@@ -14,8 +14,8 @@ rubrica:
   - [Creating an Account](#creating-an-account)
   - [Generating an API key](#generating-an-api-key)
   - [REST exercises](#rest-exercises)
-  - [Tree Structure](#tree-structure)
   - [Setup](#setup)
+  - [Single Page Applications](#single-page-applications)
   - [What is Rendering](#what-is-rendering)
   - [next.js Pages](#nextjs-pages)
     - [References](#references)
@@ -98,7 +98,10 @@ Make requests to the OpenAI API using a client like the Thunder Client or Postma
 
 See <https://beta.openai.com/docs/api-reference/>
 
-## Tree Structure
+
+## Setup
+
+Here is the file tree hierarchy of the project:
 
 ```
 ✗ tree -I node_modules 
@@ -122,7 +125,7 @@ See <https://beta.openai.com/docs/api-reference/>
 5 directories, 10 files
 ```
 
-## Setup
+Proceed as follows:
 
 1. Starting with the assignment repo, install the requirements
 
@@ -171,6 +174,16 @@ See <https://beta.openai.com/docs/api-reference/>
 
 
 For the context behind this example app, check out the [Open AI tutorial](https://beta.openai.com/docs/quickstart).
+
+## Single Page Applications
+
+Single Page Applications (SPAs) and Multi-Page Applications (MPAs) are architectural patterns for building web applications.
+
+**SPA**s are reactive web applications that give a native look and feel without page loads. SPAs owe this to AJAX/Client-Side Rendering typically provided by a client-side framework such as react/vue/angular.
+
+Many in the industry refer to more traditional web applications as Multi-Page Applications (MPAs). Such applications are comprised of multiple webpages that the user navigates between.
+
+![spa-mpa-lifecycle.jpg]({{ site.baseurl }}/assets/images/nextjs/spa-mpa-lifecycle.jpg)
 
 ## What is Rendering
 
