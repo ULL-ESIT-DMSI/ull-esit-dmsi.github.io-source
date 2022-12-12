@@ -60,6 +60,8 @@ You can see a solution deployed at netlify:  <https://nextjs-oai.netlify.app/>
 
 The code uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). 
 
+[Next.js](https://nextjs.org/learn/foundations/about-nextjs) is a framework on top of React that handles the tooling and configuration needed for React, and provides additional structure, features, and optimizations for your application.
+
 Read  both this tutorial and the original [OpenAI API quickstart tutorial](https://beta.openai.com/docs/quickstart).
 
 ## Creating an Account
@@ -176,11 +178,13 @@ the result is sent to the client.
 
 ## next.js Pages
 
-In Next.js, a page is a React Component exported from a .js, .jsx, .ts, or .tsx file in the `pages` directory. 
+Any file inside the folder `pages/api is mapped to `/api/*` and **will be treated as an API endpoint instead of a page**. 
+
+They are server-side only bundles and won't increase your client-side bundle size.
 
 Each page is associated with a **route** based on its file name.
 
-Since we have the file `pages/api/generate.js` that exports a React component, Next.js will make it accessible at the route `/api/generate`.
+Since we have the file `pages/api/generate.js`, Next.js will make it accessible at the route `/api/generate`.
 
 The `index.js` file is the main page `/` for the app. 
 
@@ -796,7 +800,7 @@ Change the app to get an image from OpenAI and display it in the page.
 
 * [Netlify](https://www.netlify.com/)
 * [Next.js](https://nextjs.org/)
-  * [](https://nextjs.org/learn/foundations/about-nextjs?utm_source=next-site&utm_medium=homepage-cta&utm_campaign=next-website)
+  * [Next.js Foundations](https://nextjs.org/learn/foundations/about-nextjs)
 * [React](https://reactjs.org/)
 * [Netlify CLI](https://docs.netlify.com/cli/get-started/?_ga=2.210632407.351830897.1670331128-1485033729.1667990322#link-with-an-environment-variable) 
 * [Next.js on Netlify](https://docs.netlify.com/integrations/frameworks/next-js/overview/#app)
