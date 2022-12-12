@@ -178,9 +178,9 @@ the result is sent to the client.
 
 ## next.js Pages
 
-Any file inside the folder `pages/api is mapped to `/api/*` and **will be treated as an API endpoint instead of a page**. 
+Any file inside the folder `pages/api` is mapped to `/api/*` and **will be treated as an API endpoint instead of a page**. 
 
-They are server-side only bundles and won't increase your client-side bundle size.
+**They are server-side only bundles** and won't increase your client-side bundle size. See the section [API Routes](https://nextjs.org/docs/api-routes/introduction) introduction.
 
 Each page is associated with a **route** based on its file name.
 
@@ -229,6 +229,13 @@ Animal: ${capitalizedAnimal}
 Names:`;
 }
 ```
+
+For a [Nextjs API route](https://nextjs.org/docs/api-routes/introduction) to work, you need to export a function as `default` (a.k.a request handler), which then receives the following parameters:
+
+* `req`: An instance of `http.IncomingMessage`, plus some pre-built middlewares
+* `res`: An instance of `http.ServerResponse`, plus some helper functions
+
+
 
 ### `process.env.OPENAI_API_KEY` 
 
@@ -312,6 +319,13 @@ The response is a JSON object with the following fields:
 ```
 
 ## pages/index.js
+
+There are three core concepts of React that you'll need to be familiar with to start building React applications. These are:
+
+* [Components](https://nextjs.org/learn/foundations/from-javascript-to-react/building-ui-with-components)
+* [Props](https://nextjs.org/learn/foundations/from-javascript-to-react/displaying-data-with-props)
+* [State](https://nextjs.org/learn/foundations/from-javascript-to-react/adding-interactivity-with-state)
+
 
 ```js
 import Head from "next/head";
