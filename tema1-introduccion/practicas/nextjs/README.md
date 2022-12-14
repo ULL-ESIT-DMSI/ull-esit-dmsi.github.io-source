@@ -886,6 +886,6 @@ Change the app to get an image from OpenAI and display it in the page.
 * [Deploying a Next.js app to Vercel](https://vercel.com/guides/deploying-nextjs-with-vercel) 
   * [Environment Variables](https://vercel.com/docs/concepts/projects/environment-variables?utm_source=next-site&utm_medium=docs&utm_campaign=next-website)
 * A solution deployed at netlify <https://nextjs-oai.netlify.app/>
-* [A repo with a solution](https://github.com/ULL-MII-SYTWS/nextjs-solution/settings)
+* [A repo with a solution](https://github.com/ULL-MII-SYTWS/nextjs-solution/)
 * Here is YouTube video explaining a project similar to the one described in this lab: [Build An AI Image Generator With OpenAI & Node.js](https://youtu.be/fU4o_BKaUZE)
   
