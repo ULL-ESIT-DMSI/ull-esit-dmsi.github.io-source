@@ -28,7 +28,7 @@ rubrica:
     - [`import Head from "next/head"`](#import-head-from-nexthead)
     - [`import styles from "./index.module.css"`](#import-styles-from-indexmodulecss)
     - [`<link rel="icon" href="/dog.png" />`](#link-relicon-hrefdogpng-)
-    - [`<main className={styles.main}>`](#main-classnamestylesmain)
+    - [`<main className={styles.main}>` Curly Braces in JSX](#main-classnamestylesmain-curly-braces-in-jsx)
     - [`<form onSubmit={onSubmit}> ...</form>`](#form-onsubmitonsubmit-form)
     - [`const response = await fetch("/api/generate", { ... })`](#const-response--await-fetchapigenerate---)
   - [State in React](#state-in-react)
@@ -375,7 +375,7 @@ Each page is associated with a route based on its file name.
 
 thus, `index.js` is a **page** and `index.module.css` is a **module**.
 
-Next.js supports pages with [dynamic routes](https://nextjs.org/docs/routing/dynamic-routes. For example, if you create a file called `pages/posts/[id].js`, then it will be accessible at `posts/1`, `posts/2`, etc.
+Next.js supports pages with [dynamic routes](https://nextjs.org/docs/routing/dynamic-routes). For example, if you create a file called `pages/posts/[id].js`, then it will be accessible at `posts/1`, `posts/2`, etc.
 
 
 
@@ -458,7 +458,7 @@ You'll find the image in the `public` directory.
 Next.js can serve static files, like images, under a folder called `public` in the root directory.
 Files inside `public` can then be referenced by your code starting from the base URL (`/`).
 
-### `<main className={styles.main}>`
+### `<main className={styles.main}>` Curly Braces in JSX
 
 JSX lets you write HTML-like markup inside a JavaScript file, keeping rendering logic and content in the same place. 
 
@@ -516,10 +516,10 @@ In that sense, they are similar to variables declared with the `let` keyword.
 The difference between a **React state** and a 
 normal variable is that when a **React state variable** changes, 
 the **component is rendered again** and some other things happens, like that 
-the `useEffect` hook
+the `useEffect` [hook](/react/hooks)
 bound to that state will be executed, 
 but when a normal variable changes, this does not happen.
-(The `useEffect` Hook allows us to perform side effects in our components.
+(The `useEffect` hook allows us to perform side effects in our components.
 It can be used to fetch data from an API, subscribe to a service, ...)
 
 ```js
