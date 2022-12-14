@@ -32,6 +32,7 @@ rubrica:
     - [`<form onSubmit={onSubmit}> ...</form>`](#form-onsubmitonsubmit-form)
     - [`const response = await fetch("/api/generate", { ... })`](#const-response--await-fetchapigenerate---)
   - [State in React](#state-in-react)
+    - [References](#references-2)
   - [build](#build)
   - [Production](#production)
   - [Exercise: Deploy at Netlify with the UI](#exercise-deploy-at-netlify-with-the-ui)
@@ -47,7 +48,7 @@ rubrica:
     - [Deploying with the Netlify CLI](#deploying-with-the-netlify-cli)
   - [Exercise: Get images from OpenAI](#exercise-get-images-from-openai)
   - [Rubrica](#rubrica)
-  - [References](#references-2)
+  - [References](#references-3)
 
 # Introduction to the JAM Stack with NextJS, React, REST and Netlify
 
@@ -574,16 +575,26 @@ This is because
 * the state variable **should never be reassigned directly** and
 * **should only be modified via the setter function**. 
 
-The `setter` function accepts either a new value or a function which takes the current value as an argument and returns the new value like this:
+The `setter` function accepts either 
+1. a new value or 
+2. a function which **takes the current value as an argument** and returns the new value 
+
+We can use it like this:
 
 ```js
 setResult(data.result); // data just arrived from the API
 ```
 
+or like this:
+  
+```js
+setResult(prevData => data.result)
+```
+
 Since `data`has arrived from the API, we can set the `result` state to the value of `data.result`.
 The `<div className={styles.result}>{result}</div>`has to be rendered again.
 
-Th effect of this statement 
+The effect of this statement 
 
 ```js
 setAnimalInput("");
@@ -609,6 +620,9 @@ The call to `setAnimalInput(e.target.value)` here:
 
 will be executed each time the user types a character in the `input` field.
 
+### References
+
+* Read the blog [Everything You Need To Know About useState](https://blog.webdevsimplified.com/2020-04/use-state/)
 
 ## build
 
