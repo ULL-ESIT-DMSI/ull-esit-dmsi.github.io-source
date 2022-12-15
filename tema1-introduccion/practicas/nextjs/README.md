@@ -705,7 +705,15 @@ Among other thins the JSX code is converted to JavaScript.
 
 ![compilingjsx2js.png]({{ site.baseurl }}/assets/images/nextjs/compilingjsx2js.png)
 
-`next build` creates an optimized production build of your application. 
+another task is to minify the code:
+
+![minifying]({{ site.baseurl }}/assets/images/nextjs/minifying.png)
+
+Another stage of the Next.js compiler is Bundling. Bundling is the process of resolving the web of dependencies and merging (or ‘packaging’) the files (or modules) into optimized bundles for the browser, with the goal of reducing the number of requests for files when a user visits a web page:
+
+![bundling]({{ site.baseurl }}/assets/images/nextjs/bundling.png)
+
+The command `next build` creates an optimized production build of your application. 
 You can enable more verbose build output with the `--debug` flag in next build.
 
 The output displays information about each route:
