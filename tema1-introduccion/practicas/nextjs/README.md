@@ -693,10 +693,17 @@ Check out these other React topics:
 A web application code must be in one of these different stages:
 
 1. The **environment** where your code runs: **Development** vs. **Production**
+   * During development, you’re building and running the application on your local machine. 
+   * Going to production is the process of making your application ready to be deployed and consumed by users.
 2. **When** your code runs: **Build Time** vs. **Runtime**
 3. **Where** rendering happens: **Client** vs. **Server**
 
 ## build
+
+This is the stage where the code is compiled and optimized for production.
+Among other thins the JSX code is converted to JavaScript.
+
+![compilingjsx2js.png]({{ site.baseurl }}/assets/images/nextjs/compilingjsx2js.png)
 
 `next build` creates an optimized production build of your application. 
 You can enable more verbose build output with the `--debug` flag in next build.
