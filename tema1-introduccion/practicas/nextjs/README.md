@@ -37,6 +37,7 @@ rubrica:
   - [Continue learning React](#continue-learning-react)
   - [Stages of a web application](#stages-of-a-web-application)
   - [build](#build)
+    - [The command next build](#the-command-next-build)
   - [Production](#production)
   - [Exercise: Deploy at Netlify with the UI](#exercise-deploy-at-netlify-with-the-ui)
     - [Make public your repo](#make-public-your-repo)
@@ -709,9 +710,11 @@ another task is to minify the code:
 
 ![minifying]({{ site.baseurl }}/assets/images/nextjs/minifying.png)
 
-Another stage of the Next.js compiler is Bundling. Bundling is the process of resolving the web of dependencies and merging (or ‘packaging’) the files (or modules) into optimized bundles for the browser, with the goal of reducing the number of requests for files when a user visits a web page:
+Another stage of the Next.js compiler is **Bundling**. **Bundling** is the process of resolving the web of dependencies and merging (or ‘packaging’) the files (or modules) into optimized bundles for the browser, **with the goal of reducing the number of requests for files when a user visits a web page**:
 
 ![bundling]({{ site.baseurl }}/assets/images/nextjs/bundling.png)
+
+### The command next build
 
 The command `next build` creates an optimized production build of your application. 
 You can enable more verbose build output with the `--debug` flag in next build.
