@@ -714,6 +714,8 @@ Another stage of the Next.js compiler is **Bundling**. **Bundling** is the proce
 
 ![bundling]({{ site.baseurl }}/assets/images/nextjs/bundling.png)
 
+![]({{ site.baseurl }}/assets/images/nextjs/code-splitting.png)
+
 ### The command next build
 
 The command `next build` creates an optimized production build of your application. 
