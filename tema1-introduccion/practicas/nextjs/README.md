@@ -461,6 +461,12 @@ CSS Modules locally scope CSS by automatically creating a unique class name.
 
 This allows you to use the same CSS class name in different files without worrying about collisions.
 
+We can then use the `styles` object like this:
+
+```jsx
+<div className={styles.result}>{result}</div>
+```
+
 ###  `<link rel="icon" href="/dog.png" />`
 
 This line in the `<Head>` component adds a favicon to the page. 
