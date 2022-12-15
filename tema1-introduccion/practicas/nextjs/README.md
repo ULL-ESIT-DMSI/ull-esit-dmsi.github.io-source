@@ -34,6 +34,8 @@ rubrica:
     - [`const response = await fetch("/api/generate", { ... })`](#const-response--await-fetchapigenerate---)
   - [State in React](#state-in-react)
     - [References](#references-2)
+  - [Continue learning React](#continue-learning-react)
+  - [Stages of a web application](#stages-of-a-web-application)
   - [build](#build)
   - [Production](#production)
   - [Exercise: Deploy at Netlify with the UI](#exercise-deploy-at-netlify-with-the-ui)
@@ -677,6 +679,22 @@ will be executed each time the user types a character in the `input` field.
 * Section [Managing State](https://beta.reactjs.org/learn/managing-state) of the React docs
 * Read the blog [Everything You Need To Know About useState](https://blog.webdevsimplified.com/2020-04/use-state/)
 
+## Continue learning React
+
+Check out these other React topics:
+
+* [How React handles renders](https://beta.reactjs.org/learn/render-and-commit) and [how to use refs](https://beta.reactjs.org/learn/referencing-values-with-refs)
+* [How to manage state](https://beta.reactjs.org/learn/managing-state)
+* [How to use context for deeply nested data](https://beta.reactjs.org/learn/passing-data-deeply-with-context)
+* [How to use React API hooks](https://beta.reactjs.org/reference) such as `useEffect()`
+  
+## Stages of a web application
+
+A web application code must be in one of these different stages:
+
+1. The **environment** where your code runs: **Development** vs. **Production**
+2. **When** your code runs: **Build Time** vs. **Runtime**
+3. **Where** rendering happens: **Client** vs. **Server**
 
 ## build
 
