@@ -26,6 +26,7 @@ rubrica:
     - [`const completion = await openai.createCompletion({ ... })`](#const-completion--await-openaicreatecompletion--)
   - [pages/index.js](#pagesindexjs)
     - [`import Head from "next/head"`](#import-head-from-nexthead)
+    - [JSX](#jsx)
     - [`import styles from "./index.module.css"`](#import-styles-from-indexmodulecss)
     - [`<link rel="icon" href="/dog.png" />`](#link-relicon-hrefdogpng-)
     - [`<main className={styles.main}>` Curly Braces in JSX](#main-classnamestylesmain-curly-braces-in-jsx)
@@ -439,6 +440,8 @@ be used in the JSX of the page:
    <link rel="icon" href="/dog.png" />
 </Head>
 ```
+
+### JSX
 
 JSX is a syntax extension for JavaScript that allows you to describe your UI in a familiar HTML-like syntax. 
 
