@@ -25,8 +25,8 @@ rubrica:
     - [`export default async function (req, res) { ... }`](#export-default-async-function-req-res---)
     - [`const completion = await openai.createCompletion({ ... })`](#const-completion--await-openaicreatecompletion--)
   - [pages/index.js](#pagesindexjs)
-    - [`import Head from "next/head"`](#import-head-from-nexthead)
     - [JSX](#jsx)
+    - [`import Head from "next/head"`](#import-head-from-nexthead)
     - [`import styles from "./index.module.css"`](#import-styles-from-indexmodulecss)
     - [`<link rel="icon" href="/dog.png" />`](#link-relicon-hrefdogpng-)
     - [`<main className={styles.main}>` Curly Braces in JSX](#main-classnamestylesmain-curly-braces-in-jsx)
@@ -429,6 +429,45 @@ export default function Home() {
 }
 ```
 
+
+### JSX
+
+JSX is a syntax extension for JavaScript that allows you to describe your UI in a familiar HTML-like syntax. 
+This code is JSX:
+
+```jsx
+(
+    <div>
+      <Head>
+        <title>OpenAI Quickstart</title>
+        <link rel="icon" href="/dog.png" />
+      </Head>
+
+      <main className={styles.main}>
+        <img src="/dog.png" className={styles.icon} />
+        <h3>Name my pet</h3>
+        <form onSubmit={onSubmit}>
+          <input
+            type="text"
+            name="animal"
+            placeholder="Enter an animal"
+            value={animalInput}
+            onChange={(e) => setAnimalInput(e.target.value)}
+          />
+          <input type="submit" value="Generate names" />
+        </form>
+        <div className={styles.result}>{result}</div>
+      </main>
+    </div>
+  );
+```
+
+The nice thing about JSX is that apart from [following three JSX rules](https://beta.reactjs.org/learn/writing-markup-with-jsx#the-rules-of-jsx), you don’t need to learn any new symbols or syntax outside of HTML and JavaScript:
+
+1. Return a single root element: To return multiple elements from a component, wrap them with a single parent tag.
+2. Close all the tags: self-closing tags like `<img>` must become `<img />`
+3. camelCase most of the things: For example, instead of `stroke-width` you use `strokeWidth`. Since `class` is a reserved word, in React you write `className` instead. Event names are also camelCased
+
 ### `import Head from "next/head"`
 
 nextjs provides a built-in component for appending elements to the `head` of the page so that it can 
@@ -441,16 +480,6 @@ be used in the JSX of the page:
 </Head>
 ```
 
-### JSX
-
-JSX is a syntax extension for JavaScript that allows you to describe your UI in a familiar HTML-like syntax. 
-
-The nice thing about JSX is that apart from [following three JSX rules](https://beta.reactjs.org/learn/writing-markup-with-jsx#the-rules-of-jsx), you don’t need to learn any new symbols or syntax outside of HTML and JavaScript:
-
-1. Return a single root element: To return multiple elements from a component, wrap them with a single parent tag.
-2. Close all the tags: self-closing tags like `<img>` must become `<img />`
-3. camelCase most of the things: For example, instead of `stroke-width` you use `strokeWidth`. Since `class` is a reserved word, in React you write `className` instead
-
 ### `import styles from "./index.module.css"`
 
 This is a [CSS module](https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css). 
@@ -461,7 +490,12 @@ CSS Modules locally scope CSS by automatically creating a unique class name.
 
 This allows you to use the same CSS class name in different files without worrying about collisions.
 
-We can then use the `styles` object like this:
+We can then use the `styles` object like in:
+
+```jsx
+        <img src="/dog.png" className={styles.icon} />
+```
+or in this:
 
 ```jsx
 <div className={styles.result}>{result}</div>
@@ -639,7 +673,10 @@ will be executed each time the user types a character in the `input` field.
 
 ### References
 
+* Read section [Adding Interactivity](https://beta.reactjs.org/learn/adding-interactivity) of the React docs 
+* Section [Managing State](https://beta.reactjs.org/learn/managing-state) of the React docs
 * Read the blog [Everything You Need To Know About useState](https://blog.webdevsimplified.com/2020-04/use-state/)
+
 
 ## build
 
