@@ -440,6 +440,14 @@ be used in the JSX of the page:
 </Head>
 ```
 
+JSX is a syntax extension for JavaScript that allows you to describe your UI in a familiar HTML-like syntax. 
+
+The nice thing about JSX is that apart from [following three JSX rules](https://beta.reactjs.org/learn/writing-markup-with-jsx#the-rules-of-jsx), you don’t need to learn any new symbols or syntax outside of HTML and JavaScript:
+
+1. Return a single root element: To return multiple elements from a component, wrap them with a single parent tag.
+2. Close all the tags: self-closing tags like `<img>` must become `<img />`
+3. camelCase most of the things: For example, instead of `stroke-width` you use `strokeWidth`. Since `class` is a reserved word, in React you write `className` instead
+
 ### `import styles from "./index.module.css"`
 
 This is a [CSS module](https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css). 
