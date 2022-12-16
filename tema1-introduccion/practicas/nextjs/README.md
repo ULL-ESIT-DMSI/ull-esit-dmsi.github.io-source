@@ -383,7 +383,7 @@ Next.js supports pages with [dynamic routes](https://nextjs.org/docs/routing/dyn
 
 
 
-```js
+```jsx
 import Head from "next/head";
 import { useState } from "react";
 import styles from "./index.module.css";
@@ -435,7 +435,7 @@ export default function Home() {
 
 ### JSX
 
-JSX is a syntax extension for JavaScript that allows you to describe your UI in a familiar HTML-like syntax. 
+JSX stands for JavaScript eXtended markup language. JSX is a syntax extension for JavaScript that allows you to describe your UI in a familiar HTML-like syntax. 
 This code is JSX:
 
 ```jsx
@@ -465,15 +465,26 @@ This code is JSX:
   );
 ```
 
+It’s possible to use JavaScript inside JSX using curly braces. 
+The example below sets the `value` property  of the  `input`
+to the variable `animalInput` and the `onChange` property to a function that updates the `animalInput` variable to the value written by the user inside the input box:
+
+```jsx
+<input type="text" name="animal" placeholder="Enter an animal"
+    value={animalInput}
+    onChange={(e) => setAnimalInput(e.target.value)}
+/>
+```
+
 The nice thing about JSX is that apart from [following three JSX rules](https://beta.reactjs.org/learn/writing-markup-with-jsx#the-rules-of-jsx), you don’t need to learn any new symbols or syntax outside of HTML and JavaScript:
 
 1. Return a single root element: To return multiple elements from a component, wrap them with a single parent tag.
 2. Close all the tags: self-closing tags like `<img>` must become `<img />`
-3. camelCase most of the things: For example, instead of `stroke-width` you use `strokeWidth`. Since `class` is a reserved word, in React you write `className` instead. Event names are also camelCased
+3. **camelCase** most of the things: For example, instead of `stroke-width` you use `strokeWidth`. Since `class` is a reserved word, in React you write `className` instead. Event names are also camelCased
 
 ### `import Head from "next/head"`
 
-nextjs provides a built-in component for appending elements to the `head` of the page so that it can 
+nextjs provides a built-in **component** for appending elements to the `head` of the page so that it can 
 be used in the JSX of the page:
 
 ```jsx
@@ -482,6 +493,8 @@ be used in the JSX of the page:
    <link rel="icon" href="/dog.png" />
 </Head>
 ```
+
+![assets/images/nextjs/HeadComponent.png]({{ site.baseurl }}/assets/images/nextjs/HeadComponent.png)
 
 ### `import styles from "./index.module.css"`
 
@@ -714,7 +727,19 @@ Another stage of the Next.js compiler is **Bundling**. **Bundling** is the proce
 
 ![bundling]({{ site.baseurl }}/assets/images/nextjs/bundling.png)
 
+Developers usually split their applications into multiple pages that can be accessed from different URLs. Each of these pages becomes a unique **entry point** into the application.
+
+**Code-splitting** is the process of splitting the application’s bundle into smaller chunks required by each entry point. The goal is **to improve the application's initial load time by only loading the code required to run that page**.
+
 ![]({{ site.baseurl }}/assets/images/nextjs/code-splitting.png)
+
+Next.js has built-in support for code splitting. Each file inside your `pages/` directory will be automatically code split into its own JavaScript bundle during the build step.
+
+Even more:
+
+* Any code shared between pages is also split into another bundle to avoid re-downloading the same code on further navigation.
+* After the initial page load, Next.js can start **pre-loading the code of other pages** users are likely to navigate to.
+
 
 ### The command next build
 
