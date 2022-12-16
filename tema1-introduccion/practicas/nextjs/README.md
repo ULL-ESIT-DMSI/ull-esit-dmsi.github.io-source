@@ -17,7 +17,9 @@ rubrica:
   - [Setup](#setup)
   - [Single Page Applications](#single-page-applications)
   - [What is Rendering](#what-is-rendering)
-  - [next.js Pages](#nextjs-pages)
+  - [The pages folder](#the-pages-folder)
+  - [The pages folder: Dynamic routes](#the-pages-folder-dynamic-routes)
+  - [next.js pages/api folder](#nextjs-pagesapi-folder)
     - [References](#references)
   - [pages/api/generate.js](#pagesapigeneratejs)
     - [`process.env.OPENAI_API_KEY`](#processenvopenai_api_key)
@@ -37,6 +39,7 @@ rubrica:
   - [Continue learning React](#continue-learning-react)
   - [Stages of a web application](#stages-of-a-web-application)
   - [build](#build)
+    - [The NextJS Compiler](#the-nextjs-compiler)
     - [The command next build](#the-command-next-build)
   - [Production](#production)
   - [Exercise: Deploy at Netlify with the UI](#exercise-deploy-at-netlify-with-the-ui)
@@ -220,8 +223,123 @@ With Next.js, three types of rendering methods are available:
 because the fetching of external data and transformation of components into HTML happens **before** 
 the result is sent to the client.
 
+## The pages folder
 
-## next.js Pages
+In Next.js, a **page** is a React Component exported from a `.js`, `.jsx`, `.ts`, or `.tsx` file in the `pages` directory. 
+Each page is associated with a route based on its file name.
+
+The `index.js` file is the main page `/` for the app. 
+
+Pages can also be added under `src/pages` as an alternative to the root `pages` directory.
+
+The `src` directory is very common in many apps and Next.js supports it by default.
+
+**Example**: If you create `pages/about.js` that exports a React component like below, it will be accessible at `/about`.
+
+```jsx
+export default function About() {
+  return <div>About</div>
+}
+```
+
+## The pages folder: Dynamic routes
+
+Next.js also supports pages with [dynamic routes](https://nextjs.org/docs/routing/dynamic-routes). 
+
+For example, if you create a file called `pages/posts/[id].js`, then it will be accessible at `posts/1`, `posts/2`, etc.
+
+```
+➜  nextjs-dynamic-routes tree -I node_modules
+.
+├── README.md
+├── package-lock.json
+├── package.json
+└── pages
+    ├── index.jsx
+    └── post
+        ├── [pid]
+        │   └── [comment].js
+        └── [pid].js
+```
+
+Consider the following page `pages/post/[pid].js`:
+
+```jsx
+import { useRouter } from 'next/router'
+
+const Post = () => {
+  const router = useRouter()
+  console.log(router.query)
+  const { pid } = router.query
+  return <p>Post: {pid}</p>
+}
+
+export default Post
+```
+
+Any route like `/post/1`, `/post/abc`, etc. will be matched by pages `/post/[pid].js`. 
+The matched `path` parameter will be sent as a query parameter to the page, and it will be merged with the other query parameters.
+
+For example, The page `pages/post/[pid]/[comment].js` 
+
+```jsx
+import { useRouter } from 'next/router'
+
+const Comment = () => {
+  const router = useRouter()
+  console.log(router.query)
+  const { pid, comment } = router.query
+
+  return <p>pid: {pid} Comment: {comment}</p>
+}
+
+export default Comment
+```
+
+will match the route `/post/abc/a-comment` and its query object will be:
+
+```json
+{ "pid": "abc", "comment": "a-comment" }
+```
+
+```
+➜  openai-quickstart-node git:(main) ✗ npx next --version 
+Next.js v12.1.6
+```
+
+Client-side navigations to dynamic routes are handled with [next/link](https://nextjs.org/docs/api-reference/next/link). If we wanted to have links to the routes used above it will look like this:
+
+```jsx
+import Link from 'next/link'
+
+function Home() {
+  return (
+    <ul>
+      <li>
+        <Link href="/post/abc">Go to pages/post/[pid].js</Link>
+      </li>
+      <li>
+        <Link href="/post/abc?foo=bar">Also goes to pages/post/[pid].js</Link>
+      </li>
+      <li>
+        <Link href="/post/abc/a-comment">
+          Go to pages/post/[pid]/[comment].js
+        </Link>
+      </li>
+    </ul>
+  )
+}
+
+export default Home
+```
+
+NextJS provides through `next/link` a  React component called `Link` to do client-side route transitions.
+See [Introduction to Routing](https://nextjs.org/docs/routing/introduction) in the NextJS docs.
+
+
+See the code at [ULL-MII-SYTWS/nextjs-dynamic-routes](https://github.com/ULL-MII-SYTWS/nextjs-dynamic-routes)
+
+## next.js pages/api folder
 
 Any file inside the folder `pages/api` is mapped to `/api/*` and **will be treated as an API endpoint instead of a page**. 
 
@@ -231,9 +349,6 @@ Each page is associated with a **route** based on its file name.
 
 Since we have the file `pages/api/generate.js`, Next.js will make it accessible at the route `/api/generate`.
 
-The `index.js` file is the main page `/` for the app. 
-
-By default, Next.js includes its own server which is started with `next start`.
 
 ### References
 
@@ -378,10 +493,6 @@ In Next.js, a **page** is a React Component exported from a .js, .jsx, .ts, or .
 Each page is associated with a route based on its file name.
 
 thus, `index.js` is a **page** and `index.module.css` is a **module**.
-
-Next.js supports pages with [dynamic routes](https://nextjs.org/docs/routing/dynamic-routes). For example, if you create a file called `pages/posts/[id].js`, then it will be accessible at `posts/1`, `posts/2`, etc.
-
-
 
 ```jsx
 import Head from "next/head";
@@ -714,12 +825,20 @@ A web application code must be in one of these different stages:
 
 ## build
 
-This is the stage where the code is compiled and optimized for production.
+### The NextJS Compiler
+
+The **build stage** is the stage where the code is compiled and optimized for production.
 Among other thins the JSX code is converted to JavaScript.
 
 ![compilingjsx2js.png]({{ site.baseurl }}/assets/images/nextjs/compilingjsx2js.png)
 
-another task is to minify the code:
+Another task is to minify the code. **Minification** refers to the process of removing unnecessary or redundant data without affecting how the resource is processed by the browser 
+- code comments 
+- formatting, 
+- removing unused code, 
+- using shorter variable and function names, 
+
+and so on. The goal is to reduce the size of the code and improve the performance of the application.
 
 ![minifying]({{ site.baseurl }}/assets/images/nextjs/minifying.png)
 
@@ -735,7 +854,7 @@ Developers usually split their applications into multiple pages that can be acce
 
 Next.js has built-in support for code splitting. Each file inside your `pages/` directory will be automatically code split into its own JavaScript bundle during the build step.
 
-Even more:
+Other optimizations:
 
 * Any code shared between pages is also split into another bundle to avoid re-downloading the same code on further navigation.
 * After the initial page load, Next.js can start **pre-loading the code of other pages** users are likely to navigate to.
@@ -1003,6 +1122,7 @@ Change the app to get an image from OpenAI and display it in the page.
 * [Deploying a Next.js app to Vercel](https://vercel.com/guides/deploying-nextjs-with-vercel) 
   * [Environment Variables](https://vercel.com/docs/concepts/projects/environment-variables?utm_source=next-site&utm_medium=docs&utm_campaign=next-website)
 * A solution deployed at netlify <https://nextjs-oai.netlify.app/>
-* [A repo with a solution](https://github.com/ULL-MII-SYTWS/nextjs-solution/)
+  * [A repo with a solution](https://github.com/ULL-MII-SYTWS/nextjs-solution/)
+* Repo [ULL-MII-SYTWS/nextjs-dynamic-routes](https://github.com/ULL-MII-SYTWS/nextjs-dynamic-routes)
 * Here is YouTube video explaining a project similar to the one described in this lab: [Build An AI Image Generator With OpenAI & Node.js](https://youtu.be/fU4o_BKaUZE)
   
