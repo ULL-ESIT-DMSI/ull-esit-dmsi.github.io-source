@@ -1111,11 +1111,11 @@ The `--prod` option deploys to production, the  `--open` flag  opens the site af
 ## Exercise: Get images from OpenAI
 
 
-Add to routes to the app:
+Add routes to the app:
 
 - On the first route  `/pet`  leave the current service
 - On the second route `/image`add functionality to get an image from OpenAI and display it in the page.
-- Add the landing page
+- Update the landing page and navigation links
 
 ## Rubrica
 
