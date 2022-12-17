@@ -46,7 +46,7 @@ rubrica:
     - [Make public your repo](#make-public-your-repo)
     - [Deploy with the Netlify UI](#deploy-with-the-netlify-ui)
   - [Netlify Environment Variables](#netlify-environment-variables)
-  - [Exercise: The Netlify CLI](#exercise-the-netlify-cli)
+  - [Exercise: Deploy with the Netlify CLI](#exercise-deploy-with-the-netlify-cli)
     - [Install the Netlify CLI](#install-the-netlify-cli)
     - [Link the repo to Netlify](#link-the-repo-to-netlify)
     - [Check the status](#check-the-status)
@@ -962,7 +962,7 @@ There are three ways to create site environment variables:
 
 The Netlify UI reflects any changes made using the CLI (ntl) or the API and vice versa.
 
-## Exercise: The Netlify CLI
+## Exercise: Deploy with the Netlify CLI
 
 The Netlify CLI is a command line interface that allows you to manage your Netlify sites from the terminal. 
 
