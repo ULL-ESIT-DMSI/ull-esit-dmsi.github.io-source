@@ -225,7 +225,12 @@ the result is sent to the client.
 
 ## The pages folder
 
-In Next.js, a **page** is a React Component exported from a `.js`, `.jsx`, `.ts`, or `.tsx` file in the `pages` directory. 
+In Next.js, a **page** is a 
+
+1. React Component 
+2. exported from a `.js`, `.jsx`, `.ts`, or `.tsx` file and 
+3. it must be in the `pages` directory. 
+   
 Each page is associated with a route based on its file name.
 
 The `index.js` file is the main page `/` for the app. 
@@ -1105,7 +1110,12 @@ The `--prod` option deploys to production, the  `--open` flag  opens the site af
 
 ## Exercise: Get images from OpenAI
 
-Change the app to get an image from OpenAI and display it in the page.
+
+Add to routes to the app:
+
+- On the first route  `/pet`  leave the current service
+- On the second route `/image`add functionality to get an image from OpenAI and display it in the page.
+- Add the landing page
 
 ## Rubrica
 
