@@ -144,9 +144,15 @@ Proceed as follows:
    Which installs the dependencies listed in `package.json`:
 
    ```json
-   ✗ jq -c '.dependencies | keys' package.json
-   ["next","openai","react","react-dom"]
+   ➜  openai-quickstart-node git:(main) ✗ jq '.dependencies' package.json 
+    {
+      "next": "^12.1.6",
+      "openai": "^3.0.0",
+      "react": "17.0.2",
+      "react-dom": "17.0.2"
+    }
    ```
+   Notice that the `next` version major is 12 
 
 2. Make a copy of the example environment variables file
 
