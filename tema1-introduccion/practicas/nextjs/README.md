@@ -3,7 +3,9 @@ permalink: /practicas/nextjs
 rubrica:
    - "Code of the lab is correct and works"
    - "Site deployed at netlify"
+   - "Images request added"
    - "REST answers to exercises are correct"
+   - "Exercise Dynamic Routes reported"
    - "Report is correct and complete"
    - "Kanban Board Project reflects the rubric issues"
    - "The .zip has been delivered on the campus"
@@ -19,6 +21,7 @@ rubrica:
   - [What is Rendering](#what-is-rendering)
   - [The pages folder](#the-pages-folder)
   - [The pages folder: Dynamic routes](#the-pages-folder-dynamic-routes)
+  - [Exercise: Dynamic Routes](#exercise-dynamic-routes)
   - [next.js pages/api folder](#nextjs-pagesapi-folder)
     - [References](#references)
   - [pages/api/generate.js](#pagesapigeneratejs)
@@ -349,6 +352,10 @@ See [Introduction to Routing](https://nextjs.org/docs/routing/introduction) in t
 
 
 See the code at [ULL-MII-SYTWS/nextjs-dynamic-routes](https://github.com/ULL-MII-SYTWS/nextjs-dynamic-routes)
+
+## Exercise: Dynamic Routes
+
+Follow the tutorial [Dynamic Routes](https://nextjs.org/learn/basics/dynamic-routes) at <https://nextjs.org/learn/basics/dynamic-routes> and solve the exercises
 
 ## next.js pages/api folder
 
