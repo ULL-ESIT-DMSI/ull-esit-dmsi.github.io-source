@@ -25,10 +25,13 @@ rubrica:
   - [next.js pages/api folder](#nextjs-pagesapi-folder)
     - [References](#references)
   - [pages/api/generate.js](#pagesapigeneratejs)
-    - [`process.env.OPENAI_API_KEY`](#processenvopenai_api_key)
+    - [Environment: `process.env.OPENAI_API_KEY`](#environment-processenvopenai_api_key)
+      - [Exposing Environment to the browser](#exposing-environment-to-the-browser)
+      - [Vercel: Environment Variables](#vercel-environment-variables)
+      - [Netlify: Environment Variables](#netlify-environment-variables)
       - [References](#references-1)
-    - [`export default async function (req, res) { ... }`](#export-default-async-function-req-res---)
-    - [`const completion = await openai.createCompletion({ ... })`](#const-completion--await-openaicreatecompletion--)
+    - [Request and Response objects: `export default async function (req, res) { ... }`](#request-and-response-objects-export-default-async-function-req-res---)
+    - [OpenAI Completions: `const completion = await openai.createCompletion({ ... })`](#openai-completions-const-completion--await-openaicreatecompletion--)
   - [pages/index.js](#pagesindexjs)
     - [JSX](#jsx)
     - [`import Head from "next/head"`](#import-head-from-nexthead)
@@ -48,7 +51,7 @@ rubrica:
   - [Exercise: Deploy at Netlify with the UI](#exercise-deploy-at-netlify-with-the-ui)
     - [Make public your repo](#make-public-your-repo)
     - [Deploy with the Netlify UI](#deploy-with-the-netlify-ui)
-  - [Netlify Environment Variables](#netlify-environment-variables)
+  - [Netlify Environment Variables](#netlify-environment-variables-1)
   - [Exercise: Deploy with the Netlify CLI](#exercise-deploy-with-the-netlify-cli)
     - [Install the Netlify CLI](#install-the-netlify-cli)
     - [Link the repo to Netlify](#link-the-repo-to-netlify)
@@ -415,7 +418,7 @@ For a [Nextjs API route](https://nextjs.org/docs/api-routes/introduction) to wor
 
 
 
-### `process.env.OPENAI_API_KEY` 
+### Environment: `process.env.OPENAI_API_KEY` 
 
 Next.js allows you to set environment variables in 
 
@@ -428,9 +431,15 @@ The variables are accesible into `process.env`.
 
 By default **environment variables are only available in the Node.js environment, meaning they won't be exposed to the browser**.
 
+#### Exposing Environment to the browser
+
 In order to expose a variable to the browser you have to prefix the variable with `NEXT_PUBLIC_`. 
 
+#### Vercel: Environment Variables
+
 When deploying your Next.js application to Vercel, Environment Variables can be configured in the [Project Settings](https://vercel.com/docs/concepts/projects/environment-variables?utm_source=next-site&utm_medium=docs&utm_campaign=next-website).
+
+#### Netlify: Environment Variables
 
 In Netlify you can use the Netlify UI. Head over to the Build & Deploy settings in your Site Settings, and then plug your values in under "Environment variables" or alternatively, use the [Netlify CLI](https://docs.netlify.com/cli/get-started/?_ga=2.210632407.351830897.1670331128-1485033729.1667990322#link-with-an-environment-variable)
 
@@ -438,7 +447,7 @@ In Netlify you can use the Netlify UI. Head over to the Build & Deploy settings 
 
 * <https://nextjs.org/docs/basic-features/environment-variables>
 
-### `export default async function (req, res) { ... }`
+### Request and Response objects: `export default async function (req, res) { ... }`
 
 The **Server Request Object** (`req`) includes a set of 
 Express.js-like helper methods to improve the developer experience and increase the speed of creating new API endpoints:
@@ -460,7 +469,7 @@ Express.js-like helper methods to improve the developer experience and increase 
 * res.redirect([status,] path) - Redirects to a specified path or URL. status must be a valid HTTP status code. If not specified, status defaults to "307" "Temporary redirect".
 * res.revalidate(urlPath) - Revalidate a page on demand using getStaticProps. urlPath must be a string.
 
-### `const completion = await openai.createCompletion({ ... })`
+### OpenAI Completions: `const completion = await openai.createCompletion({ ... })`
 
 See the documentation at  <https://beta.openai.com/docs/api-reference/completions/create>
 
