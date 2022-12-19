@@ -1138,6 +1138,7 @@ Add routes to the app:
 - On the first route  `/pet`  leave the current service
 - On the second route `/image`add functionality to get an image from OpenAI and display it in the page.
 - Update the landing page and navigation links
+- Consider the opportunity to solve it using a dynamic route
 
 ## Rubrica
 
