@@ -21,7 +21,7 @@ rubrica:
   - [What is Rendering](#what-is-rendering)
   - [The pages folder](#the-pages-folder)
   - [The pages folder: Dynamic routes](#the-pages-folder-dynamic-routes)
-  - [Exercise: Dynamic Routes](#exercise-dynamic-routes)
+    - [Exercise on Dynamic Routes](#exercise-on-dynamic-routes)
   - [next.js pages/api folder](#nextjs-pagesapi-folder)
     - [References](#references)
   - [pages/api/generate.js](#pagesapigeneratejs)
@@ -34,12 +34,12 @@ rubrica:
     - [OpenAI Completions: `const completion = await openai.createCompletion({ ... })`](#openai-completions-const-completion--await-openaicreatecompletion--)
   - [pages/index.js](#pagesindexjs)
     - [JSX](#jsx)
-    - [`import Head from "next/head"`](#import-head-from-nexthead)
-    - [`import styles from "./index.module.css"`](#import-styles-from-indexmodulecss)
-    - [`<link rel="icon" href="/dog.png" />`](#link-relicon-hrefdogpng-)
-    - [`<main className={styles.main}>` Curly Braces in JSX](#main-classnamestylesmain-curly-braces-in-jsx)
-    - [`<form onSubmit={onSubmit}> ...</form>`](#form-onsubmitonsubmit-form)
-    - [`const response = await fetch("/api/generate", { ... })`](#const-response--await-fetchapigenerate---)
+    - [Comments to `import Head from "next/head"`](#comments-to-import-head-from-nexthead)
+    - [Comments to `import styles from "./index.module.css"`](#comments-to-import-styles-from-indexmodulecss)
+    - [Comments to `<link rel="icon" href="/dog.png" />`](#comments-to-link-relicon-hrefdogpng-)
+    - [Comments to `<main className={styles.main}>` Curly Braces in JSX](#comments-to-main-classnamestylesmain-curly-braces-in-jsx)
+    - [Comments to `<form onSubmit={onSubmit}> ...</form>`](#comments-to-form-onsubmitonsubmit-form)
+    - [Comments to `const response = await fetch("/api/generate", { ... })`](#comments-to-const-response--await-fetchapigenerate---)
   - [State in React](#state-in-react)
     - [References](#references-2)
   - [Continue learning React](#continue-learning-react)
@@ -262,8 +262,10 @@ export default function About() {
 ## The pages folder: Dynamic routes
 
 Next.js also supports pages with [dynamic routes](https://nextjs.org/docs/routing/dynamic-routes). 
-
 For example, if you create a file called `pages/posts/[id].js`, then it will be accessible at `posts/1`, `posts/2`, etc.
+
+
+See the full code of the examples used in this section in the repo [ULL-MII-SYTWS/nextjs-dynamic-routes](https://github.com/ULL-MII-SYTWS/nextjs-dynamic-routes)
 
 ```
 ➜  nextjs-dynamic-routes tree -I node_modules
@@ -356,9 +358,9 @@ See [Introduction to Routing](https://nextjs.org/docs/routing/introduction) in t
 
 See the code at [ULL-MII-SYTWS/nextjs-dynamic-routes](https://github.com/ULL-MII-SYTWS/nextjs-dynamic-routes)
 
-## Exercise: Dynamic Routes
+### Exercise on Dynamic Routes
 
-Follow the tutorial [Dynamic Routes](https://nextjs.org/learn/basics/dynamic-routes) at <https://nextjs.org/learn/basics/dynamic-routes> and solve the exercises
+Follow the tutorial [Dynamic Routes](https://nextjs.org/learn/basics/dynamic-routes) at <https://nextjs.org/learn/basics/dynamic-routes> and solve the exercises. 
 
 ## next.js pages/api folder
 
@@ -466,9 +468,10 @@ Express.js-like helper methods to improve the developer experience and increase 
 * `res.send(body)` - Sends the HTTP response. body can be a string, an object or a Buffer
 
    See the code fragment `res.status(200).json({ result: completion.data.choices[0].text });`
-* res.redirect([status,] path) - Redirects to a specified path or URL. status must be a valid HTTP status code. If not specified, status defaults to "307" "Temporary redirect".
-* res.revalidate(urlPath) - Revalidate a page on demand using getStaticProps. urlPath must be a string.
-
+* `res.redirect([status,] path)` - Redirects to a specified `path` or URL. `status` must be a valid HTTP status code. 
+  * If not specified, `status` defaults to "307" "Temporary redirect".
+  * If `path` starts with "http" or "//", the redirect is external.
+  
 ### OpenAI Completions: `const completion = await openai.createCompletion({ ... })`
 
 See the documentation at  <https://beta.openai.com/docs/api-reference/completions/create>
@@ -620,7 +623,7 @@ The nice thing about JSX is that apart from [following three JSX rules](https://
 2. Close all the tags: self-closing tags like `<img>` must become `<img />`
 3. **camelCase** most of the things: For example, instead of `stroke-width` you use `strokeWidth`. Since `class` is a reserved word, in React you write `className` instead. Event names are also camelCased
 
-### `import Head from "next/head"`
+### Comments to `import Head from "next/head"`
 
 nextjs provides a built-in **component** for appending elements to the `head` of the page so that it can 
 be used in the JSX of the page:
@@ -634,7 +637,7 @@ be used in the JSX of the page:
 
 ![assets/images/nextjs/HeadComponent.png]({{ site.baseurl }}/assets/images/nextjs/HeadComponent.png)
 
-### `import styles from "./index.module.css"`
+### Comments to `import styles from "./index.module.css"`
 
 This is a [CSS module](https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css). 
 
@@ -655,7 +658,7 @@ or in this:
 <div className={styles.result}>{result}</div>
 ```
 
-###  `<link rel="icon" href="/dog.png" />`
+###  Comments to `<link rel="icon" href="/dog.png" />`
 
 This line in the `<Head>` component adds a favicon to the page. 
 You'll find the image in the `public` directory.
@@ -663,19 +666,17 @@ You'll find the image in the `public` directory.
 Next.js can serve static files, like images, under a folder called `public` in the root directory.
 Files inside `public` can then be referenced by your code starting from the base URL (`/`).
 
-### `<main className={styles.main}>` Curly Braces in JSX
+### Comments to `<main className={styles.main}>` Curly Braces in JSX
 
 JSX lets you write HTML-like markup inside a JavaScript file, keeping rendering logic and content in the same place. 
-
 Sometimes you will want to add a little JavaScript logic or reference a dynamic property inside that markup. 
-
-In this situation, you can use curly braces in your JSX to open a window to JavaScript.
+In this situation, you can use curly braces in your JSX to open a window to JavaScript: `<main className={styles.main}>`
 
 The only reason behind the fact that JSX uses `className` over `class` is that the `class` is a reserved keyword in JavaScript.
 
 We are specifying that the `<main>` element should use the `main` class from the `index.module.css` file.
 
-### `<form onSubmit={onSubmit}> ...</form>`
+###  Comments to `<form onSubmit={onSubmit}> ...</form>`
 
 The `onSubmit` **prop** is a special React **prop** that lets you specify a function that will be called when the form is submitted.
 
@@ -697,7 +698,7 @@ The async function `onSubmit` is called when the form is submitted:
   }
 ```
 
-### `const response = await fetch("/api/generate", { ... })`
+###  Comments to `const response = await fetch("/api/generate", { ... })`
 
 The `fetch` function makes a request to the `/api/generate` endpoint of the nextjs server. 
 
@@ -720,14 +721,10 @@ In that sense, they are similar to variables declared with the `let` keyword.
 
 The difference between a **React state** and a 
 normal variable is that when a **React state variable** changes, 
-the **component is rendered again** and some other things happens, like that 
-the `useEffect` [hook](/react/hooks)
-bound to that state will be executed, 
+the **component is rendered again** and some other things happens,
 but when a normal variable changes, this does not happen.
-(The `useEffect` hook allows us to perform side effects in our components.
-It can be used to fetch data from an API, subscribe to a service, ...)
 
-```js
+```jsx
 import { useState } from "react";
 // ...
 
@@ -764,8 +761,8 @@ In this code we have two states: `animalInput` and `result`.
 
 Therefore, 
 
-1. each time the `animalInput` state changes, the component is rendered again and the `useEffect` hook bound to that state will be executed.
-2. each time the `result` state changes, the component is rendered again and the `useEffect` hook bound to that state will be executed.
+1. each time the `animalInput` state changes, the component is rendered again. The `animalInput`changes when the user types in the input field.
+2. each time the `result` state changes, the component is rendered again. The `result` changes when the API returns the result.
 
 The `useState` hook **allows us to create state variables for our components**. 
 
@@ -784,27 +781,33 @@ The `setter` function accepts either
 1. a new value or 
 2. a function which **takes the current value as an argument** and returns the new value 
 
-We can use it like this:
+Let's review the code fragment:
+
+```js
+async function onSubmit(event) {
+    // ...
+    const data = await response.json();
+    setResult(data.result);
+    setAnimalInput("");
+}
+```
+
+Since `data` has arrived from the API, we can set the `result` state to the value of `data.result`:
 
 ```js
 setResult(data.result); // data just arrived from the API
 ```
 
-or like this:
-  
-```js
-setResult(prevData => data.result)
-```
+The component will be rendered showing the new `result`.
 
-Since `data`has arrived from the API, we can set the `result` state to the value of `data.result`.
-The `<div className={styles.result}>{result}</div>`has to be rendered again.
-
-The effect of this statement 
+Also, the effect of  
 
 ```js
 setAnimalInput("");
 ```
-is that the 
+
+is that the input component 
+
 ```jsx 
 <input  type="text" name="animal" placeholder="Enter an animal"
             value={animalInput}
@@ -814,16 +817,11 @@ is that the
 
 will be rendered again with an empty value.
 
-The call to `setAnimalInput(e.target.value)` here:
-   
-```jsx
-<input  type="text" name="animal" placeholder="Enter an animal"
-   value={animalInput}
-   onChange={(e) => setAnimalInput(e.target.value)}
-/>
-```
+To understand the line `onChange={(e) => setAnimalInput(e.target.value)` we need to know 
 
-will be executed each time the user types a character in the `input` field.
+1. that the `onchange` event occurs when the value of the `<input>` has been changed.
+2. The `target` property of the Event `e`  is a reference to the object onto which the event was dispatched, that is, the `<input>`. 
+3. The `setAnimalInput(e.target.value)` will be executed each time the user types a character in the `input` field and will change the value of the `animalInput` state.
 
 ### References
 
