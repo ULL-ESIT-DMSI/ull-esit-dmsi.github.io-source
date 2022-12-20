@@ -41,6 +41,11 @@ rubrica:
     - [Comments to `<form onSubmit={onSubmit}> ...</form>`](#comments-to-form-onsubmitonsubmit-form)
     - [Comments to `const response = await fetch("/api/generate", { ... })`](#comments-to-const-response--await-fetchapigenerate---)
   - [State in React](#state-in-react)
+    - [React States](#react-states)
+    - [The useState hook](#the-usestate-hook)
+    - [State in our Application](#state-in-our-application)
+      - [When the API returns the result](#when-the-api-returns-the-result)
+      - [When the user types in the input box](#when-the-user-types-in-the-input-box)
     - [References](#references-2)
   - [Continue learning React](#continue-learning-react)
   - [Stages of a web application](#stages-of-a-web-application)
@@ -716,6 +721,8 @@ const data = await response.json()
 
 ## State in React
 
+### React States
+
 **React states** are used to store data that can be changed over time.
 In that sense, they are similar to variables declared with the `let` keyword.
 
@@ -724,53 +731,29 @@ normal variable is that when a **React state variable** changes,
 the **component is rendered again** and some other things happens,
 but when a normal variable changes, this does not happen.
 
-```jsx
-import { useState } from "react";
-// ...
-
-export default function Home() {
-  const [animalInput, setAnimalInput] = useState("");
-  const [result, setResult] = useState();
-
-  async function onSubmit(event) {
-    // ...
-    const data = await response.json();
-    setResult(data.result);
-    setAnimalInput("");
-  }
-  return (
-    <div>
-      <.../>
-      <main className={styles.main}>
-        <.../>
-        <form onSubmit={onSubmit}>
-          <input  type="text" name="animal" placeholder="Enter an animal"
-            value={animalInput}
-            onChange={(e) => setAnimalInput(e.target.value)}
-          />
-          <input type="submit" value="Generate names" />
-        </form>
-        <div className={styles.result}>{result}</div>
-      </main>
-    </div>
-  );
-}
-```
-
-In this code we have two states: `animalInput` and `result`.
-
-Therefore, 
-
-1. each time the `animalInput` state changes, the component is rendered again. The `animalInput`changes when the user types in the input field.
-2. each time the `result` state changes, the component is rendered again. The `result` changes when the API returns the result.
+### The useState hook
 
 The `useState` hook **allows us to create state variables for our components**. 
 
-`useState` takes in an initial value as an argument and returns an array containing 
+```js
+const [state, setState] = useState(initialState);
+```
+
+`useState` takes in an initial value as an argument and returns an array containing
 
 1. the **state** variable and 
-2. a **setter** function to mutate it
+2. a **setter** function `setState` to mutate it
  
+During the initial render, the returned state (`state`) is the same as the value passed as the first argument (`initialState`).
+
+The `setState` function is used to update the state. It accepts a new state value and **enqueues a re-render of the component**.
+
+```js
+setState(newState);
+```
+
+During subsequent re-renders, the first value returned by `useState` will always be the most recent state after applying updates.
+
 It is common practice to de-structure this array and set its contents to be `const`. 
 This is because 
 
@@ -778,8 +761,36 @@ This is because
 * **should only be modified via the setter function**. 
 
 The `setter` function accepts either 
+
 1. a new value or 
-2. a function which **takes the current value as an argument** and returns the new value 
+2. If the new state is computed using the previous state, you can pass a function to `setState`. The function will receive the previous value, and return an updated value. Here’s an example of a counter component that uses both forms of setState:
+
+```jsx
+function Counter({initialCount}) {
+  const [count, setCount] = useState(initialCount);
+  return (
+    <>
+      Count: {count}
+      <button onClick={() => setCount(initialCount)}>Reset</button>
+      <button onClick={() => setCount(prevCount => prevCount - 1)}>-</button>
+      <button onClick={() => setCount(prevCount => prevCount + 1)}>+</button>
+    </>
+  );
+}
+```
+
+### State in our Application
+
+In our code we have two states: `animalInput` and `result`.
+
+Therefore, 
+
+1. each time the `animalInput` state changes, the component is rendered again. 
+   * The `animalInput`changes when the user types in the input field and when the API returns the result.
+2. each time the `result` state changes, the component is rendered again. 
+   * The `result` changes when the API returns the result.
+
+####  When the API returns the result
 
 Let's review the code fragment:
 
@@ -816,6 +827,8 @@ is that the input component
 ```
 
 will be rendered again with an empty value.
+
+#### When the user types in the input box
 
 To understand the line `onChange={(e) => setAnimalInput(e.target.value)` we need to know 
 
