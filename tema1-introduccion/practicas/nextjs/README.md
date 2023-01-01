@@ -19,11 +19,16 @@ rubrica:
   - [Setup](#setup)
   - [Single Page Applications](#single-page-applications)
   - [What is Rendering](#what-is-rendering)
+  - [Origin Servers, CDNs and Edges](#origin-servers-cdns-and-edges)
+    - [Origin Servers](#origin-servers)
+    - [Content Delivery Network](#content-delivery-network)
+    - [The Edge](#the-edge)
   - [The pages folder](#the-pages-folder)
+    - [References](#references)
   - [The pages folder: Dynamic routes](#the-pages-folder-dynamic-routes)
     - [Exercise on Dynamic Routes](#exercise-on-dynamic-routes)
   - [next.js pages/api folder](#nextjs-pagesapi-folder)
-    - [References](#references)
+  - [Serverless Functions](#serverless-functions)
   - [pages/api/generate.js](#pagesapigeneratejs)
     - [Environment: `process.env.OPENAI_API_KEY`](#environment-processenvopenai_api_key)
       - [Exposing Environment to the browser](#exposing-environment-to-the-browser)
@@ -214,7 +219,7 @@ Many in the industry refer to more traditional web applications as Multi-Page Ap
 
 ## What is Rendering
 
-**Rendering** is the conversion of the code you write in your reactive framework (React/Vue/AngularJS) into the HTML representation of your User Interface. 
+**Rendering** is the conversion of the source code written in a reactive framework (React/Vue/AngularJS) into **the HTML representation of your User Interface**. 
 Rendering can take place 
 1. on the server or 
 2. on the client. 
@@ -240,11 +245,28 @@ With Next.js, three types of rendering methods are available:
 because the fetching of external data and transformation of components into HTML happens **before** 
 the result is sent to the client.
 
+## Origin Servers, CDNs and Edges 
+
+### Origin Servers
+
+The origin server refers to the main computer that stores and runs the original version of your application code. When an origin server receives a request, it does some computation before sending a response. The result of this computation work can be moved to a CDN (Content Delivery Network).
+
+### Content Delivery Network
+
+CDNs store **static content** (such as HTML and image files) in multiple locations around the world and are placed between the client and the origin server. When a new request comes in, the closest CDN location to the user can respond with the cached result.
+
+![cdn.png]({{ site.baseurl }}/assets/images/cdn.png)
+
+### The Edge
+
+Edge servers are distributed to multiple locations around the world. Unlike CDNs, which store static content, Edge servers can run small snippets of code.
+
+
 ## The pages folder
 
 In Next.js, a **page** is a 
 
-1. React Component 
+1. React Component. A React Component is a function that returns a UI element and can receive props as input.
 2. exported from a `.js`, `.jsx`, `.ts`, or `.tsx` file and 
 3. it must be in the `pages` directory. 
    
@@ -263,6 +285,10 @@ export default function About() {
   return <div>About</div>
 }
 ```
+
+### References
+
+See <https://nextjs.org/docs/basic-features/pages>
 
 ## The pages folder: Dynamic routes
 
@@ -377,10 +403,31 @@ Each page is associated with a **route** based on its file name.
 
 Since we have the file `pages/api/generate.js`, Next.js will make it accessible at the route `/api/generate`.
 
+Create a file called `hello.js` in `pages/api` with the following code:
 
-### References
+```js
+export default function handler(req, res) {
+  res.status(200).json({ text: 'Hello' });
+}
+```
 
-See <https://nextjs.org/docs/basic-features/pages>
+Try accessing it at <http://localhost:3000/api/hello>. You should see `{"text":"Hello"}`. Note that:
+
+* `req` is an instance of [http.IncomingMessage](https://nodejs.org/api/http.html#class-httpincomingmessage), plus some pre-built [middlewares](https://nextjs.org/docs/api-routes/api-middlewares).
+* `res` is an instance of [http.ServerResponse](https://nodejs.org/api/http.html#http_class_http_serverresponse), plus some [helper functions](https://nextjs.org/docs/api-routes/response-helpers).
+
+Functions exported by files inside the folder `pages/api` can be deployed as **Serverless Functions** (also known as **Lambdas**).  
+
+API Routes can be dynamic, just like regular pages.
+
+
+## Serverless Functions
+
+[A **serverless** function](https://sytws.netlify.app/temas/web/serverless.html#serverless-functions) is a piece of code that is executed in response to a specific event, such as an HTTP request or a message being added to a queue. It is called "*serverless*" because the developer does not have to worry about the underlying infrastructure that the code will be running on. Instead, the infrastructure is managed by a third party, such as AWS Lambda or Google Cloud Functions. 
+
+The developer only needs to provide the code and specify the events that should trigger the code to be executed. The **serverless provider** takes care of the rest, including automatically scaling the function to handle a large number of requests.
+
+![https://sytws.netlify.app/images/how-do-serverless-functions-work.png](https://sytws.netlify.app/images/how-do-serverless-functions-work.png)
 
 ## pages/api/generate.js
 
@@ -648,7 +695,7 @@ This is a [CSS module](https://nextjs.org/docs/basic-features/built-in-css-suppo
 
 Next.js supports CSS Modules using the `[name].module.css` file naming convention.
 
-CSS Modules locally scope CSS by automatically creating a unique class name. 
+CSS Modules **locally scope** CSS by automatically creating a **unique class name**. 
 
 This allows you to use the same CSS class name in different files without worrying about collisions.
 
@@ -1168,6 +1215,6 @@ Add routes to the app:
   * [Environment Variables](https://vercel.com/docs/concepts/projects/environment-variables?utm_source=next-site&utm_medium=docs&utm_campaign=next-website)
 * A solution deployed at netlify <https://nextjs-oai.netlify.app/>
   * [A repo with a solution](https://github.com/ULL-MII-SYTWS/nextjs-solution/)
-* Repo [ULL-MII-SYTWS/nextjs-dynamic-routes](https://github.com/ULL-MII-SYTWS/nextjs-dynamic-routes)
 * Here is YouTube video explaining a project similar to the one described in this lab: [Build An AI Image Generator With OpenAI & Node.js](https://youtu.be/fU4o_BKaUZE)
-  
+* Repo [ULL-MII-SYTWS/nextjs-dynamic-routes](https://github.com/ULL-MII-SYTWS/nextjs-dynamic-routes)
+* [NextJS official examples folderx](https://github.com/vercel/next.js/tree/canary/examples/)  
