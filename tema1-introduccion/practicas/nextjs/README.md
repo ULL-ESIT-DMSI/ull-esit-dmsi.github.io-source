@@ -1196,6 +1196,9 @@ Follow the instructions at the tutorial [Deploying Your Next.js App
 
 If you have trouble with this or other Next.js steps use [GitHub Discussions: next.js](https://github.com/vercel/next.js/discussions)
 
+You can also use the [Vercel CLI](https://vercel.com/docs/cli) to interact with and configure your projects, enabling you to retrieve logs, manage certificates, replicate your deployment environment locally, manage Domain Name System (DNS) records, etc. It is a wrapper around the [Vercel API](https://vercel.com/docs/rest-api).
+
+
 ## Exercise: Get images from OpenAI
 
 
