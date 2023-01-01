@@ -69,6 +69,7 @@ rubrica:
     - [List/Get/Set the environment variables](#listgetset-the-environment-variables)
     - [Development mode with the Netlify CLI](#development-mode-with-the-netlify-cli)
     - [Deploying with the Netlify CLI](#deploying-with-the-netlify-cli)
+  - [Exercise: Deploy the app to Vercel](#exercise-deploy-the-app-to-vercel)
   - [Exercise: Get images from OpenAI](#exercise-get-images-from-openai)
   - [Rubrica](#rubrica)
   - [References](#references-3)
@@ -1187,6 +1188,13 @@ Website URL:       https://nextjs-oai.netlify.app
 ```
 
 The `--prod` option deploys to production, the  `--open` flag  opens the site after deploy
+
+## Exercise: Deploy the app to Vercel
+
+Follow the instructions at the tutorial [Deploying Your Next.js App
+](https://nextjs.org/learn/basics/deploying-nextjs-app)
+
+If you have trouble with this or other Next.js steps use [GitHub Discussions: next.js](https://github.com/vercel/next.js/discussions)
 
 ## Exercise: Get images from OpenAI
 
