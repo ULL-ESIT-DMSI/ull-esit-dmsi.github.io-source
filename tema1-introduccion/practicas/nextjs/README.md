@@ -2,7 +2,7 @@
 permalink: /practicas/nextjs
 rubrica:
    - "Code of the lab is correct and works"
-   - "Site deployed at netlify"
+   - "Site deployed at netlify and Vercel"
    - "Images request added"
    - "REST answers to exercises are correct"
    - "Exercise Dynamic Routes reported"
