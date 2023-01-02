@@ -1223,6 +1223,10 @@ Vercel CLI 28.10.1
   22m     https://nextjs-blog-sfbadq2kr-crguezl.vercel.app     ● Ready     38s
 ```
 
+Watch the video *Vercel - Create a Next.js App and Deploy with Vercel CLI*:
+
+{% include video provider="youtube" id="4DbNUJ-9_U4" %}
+
 ## Exercise: Get images from OpenAI
 
 
@@ -1233,6 +1237,10 @@ Add routes to the app:
 - Update the landing page and navigation links
 - Add a 404 page
 - Consider the opportunity to solve it using a dynamic route
+
+The youtube video *Build An AI Image Generator With OpenAI & Node.js* can help:
+
+{% include video provider="youtube" id="fU4o_BKaUZE" %}
 
 ## Rubrica
 
