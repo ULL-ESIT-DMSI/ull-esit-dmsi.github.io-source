@@ -3,6 +3,7 @@ task :default => [ :pushhtml ] do
   sh "git ci -am 2223 && git push -u source master && git push -u dmsi2223 master"
 end
 
+desc "serve"
 task :serve do
   sh "bundle exec jekyll s --watch -V -P 4444"
 end
