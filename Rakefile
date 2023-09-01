@@ -1,6 +1,6 @@
 desc "Publicar fuentes y build"
 task :default => [ :pushhtml ] do
-  sh "git ci -am 2223 && git push -u source master && git push -u dmsi2223 master"
+  sh "git ci -am 2324 && git push -u source master && git push -u dmsi2324 master"
 end
 
 desc "serve"
@@ -8,7 +8,7 @@ task :serve do
   sh "bundle exec jekyll s --watch -V -P 4444"
 end
 
-desc "cd ../website and add .nojekyll and push to dmsi and dmsi2223"
+desc "cd ../website and add .nojekyll and push to dmsi and dmsi2324"
 task :pushhtml => [ :b ] do
   sh "./scripts/build-and-push.sh"
 end
@@ -28,12 +28,12 @@ task :rawserve, [:port] => [:b] do |t, args|
   sh "http-server ../website -c-1 --port #{ args[:port] or Integer(1000+9000*rand())}"
 end 
 
-desc "Publicar solo fuentes en  dmsi2223"
-task :pub2223 do
-  sh "git ci -am 2223 && git push -u dmsi2223 master"
+desc "Publicar solo fuentes en  dmsi2324"
+task :pub2324 do
+  sh "git ci -am 2324 && git push -u dmsi2324 master"
 end
 
 desc "Publicar solo fuentes en dmsi"
 task :pubdmsi do
-  sh "git ci -am 2223 && git push -u source master"
+  sh "git ci -am 2324 && git push -u source master"
 end
