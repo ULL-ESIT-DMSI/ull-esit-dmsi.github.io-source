@@ -1,5 +1,5 @@
 ---
-title: DMSI 22/23 Teams
+title: DMSI 23/24 Teams
 ---
 
 # {{ page.title}}
