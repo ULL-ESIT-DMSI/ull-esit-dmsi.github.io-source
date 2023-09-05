@@ -1,5 +1,6 @@
 <ol reverse>
 {% for practica in site.data.practicas %}
+  {% if practica.visible %}
   <li> 
     <a href="{{site.baseurl}}/{{practica.path}}">{{practica.title}}</a> 
     <ul>
@@ -7,5 +8,6 @@
       <li><a href="{{site.baseurl}}/{{practica.path}}#rúbrica">Rúbrica</a> </li>
     </ul>
   </li>
+  {% endif %}
 {% endfor %}
 </ol>
