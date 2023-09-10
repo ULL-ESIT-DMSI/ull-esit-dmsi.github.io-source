@@ -47,3 +47,8 @@ desc "Publicar solo fuentes en dmsi"
 task :pubdmsi do
   sh "git ci -am 2324 && git push -u source master"
 end
+
+desc  "Update teams"
+task :teams do 
+  sh "scripts/get-teams.sh > _data/teams.json"
+end

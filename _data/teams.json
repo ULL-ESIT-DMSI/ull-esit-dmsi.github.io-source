@@ -2,195 +2,27 @@
   "data": {
     "organization": {
       "teams": {
-        "totalCount": 9,
+        "totalCount": 1,
         "edges": [
           {
             "node": {
-              "name": "alejandro-perez-buquerin-alu0101324067",
+              "name": "casiano-rodriguez-leon-alu0100291865",
               "members": {
                 "totalCount": 1,
                 "edges": [
                   {
-                    "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2223/people/alejandroperez01",
+                    "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2324/people/casiano-rodriguez",
                     "node": {
-                      "name": "Alejandro Pérez",
-                      "url": "https://github.com/alejandroperez01",
+                      "name": "Casiano as ULL alumni",
+                      "url": "https://github.com/casiano-rodriguez",
                       "email": "",
-                      "login": "alejandroperez01"
+                      "login": "casiano-rodriguez",
+                      "avatarUrl": "https://avatars.githubusercontent.com/u/131154928?u=d3332f44c8df591dd1a895cf66dcc20c636782c0&v=4"
                     }
                   }
                 ]
               },
-              "url": "https://github.com/orgs/ULL-ESIT-DMSI-2223/teams/alejandro-perez-buquerin-alu0101324067"
-            }
-          },
-          {
-            "node": {
-              "name": "arturo-pestana-ortiz-alu0101015293",
-              "members": {
-                "totalCount": 1,
-                "edges": [
-                  {
-                    "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2223/people/alu0101015293",
-                    "node": {
-                      "name": "alu0101015293",
-                      "url": "https://github.com/alu0101015293",
-                      "email": "",
-                      "login": "alu0101015293"
-                    }
-                  }
-                ]
-              },
-              "url": "https://github.com/orgs/ULL-ESIT-DMSI-2223/teams/arturo-pestana-ortiz-alu0101015293"
-            }
-          },
-          {
-            "node": {
-              "name": "casiano-rodriguez-leon-alumnoudv4",
-              "members": {
-                "totalCount": 2,
-                "edges": [
-                  {
-                    "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2223/people/crguezl",
-                    "node": {
-                      "name": "Casiano Rodriguez-Leon",
-                      "url": "https://github.com/crguezl",
-                      "email": "",
-                      "login": "crguezl"
-                    }
-                  },
-                  {
-                    "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2223/people/casiano",
-                    "node": {
-                      "name": "Casiano",
-                      "url": "https://github.com/casiano",
-                      "email": "crguezl@ull.edu.es",
-                      "login": "casiano"
-                    }
-                  }
-                ]
-              },
-              "url": "https://github.com/orgs/ULL-ESIT-DMSI-2223/teams/casiano-rodriguez-leon-alumnoudv4"
-            }
-          },
-          {
-            "node": {
-              "name": "gianmarco-corbo-alu0101134741",
-              "members": {
-                "totalCount": 1,
-                "edges": [
-                  {
-                    "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2223/people/Gia-ui",
-                    "node": {
-                      "name": null,
-                      "url": "https://github.com/Gia-ui",
-                      "email": "",
-                      "login": "Gia-ui"
-                    }
-                  }
-                ]
-              },
-              "url": "https://github.com/orgs/ULL-ESIT-DMSI-2223/teams/gianmarco-corbo-alu0101134741"
-            }
-          },
-          {
-            "node": {
-              "name": "guillermo-martin-lorenzo-alu0101128931",
-              "members": {
-                "totalCount": 1,
-                "edges": [
-                  {
-                    "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2223/people/alu0101128931",
-                    "node": {
-                      "name": null,
-                      "url": "https://github.com/alu0101128931",
-                      "email": "",
-                      "login": "alu0101128931"
-                    }
-                  }
-                ]
-              },
-              "url": "https://github.com/orgs/ULL-ESIT-DMSI-2223/teams/guillermo-martin-lorenzo-alu0101128931"
-            }
-          },
-          {
-            "node": {
-              "name": "jorge-ruiz-padilla-alu0101330037",
-              "members": {
-                "totalCount": 1,
-                "edges": [
-                  {
-                    "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2223/people/alu0101330037",
-                    "node": {
-                      "name": "alu0101330037",
-                      "url": "https://github.com/alu0101330037",
-                      "email": "",
-                      "login": "alu0101330037"
-                    }
-                  }
-                ]
-              },
-              "url": "https://github.com/orgs/ULL-ESIT-DMSI-2223/teams/jorge-ruiz-padilla-alu0101330037"
-            }
-          },
-          {
-            "node": {
-              "name": "kiana-bayani-nekoudin-alu0101318066",
-              "members": {
-                "totalCount": 1,
-                "edges": [
-                  {
-                    "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2223/people/alu0101318066",
-                    "node": {
-                      "name": "Kiana Bayani Nekoudin ",
-                      "url": "https://github.com/alu0101318066",
-                      "email": "",
-                      "login": "alu0101318066"
-                    }
-                  }
-                ]
-              },
-              "url": "https://github.com/orgs/ULL-ESIT-DMSI-2223/teams/kiana-bayani-nekoudin-alu0101318066"
-            }
-          },
-          {
-            "node": {
-              "name": "marta-molina-fernández-alu0101603360",
-              "members": {
-                "totalCount": 1,
-                "edges": [
-                  {
-                    "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2223/people/MartaMolina01",
-                    "node": {
-                      "name": "Marta Molina Fernández",
-                      "url": "https://github.com/MartaMolina01",
-                      "email": "",
-                      "login": "MartaMolina01"
-                    }
-                  }
-                ]
-              },
-              "url": "https://github.com/orgs/ULL-ESIT-DMSI-2223/teams/marta-molina-fernandez-alu0101603360"
-            }
-          },
-          {
-            "node": {
-              "name": "patricia-martinez-polo-alu0101116532",
-              "members": {
-                "totalCount": 1,
-                "edges": [
-                  {
-                    "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2223/people/alu0101116532",
-                    "node": {
-                      "name": "Patricia Angélica Martínez-Polo Johnson",
-                      "url": "https://github.com/alu0101116532",
-                      "email": "",
-                      "login": "alu0101116532"
-                    }
-                  }
-                ]
-              },
-              "url": "https://github.com/orgs/ULL-ESIT-DMSI-2223/teams/patricia-martinez-polo-alu0101116532"
+              "url": "https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/casiano-rodriguez-leon-alu0100291865"
             }
           }
         ]
