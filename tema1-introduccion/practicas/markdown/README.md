@@ -16,6 +16,7 @@ rubrica:
 La siguiente sección establece los objetivos y competencias que debes lograr.
 Las subsiguientes secciones presentan los recursos para lograr estos objetivos.
 
+Puede encontrar una descripción de esta práctica pero para la asignatura AET en [Aprender Markdown (aprender-markdown)](https://ull-mfp-aet.github.io/tema0-introduccion/practicas/aprender-markdown/)
 
 ## Aprender Markdown
 

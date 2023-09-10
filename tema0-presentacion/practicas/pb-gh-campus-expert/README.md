@@ -53,9 +53,10 @@ Solicite su [Student Developer Pack](https://education.github.com/pack)
 
 [Introducción a Copilot en el Aula](https://ull-ocw-github-education.github.io/pages/copilot.html)
 
-## Comunidad Currents DMSI
+<!--## Comunidad Currents DMSI
 
 * [Hágase miembro de la comunidad Currents DMSI](https://currents.google.com/u/1/communities/114199442894867980706) (Asegúrate de estar identificado con tu cuenta de Gmail de la ULL)
+-->
 
 ## Opcionales
 
