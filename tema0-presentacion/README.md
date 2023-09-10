@@ -20,7 +20,7 @@ en las que se desarrollan librerías y aplicaciones usando diferentes metodolog�
 
 ### Sistema de Evaluación y Calificación
 
-Véase [guia-docente-evaluacion](guia-docente-evaluacion)
+Véase la sección [guia-docente-evaluacion](guia-docente-evaluacion)
 
 ## Normativa
 
