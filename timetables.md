@@ -8,15 +8,17 @@ permalink: /timetables
 ## Calendario Académico
 
 <a href="https://www.ull.es/estudios-docencia/calendario-academico/" target="_blank">
-<img src="{{site.baseurl}}/assets/images/calendario-academico-22-23.png" alt="Calendario Académico" />
+<img src="https://www.ull.es/estudios-docencia/wp-content/uploads/sites/7/2023/09/Calendario-23_24_15-SEMANAS-POR-CUATRIMESTRE_v-definitiva-05092023_page-0001.jpg" alt="Calendario Académico" />
 </a>
+
+* Cierre de actas 25 de Enero
 
 ## Horarios
 
 - <a href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">Horarios de Ingeniería Informática para el curso</a>
 
 - <a href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">
-<img src="assets/images/horario-si-2223.png" alt="Horario de Sistemas Informáticos" />
+<img src="assets/images/horario-si-2324.png" alt="Horario de Sistemas Informáticos" />
 </a>
 
 <!-- 
@@ -30,38 +32,12 @@ permalink: /timetables
 <a href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">
 <img src="{{ site.baseurl }}/assets/images/calendario-de-examenes-dmsi.png" alt="Enlace al Calendario Oficial de exámenes" width="200%"/></a>
 
+- 10/01/24, 9:00, 3.7
+- 19/06/24, 9:00, 3.7
+- 08/07/24, 9:30, 3.7
 
-## Cierre de actas 
-
-* 30 de Enero de 2022
   
 ## Normativa
 
-* [Reglamento de evaluacion y calificacion](https://www.ull.es/portal/normativa/normativa/nuevo-reglamento-de-evaluacion-y-calificacion-de-la-universidad-de-la-laguna/ )
-* [Normativas de la ULL para el estudiantado](https://www.ull.es/portal/normativa/estudiantes/)
+{% include normativa.md %}
 
-<!--
-## Sobre las Calificaciones de Prácticas 
-
-En una primera publicación de calificaciones aparecerá una lista con los alumnos que tienen las prácticas **APTAS** o **NO APTAS**.
-
-Los exámenes de convocatoria incluyen una serie de apartados especiales para los alumnos que no tienen las prácticas aptas en el momento de la convocatoria.
-
-## Q&A
-
-## Instrucciones para los exámenes de Convocatoria
-
-1. El examen de convocatoria consiste en una prueba escrita
-2. Deberán traer un bolígrafo con carga suficiente. El papel será proporcionado por el profesor. No se permite el uso de dispositivos móviles ni electrónicos, libros, apuntes, etc.  durante el examen
-3. La prueba contiene un conjunto de preguntas  para aquellos  alumnos que no hacen uso de la evaluación contínua  (alumnos que no han superado las prácticas)
-4. La prueba tendrá una duración de no mas de tres horas para los alumnos que no hacen uso de la evaluación contínua y de no mas de dos para los que van por evaluación contínua
-4. Si lo desea, índiqueme con antelación si necesita un justificante documental de haber realizado el examen.
-5. Los alumnos que no tienen aptas las prácticas deberán acreditar su identidad  mediante la exhibición de su carné de estudiante, documento nacional de identidad, pasaporte o, en su defecto, acreditación suficiente a juicio del profesor. Caso de no poder acreditar su identidad, el alumnado podrá realizar la prueba de evaluación realizando una declaración jurada, y deberá acreditar su identidad el primer día lectivo posterior a la misma.
-6. La suplantación de identidad será comunicada al decanato o dirección del centro, para el inicio del trámite correspondiente, a los efectos de determinar las consecuencias disciplinarias a las que hubiere lugar por parte del alumnado implicado.
-7. El empleo por parte del alumnado de medios ilícitos o fraudulentos en la realización de la prueba conducirá a la calificación numérica de 0, debiendo abandonar el lugar de la prueba y quedando sujeto a las consecuencias disciplinarias que se pudieran derivar de su conducta.
-8. Iniciada la prueba no se permitirá al alumnado la entrada al lugar de realización, salvo por razones excepcionales que habrán de ser valoradas por el profesor. El alumnado solo podrá abandonarlo durante la realización de la misma, si está autorizado o acompañado por el profesorado responsable de la vigilancia. En otro caso, el abandono del recinto implicará la finalización del examen, que ha de ser entregado por el estudiante al profesorado.
-9. En el caso de que el alumnado que se presente a la realización de la prueba no conste en el acta en la asignatura, se le permitirá que la lleve a cabo, quedando pendiente su evaluación de la posible subsanación de su situación administrativa.
-
-
-
--->
