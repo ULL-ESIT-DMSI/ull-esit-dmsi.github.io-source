@@ -8,6 +8,3 @@
 
 {% include practicas.md %}
 
-## Topics
-
-{% include temas.md %}

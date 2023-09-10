@@ -42,6 +42,3 @@ Véase [Referencias](../references.md)
 
 {% include primeras-practicas.md n=3 %}
 
-
-
-
