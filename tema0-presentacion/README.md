@@ -1,4 +1,4 @@
-# Tema 0:Introducción a la Asignatura Desarrollo y Mantenimiento de Sistemas de Información
+# Introducción a la Asignatura Desarrollo y Mantenimiento de Sistemas de Información
 
 ### Competencia C48  
 
