@@ -1,6 +1,6 @@
 # Tema 0:Introducción a la Asignatura Desarrollo y Mantenimiento de Sistemas de Información
 
-## [Guía Docente](https://www.ull.es/apps/guias/guias/view_guide/26226/) 
+## [Guía Docente](https://www.ull.es/apps/guias/guias/view_guide_course/2324/139264413/) 
 
 ### Competencia C48  
 
