@@ -28,7 +28,7 @@ Véase la sección [guia-docente-evaluacion](guia-docente-evaluacion)
 
 ## Recursos
 
-Véase <a href="https://ull-esit-pl.netlify.app/recursos/">Rec</a>
+Véase <a href="https://ull-esit-pl.netlify.app/recursos/">Recursos</a> en los apuntes de la asignatura de PL
 
 ## Calendarios, Horarios y Fechas de Exámenes
 
