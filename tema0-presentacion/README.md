@@ -28,7 +28,7 @@ Véase la sección [guia-docente-evaluacion](guia-docente-evaluacion)
 
 ## Recursos
 
-Véase [Recursos](../resources.md)
+Véase <a href="https://ull-esit-pl.netlify.app/recursos/">Rec</a>
 
 ## Calendarios, Horarios y Fechas de Exámenes
 

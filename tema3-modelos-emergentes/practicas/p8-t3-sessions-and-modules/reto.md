@@ -2,12 +2,12 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Indice de Contenidos**
 
-- [Reto: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)](#reto-cookies-sesiones-autenticaci%C3%B3n-y-m%C3%B3dulos-npm-p8-t3-sessions-and-modules)
-  - [Requisitos Básicos](#requisitos-b%C3%A1sicos)
+- [Reto: Cookies, Sesiones, Autenticación y Módulos npm (p8-t3-sessions-and-modules)](#reto-cookies-sesiones-autenticación-y-módulos-npm-p8-t3-sessions-and-modules)
+  - [Requisitos Básicos](#requisitos-básicos)
   - [La Vista](#la-vista)
   - [Middlewares a usar](#middlewares-a-usar)
-  - [Rutas que deberá implementar](#rutas-que-deber%C3%A1-implementar)
-  - [Requisito adicional:  Implementar Middleware Contador de Nº de Visitas](#requisito-adicional--implementar-middleware-contador-de-n%C2%BA-de-visitas)
+  - [Rutas que deberá implementar](#rutas-que-deberá-implementar)
+  - [Requisito adicional:  Implementar Middleware Contador de Nº de Visitas](#requisito-adicional--implementar-middleware-contador-de-nº-de-visitas)
   - [Requisito adicional: Guardar los datos de las sesiones](#requisito-adicional-guardar-los-datos-de-las-sesiones)
   - [Recursos para el Reto](#recursos-para-el-reto)
   - [Solución al Reto](#solución-al-reto)
