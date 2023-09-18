@@ -4,5 +4,5 @@ title: DMSI 23/24 Teams
 
 # {{ page.title}}
 
-{% include teams.html %}
+{% include teams2.html %}
 

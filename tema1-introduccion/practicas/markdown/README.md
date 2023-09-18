@@ -25,7 +25,7 @@ rubrica:
   - [Crea tu repo profile](#crea-tu-repo-profile)
   - [Rúbrica](#rúbrica)
   - [Referencias](#referencias)
-  - [Student  Activity](#student--activity)
+  - [Actividad para {{page.key}}](#actividad-para-pagekey)
   - [Prácticas](#prácticas)
 
 # Aprender Markdown
@@ -231,14 +231,9 @@ Puedes encontrar ejemplos curiosos de *repos profile* en esta referencia:
 * [How to use VS Code to submit an assignment to Github Classroom (initially empty repository)](https://youtu.be/iqW_yzZkU_8) Vídeo que muestra como deben hacer los estudiantes para aceptar, trabajar y entregar una tarea asignada con GHC usando el editor VS Code
 * [GitHub Glossary](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/github-glossary)
 
-## Student  Activity
+## Actividad para {{page.key}}
 
-{% assign lab = page.key %}
-<h2>
-  Students activity for {{ lab }}
-</h2>
-
-{% include students-activity.html lab=lab %}
+{% include activity.html lab=page.key %}
 
 ## Prácticas 
 

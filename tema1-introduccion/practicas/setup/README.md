@@ -29,6 +29,10 @@ See section [CodeSpaces](../../codespaces)
 
 [Configurando el IAAS ULL](iaas-ull)
 
+## Actividad para {{page.key}}
+
+{% include activity.html lab=page.key %}
+
 ## Rúbrica
 
 {% include rubrica.md -%}

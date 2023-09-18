@@ -77,6 +77,10 @@ Use el repo asignado para documentar (usando las GitHub Pages) que ha realizado 
 
 {% include rubrica.md -%}
 
+## Actividad para {{page.key}}
+
+{% include activity.html lab=page.key %}
+
 ## References
 
 * [GitHub Docs: About project boards](https://docs.github.com/en/github/managing-your-work-on-github/about-project-boards)
