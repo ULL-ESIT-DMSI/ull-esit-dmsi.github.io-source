@@ -18,6 +18,7 @@ rubrica:
     - [Diagramas con mermaid](#diagramas-con-mermaid)
     - [Task lists](#task-lists)
     - [Special notes](#special-notes)
+  - [Ejemplo de como hacer la práctica](#ejemplo-de-como-hacer-la-práctica)
   - [Edición en la Nube de Repositorios GitHub](#edición-en-la-nube-de-repositorios-github)
     - [Introducción a la Edición en la Nube de Repositorios GitHub](#introducción-a-la-edición-en-la-nube-de-repositorios-github)
   - [Aprender a Usar Incidencias](#aprender-a-usar-incidencias)
@@ -177,6 +178,10 @@ the existing syntax for blockquote and bold text.
 > This is a warning
 
 See [An option to highlight a "Note" and "Warning" using blockquote](https://github.com/community/community/discussions/16925)
+
+## Ejemplo de como hacer la práctica
+
+Véase [ULL-MFP-AET-2223/aprender-markdown-belen-herrera-gimenez-alu0101598581](https://github.com/ULL-MFP-AET-2223/aprender-markdown-belen-herrera-gimenez-alu0101598581)
 
 ## Edición en la Nube de Repositorios GitHub
 
