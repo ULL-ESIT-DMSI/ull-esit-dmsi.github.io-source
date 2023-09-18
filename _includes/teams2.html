@@ -16,6 +16,7 @@
         {%- assign studentName = studentName | append: " " | append: secondName %}
       {%- endif -%}
       {%- assign url = team.node.url -%}
+      {%- assign avatarUrl = team.node.members.edges[0].node.avatarUrl -%}
       {% assign memberAccessUrl = team.node.members.edges[0].memberAccessUrl %}
       {%- assign student = team.node.members.edges[0].node -%}
 
@@ -36,6 +37,7 @@
           <li> Student team:
             <a href="{{url}}" target="_blank">{{ name }}</a>
           </li>
+          <li><img src="{{ avatarUrl }}" width="30%"/></li>
           <li> {{ studentName }} repos:
           <a href="{{url}}/repositories" target="_blank">Repositories</a>
           </li>
@@ -43,12 +45,6 @@
           <li> <a href="{{ student.url }}" target="_blank">{{ studentName }} at GitHub</a> is {{ student.login }}
           </li>
           <li><a href="https://github.com/notifications?query=author%3A{{ student.login }}" target="_blank">Notifications</a> to the teacher from {{studentName}}</li>
-          <li>
-            <a href="https://github.com/{{ site.organization.name }}-{{ aluId }}" target="_blank">{{ studentName }} Organization</a>
-            and
-            <a href="https://github.com/orgs/{{ site.organization.name }}-{{ aluId }}/teams" target="_blank">Teams inside {{ studentName }} Organization</a>
-          </li>
-          <li><a href="https://classroom.github.com/classrooms/search?query={{ aluId }}&view=Active&sort_by=Newest+first" target="_blank">{{ studentName }} Classroom</a></li>
           <li> {{ studentName }} activity:
             <ol>
               {%- for practica in site.data.practicas -%}
@@ -61,7 +57,7 @@
                     <a href="https://github.com/{{ site.organization.name }}/{{ practica.key }}-{{name}}/commits" target="_blank">Commits</a>,
                     <a href="https://github.com/{{ site.organization.name }}/{{ practica.key }}-{{name}}/graphs/commit-activity" target="_blank"> Commit Activity</a> and
                     <a href="https://github.com/{{ site.organization.name }}/{{ practica.key }}-{{name}}/pulse" target="_blank"> Summary</a> for
-                    <a href="{{ practica.url }}">{{ practica.key }}</a>
+                    <a href="/{{ practica.path }}">{{ practica.key }}</a>
                   </li>
               {% endif -%}
               {%- endfor -%}
