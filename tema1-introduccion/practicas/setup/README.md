@@ -15,7 +15,7 @@ rubrica:
   - [Configurando CodeSpaces](#configurando-codespaces)
   - [Configurando GitPod](#configurando-gitpod)
   - [Configurando el Entorno ULL IAAS](#configurando-el-entorno-ull-iaas)
-  - [Actividad para {{page.key}}](#actividad-para-pagekey)
+  - [Actividad](#actividad)
   - [Rúbrica](#rúbrica)
   - [Prácticas](#prácticas)
 
@@ -38,7 +38,7 @@ See section [CodeSpaces](../../codespaces)
 
 [Configurando el IAAS ULL](iaas-ull)
 
-## Actividad para {{page.key}}
+## Actividad 
 
 {% include activity.html lab=page.key %}
 

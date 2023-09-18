@@ -21,7 +21,7 @@ rubrica:
     - [Become a Campus Expert](#become-a-campus-expert)
     - [GitHub Internship](#github-internship)
   - [Rúbrica](#rúbrica)
-  - [Actividad para {{page.key}}](#actividad-para-pagekey)
+  - [Actividad](#actividad)
   - [References](#references)
   - [Prácticas](#prácticas)
 
@@ -91,7 +91,7 @@ Use el repo asignado para documentar (usando las GitHub Pages) que ha realizado 
 
 {% include rubrica.md -%}
 
-## Actividad para {{page.key}}
+## Actividad 
 
 {% include activity.html lab=page.key %}
 
