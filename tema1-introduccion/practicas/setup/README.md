@@ -10,6 +10,15 @@ rubrica:
   - "Ha instalado <code>nvm</code> en su máquina"
   - "Ha entregado el .zip en el campus con el repo"
 ---
+- [Configurando Entornos de Desarrollo](#configurando-entornos-de-desarrollo)
+  - [Configurando VSCode](#configurando-vscode)
+  - [Configurando CodeSpaces](#configurando-codespaces)
+  - [Configurando GitPod](#configurando-gitpod)
+  - [Configurando el Entorno ULL IAAS](#configurando-el-entorno-ull-iaas)
+  - [Actividad para {{page.key}}](#actividad-para-pagekey)
+  - [Rúbrica](#rúbrica)
+  - [Prácticas](#prácticas)
+
 # Configurando Entornos de Desarrollo
 
 

@@ -11,6 +11,20 @@ rubrica:
   - "Informe realizado  mostrando que domina markdown de forma eficiente: Usa imágenes, enlaces, listas, etc."
   - "Ha entregado el .zip en el campus con el repo"
 ---
+- [{{ page.title }}](#-pagetitle-)
+  - [Cuestionario Inicial](#cuestionario-inicial)
+  - [Aceptación de la Asignación](#aceptación-de-la-asignación)
+  - [Tableros kanban](#tableros-kanban)
+  - [Student Developer Pack](#student-developer-pack)
+    - [Copilot](#copilot)
+  - [Opcionales](#opcionales)
+    - [Become a Campus Expert](#become-a-campus-expert)
+    - [GitHub Internship](#github-internship)
+  - [Rúbrica](#rúbrica)
+  - [Actividad para {{page.key}}](#actividad-para-pagekey)
+  - [References](#references)
+  - [Prácticas](#prácticas)
+
 # {{ page.title }}
 
 Esta práctica tiene por objetivo mejorar las competencias transversales. 
