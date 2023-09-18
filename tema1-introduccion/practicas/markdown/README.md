@@ -79,6 +79,103 @@ Lee
 2. Para mas detalles consulta la guía de usuario
 <a href="https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/getting-started-with-writing-and-formatting-on-github" target="_blank">Getting started with writing and formatting on GitHub</a>
 
+### Matemáticas
+
+Añade una fórmula matemática escrita en [\\(\LaTeX\\)](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
+
+Si escribes una fórmula  matemática en latex y la rodeas de `$$`, el markdown de GH la mostrará como un bloque. Por ejemplo: 
+
+```
+**The Cauchy-Schwarz Inequality**
+
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+```
+Se ve:
+
+**The Cauchy-Schwarz Inequality**
+
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+Para incluir una expresión matemática en línea con su texto, delimite la expresión con un símbolo de dólar `$`. Por ejemplo:
+
+```
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+```
+Se ve como esto:
+
+This sentence uses `$` delimiters to show math inline: \\(\sqrt{3x-1}+(1+x)^2\\)
+  
+### Diagramas con mermaid
+
+Puedes incluir diagramas en tus documentos usando [mermaid](https://mermaid-js.github.io/mermaid/). Por ejemplo:
+
+
+    ```mermaid
+      graph TD;
+          A-->B;
+          A-->C;
+          B-->D;
+          C-->D;
+    ```
+
+que se verá como:
+
+![]({{ site.baseurl}}/assets/images/mermaid.png)
+
+### Task lists
+
+Ejemplo:
+
+    - [x] #739
+    - [ ] https://github.com/octo-org/octo-repo/issues/740
+    - [ ] Add delight to the experience when all tasks are complete :tada:
+
+Se verá así:
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+Este ejemplo muestra también como escribir un emoji por nombre `:tada:`.
+
+Mas información en [Acerca de las listas de tareas](https://docs.github.com/es/issues/tracking-
+See your-work-with-issues/about-task-lists)
+
+###  Special notes
+
+To better highlight and separate certain information from the rest in your documentation on GitHub, there is a way to render a special and accessible note or warning blockquote in Markdown documents. It uses
+the existing syntax for blockquote and bold text.
+
+```
+> **Note**
+> This is a note
+
+> **Warning**
+> This is a warning
+```
+
+> **Note**
+> This is a note
+
+> **Warning**
+> This is a warning
+
+See [An option to highlight a "Note" and "Warning" using blockquote](https://github.com/community/community/discussions/16925)
+
+## Edición en la Nube de Repositorios GitHub
+
+Hay múltiples formas de editar en la nube un repositorio GitHub.
+en estas [notas]({{site.baseurl}}/pages/gitpod) recogemos estas alternativas:
+
+1. Editar directamente usando el [editor on-line de GitHub](https://docs.github.com/es/repositories/working-with-files/managing-files/editing-files)
+2. [Usar el editor GitHub.dev][githubdev]. Véase también las [notas en estos apuntes sobre GitHub.dev][githubdev]. Véase también las [notas en estos apuntes sobre GitHub.dev]({{site.baseurl}}/pages/gitpod#editing-with-githubdev-editor): se activa simplemente  tecleando el punto cuando se está visitando el repo
+4. Usar [Codespaces][codespaces] (Probablemente la opción mas recomendable si dispones de este servicio)
+3. Usar [GitPod]({{ site.baseurl }}/pages/gitpod#gitpod), una alternativa a [Codespaces][codespaces]
+
+[githubdev]: https://docs.github.com/en/codespaces/the-githubdev-web-based-editor
+[codespaces]: /pages/gitpod#codespaces
+
+
 
 ## Aprender a Usar un Editor en la Nube 
 
