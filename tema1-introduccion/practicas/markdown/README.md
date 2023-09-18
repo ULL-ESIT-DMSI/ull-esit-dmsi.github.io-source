@@ -1,7 +1,7 @@
 ---
 prev: /tema0-presentacion/practicas/pb-gh-campus-expert/
 permalink: /tema1-introduccion/practicas/markdown/
-key: markdown
+key: aprender-markdown
 rubrica:
   - "Se incluyen todos los aspectos solicitados en el markdown y se visualizan correctamente"
   - "Kanban Board project conteniendo las incidencias en su estado"
@@ -11,6 +11,22 @@ rubrica:
   - "Ha creado un repo profile en GitHub"
   - "Ha entregado el .zip en el campus con el repo"
 ---
+- [Aprender Markdown](#aprender-markdown)
+  - [Aprender Markdown](#aprender-markdown-1)
+    - [Introduccion al Lenguaje de Marcas MarkDown](#introduccion-al-lenguaje-de-marcas-markdown)
+    - [Matemáticas](#matemáticas)
+    - [Diagramas con mermaid](#diagramas-con-mermaid)
+    - [Task lists](#task-lists)
+    - [Special notes](#special-notes)
+  - [Edición en la Nube de Repositorios GitHub](#edición-en-la-nube-de-repositorios-github)
+    - [Introducción a la Edición en la Nube de Repositorios GitHub](#introducción-a-la-edición-en-la-nube-de-repositorios-github)
+  - [Aprender a Usar Incidencias](#aprender-a-usar-incidencias)
+  - [Crea tu repo profile](#crea-tu-repo-profile)
+  - [Rúbrica](#rúbrica)
+  - [Referencias](#referencias)
+  - [Student  Activity](#student--activity)
+  - [Prácticas](#prácticas)
+
 # Aprender Markdown
 
 La siguiente sección establece los objetivos y competencias que debes lograr.
@@ -175,21 +191,6 @@ en estas [notas]({{site.baseurl}}/pages/gitpod) recogemos estas alternativas:
 [githubdev]: https://docs.github.com/en/codespaces/the-githubdev-web-based-editor
 [codespaces]: /pages/gitpod#codespaces
 
-
-
-## Aprender a Usar un Editor en la Nube 
-
-Hay múltiples formas de editar en la nube un repositorio GitHub. 
-En estas [notas](editores-en-la-nube) recogemos estas alternativas:
-
-1. Editar directamente usando el [editor on-line de GitHub](https://docs.github.com/es/repositories/working-with-files/managing-files/editing-files)
-2. [Usar el editor GitHub.dev](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor): se activa simplemente  tecleando el punto cuando se está visitando el repo
-4. Usar [Codespaces](editores-en-la-nube#codespaces) (Probablemente la opción mas recomendable si dispones de este servicio)
-3. Usar [GitPod](editores-en-la-nube#gitpod), una alternativa a Codespaces
-
-[githubdev]: https://docs.github.com/en/codespaces/the-githubdev-web-based-editor
-[codespaces]: editores-en-la-nube#codespaces
-
 ### Introducción a la Edición en la Nube de Repositorios GitHub
 
 Para manejar todo el proceso de edición pueden ayudarte estas [notas sobre Edición en la Nube](editores-en-la-nube).
@@ -224,6 +225,15 @@ Puedes encontrar ejemplos curiosos de *repos profile* en esta referencia:
 * [Documentación GitHub sobre la Interfaz Web](editores-en-la-nube#documentacion-github-interfaz-web)
 * [How to use VS Code to submit an assignment to Github Classroom (initially empty repository)](https://youtu.be/iqW_yzZkU_8) Vídeo que muestra como deben hacer los estudiantes para aceptar, trabajar y entregar una tarea asignada con GHC usando el editor VS Code
 * [GitHub Glossary](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/github-glossary)
+
+## Student  Activity
+
+{% assign lab = page.key %}
+<h2>
+  Students activity for {{ lab }}
+</h2>
+
+{% include students-activity.html lab=lab %}
 
 ## Prácticas 
 

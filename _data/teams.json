@@ -1,1 +1,74 @@
-{"data":{"organization":{"teams":{"totalCount":3,"edges":[{"node":{"name":"borja-medina-ramos-alu0101337609","members":{"totalCount":1,"edges":[{"memberAccessUrl":"https://github.com/orgs/ULL-ESIT-DMSI-2324/people/ShayBRJ","node":{"name":"BORJA MEDINA RAMOS","url":"https://github.com/ShayBRJ","email":"","login":"ShayBRJ","avatarUrl":"https://avatars.githubusercontent.com/u/72421634?u=354f3d45807af1b9921f48f6312d0e37f30073ff&v=4"}}]},"url":"https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/borja-medina-ramos-alu0101337609"}},{"node":{"name":"casiano-rodriguez-leon-alu0100291865","members":{"totalCount":1,"edges":[{"memberAccessUrl":"https://github.com/orgs/ULL-ESIT-DMSI-2324/people/casiano-rodriguez","node":{"name":"Casiano as ULL alumni","url":"https://github.com/casiano-rodriguez","email":"","login":"casiano-rodriguez","avatarUrl":"https://avatars.githubusercontent.com/u/131154928?u=d3332f44c8df591dd1a895cf66dcc20c636782c0&v=4"}}]},"url":"https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/casiano-rodriguez-leon-alu0100291865"}},{"node":{"name":"daniel-marichal-monsonis-alu0101014548","members":{"totalCount":1,"edges":[{"memberAccessUrl":"https://github.com/orgs/ULL-ESIT-DMSI-2324/people/DanMAMO","node":{"name":null,"url":"https://github.com/DanMAMO","email":"","login":"DanMAMO","avatarUrl":"https://avatars.githubusercontent.com/u/114574967?u=5737b7162baf684283db1762a9c120b4287e2875&v=4"}}]},"url":"https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/daniel-marichal-monsonis-alu0101014548"}}]}}}}
+{
+    "data": {
+        "organization": {
+            "teams": {
+                "totalCount": 3,
+                "edges": [
+                    {
+                        "node": {
+                            "name": "borja-medina-ramos-alu0101337609",
+                            "members": {
+                                "totalCount": 1,
+                                "edges": [
+                                    {
+                                        "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2324/people/ShayBRJ",
+                                        "node": {
+                                            "name": "BORJA MEDINA RAMOS",
+                                            "url": "https://github.com/ShayBRJ",
+                                            "email": "",
+                                            "login": "ShayBRJ",
+                                            "avatarUrl": "https://avatars.githubusercontent.com/u/72421634?u=354f3d45807af1b9921f48f6312d0e37f30073ff&v=4"
+                                        }
+                                    }
+                                ]
+                            },
+                            "url": "https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/borja-medina-ramos-alu0101337609"
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "casiano-rodriguez-leon-alu0100291865",
+                            "members": {
+                                "totalCount": 1,
+                                "edges": [
+                                    {
+                                        "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2324/people/casiano-rodriguez",
+                                        "node": {
+                                            "name": "Casiano as ULL alumni",
+                                            "url": "https://github.com/casiano-rodriguez",
+                                            "email": "",
+                                            "login": "casiano-rodriguez",
+                                            "avatarUrl": "https://avatars.githubusercontent.com/u/131154928?u=d3332f44c8df591dd1a895cf66dcc20c636782c0&v=4"
+                                        }
+                                    }
+                                ]
+                            },
+                            "url": "https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/casiano-rodriguez-leon-alu0100291865"
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "daniel-marichal-monsonis-alu0101014548",
+                            "members": {
+                                "totalCount": 1,
+                                "edges": [
+                                    {
+                                        "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2324/people/DanMAMO",
+                                        "node": {
+                                            "name": null,
+                                            "url": "https://github.com/DanMAMO",
+                                            "email": "",
+                                            "login": "DanMAMO",
+                                            "avatarUrl": "https://avatars.githubusercontent.com/u/114574967?u=5737b7162baf684283db1762a9c120b4287e2875&v=4"
+                                        }
+                                    }
+                                ]
+                            },
+                            "url": "https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/daniel-marichal-monsonis-alu0101014548"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
