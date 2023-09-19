@@ -4,9 +4,10 @@
 
 1. Instale VSCode en su máquina
 2. Siga los tutoriales de VSCode
-2. Instale el plugin SSH FS y aprenda a usarlo con el sistema de archivo de una máquina remota via SSH
+2. Instale el VSCode plugin Remote SSH y aprenda a usarlo con el iaas
 3. Use Live Share para colaborar con un compañero
-4. Elabore un informe con la experiencia adquirida
+4. Instalado github-copilot en Codespaces
+5. Elabore un informe con la experiencia adquirida
 
 ## Tutoriales
 
