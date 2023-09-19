@@ -8,6 +8,7 @@ rubrica:
   - "El prompt de la shell en su máquina muestra la rama actual"
   - "Kanban Board project conteniendo las incidencias en su estado"
   - "Ha instalado <code>nvm</code> en su máquina"
+  - Instale el plugin VSCode Remote SSH y aprenda a usarlo con la máquina del iaas
   - "Ha entregado el .zip en el campus con el repo"
 ---
 - [Configurando Entornos de Desarrollo](#configurando-entornos-de-desarrollo)
