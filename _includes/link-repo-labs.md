@@ -1,1 +1,1 @@
-<a href="https://github.com/orgs/ULL-ESIT-DMSI-2324/repositories?q={{ include.lab }}&type=all&language=&sort=" target="_blank">{{ include.lab }}</a>
+<a href="https://github.com/orgs/{{site.organization.name}}/repositories?q={{ include.lab }}&type=all&language=&sort=" target="_blank">{{ include.lab }}</a>
