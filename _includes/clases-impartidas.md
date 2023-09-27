@@ -13,7 +13,16 @@
 <ol reversed>
         {% endif %}
 <li> 
-<a href="{{ post.url }}">{{ post.title }}</a> {%- if post.summary %} <ul><li>{{post.summary}}</li></ul>{% endif -%} <!--(<a href="{{site.apuntes.url}}/tree/master/{{post.path}}" target="_blank">Clase en el repo</a>) -->
+<a href="{{ post.url }}">{{ post.title }}</a> 
+{%- if post.summary -%} 
+<ul>
+  <li>{{post.summary}}</li>
+  {% if post.video -%}
+  <li><a href="{{post.video}}" target="_blank">Video</a></li>
+  {% endif -%}
+</ul>
+{% endif -%}
+<!--(<a href="{{site.apuntes.url}}/tree/master/{{post.path}}" target="_blank">Clase en el repo</a>) -->
 </li>
       {% assign previousMonth = currentMonth %}
      {% endif%}
