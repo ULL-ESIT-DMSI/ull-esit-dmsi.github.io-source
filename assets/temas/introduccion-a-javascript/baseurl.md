@@ -7,7 +7,7 @@ Now you have to test your site locally and to deploy it in production. Sometimes
 
 We need to understand `site.url` and `site.baseurl` and `page.path` and in which situation we need them. Those variables don't serve the same purpose.
 
-![]({{site.baseurl}}/assets/images/what-is-a-baseurl.jpeg)
+![/assets/images/what-is-a-baseurl.jpeg]({{site.baseurl}}/assets/images/what-is-a-baseurl.jpeg)
 
 ## `site.url`
 
