@@ -1,1 +1,95 @@
-{"data":{"organization":{"teams":{"totalCount":4,"edges":[{"node":{"name":"borja-medina-ramos-alu0101337609","members":{"totalCount":1,"edges":[{"memberAccessUrl":"https://github.com/orgs/ULL-ESIT-DMSI-2324/people/ShayBRJ","node":{"name":"BORJA MEDINA RAMOS","url":"https://github.com/ShayBRJ","email":"","login":"ShayBRJ","avatarUrl":"https://avatars.githubusercontent.com/u/72421634?u=354f3d45807af1b9921f48f6312d0e37f30073ff&v=4"}}]},"url":"https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/borja-medina-ramos-alu0101337609"}},{"node":{"name":"casiano-rodriguez-leon-alu0100291865","members":{"totalCount":1,"edges":[{"memberAccessUrl":"https://github.com/orgs/ULL-ESIT-DMSI-2324/people/casiano-rodriguez","node":{"name":"Casiano as ULL alumni","url":"https://github.com/casiano-rodriguez","email":"","login":"casiano-rodriguez","avatarUrl":"https://avatars.githubusercontent.com/u/131154928?u=d3332f44c8df591dd1a895cf66dcc20c636782c0&v=4"}}]},"url":"https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/casiano-rodriguez-leon-alu0100291865"}},{"node":{"name":"daniel-marichal-monsonis-alu0101014548","members":{"totalCount":1,"edges":[{"memberAccessUrl":"https://github.com/orgs/ULL-ESIT-DMSI-2324/people/DanMAMO","node":{"name":"Dan","url":"https://github.com/DanMAMO","email":"","login":"DanMAMO","avatarUrl":"https://avatars.githubusercontent.com/u/114574967?u=90de60f44a7382635801f241494e6d3925bae26a&v=4"}}]},"url":"https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/daniel-marichal-monsonis-alu0101014548"}},{"node":{"name":"konrad-jan-pierzchlewicz-alu0101686226","members":{"totalCount":1,"edges":[{"memberAccessUrl":"https://github.com/orgs/ULL-ESIT-DMSI-2324/people/Konobono","node":{"name":null,"url":"https://github.com/Konobono","email":"","login":"Konobono","avatarUrl":"https://avatars.githubusercontent.com/u/129867527?v=4"}}]},"url":"https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/konrad-jan-pierzchlewicz-alu0101686226"}}]}}}}
+{
+    "data": {
+        "organization": {
+            "teams": {
+                "totalCount": 4,
+                "edges": [
+                    {
+                        "node": {
+                            "name": "borja-medina-ramos-alu0101337609",
+                            "members": {
+                                "totalCount": 1,
+                                "edges": [
+                                    {
+                                        "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2324/people/ShayBRJ",
+                                        "node": {
+                                            "name": "BORJA MEDINA RAMOS",
+                                            "url": "https://github.com/ShayBRJ",
+                                            "email": "",
+                                            "login": "ShayBRJ",
+                                            "avatarUrl": "https://avatars.githubusercontent.com/u/72421634?u=354f3d45807af1b9921f48f6312d0e37f30073ff&v=4"
+                                        }
+                                    }
+                                ]
+                            },
+                            "url": "https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/borja-medina-ramos-alu0101337609"
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "casiano-rodriguez-leon-alu0100291865",
+                            "members": {
+                                "totalCount": 1,
+                                "edges": [
+                                    {
+                                        "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2324/people/casiano-rodriguez",
+                                        "node": {
+                                            "name": "Casiano as ULL alumni",
+                                            "url": "https://github.com/casiano-rodriguez",
+                                            "email": "",
+                                            "login": "casiano-rodriguez",
+                                            "avatarUrl": "https://avatars.githubusercontent.com/u/131154928?u=d3332f44c8df591dd1a895cf66dcc20c636782c0&v=4"
+                                        }
+                                    }
+                                ]
+                            },
+                            "url": "https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/casiano-rodriguez-leon-alu0100291865"
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "daniel-marichal-monsonis-alu0101014548",
+                            "members": {
+                                "totalCount": 1,
+                                "edges": [
+                                    {
+                                        "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2324/people/DanMAMO",
+                                        "node": {
+                                            "name": "Dan",
+                                            "url": "https://github.com/DanMAMO",
+                                            "email": "",
+                                            "login": "DanMAMO",
+                                            "avatarUrl": "https://avatars.githubusercontent.com/u/114574967?u=90de60f44a7382635801f241494e6d3925bae26a&v=4"
+                                        }
+                                    }
+                                ]
+                            },
+                            "url": "https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/daniel-marichal-monsonis-alu0101014548"
+                        }
+                    },
+                    {
+                        "node": {
+                            "name": "konrad-jan-pierzchlewicz-alu0101686226",
+                            "members": {
+                                "totalCount": 1,
+                                "edges": [
+                                    {
+                                        "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2324/people/Konobono",
+                                        "node": {
+                                            "name": null,
+                                            "url": "https://github.com/Konobono",
+                                            "email": "",
+                                            "login": "Konobono",
+                                            "avatarUrl": "https://avatars.githubusercontent.com/u/129867527?v=4"
+                                        }
+                                    }
+                                ]
+                            },
+                            "url": "https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/konrad-jan-pierzchlewicz-alu0101686226"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
