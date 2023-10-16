@@ -32,7 +32,8 @@
     {
         "title": "Search in Jekyll",
         "path": "tema1-introduccion/practicas/jekyll-search",
-        "key": "jekyll-search"        
+        "key": "jekyll-search",
+        "visible": true       
     },
     {
         "title": "Introduction to Next.js",
