@@ -37,7 +37,9 @@
     },
     {
         "title": "Introduction to Next.js",
+        "folder": "tema1-introduccion/practicas/nextjs/",
         "path": "practicas/nextjs",
-        "key": "nextjs"        
+        "key": "nextjs",
+        "visible": true       
     }
 ]
