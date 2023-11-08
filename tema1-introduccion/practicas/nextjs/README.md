@@ -16,6 +16,8 @@ rubrica:
   - [Creating an Account](#creating-an-account)
   - [Generating an API key](#generating-an-api-key)
   - [REST exercises](#rest-exercises)
+    - [Vscode Thunder Client](#vscode-thunder-client)
+    - [Chrome](#chrome)
   - [Setup](#setup)
   - [Single Page Applications](#single-page-applications)
   - [What is Rendering](#what-is-rendering)
@@ -124,7 +126,21 @@ Make requests to the OpenAI API using a client like the Thunder Client or Postma
 
 See <https://beta.openai.com/docs/api-reference/>
 
+### Vscode Thunder Client
 
+You can install the VSCode extension [Thunder Client](https://github.com/rangav/thunder-client-support) for testing the cat API.
+
+{% include video provider="youtube" id="AbCTlemwZ1k" %}
+
+
+### Chrome
+
+For Chrome you can install:
+
+* [JSON Formatter for API](https://chrome.google.com/webstore/detail/json-formatter-for-api/ipofikknncgcohpploljmbmpkgamedmi)
+* [Advanced REST client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)
+* [Altair GraphQL Client](https://chrome.google.com/webstore/detail/altair-graphql-client/flnheeellpciglgpaodhkhmapeljopja)
+  
 ## Setup
 
 Here is the file tree hierarchy of the project:
