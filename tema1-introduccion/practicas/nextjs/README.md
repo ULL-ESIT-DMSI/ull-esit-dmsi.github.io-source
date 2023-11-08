@@ -130,8 +130,7 @@ See <https://beta.openai.com/docs/api-reference/>
 
 You can install the VSCode extension [Thunder Client](https://github.com/rangav/thunder-client-support) for testing the cat API.
 
-{% include video provider="youtube" id="AbCTlemwZ1k" %}
-
+{% include video provider="youtube" id="AbCTlemwZ1k?si=BAC6gcby6Fq1sNxD" %}
 
 ### Chrome
 
