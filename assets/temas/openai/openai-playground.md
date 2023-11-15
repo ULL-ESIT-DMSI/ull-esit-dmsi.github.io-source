@@ -2,11 +2,13 @@
 
 ## Reference
 
-* <https://platform.openai.com/docs/assistants/overview?lang=node.js>
+* Documentación de OpenAI sobre assistants: <https://platform.openai.com/docs/assistants/overview?lang=node.js>
+* Video tutorial: <https://www.youtube.com/watch?v=BqnyGSLQMS8>
+  * Repo correspondiente al video <https://github.com/ULL-prompt-engineering/openai-assistant>
 
 ## OpenAI Playground
 
-<https://platform.openai.com/playground>
+The playground is at <https://platform.openai.com/playground>
 
 ### Left Panel
 
