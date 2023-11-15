@@ -1,11 +1,12 @@
 # Assistants 
 
-## Reference
+## References
 
 * Documentación de OpenAI sobre assistants: <https://platform.openai.com/docs/assistants/overview?lang=node.js>
 * Video tutorial: <https://www.youtube.com/watch?v=BqnyGSLQMS8>
   * Repo correspondiente al video <https://github.com/ULL-prompt-engineering/openai-assistant>
-
+* Curso de prompt Engineering del profesor: <https://github.com/ULL-prompt-engineering/prompt-engineering-101>
+  
 ## OpenAI Playground
 
 The playground is at <https://platform.openai.com/playground>
