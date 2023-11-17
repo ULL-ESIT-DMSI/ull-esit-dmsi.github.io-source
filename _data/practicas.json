@@ -36,6 +36,13 @@
         "visible": true       
     },
     {
+        "title": "Building a Mini Prompt Engineering Framework",
+        "folder": "tema1-introduccion/practicas/prompt-engineering/",
+        "path": "practicas/prompt-engineering",
+        "key": "prompt-engineering",
+        "visible": true       
+    },
+    {
         "title": "Introduction to Next.js",
         "folder": "tema1-introduccion/practicas/nextjs/",
         "path": "practicas/nextjs",
