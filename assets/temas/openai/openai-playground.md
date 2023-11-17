@@ -6,7 +6,13 @@
 * Video tutorial: <https://www.youtube.com/watch?v=BqnyGSLQMS8>
   * Repo correspondiente al video <https://github.com/ULL-prompt-engineering/openai-assistant>
 * Curso de prompt Engineering del profesor: <https://github.com/ULL-prompt-engineering/prompt-engineering-101>
-  
+
+
+* OpenAI docs on Function calling. Learn how to connect large language models to external tools: <https://platform.openai.com/docs/guides/function-calling>  
+* Build a chatbot with the new OpenAI Assistant API and Function Calling: <https://dev.to/esponges/build-the-new-openai-assistant-with-function-calling-52f5> by Fernando González Tostado Nov 14 2023.
+* Cookbook. Assistants API Overview (Python SDK): <https://cookbook.openai.com/examples/assistants_api_overview_python>
+* Tutorial: Get started with the new OpenAI Assistants API by Ralf Elfving <https://medium.com/@ralfelfving/tutorial-get-started-with-the-new-openai-assistants-api-7049c2517bfe>
+
 ## OpenAI Playground
 
 The playground is at <https://platform.openai.com/playground>
