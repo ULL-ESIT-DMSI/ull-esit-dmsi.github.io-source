@@ -1,5 +1,6 @@
 ---
 permalink: /practicas/nextjs
+key: nextjs
 rubrica:
    - "Code of the lab is correct and works"
    - "Site deployed at netlify and Vercel"

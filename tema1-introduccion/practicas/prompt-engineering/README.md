@@ -1,9 +1,10 @@
 ---
 permalink: /practicas/prompt-engineering
+key: prompt-engineering
 rubrica:
    - "It has understood the tutorial"
    - "Code of the lab is correct and works"
-   - "The .zip has been delivered on the campus"
+   - "The link and the .zip have been delivered on the campus"
 ---
 
 # Prompt Engineering
