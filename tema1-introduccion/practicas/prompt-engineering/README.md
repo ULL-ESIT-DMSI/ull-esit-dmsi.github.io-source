@@ -14,6 +14,8 @@ Follow the tutorial at [ULL-prompt-engineering/langchain-mini](https://github.co
 ## References
 
 * [ULL-prompt-engineering/langchain-mini](https://github.com/ULL-prompt-engineering/langchain-mini/blob/main/README.md)
+* [The ReAct Model](https://github.com/ULL-prompt-engineering/prompt-engineering-101/blob/main/lesson6/the-react-framework.md)
+* OpenAI completions (Legacy): <https://platform.openai.com/docs/api-reference/completions/object>
 * [Re-implementing LangChain in 100 lines of code](https://blog.scottlogic.com/2023/05/04/langchain-mini.html) by [Colin Eberhardt](https://blog.scottlogic.com/ceberhardt) (May 2023)
 * The ReAct model was introduced by Google in [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) (March of 2023)
 * [ReAct: Synergizing Reasoning and Acting in Language Models](https://www.promptingguide.ai/techniques/react)
