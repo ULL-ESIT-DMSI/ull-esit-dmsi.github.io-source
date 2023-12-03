@@ -147,6 +147,10 @@ For Chrome you can install:
 
 Go to <https://nextjs.org/docs> and follow the course. Create a folder `nextjs-quickstart` and follow the steps in the tutorial.
 
+Follow also the tutorial at repo <https://github.com/ULL-prompt-engineering/vercel-sdk-ai-quickstart>. 
+It is based on the Vercel AI SDK [Quickstart Guide](https://sdk.vercel.ai/docs/getting-started).
+Create a folder `vercel-sdk-ai-quickstart` and follow the steps in the tutorial.
+
 
 ## Setup
 
