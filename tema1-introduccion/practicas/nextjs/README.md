@@ -3,6 +3,7 @@ permalink: /practicas/nextjs
 key: nextjs
 rubrica:
    - "Code of the lab is correct and works"
+   - "It has followed the Next.js current version of the tutorial"
    - "Site deployed at netlify and Vercel"
    - "Images request added"
    - "REST answers to exercises are correct"
@@ -19,6 +20,7 @@ rubrica:
   - [REST exercises](#rest-exercises)
     - [Vscode Thunder Client](#vscode-thunder-client)
     - [Chrome](#chrome)
+  - [NextJS 14](#nextjs-14)
   - [Setup](#setup)
   - [Single Page Applications](#single-page-applications)
   - [What is Rendering](#what-is-rendering)
@@ -140,7 +142,12 @@ For Chrome you can install:
 * [JSON Formatter for API](https://chrome.google.com/webstore/detail/json-formatter-for-api/ipofikknncgcohpploljmbmpkgamedmi)
 * [Advanced REST client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)
 * [Altair GraphQL Client](https://chrome.google.com/webstore/detail/altair-graphql-client/flnheeellpciglgpaodhkhmapeljopja)
-  
+
+## NextJS 14
+
+Go to <https://nextjs.org/docs> and follow the course. Create a folder `nextjs-quickstart` and follow the steps in the tutorial.
+
+
 ## Setup
 
 Here is the file tree hierarchy of the project:
