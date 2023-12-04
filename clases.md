@@ -1,5 +1,5 @@
 {% assign numClasses = site.posts | size %}
 {% assign numHours = numClasses | times: 2 %}
-# {{ numHours }} taught hours so far
+# {{ numHours | times: 2 }} taught hours so far
 
 {% include clases-impartidas.md %}
