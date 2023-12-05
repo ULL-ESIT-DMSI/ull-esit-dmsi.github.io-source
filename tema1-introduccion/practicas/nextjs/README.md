@@ -24,6 +24,9 @@ rubrica:
   - [Setup](#setup)
   - [Single Page Applications](#single-page-applications)
   - [What is Rendering](#what-is-rendering)
+    - [Server-Side Rendering (SSR)](#server-side-rendering-ssr)
+    - [Client-Side Rendering (CSR)](#client-side-rendering-csr)
+  - [Server Components](#server-components)
   - [Origin Servers, CDNs and Edges](#origin-servers-cdns-and-edges)
     - [Origin Servers](#origin-servers)
     - [Content Delivery Network](#content-delivery-network)
@@ -246,6 +249,7 @@ Many in the industry refer to more traditional web applications as Multi-Page Ap
 
 ![spa-mpa-lifecycle.jpg]({{ site.baseurl }}/assets/images/spa-mpa-lifecycle.jpg)
 
+
 ## What is Rendering
 
 **Rendering** is the conversion of the source code written in a reactive framework (React/Vue/AngularJS) into **the HTML representation of your User Interface**. 
@@ -260,19 +264,53 @@ It can happen either
 
 With Next.js, three types of rendering methods are available:
 
-1. Server-Side Rendering, 
-   
-   ![](https://nextjs.org/static/images/learn/foundations/pre-rendering.png)
-
+1. Server-Side Rendering: <!-- ![](https://nextjs.org/static/images/learn/foundations/pre-rendering.png) -->
    On the client, the HTML is used to show a fast non-interactive page, while React uses the JSON data and JavaScript instructions to make components interactive. This process is called **hydration**.
-2. Static Site Generation, and 
-3. Client-Side Rendering.
-   
-   ![](https://nextjs.org/static/images/learn/foundations/client-side-rendering.png)
+3. Static Site Generation, and 
+4. Client-Side Rendering. <!-- ![](https://nextjs.org/static/images/learn/foundations/client-side-rendering.png)-->
+
+### Server-Side Rendering (SSR)
 
 **Server-Side Rendering** and **Static Site Generation** are also referred to as **Pre-Rendering** 
 because the fetching of external data and transformation of components into HTML happens **before** 
 the result is sent to the client.
+
+Imagine you're at a restaurant. You order a dish, and the kitchen (the server) prepares your meal completely and serves it to you ready to eat. This is like **server-side rendering**.
+
+- **How it Works**: When you visit a website, the server prepares the entire webpage on the server itself. It processes the HTML, CSS, and JavaScript, and then sends the fully rendered page to your browser. Is what we did in the Jekyll labs.
+- **Advantages**: The main advantage is that the webpage is ready to be displayed as soon as it loads, which can be good for SEO (Search Engine Optimization) and for users who need to see the content immediately.
+- **Disadvantages**: Every time you request a new page, the server has to prepare the whole page from scratch, which can take more time and resources.
+
+### Client-Side Rendering (CSR)
+
+Now, imagine you're at a self-service buffet. You get an empty plate (a basic webpage structure), and you fill it with food (content and features) yourself. This is like client-side rendering.
+![/assets/images/nextjs/ssr-vs-csr-restaurant.png]({{ site.baseurl }}/assets/images/nextjs/ssr-vs-csr-restaurant.png)
+
+- **How it Works**: When you visit a website, the server sends a minimal, basic structure of the webpage. Your browser (the client) then uses JavaScript to load the content and build the page. This process happens on your device.
+- **Advantages**: Once the initial setup is loaded, navigating to different parts of the website can be very fast, as only new content needs to be loaded, not the entire page.
+- **Disadvantages**: The initial load might take longer, and if a user has JavaScript disabled or if it fails to load, they might not be able to see the website properly. Also, it can be less favorable for SEO.
+
+## Server Components
+
+React [Server Components](https://nextjs.org/docs/app/building-your-application/rendering/server-components) allow you to write UI that can be rendered and optionally cached on the server.
+They allow the server and the client (browser) to collaborate in rendering your React application. Here’s a quick illustration from the React team, showing what the end goal is: **a React tree**, where the orange components rendered on the server, and blue components are rendered on the client.
+
+![/assets/images/nextjs/react-server-components.png]({{ site.baseurl }}/assets/images/nextjs/react-server-components.png)
+
+Imagine you're building a model airplane. Some parts of the airplane (like the wings and body) are pre-assembled at the factory (the server), while other parts (like the decals and paint) are added by you at home (the client).
+
+In web development, a server component works similarly:
+
+- **Pre-Assembled at the Server**: Server components are parts of a web page that are prepared and assembled on the server (the factory in our analogy). This means the server does the heavy lifting of creating these components before sending them to the user's browser. Server Components allow you to keep sensitive data and logic on the server, such as tokens and API keys, without the risk of exposing them to the client.
+
+- **Sent to the Client**: Once these components are ready, they are sent to the client (your browser, like your home in the analogy). The client then displays these components as part of the web page.
+
+- **Efficiency**: Because these components are processed on the server, they can reduce the amount of work the client's browser has to do. This can make the web page load faster and run more smoothly, especially on devices with less processing power.
+
+- **Use Case**: Server components are particularly useful for parts of a web page that don't need to change often or don't require immediate interaction from the user. For example, a server component might be used for a navigation menu that stays the same on every page of a website.
+
+In summary, server components are like pre-assembled parts of a web page. They are prepared on the server and then sent to the client's browser, making the web page more efficient and faster to load.
+
 
 ## Origin Servers, CDNs and Edges 
 
