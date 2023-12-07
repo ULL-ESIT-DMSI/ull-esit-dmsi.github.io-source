@@ -148,12 +148,16 @@ For Chrome you can install:
 
 ## NextJS 14
 
-Go to <https://nextjs.org/docs> and follow the course. Create a folder `nextjs-quickstart` and follow the steps in the tutorial.
+Create a folder `nextjs-14` and follow these tutorials:
 
-Follow also the tutorial at repo <https://github.com/ULL-prompt-engineering/vercel-sdk-ai-quickstart>. 
-It is based on the Vercel AI SDK [Quickstart Guide](https://sdk.vercel.ai/docs/getting-started).
-Create a folder `vercel-sdk-ai-quickstart` and follow the steps in the tutorial.
+* [Next.js 13 Crash Course Tutorial #1 - Introduction & New Features](https://www.youtube.com/watch?v=TJQbDPGzm0Y&list=PL4cUxeGkcC9jZIVqmy_QhfQdi6mzQvJnT) YouTube list by The Net Ninja
+  * See repo [iamshaunjp/nextjs-masterclass](https://github.com/iamshaunjp/nextjs-masterclass/)
+  * Create a folder `nextjs-masterclass` and follow the steps in the tutorial.
+* Follow also the tutorial at repo <https://github.com/ULL-prompt-engineering/vercel-sdk-ai-quickstart>. 
+  * It is based on the Vercel AI SDK [Quickstart Guide](https://sdk.vercel.ai/docs/getting-started). 
+  * Create a folder `vercel-sdk-ai-quickstart` and follow the steps in the tutorial.
 
+The official docs are here <https://nextjs.org/docs>
 
 ## Setup
 
