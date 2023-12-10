@@ -6,33 +6,38 @@ rubrica:
    - "It has followed the Next.js current version of the tutorial"
    - "Site deployed at netlify and Vercel"
    - "Report is correct and complete"
-   - "Kanban Board Project reflects the rubric issues"
    - "The .zip has been delivered on the campus"
 ---
 
-- [Introduction to the JAM Stack with NextJS, React, REST and Netlify](#introduction-to-the-jam-stack-with-nextjs-react-rest-and-netlify)
+- [Web Development with NextJS](#web-development-with-nextjs)
   - [Goals](#goals)
-  - [Web Development with Next.js](#web-development-with-nextjs)
+  - [Web Development with Next.js](#web-development-with-nextjs-1)
   - [Exercise: Deploy at Netlify](#exercise-deploy-at-netlify)
   - [Exercise: Deploy the app to Vercel](#exercise-deploy-the-app-to-vercel)
   - [Rubrica](#rubrica)
   - [References](#references)
 
-# Introduction to the JAM Stack with NextJS, React, REST and Netlify
+# Web Development with NextJS
 
 
 ## Goals
 
-
 This labs intends to introduce to the current version (2023) of NextJS: NextJS 14. For that you have to follow the tutorial:
 
-* [Next.js 13 Crash Course Tutorial #1 - Introduction & New Features](https://youtu.be/PbFH_VE1Iks?si=1EnwQwDvej_cFKcv) "Next.js Master Class" YouTube list by The Net Ninja
-  * See repo [iamshaunjp/nextjs-masterclass](https://github.com/iamshaunjp/nextjs-masterclass/)
+* [Next.js 13 Crash Course Tutorial](https://www.youtube.com/watch?v=TJQbDPGzm0Y&list=PL4cUxeGkcC9jZIVqmy_QhfQdi6mzQvJnT) List
+* [Enrolled link](https://netninja.dev/courses/enrolled/2154826) (private)
+* See repo [iamshaunjp/nextjs-masterclass](https://github.com/iamshaunjp/nextjs-masterclass/)
+* Full Course ["Next.js version 13 MasterClass"](https://netninja.dev/p/next-13-masterclass)
+* [ULL-ESIT-DMSI/nextjs13-template](https://github.com/ULL-ESIT-DMSI/nextjs13-template) is the fork of [iamshaunjp/nextjs-masterclass](https://github.com/iamshaunjp/nextjs-masterclass/) we have used for this assignment
 
+For each lesson, fill a report in the `README.md` of each branch `lesson-*`.`
+
+<!--
 Follow also the tutorial at repo <https://github.com/ULL-prompt-engineering/vercel-sdk-ai-quickstart>. 
 
 * It is based on the Vercel AI SDK [Quickstart Guide](https://sdk.vercel.ai/docs/getting-started). 
 * Create a folder `vercel-sdk-ai-quickstart` and follow the steps in the tutorial.
+-->
 
 ## Web Development with Next.js
 

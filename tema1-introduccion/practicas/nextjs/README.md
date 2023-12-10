@@ -14,7 +14,7 @@ rubrica:
 ---
 
 - [Building a Node.JS OpenAI (3.0) app with NextJS (12.1)](#building-a-nodejs-openai-30-app-with-nextjs-121)
-  - [Introduction to Open AI REST API](#introduction-to-open-ai-rest-api)
+  - [Introduction](#introduction)
   - [OpenAI First Steps](#openai-first-steps)
   - [Setup](#setup)
   - [Web Development with Next.js](#web-development-with-nextjs)
@@ -26,7 +26,7 @@ rubrica:
 
 #  Building a Node.JS OpenAI (3.0) app with NextJS (12.1)
 
-## Introduction to Open AI REST API
+## Introduction 
 
 In this lab we will build a "pet name generator web app" wich will be described in this tutorial.
 The OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart?context=node) refers to the current version of the OpenAI API and no longer 
@@ -34,7 +34,7 @@ describes this app.
  
 You can see a solution deployed at netlify:  <https://nextjs-oai.netlify.app/>
 
-The code uses [Next.js](https://nextjs.org/) framework version 12 with [React](https://reactjs.org/) version 17 and OpenAI 3:
+The code uses [Next.js](https://nextjs.org/) framework version 12 with [React](https://reactjs.org/) version 17 and OpenAI npm module version 3:
 
 ```
 ➜  nextjs-solution git:(main) ✗ jq '.dependencies' package.json
