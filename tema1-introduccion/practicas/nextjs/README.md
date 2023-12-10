@@ -28,9 +28,9 @@ rubrica:
 
 ## Introduction to Open AI REST API
 
-In this lab we will build a "pet name generator web app" wich is described in the 
-
-* OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart).  
+In this lab we will build a "pet name generator web app" wich will be described in this tutorial.
+The OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart?context=node) refers to the current version of the OpenAI API and no longer 
+describes this app.  
  
 You can see a solution deployed at netlify:  <https://nextjs-oai.netlify.app/>
 
@@ -68,7 +68,9 @@ See section [Web Development with Next.js]({{ site.baseurl }}/web-development-wi
 ## Exercise: Deploy at Netlify
 
 Deploy the app at Netlify. 
-For the details, see section [Deploying a Next.js app to Netlify]({{ site.baseurl }}//nextjs/netlify-deployment) in this tutorial.
+For the details, see section 
+[Deploying a Next.js app to Netlify]({{ site.baseurl }}/nextjs/netlify-deployment) 
+in this tutorial.
 
 
 ## Exercise: Deploy the app to Vercel
