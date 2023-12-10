@@ -43,7 +43,14 @@
         "visible": true       
     },
     {
-        "title": "Introduction to Next.js",
+        "title": "Building a Web App with Next.js",
+        "folder": "tema1-introduccion/practicas/nextjs13/",
+        "path": "practicas/nextjs13",
+        "key": "nextjs13",
+        "visible": true       
+    },
+    {
+        "title": "OpenAI and Next.js",
         "folder": "tema1-introduccion/practicas/nextjs/",
         "path": "practicas/nextjs",
         "key": "nextjs",
