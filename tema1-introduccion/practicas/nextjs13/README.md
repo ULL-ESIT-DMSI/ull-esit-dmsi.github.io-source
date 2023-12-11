@@ -31,7 +31,10 @@ This labs intends to introduce to the current version (2023) of NextJS: NextJS 1
 * [ULL-ESIT-DMSI/nextjs13-template](https://github.com/ULL-ESIT-DMSI/nextjs13-template) is the fork of [iamshaunjp/nextjs-masterclass](https://github.com/iamshaunjp/nextjs-masterclass/) we have used for this assignment
 * [Differences between Next.js 13 y 14](/nextjs/differences-13-14)
 
-For each lesson, fill a report in the `README.md` of each branch `lesson-*`.`
+For each lesson, 
+
+- Create a branch `learn-#` from `lesson-#` and push your code in it.
+- Fill a report in the `README.md` of each branch `learn-#`.`
 
 <!--
 Follow also the tutorial at repo <https://github.com/ULL-prompt-engineering/vercel-sdk-ai-quickstart>. 
