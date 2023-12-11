@@ -31,21 +31,16 @@ This labs intends to introduce to the current version (2023) of NextJS: NextJS 1
 * [ULL-ESIT-DMSI/nextjs13-template](https://github.com/ULL-ESIT-DMSI/nextjs13-template) is the fork of [iamshaunjp/nextjs-masterclass](https://github.com/iamshaunjp/nextjs-masterclass/) we have used for this assignment
 * [Differences between Next.js 13 y 14](/nextjs/differences-13-14)
 
-For each lesson, 
+For each `lesson-#` in the tutorial:, 
 
 - Create a branch `learn-#` from `lesson-#` and push your code in it.
-- Fill a report in the `README.md` of each branch `learn-#`.`
-
-<!--
-Follow also the tutorial at repo <https://github.com/ULL-prompt-engineering/vercel-sdk-ai-quickstart>. 
-
-* It is based on the Vercel AI SDK [Quickstart Guide](https://sdk.vercel.ai/docs/getting-started). 
-* Create a folder `vercel-sdk-ai-quickstart` and follow the steps in the tutorial.
--->
+- Fill a report in the `README.md` of each branch `learn-#` summarizing your experience along the lesson.
+- Create a new orphan branch `learn-next-ai` and use it to follow the tutorial at repo <https://github.com/ULL-prompt-engineering/vercel-sdk-ai-quickstart> which it is based on the Vercel AI SDK [Quickstart Guide](https://sdk.vercel.ai/docs/getting-started). 
 
 ## Web Development with Next.js
 
-See section [Web Development with Next.js]({{ site.baseurl }}/web-development-with-nextjs) in this tutorial.
+The section [Web Development with Next.js]({{ site.baseurl }}/web-development-with-nextjs) in this tutorial introduces some basic concepts 
+about Next.js and React.
 
 ## Exercise: Deploy at Netlify
 
