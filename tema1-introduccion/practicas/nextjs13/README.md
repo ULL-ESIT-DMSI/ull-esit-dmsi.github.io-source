@@ -29,7 +29,7 @@ This labs intends to introduce to the current version (2023) of NextJS: NextJS 1
 * See repo [iamshaunjp/nextjs-masterclass](https://github.com/iamshaunjp/nextjs-masterclass/)
 * Full Course ["Next.js version 13 MasterClass"](https://netninja.dev/p/next-13-masterclass)
 * [ULL-ESIT-DMSI/nextjs13-template](https://github.com/ULL-ESIT-DMSI/nextjs13-template) is the fork of [iamshaunjp/nextjs-masterclass](https://github.com/iamshaunjp/nextjs-masterclass/) we have used for this assignment
-* [Differences between Next.js 13 y 14](/nextjs/differences-13-14)
+* [Differences between Next.js 13 y 14]({{ site.baseurl }}/nextjs/differences-13-14)
 
 For each `lesson-#` in the tutorial:, 
 
