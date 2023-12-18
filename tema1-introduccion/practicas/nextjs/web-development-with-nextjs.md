@@ -123,7 +123,7 @@ In web development, a server component works similarly:
 
 In summary, server components are like pre-assembled parts of a web page. They are prepared on the server and then sent to the client's browser, making the web page more efficient and faster to load.
 
-See the blog [Understanding Next.js Server Actions With Examples](https://blog.greenroots.info/understanding-nextjs-server-actions-with-examples) by Tapas Adhikary
+See the blog [Understanding Next.js Server Actions With Examples](https://blog.greenroots.info/understanding-nextjs-server-actions-with-examples) by Tapas Adhikary, Aug 9, 2023
 
 [![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691571960214/d0a3fcb3-32fc-44cd-a08f-acd278741559.png?auto=compress,format&format=webp )](https://blog.greenroots.info/understanding-nextjs-server-actions-with-examples)
 
