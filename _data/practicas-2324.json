@@ -1,0 +1,59 @@
+[
+    {
+        "title": "GitHub Campus Expert",
+        "path": "tema0-presentacion/practicas/pb-gh-campus-expert",
+        "key": "github-campus-expert",
+        "visible": true
+    },
+    {
+        "title": "Learning Markdown",
+        "path": "tema1-introduccion/practicas/markdown",
+        "key": "aprender-markdown",
+        "visible": true
+    },
+    {
+        "title": "Setting up Our Environment",
+        "path": "tema1-introduccion/practicas/setup",
+        "key": "setup",
+        "visible": true
+    },
+    {
+        "title": "Introduction to Systems Development",
+        "path": "tema1-introduccion/practicas/intro2sd",
+        "key": "intro2sd",
+        "visible": true
+    },
+    {
+        "title": "Asyncmap",
+        "path": "tema1-introduccion/practicas/asyncmap",
+        "key": "asyncmap",
+        "visible": true        
+    },
+    {
+        "title": "Search in Jekyll",
+        "path": "tema1-introduccion/practicas/jekyll-search",
+        "key": "jekyll-search",
+        "visible": true       
+    },
+    {
+        "title": "Building a Mini Prompt Engineering Framework",
+        "folder": "tema1-introduccion/practicas/prompt-engineering/",
+        "path": "practicas/prompt-engineering",
+        "key": "prompt-engineering",
+        "visible": true       
+    },
+    {
+        "title": "Building a Web App with Next.js",
+        "folder": "tema1-introduccion/practicas/nextjs13/",
+        "path": "practicas/nextjs13",
+        "key": "nextjs13",
+        "visible": true       
+    },
+    {
+        "title": "OpenAI and Next.js",
+        "folder": "tema1-introduccion/practicas/nextjs/",
+        "path": "practicas/nextjs",
+        "key": "nextjs",
+        "visible": true       
+    }
+]
