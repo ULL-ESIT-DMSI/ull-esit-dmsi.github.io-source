@@ -1,5 +1,5 @@
 ---
-title: DMSI 23/24 Teams. Waiting for the 2024/25 Teams ...
+title: DMSI 24/25 Teams
 ---
 
 # {{ page.title}}

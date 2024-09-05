@@ -2,7 +2,7 @@
     "data": {
         "organization": {
             "teams": {
-                "totalCount": 4,
+                "totalCount": 1,
                 "edges": [
                     {
                         "node": {
@@ -11,7 +11,7 @@
                                 "totalCount": 1,
                                 "edges": [
                                     {
-                                        "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2324/people/casiano-rodriguez",
+                                        "memberAccessUrl": "https://github.com/orgs/ULL-ESIT-DMSI-2425/people/casiano-rodriguez",
                                         "node": {
                                             "name": "Casiano as ULL alumni",
                                             "url": "https://github.com/casiano-rodriguez",
@@ -22,7 +22,7 @@
                                     }
                                 ]
                             },
-                            "url": "https://github.com/orgs/ULL-ESIT-DMSI-2324/teams/casiano-rodriguez-leon-alu0100291865"
+                            "url": "https://github.com/orgs/ULL-ESIT-DMSI-2425/teams/casiano-rodriguez-leon-alu0100291865"
                         }
                     }
                 ]
