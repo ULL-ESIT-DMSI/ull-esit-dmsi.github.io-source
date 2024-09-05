@@ -1,5 +1,7 @@
 # Diseño físico e implementación con sistemas gestores de bases de datos
 
+Véase la sección [¿Qué se entiende por diseño físico en bases de datos?](disenyo-fisico)
+
 ## MongoDB
 
 *   [MongoDB](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/db/mongo/mongodb.html#mongodb)
