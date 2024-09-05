@@ -8,10 +8,10 @@ permalink: /timetables
 ## Calendario Académico
 
 <a href="https://www.ull.es/estudios-docencia/calendario-academico/" target="_blank">
-<img src="https://www.ull.es/estudios-docencia/wp-content/uploads/sites/7/2023/09/Calendario-23_24_15-SEMANAS-POR-CUATRIMESTRE_v-definitiva-05092023_page-0001.jpg" alt="Calendario Académico" />
+<img src="https://www.ull.es/estudios-docencia/wp-content/uploads/sites/7/2024/06/Calendario-24_25_pages-to-jpg-0001.jpg" alt="Calendario Académico" />
 </a>
 
-* Cierre de actas 25 de Enero
+* Cierre de actas 29 de Enero
 
 ## Horarios
 
@@ -32,9 +32,9 @@ permalink: /timetables
 <a href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">
 <img src="{{ site.baseurl }}/assets/images/calendario-de-examenes-dmsi.png" alt="Enlace al Calendario Oficial de exámenes" width="200%"/></a>
 
-- 10/01/24, 9:00, 3.7
-- 19/06/24, 9:00, 3.7
-- 08/07/24, 9:30, 3.7
+- 14/01/24, 9:00, 3.7
+- 10/06/24, 9:00, 3.7
+- 01/07/24, 9:30, 3.7
 
   
 ## Normativa
