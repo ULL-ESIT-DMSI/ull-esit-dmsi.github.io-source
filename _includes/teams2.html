@@ -41,8 +41,8 @@
           <li> {{ studentName }} repos:
           <a href="{{url}}/repositories" target="_blank">Repositories</a>
           </li>
-          <li> <a href="{{ memberAccessUrl }}" target="_blank">{{ studentName }} ({{ student.login }})</a>  at the organization {{ site.organization.name }}</li>
-          <li> <a href="{{ student.url }}" target="_blank">{{ studentName }} at GitHub</a> is {{ student.login }}
+          <li> <a href="{{ memberAccessUrl }}" target="_blank">{{ studentName }} (<code>{{ student.login }}</code>)</a>  at the organization {{ site.organization.name }}</li>
+          <li> <a href="{{ student.url }}" target="_blank">{{ studentName }} at GitHub</a> is <code>{{ student.login }}</code>
           </li>
           <li><a href="https://github.com/notifications?query=author%3A{{ student.login }}" target="_blank">Notifications</a> to the teacher from {{studentName}}</li>
           <li> {{ studentName }} activity:
