@@ -5,6 +5,7 @@ key: github-campus-expert
 rubrica:
   - "Rellenado cuestionario GitHub-Alu"
   - "El nombre del equipo es correcto"
+  - "Instalada gh cli"
   - "Solicitado Backpack"
   - "Kanban Board project conteniendo las incidencias en su estado"
   - "Convierto las notas del project en issues"
