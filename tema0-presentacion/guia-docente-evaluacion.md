@@ -1,3 +1,6 @@
+# Guia Docente: Evaluación 
+
+
 La Evaluación de la asignatura se rige por el [Reglamento de evaluacion y calificacion](https://www.ull.es/portal/normativa/estudiantes/) (REC) de la Universidad de La Laguna además de por lo establecido en la [Memoria de Verificación inicial o posteriores modificaciones](https://www.ull.es/grados/ingenieria-informatica/calidad-y-resultados/documentacion-de-evaluacion-del-titulo/#verificacion-modificacion). 
 
 
@@ -47,3 +50,7 @@ Una vez realizado cualquier conjunto de actividades cuya suma de ponderaciones a
 
 - Según el Artículo 4.4 del REC, "todo el alumnado está sujeto a evaluación continua en la primera convocatoria de la asignatura, salvo quienes se acojan a la evaluación única según se dispone en el Artículo 5.4". 
 - Según 5.4: "El alumnado podrá optar a la evaluación única en una o varias de sus asignaturas matriculadas, comunicándolo al coordinador o coordinadora correspondiente, a través del procedimiento habilitado en el aula virtual de la misma". Deberá hacerlo antes del último día de docencia del cuatrimestre.
+
+## Referencias
+
+- [Guía docente del Curso 24/25](https://www.ull.es/apps/guias/guias/view_guide_course/2425/139264413/)
