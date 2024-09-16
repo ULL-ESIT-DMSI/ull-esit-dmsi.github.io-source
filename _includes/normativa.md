@@ -1,4 +1,5 @@
-* [Guía Docente](https://www.ull.es/apps/guias/guias/view_guide_course/2324/139264413/) 
+
+* [Guía Docente {{ include.curso }}](https://www.ull.es/apps/guias/guias/view_guide_course/{{include.curso }}/139264413/) 
 * [Normativas de la ULL para el estudiantado](https://www.ull.es/portal/normativa/estudiantes/)
 * [Estructura del Plan de Estudios](https://www.ull.es/grados/ingenieria-informatica/plan-de-estudios/estructura-del-plan-de-estudios/)
 * [Distribución temporal de las materias y asignaturas obligatorias del itinerario 4 de Tecnología Específica: Sistemas de Información](https://drive.google.com/file/d/1zo-xNyfhotrraVDc66ACPrLSkJlHjQgK/view)
