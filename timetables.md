@@ -32,9 +32,9 @@ permalink: /timetables
 <a href="https://www.ull.es/grados/ingenieria-informatica/informacion-academica/horarios-y-calendario-examenes/" target="_blank">
 <img src="{{ site.baseurl }}/assets/images/calendario-de-examenes-dmsi.png" alt="Enlace al Calendario Oficial de exámenes" width="200%"/></a>
 
-- 14/01/24, 9:00, 3.7
-- 10/06/24, 9:00, 3.7
-- 01/07/24, 9:30, 3.7
+- 14/01/25, 9:00, 3.7
+- 10/06/25, 9:00, 3.7
+- 01/07/25, 9:30, 3.7
 
   
 ## Normativa
