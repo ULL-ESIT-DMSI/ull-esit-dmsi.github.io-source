@@ -3,4 +3,4 @@
 
 {% include clases-impartidas.md %}
 
-**Accumulated {{ numHours | times: 2 }} hours**
+**Total hours: {{ numHours }}**
