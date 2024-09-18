@@ -2,6 +2,7 @@
 permalink: /tema1-introduccion/practicas/setup/
 key: setup
 rubrica:
+  - "Codespaces en GitHub: se sincronizan los paquetes"
   - "<code>SSH</code> configurada en VSCode para trabajar sin password"
   - "<code>git</code> configurado en VSCode para trabajar con GitHub"
   - "Tutorial README.md bien presentado"

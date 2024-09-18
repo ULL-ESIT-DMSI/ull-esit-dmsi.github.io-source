@@ -1,10 +1,10 @@
 # Curso 24/25 - Desarrollo y Mantenimiento 
 
-## Classes
+## Classes 24/25
 
 {% include clases-impartidas.md %}
 
-## Labs
+## Labs 24/25
 
 {% include practicas.md %}
 

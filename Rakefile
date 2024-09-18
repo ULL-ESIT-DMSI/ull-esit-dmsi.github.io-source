@@ -35,7 +35,7 @@ end
 
 desc "dmsi: serve raw html from ../website. Use: \"rake 'rawserve[<portnumber>]'\" otherwise a random port will be chosen"
 task :rawserve, [:port] => [:b] do |t, args|
-  sh "http-server ../website -c-1 --port #{ args[:port] or Integer(1000+9000*rand())}"
+  sh "npx http-server ../website -c-1 --port #{ args[:port] or Integer(1000+9000*rand())}"
 end 
 
 desc "Publicar solo fuentes en  dmsi2425"
@@ -46,6 +46,11 @@ end
 desc "Publicar solo fuentes en dmsi"
 task :pubdmsi do
   sh "git ci -am 2425 && git push -u source master"
+end
+
+desc "Install node.js packages"
+task :npm do
+  sh "npm i"
 end
 
 desc  "Update teams"
