@@ -3,4 +3,4 @@
 
 {% include clases-impartidas.md %}
 
-**At the end of this week we have accumulated {{ numHours | times: 2 }} taught hours**
+**Accumulated {{ numHours | times: 2 }} hours**
