@@ -1,6 +1,8 @@
 ---
 video: "_W9B7qc9lVc"
+toc: true
 ---
+
 # GitHub CodeSpaces
 
 ## Announcing GitHub Global Campus and Codespaces for Teachers
@@ -36,22 +38,26 @@ Here is the documentation: [GitHub Codespaces](https://docs.github.com/en/codesp
 
 ## Teachers: Using it in Classroom Assignments
 
-Go to the classroom config and enable codespaces:
+See [Setting up Codespaces in GitHub Classroom](teachers-classroom-codespaces)
 
-![](/assets/images/codespaces-github-classroom-settings.png)
+## Personalizing your Codespace
 
-Now inside an assignment you can choose codespaces as editor for the students:
+Si quieres personalizar tu Codespace, puedes leer [Personalizing GitHub Codespaces for your account](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account).Puedes personalizar GitHub Codespaces usando 
 
-![](/assets/images/codespaces-github-classroom-assignment.png)
+1. un [repositorio `dotfiles` en GitHub](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account#dotfiles) o 
+2. usando [Settings Sync](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account#settings-sync).
 
-## Using it as a User
+To speed up codespace creation, you can configure your project to **prebuild codespaces** for specific branches in specific regions. You create and configure prebuilds in your repository's settings. 
 
-![](/assets/images/codespaces-yours.png)
+- Repository-level settings for GitHub Codespaces are available for all repositories owned by personal accounts.
+- For repositories owned by organizations, repository-level settings for GitHub Codespaces are available for organizations on GitHub Team plans that there is the one you get from GH Education as a teacher. 
 
-Here is an example working:
+See the documentation at [codespaces/prebuilding-your-codespaces](https://docs.github.com/en/codespaces/prebuilding-your-codespaces).
 
-![](/assets/images/codespaces-working.png)
+A **prebuild** assembles the main components of a codespace for a particular combination of repository, branch, and `devcontainer.json` configuration file. 
 
-And here an example of your codespaces page:
+It provides a quick way to create a new codespace. For complex and/or large repositories in particular, you can create a new codespace more quickly by using a prebuild.
 
-![](/assets/images/codespaces-screen.png)
+Whenever you push changes to your repository, GitHub Codespaces uses GitHub Actions to automatically update your prebuilds.
+
+See [codespaces-contrib/dotfiles](https://github.com/codespaces-contrib/dotfiles) and [crguezl/dotfiles](https://github.com/crguezl/dotfiles) (private repo)
