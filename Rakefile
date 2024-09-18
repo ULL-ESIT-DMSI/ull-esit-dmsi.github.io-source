@@ -5,7 +5,9 @@ end
 
 # Substitute 2425 for the new course
 task :addnewremote do
-  sh "cd ../website && git remote add dmsi2425 https://github.com/ULL-ESIT-DMSI-2425/ull-esit-dmsi-2425.github.io.git"
+  sh "cd ../website && 
+  git remote add dmsi2425 git@github.com:ULL-ESIT-DMSI-2425/ull-esit-dmsi-2425.github.io.git"
+  # "git remote add dmsi2425 https://github.com/ULL-ESIT-DMSI-2425/ull-esit-dmsi-2425.github.io.git"
 end
 
 desc "Publicar fuentes y build"
