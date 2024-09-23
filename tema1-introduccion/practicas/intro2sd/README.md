@@ -57,6 +57,51 @@ Para hacer una página 404 personalizada puede inspirarse en la que se describe 
 Para saber más sobre Jekyll y para resolver dudas de esta práctica 
 puede consultar la [sección de Jekyll en estos apuntes]({{ site.baseurl }}/assets/temas/introduccion-a-javascript/jekyll)
 
+## Tips 2024/2025
+
+Abra codespaces en el repositorio de la práctica.
+
+La versión de ruby en 2025 en el docker es 
+```bash
+@crguezl ➜ /workspaces/intro2sd-casiano-rodriguez-leon-alu0100291865 (main) $ rvm ls
+   ruby-3.3.2 [ x86_64 ]
+=* ruby-3.3.4 [ x86_64 ]
+
+# => - current
+# =* - current && default
+#  * - default
+```
+Mientras que el template está con la 3.1:
+
+```bash
+@crguezl ➜ /workspaces/intro2sd-casiano-rodriguez-leon-alu0100291865 (main) $ cat .rvm
+ruby-3.1
+```
+
+Parece que podemos usar la instalada pero dará un problema en la instalación. Para ello quitemos el `Gemfile.lock`:
+
+```bash
+mv Gemfile.lock Gemfile.lock.3.1
+``` 
+
+y ejecutemos:
+
+```bash
+bundle install
+```
+
+Si todo va bien ejecutamos el servidor:
+
+```bash
+rake serve
+```
+
+que en ralidad ejecuta el comando:
+
+```bash
+bundle exec jekyll s --watch --incremental --future -V -P 4001
+```
+
 # Rúbrica
 
 {% include rubrica.md -%}
