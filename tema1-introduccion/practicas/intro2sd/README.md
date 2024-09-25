@@ -101,7 +101,7 @@ Si todo va bien ejecutamos el servidor:
 rake serve
 ```
 
-que en ralidad ejecuta el comando:
+que en realidad ejecuta el comando:
 
 ```bash
 bundle exec jekyll s --watch --incremental --future -V -P 4001
