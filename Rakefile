@@ -15,7 +15,7 @@ task :default => [ :pushhtml ] do
   # remotes: Using the git protocol
   # source   git@github.com:ULL-ESIT-DMSI/ull-esit-dmsi.github.io-source.git 
   # dmsi2425 git@github.com:ULL-ESIT-DMSI-2425/ull-esit-dmsi-2425.github.io.git
-  sh "git ci -am 2425 && git push -u source master && git push -u dmsi2425 master"
+  sh "git ci -am 2425 && git push -u source master"
 end
 
 desc "serve"
