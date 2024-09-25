@@ -1,6 +1,7 @@
 ---
 permalink: /tema1-introduccion/practicas/intro2sd/
 rubrica:
+  - Se han personalizado la configuración de los codespaces
   - "Se ha desplegado el sitio Web en GitHub pages usando Jekyll"
   - Se resumen correctamente los conceptos del capítulo
   - "Kanban Board project conteniendo las incidencias de la rúbrica"
@@ -56,6 +57,10 @@ Para hacer una página 404 personalizada puede inspirarse en la que se describe 
 
 Para saber más sobre Jekyll y para resolver dudas de esta práctica 
 puede consultar la [sección de Jekyll en estos apuntes]({{ site.baseurl }}/assets/temas/introduccion-a-javascript/jekyll)
+
+## Codespaces
+
+Esta práctica la haremos en un Codespace. Lea la sección [Personalizing your Codespace]({{site.baseurl}}/tema1-introduccion/codespaces#personalizing-your-codespace) de estos apuntes y personalize sus codespaces.
 
 ## Tips 2024/2025
 
