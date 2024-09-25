@@ -5,6 +5,29 @@ toc: true
 
 # GitHub CodeSpaces
 
+## Introduction 
+
+GitHub Codespaces allows users to use a Visual Studio Code backed editor, terminal, and debugger along with GitHub version control in the browser or on a desktop. 
+
+Integrating Codespaces into your GitHub Classroom experience can provide a scalable solution for quickly getting CS students started using virtually any device including Chromebooks and iPads. 
+If it’s got a browser, it’s now a development environment for your students.
+
+Here is the documentation: [GitHub Codespaces](https://docs.github.com/en/codespaces):
+
+{% include video-youtube.html id=page.video %}
+
+{% include video id=page.video provider=youtube %}
+
+
+## Personalizing your Codespace
+
+{% include personalizing-your-codespace.md %}
+
+## Teachers: Using it in Classroom Assignments
+
+See [Setting up Codespaces in GitHub Classroom](teachers-classroom-codespaces)
+
+
 ## Announcing GitHub Global Campus and Codespaces for Teachers
 
 GitHub  announced in May 9th 2022 this message:
@@ -22,24 +45,3 @@ One of the things they comment on is a certain number of hours of Codespaces int
 * For teachers whose workflows extend beyond the free allowance, more details on Codespaces billing can be found [here](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-codespaces#codespaces-pricing).
 
 
-## Introduction 
-
-GitHub Codespaces allows users to use a Visual Studio Code backed editor, terminal, and debugger along with GitHub version control in the browser or on a desktop. 
-
-Integrating Codespaces into your GitHub Classroom experience can provide a scalable solution for quickly getting CS students started using virtually any device including Chromebooks and iPads. 
-If it’s got a browser, it’s now a development environment for your students.
-
-Here is the documentation: [GitHub Codespaces](https://docs.github.com/en/codespaces):
-
-{% include video-youtube.html id=page.video %}
-
-{% include video id=page.video provider=youtube %}
-
-
-## Teachers: Using it in Classroom Assignments
-
-See [Setting up Codespaces in GitHub Classroom](teachers-classroom-codespaces)
-
-## Personalizing your Codespace
-
-{% include personalizing-your-codespace.md %}
