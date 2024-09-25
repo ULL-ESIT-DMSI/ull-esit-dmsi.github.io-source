@@ -48,3 +48,112 @@ See [codespaces-contrib/dotfiles](https://github.com/codespaces-contrib/dotfiles
    - ![]({{site.baseurl}}/assets/images/codespaces-settings-sync.png) 
    - [Settings Sync section of the Visual Studio Code documentation](https://code.visualstudio.com/docs/editor/settings-sync)
 7. Enable [GPG verification]({{ site.baseurl}}/tema1-introduccion/gpg) in your Codespace
+
+
+### Codespace Personalization: Troubleshooting
+
+See the docs at [Troubleshooting personalization options for GitHub Codespaces](https://docs.github.com/en/codespaces/troubleshooting/troubleshooting-personalization-for-codespaces).
+
+Check `/workspaces/.codespaces/.persistedshare/dotfiles` to see if your `dotfiles` were cloned.
+
+- If your `dotfiles` were cloned, try manually re-running your install script to verify that it is executable.
+  
+- If your `dotfiles` were not cloned, check `/workspaces/.codespaces/.persistedshare/`
+
+  ```bash
+  @casiano-rodriguez ➜ /workspaces $ ls -a .codespaces/.persistedshare/*.log
+  .codespaces/.persistedshare/creation.log
+  @casiano-rodriguez ➜ /workspaces $ ls -a .codespaces/.persistedshare/*.txt
+  .codespaces/.persistedshare/vsserverhostlog.txt  
+  .codespaces/.persistedshare/vsserverterminallog.txt
+  ```
+  The file `.codespaces/.persistedshare/vsserverterminallog.txt` contains the output of the terminal including escape codes.
+
+  The file `.codespaces/.persistedshare/vsserverhostlog.txt` contains the output of the host.
+- Check `/workspaces/.codespaces/.persistedshare/creation.log` for possible issues. For more information, see [Creation logs](https://docs.github.com/en/codespaces/troubleshooting/github-codespaces-logs#creation-logs).
+
+  ```bash
+  @casiano-rodriguez ➜ /workspaces $ cat .codespaces/.persistedshare/creation.log
+  ```
+
+  See the [output of the previous `cat .codespaces/.persistedshare/creation.log` command]({{ site.baseurl}}/tema1-introduccion/codespaces-persistedhare-creation-log)
+
+
+For instance, I notice that the `.gitconfig` file in the dotfiles repositoryis is in `/workspaces/.codespaces/.persistedshare/dotfiles/.gitconfig`
+but hasn't being copied to the home directory (`/home/codespace`). 
+So I manually link it:
+
+```bash
+ ln -s /workspaces/.codespaces/.persistedshare/dotfiles/.gitconfig ~/
+ ```
+
+### The codespaces shared folder
+
+The shared folder is located at `/root/.codespaces/shared/`.
+
+```bash
+@casiano-rodriguez ➜ /workspaces/intro2sd-casiano-rodriguez-leon-alu0100291865 (main) $ ls -a ../.codespaces/shared
+.environmentConfigurationCompleted  
+devContainerTelemetry.json  
+merged_devcontainer.json  
+unifiedPostCreateOutput.json
+.user-secrets.json                  
+editors                            // folder
+postCreateOutput.json     
+user-secrets-envs.json
+.env          
+codespaceStatusTool.js              
+environment-variables.json  
+read-config.json
+.env-secrets  
+cs-agent.sock                       // a socket
+first-run-notice.txt        
+resource-usage.json
+```
+
+ It contains among others the `user-secrets.json` file:
+
+`➜ /workspaces/dotfiles (main) $ cat ../.codespaces/shared/.user-secrets.json  | jq '.'`
+```json
+[
+  {
+    "type": "EnvironmentVariable",
+    "name": "GITHUB_SERVER_URL",
+    "value": "https://github.com"
+  },
+  {
+    "type": "EnvironmentVariable",
+    "name": "GITHUB_API_URL",
+    "value": "https://api.github.com"
+  },
+  {
+    "type": "EnvironmentVariable",
+    "name": "GITHUB_GRAPHQL_URL",
+    "value": "https://api.github.com/graphql"
+  },
+  ...
+  {
+    "type": "EnvironmentVariable",
+    "name": "GITHUB_TOKEN",
+    "value": "ghu_XXXX...XXX"
+  },
+  ...
+  {
+    "type": "EnvironmentVariable",
+    "name": "GITHUB_USER",
+    "value": "casiano-rodriguez"
+  },
+  ...
+  {
+    "type": "EnvironmentVariable",
+    "name": "CODESPACES",
+    "value": "true"
+  },
+  {
+    "type": "EnvironmentVariable",
+    "name": "CODESPACE_NAME",
+    "value": "studious-potato-blah-blah"
+  }
+]
+```
+THE `GH_TOKEN` secret does not appear in the `user-secrets.json` file. 
